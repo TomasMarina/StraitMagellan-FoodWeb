@@ -1,0 +1,1116 @@
+resource,consumer
+Calliostoma nudum,Acanthocyclus albatrossis
+Calliostoma nudum,Anasterias antarctica
+Calliostoma nudum,Eurypodius latreillii
+Calliostoma nudum,Peltarion spinosulum
+Calliostoma nudum,Paralomis granulosa
+Calliostoma nudum,Lithodes santolla
+Crustacea,Acanthocyclus albatrossis
+Crustacea,Eurypodius latreillii
+Crustacea,Pagurus comptus
+Crustacea,Munida gregaria
+Crustacea,Cephalopoda
+Crustacea,Myxine glutinosa
+Crustacea,Peltarion spinosulum
+Crustacea,Bathyraja brachyurops
+Crustacea,Genypterus blacodes
+Crustacea,Bathyraja griseocauda
+Crustacea,Paralomis granulosa
+Crustacea,Bathyraja albomaculata
+Crustacea,Patagonotothen ramsayi
+Crustacea,Polynoidae
+Crustacea,Congiopodus peruvianus
+Crustacea,Raja (Dipturus) chilensis
+Crustacea,Eleginops maclovinus
+Crustacea,Schroederichthys bivius
+Fissurella picta,Acanthocyclus albatrossis
+Fissurella picta,Anasterias antarctica
+Fissurella picta,Eurypodius latreillii
+Fissurella picta,Peltarion spinosulum
+Fissurella picta,Paralomis granulosa
+Fissurella picta,Lithodes santolla
+Gastropoda,Acanthocyclus albatrossis
+Gastropoda,Anasterias antarctica
+Gastropoda,Eurypodius latreillii
+Gastropoda,Munida gregaria
+Gastropoda,Patagonotothen cornucola
+Gastropoda,Dissostichus eleginoides
+Gastropoda,Myxine glutinosa
+Gastropoda,Peltarion spinosulum
+Gastropoda,Bathyraja brachyurops
+Gastropoda,Cottoperca gobio
+Gastropoda,Macruronus magellanicus
+Gastropoda,Bathyraja griseocauda
+Gastropoda,Patagonotothen tessellata
+Gastropoda,Arbacia dufresnii
+Gastropoda,Paralomis granulosa
+Gastropoda,Patagonotothen ramsayi
+Gastropoda,Salilota australis
+Gastropoda,Polynoidae
+Gastropoda,Galaxias maculatus
+Gastropoda,Raja (Dipturus) chilensis
+Gastropoda,Lithodes santolla
+Gastropoda,Odontesthes nigricans
+Isopoda,Acanthocyclus albatrossis
+Isopoda,Anasterias antarctica
+Isopoda,Eurypodius latreillii
+Isopoda,Halicarcinus planatus 
+Isopoda,Pagurus comptus
+Isopoda,Harpagifer bispinis
+Isopoda,Munida gregaria
+Isopoda,Patagonotothen cornucola
+Isopoda,Nemertea
+Isopoda,Dissostichus eleginoides
+Isopoda,Bathyraja brachyurops
+Isopoda,Cottoperca gobio
+Isopoda,Genypterus blacodes
+Isopoda,Patagonotothen sp.
+Isopoda,Sprattus fuegensis
+Isopoda,Bathyraja griseocauda
+Isopoda,Bathyraja scaphiops
+Isopoda,Patagonotothen longipes
+Isopoda,Patagonotothen sima
+Isopoda,Patagonotothen tessellata
+Isopoda,Arbacia dufresnii
+Isopoda,Paralomis granulosa
+Isopoda,Bathyraja albomaculata
+Isopoda,Paranotothenia magellanica
+Isopoda,Patagonotothen ramsayi
+Isopoda,Salilota australis
+Isopoda,Raja (Dipturus) chilensis
+Isopoda,Austrolycus depressiceps
+Isopoda,Eleginops maclovinus
+Isopoda,Lithodes santolla
+Isopoda,Odontesthes nigricans
+Isopoda,Schroederichthys bivius
+Macroalgae,Calliostoma nudum
+Macroalgae,Fissurella picta
+Macroalgae,Margarella violacea
+Macroalgae,Acanthocyclus albatrossis
+Macroalgae,Crepipatella dilatata
+Macroalgae,Eurypodius latreillii
+Macroalgae,Laevilitorina caliginosa
+Macroalgae,Pagurus comptus
+Macroalgae,Munida gregaria
+Macroalgae,Gammaridea
+Macroalgae,Peltarion spinosulum
+Macroalgae,Bathyraja brachyurops
+Macroalgae,Cottoperca gobio
+Macroalgae,Bathyraja griseocauda
+Macroalgae,Arbacia dufresnii
+Macroalgae,Paralomis granulosa
+Macroalgae,Paranotothenia magellanica
+Macroalgae,Eleginops maclovinus
+Macroalgae,Lithodes santolla
+Macroalgae,Odontesthes nigricans
+Macroalgae,Schroederichthys bivius
+Macrocystis pyrifera,Fissurella picta
+Macrocystis pyrifera,Isopoda
+Macrocystis pyrifera,Margarella violacea
+Macrocystis pyrifera,Acanthocyclus albatrossis
+Macrocystis pyrifera,Amphipoda
+Macrocystis pyrifera,Crepipatella dilatata
+Macrocystis pyrifera,Fissurella oriens
+Macrocystis pyrifera,Nacella deaurata
+Macrocystis pyrifera,Nacella magellanica
+Macrocystis pyrifera,Nacella mytilina
+Macrocystis pyrifera,Plaxiphora sp.
+Macrocystis pyrifera,Polyplacophora
+Macrocystis pyrifera,Pseudechinus magellanicus
+Macrocystis pyrifera,Siphonaria lessonii
+Macrocystis pyrifera,Munida gregaria
+Macrocystis pyrifera,Patagonotothen tessellata
+Macrocystis pyrifera,Arbacia dufresnii
+Macrocystis pyrifera,Loxechinus albus
+Macrocystis pyrifera,Paralomis granulosa
+Macrocystis pyrifera,Eleginops maclovinus
+Macrocystis pyrifera,Lithodes santolla
+Margarella violacea,Acanthocyclus albatrossis
+Margarella violacea,Anasterias antarctica
+Margarella violacea,Eurypodius latreillii
+Margarella violacea,Nacella deaurata
+Margarella violacea,Nacella magellanica
+Margarella violacea,Peltarion spinosulum
+Margarella violacea,Arbacia dufresnii
+Margarella violacea,Paralomis granulosa
+Margarella violacea,Asterina fimbriata
+Margarella violacea,Cosmasterias lurida
+Margarella violacea,Lithodes santolla
+Zooplankton,Ostracoda
+Zooplankton,Acanthocyclus albatrossis
+Zooplankton,Ascidiacea
+Zooplankton,Aulacomya atra
+Zooplankton,Crepipatella dilatata
+Zooplankton,Eurypodius latreillii
+Zooplankton,Halicarcinus planatus 
+Zooplankton,Laevilitorina caliginosa
+Zooplankton,Mytilus edulis chilensis
+Zooplankton,Nacella deaurata
+Zooplankton,Nacella magellanica
+Zooplankton,Notochthamalus scabrosus 
+Zooplankton,Pagurus comptus
+Zooplankton,Perumytilus purpuratus
+Zooplankton,Pseudechinus magellanicus
+Zooplankton,Copepoda
+Zooplankton,Munida gregaria
+Zooplankton,Cephalopoda
+Zooplankton,Euphausiacea
+Zooplankton,Ophiuroidea
+Zooplankton,Peltarion spinosulum
+Zooplankton,Terebellidae
+Zooplankton,Macruronus magellanicus
+Zooplankton,Merluccius hubbsi
+Zooplankton,Patagonotothen sp.
+Zooplankton,Sprattus fuegensis
+Zooplankton,Arbacia dufresnii
+Zooplankton,Paralomis granulosa
+Zooplankton,Patagonotothen ramsayi
+Zooplankton,Nereididae
+Zooplankton,Hydrozoa
+Zooplankton,Galaxias maculatus
+Zooplankton,Hyperiidea
+Zooplankton,Zygochlamys patagonica
+Zooplankton,Cirripedia
+Zooplankton,Cirratulidae
+Zooplankton,Congiopodus peruvianus
+Zooplankton,Eleginops maclovinus
+Zooplankton,Lithodes santolla
+Aged detritus,Ostracoda
+Aged detritus,Amphipoda
+Aged detritus,Exosphaeroma gigas
+Aged detritus,Halicarcinus planatus 
+Aged detritus,Pagurus comptus
+Aged detritus,Pareuthria fuscata
+Aged detritus,Polychaeta
+Aged detritus,Pseudechinus magellanicus
+Aged detritus,Cumacea
+Aged detritus,Munida gregaria
+Aged detritus,Nemertea
+Aged detritus,Gammaridea
+Aged detritus,Glyceridae
+Aged detritus,Terebellidae
+Aged detritus,Nereididae
+Aged detritus,Polynoidae
+Aged detritus,Tanaidacea
+Aged detritus,Oligochaeta
+Aged detritus,Cirratulidae
+Ulva sp.,Fissurella picta
+Ulva sp.,Isopoda
+Ulva sp.,Amphipoda
+Ulva sp.,Laevilitorina caliginosa
+Ulva sp.,Mytilus edulis chilensis
+Ulva sp.,Nacella deaurata
+Ulva sp.,Nacella magellanica
+Ulva sp.,Polyplacophora
+Ulva sp.,Pseudechinus magellanicus
+Ulva sp.,Siphonaria lessonii
+Ulva sp.,Munida gregaria
+Ulva sp.,Gammaridea
+Ulva sp.,Terebellidae
+Ulva sp.,Patagonotothen tessellata
+Ulva sp.,Loxechinus albus
+Ulva sp.,Nereididae
+Ulva sp.,Eleginops maclovinus
+Fresh detritus,Crustacea
+Fresh detritus,Gastropoda
+Fresh detritus,Isopoda
+Fresh detritus,Zooplankton
+Fresh detritus,Ostracoda
+Fresh detritus,Amphipoda
+Fresh detritus,Ascidiacea
+Fresh detritus,Aulacomya atra
+Fresh detritus,Bivalvia
+Fresh detritus,Crepipatella dilatata
+Fresh detritus,Eurhomalea exalbida
+Fresh detritus,Exosphaeroma gigas
+Fresh detritus,Gaimardia trapesina
+Fresh detritus,Halicarcinus planatus 
+Fresh detritus,Laevilitorina caliginosa
+Fresh detritus,Mytilus edulis chilensis
+Fresh detritus,Nacella deaurata
+Fresh detritus,Notochthamalus scabrosus 
+Fresh detritus,Pareuthria fuscata
+Fresh detritus,Perumytilus purpuratus
+Fresh detritus,Polychaeta
+Fresh detritus,Polyplacophora
+Fresh detritus,Siphonaria lessonii
+Fresh detritus,Spirorbinae
+Fresh detritus,Bryozoa
+Fresh detritus,Copepoda
+Fresh detritus,Membranipora isabelleana
+Fresh detritus,Serpulidae
+Fresh detritus,Munida gregaria
+Fresh detritus,Euphausiacea
+Fresh detritus,Ophiuroidea
+Fresh detritus,Terebellidae
+Fresh detritus,Notobalanus flosculus
+Fresh detritus,Echiura
+Fresh detritus,Holothuroidea
+Fresh detritus,Nereididae
+Fresh detritus,Tanaidacea
+Fresh detritus,Hiatella arctica
+Fresh detritus,Hydrozoa
+Fresh detritus,Porifera
+Fresh detritus,Campylonotus vagans
+Fresh detritus,Zygochlamys patagonica
+Fresh detritus,Cirripedia
+Fresh detritus,Chthamalus sp.
+Fresh detritus,Glabraster antarctica
+Ostracoda,Amphipoda
+Ostracoda,Nacella deaurata
+Ostracoda,Nacella magellanica
+Ostracoda,Pagurus comptus
+Ostracoda,Polychaeta
+Ostracoda,Pseudechinus magellanicus
+Ostracoda,Harpagifer bispinis
+Ostracoda,Munida gregaria
+Ostracoda,Patagonotothen cornucola
+Ostracoda,Euphausiacea
+Ostracoda,Gammaridea
+Ostracoda,Ophiuroidea
+Ostracoda,Sprattus fuegensis
+Ostracoda,Patagonotothen longipes
+Ostracoda,Arbacia dufresnii
+Ostracoda,Paralomis granulosa
+Ostracoda,Polynoidae
+Ostracoda,Hydrozoa
+Ostracoda,Galaxias maculatus
+Ostracoda,Hyperiidea
+Ostracoda,Eleginops maclovinus
+Ostracoda,Glabraster antarctica
+Acanthocyclus albatrossis,Anasterias antarctica
+Acanthocyclus albatrossis,Patagonotothen cornucola
+Amphipoda,Anasterias antarctica
+Amphipoda,Nacella magellanica
+Amphipoda,Pagurus comptus
+Amphipoda,Pseudechinus magellanicus
+Amphipoda,Harpagifer bispinis
+Amphipoda,Munida gregaria
+Amphipoda,Patagonotothen cornucola
+Amphipoda,Dissostichus eleginoides
+Amphipoda,Myxine glutinosa
+Amphipoda,Bathyraja brachyurops
+Amphipoda,Cottoperca gobio
+Amphipoda,Genypterus blacodes
+Amphipoda,Merluccius hubbsi
+Amphipoda,Patagonotothen sp.
+Amphipoda,Sprattus fuegensis
+Amphipoda,Bathyraja griseocauda
+Amphipoda,Bathyraja scaphiops
+Amphipoda,Careproctus pallidus
+Amphipoda,Patagonotothen longipes
+Amphipoda,Patagonotothen sima
+Amphipoda,Patagonotothen tessellata
+Amphipoda,Arbacia dufresnii
+Amphipoda,Bathyraja albomaculata
+Amphipoda,Paranotothenia magellanica
+Amphipoda,Patagonotothen brevicauda brevicauda
+Amphipoda,Patagonotothen ramsayi
+Amphipoda,Galaxias maculatus
+Amphipoda,Raja (Dipturus) chilensis
+Amphipoda,Asterina fimbriata
+Amphipoda,Austrolycus depressiceps
+Amphipoda,Cosmasterias lurida
+Amphipoda,Eleginops maclovinus
+Amphipoda,Lithodes santolla
+Amphipoda,Odontesthes nigricans
+Amphipoda,Schroederichthys bivius
+Anasterias antarctica,Patagonotothen tessellata
+Anasterias antarctica,Austrolycus depressiceps
+Anasterias antarctica,Eleginops maclovinus
+Ascidiacea,Anasterias antarctica
+Ascidiacea,Genypterus blacodes
+Ascidiacea,Cosmasterias lurida
+Ascidiacea,Lithodes santolla
+Aulacomya atra,Anasterias antarctica
+Aulacomya atra,Eurypodius latreillii
+Aulacomya atra,Pseudechinus magellanicus
+Aulacomya atra,Trophon geversianus
+Aulacomya atra,Peltarion spinosulum
+Aulacomya atra,Genypterus blacodes
+Aulacomya atra,Arbacia dufresnii
+Aulacomya atra,Paralomis granulosa
+Aulacomya atra,Asterina fimbriata
+Aulacomya atra,Austrolycus depressiceps
+Aulacomya atra,Cosmasterias lurida
+Aulacomya atra,Lithodes santolla
+Bivalvia,Anasterias antarctica
+Bivalvia,Eurypodius latreillii
+Bivalvia,Pagurus comptus
+Bivalvia,Pseudechinus magellanicus
+Bivalvia,Munida gregaria
+Bivalvia,Myxine glutinosa
+Bivalvia,Peltarion spinosulum
+Bivalvia,Genypterus blacodes
+Bivalvia,Arbacia dufresnii
+Bivalvia,Paralomis granulosa
+Bivalvia,Patagonotothen ramsayi
+Bivalvia,Salilota australis
+Bivalvia,Eleginops maclovinus
+Bivalvia,Lithodes santolla
+Bivalvia,Odontesthes nigricans
+Bivalvia,Schroederichthys bivius
+Crepipatella dilatata,Anasterias antarctica
+Crepipatella dilatata,Asterina fimbriata
+Crepipatella dilatata,Cosmasterias lurida
+Eurhomalea exalbida,Anasterias antarctica
+Eurypodius latreillii,Anasterias antarctica
+Eurypodius latreillii,Paranotothenia magellanica
+Eurypodius latreillii,Patagonotothen ramsayi
+Eurypodius latreillii,Raja (Dipturus) chilensis
+Eurypodius latreillii,Schroederichthys bivius
+Exosphaeroma gigas,Anasterias antarctica
+Exosphaeroma gigas,Pseudechinus magellanicus
+Exosphaeroma gigas,Harpagifer bispinis
+Exosphaeroma gigas,Patagonotothen cornucola
+Exosphaeroma gigas,Patagonotothen longipes
+Exosphaeroma gigas,Patagonotothen tessellata
+Exosphaeroma gigas,Paranotothenia magellanica
+Exosphaeroma gigas,Austrolycus depressiceps
+Fissurella oriens,Anasterias antarctica
+Fissurella oriens,Asterina fimbriata
+Fissurella oriens,Cosmasterias lurida
+Gaimardia trapesina,Anasterias antarctica
+Gaimardia trapesina,Arbacia dufresnii
+Gaimardia trapesina,Paranotothenia magellanica
+Gaimardia trapesina,Asterina fimbriata
+Gaimardia trapesina,Cosmasterias lurida
+Halicarcinus planatus ,Anasterias antarctica
+Halicarcinus planatus ,Eurypodius latreillii
+Halicarcinus planatus ,Pseudechinus magellanicus
+Halicarcinus planatus ,Xymenopsis muriciformis 
+Halicarcinus planatus ,Patagonotothen cornucola
+Halicarcinus planatus ,Cottoperca gobio
+Halicarcinus planatus ,Patagonotothen longipes
+Halicarcinus planatus ,Patagonotothen tessellata
+Halicarcinus planatus ,Patagonotothen brevicauda brevicauda
+Halicarcinus planatus ,Asterina fimbriata
+Halicarcinus planatus ,Austrolycus depressiceps
+Halicarcinus planatus ,Cosmasterias lurida
+Halicarcinus planatus ,Eleginops maclovinus
+Halicarcinus planatus ,Lithodes santolla
+Laevilitorina caliginosa,Anasterias antarctica
+Laevilitorina caliginosa,Nacella deaurata
+Laevilitorina caliginosa,Nacella magellanica
+Laevilitorina caliginosa,Harpagifer bispinis
+Laevilitorina caliginosa,Paranotothenia magellanica
+Mytilus edulis chilensis,Anasterias antarctica
+Mytilus edulis chilensis,Eurypodius latreillii
+Mytilus edulis chilensis,Nacella deaurata
+Mytilus edulis chilensis,Nacella magellanica
+Mytilus edulis chilensis,Pagurus comptus
+Mytilus edulis chilensis,Pseudechinus magellanicus
+Mytilus edulis chilensis,Trophon geversianus
+Mytilus edulis chilensis,Xymenopsis muriciformis 
+Mytilus edulis chilensis,Patagonotothen cornucola
+Mytilus edulis chilensis,Peltarion spinosulum
+Mytilus edulis chilensis,Patagonotothen longipes
+Mytilus edulis chilensis,Patagonotothen tessellata
+Mytilus edulis chilensis,Arbacia dufresnii
+Mytilus edulis chilensis,Paralomis granulosa
+Mytilus edulis chilensis,Lithodes santolla
+Nacella deaurata,Anasterias antarctica
+Nacella deaurata,Trophon geversianus
+Nacella deaurata,Xymenopsis muriciformis 
+Nacella deaurata,Nemertea
+Nacella deaurata,Patagonotothen tessellata
+Nacella deaurata,Austrolycus depressiceps
+Nacella deaurata,Eleginops maclovinus
+Nacella magellanica,Anasterias antarctica
+Nacella magellanica,Cosmasterias lurida
+Nacella mytilina,Anasterias antarctica
+Nacella mytilina,Asterina fimbriata
+Nacella mytilina,Cosmasterias lurida
+Necromass,Anasterias antarctica
+Necromass,Exosphaeroma gigas
+Necromass,Halicarcinus planatus 
+Necromass,Pagurus comptus
+Necromass,Pareuthria fuscata
+Necromass,Polychaeta
+Necromass,Spirorbinae
+Necromass,Munida gregaria
+Necromass,Nemertea
+Necromass,Dissostichus eleginoides
+Necromass,Glyceridae
+Necromass,Myxine glutinosa
+Necromass,Cottoperca gobio
+Necromass,Patagonotothen ramsayi
+Necromass,Nereididae
+Necromass,Polynoidae
+Necromass,Cirratulidae
+Necromass,Cosmasterias lurida
+Necromass,Glabraster antarctica
+Necromass,Lithodes santolla
+Necromass,Schroederichthys bivius
+Notochthamalus scabrosus ,Anasterias antarctica
+Notochthamalus scabrosus ,Nacella magellanica
+Notochthamalus scabrosus ,Trophon geversianus
+Notochthamalus scabrosus ,Eleginops maclovinus
+Pagurus comptus,Anasterias antarctica
+Pagurus comptus,Eurypodius latreillii
+Pagurus comptus,Bathyraja brachyurops
+Pagurus comptus,Bathyraja griseocauda
+Pagurus comptus,Paralomis granulosa
+Pagurus comptus,Patagonotothen ramsayi
+Pagurus comptus,Asterina fimbriata
+Pagurus comptus,Cosmasterias lurida
+Pagurus comptus,Lithodes santolla
+Pareuthria fuscata,Anasterias antarctica
+Pareuthria fuscata,Pseudechinus magellanicus
+Pareuthria fuscata,Asterina fimbriata
+Pareuthria fuscata,Cosmasterias lurida
+Perumytilus purpuratus,Anasterias antarctica
+Perumytilus purpuratus,Pseudechinus magellanicus
+Perumytilus purpuratus,Trophon geversianus
+Perumytilus purpuratus,Harpagifer bispinis
+Perumytilus purpuratus,Nemertea
+Plaxiphora sp.,Anasterias antarctica
+Plaxiphora sp.,Asterina fimbriata
+Plaxiphora sp.,Cosmasterias lurida
+Polychaeta,Anasterias antarctica
+Polychaeta,Eurypodius latreillii
+Polychaeta,Halicarcinus planatus 
+Polychaeta,Pagurus comptus
+Polychaeta,Pseudechinus magellanicus
+Polychaeta,Harpagifer bispinis
+Polychaeta,Munida gregaria
+Polychaeta,Patagonotothen cornucola
+Polychaeta,Cephalopoda
+Polychaeta,Dissostichus eleginoides
+Polychaeta,Myxine glutinosa
+Polychaeta,Ophiuroidea
+Polychaeta,Peltarion spinosulum
+Polychaeta,Bathyraja brachyurops
+Polychaeta,Cottoperca gobio
+Polychaeta,Genypterus blacodes
+Polychaeta,Merluccius hubbsi
+Polychaeta,Patagonotothen sp.
+Polychaeta,Priapulida
+Polychaeta,Bathyraja griseocauda
+Polychaeta,Patagonotothen longipes
+Polychaeta,Patagonotothen sima
+Polychaeta,Patagonotothen tessellata
+Polychaeta,Arbacia dufresnii
+Polychaeta,Paralomis granulosa
+Polychaeta,Bathyraja albomaculata
+Polychaeta,Paranotothenia magellanica
+Polychaeta,Patagonotothen brevicauda brevicauda
+Polychaeta,Patagonotothen ramsayi
+Polychaeta,Salilota australis
+Polychaeta,Polynoidae
+Polychaeta,Stromateus brasiliensis
+Polychaeta,Zygochlamys patagonica
+Polychaeta,Raja (Dipturus) chilensis
+Polychaeta,Austrolycus depressiceps
+Polychaeta,Eleginops maclovinus
+Polychaeta,Lithodes santolla
+Polychaeta,Odontesthes nigricans
+Polychaeta,Schroederichthys bivius
+Polyplacophora,Gastropoda
+Polyplacophora,Anasterias antarctica
+Polyplacophora,Trophon geversianus
+Polyplacophora,Xymenopsis muriciformis 
+Polyplacophora,Nemertea
+Polyplacophora,Patagonotothen tessellata
+Polyplacophora,Austrolycus depressiceps
+Polyplacophora,Cosmasterias lurida
+Polyplacophora,Eleginops maclovinus
+Polyplacophora,Lithodes santolla
+Pseudechinus magellanicus,Anasterias antarctica
+Pseudechinus magellanicus,Eurypodius latreillii
+Pseudechinus magellanicus,Pagurus comptus
+Pseudechinus magellanicus,Peltarion spinosulum
+Pseudechinus magellanicus,Paralomis granulosa
+Pseudechinus magellanicus,Raja (Dipturus) chilensis
+Pseudechinus magellanicus,Asterina fimbriata
+Pseudechinus magellanicus,Cosmasterias lurida
+Pseudechinus magellanicus,Lithodes santolla
+Siphonaria lessonii,Anasterias antarctica
+Siphonaria lessonii,Trophon geversianus
+Siphonaria lessonii,Xymenopsis muriciformis 
+Siphonaria lessonii,Nemertea
+Siphonaria lessonii,Patagonotothen tessellata
+Siphonaria lessonii,Austrolycus depressiceps
+Siphonaria lessonii,Eleginops maclovinus
+Spirorbinae,Anasterias antarctica
+Spirorbinae,Pseudechinus magellanicus
+Spirorbinae,Arbacia dufresnii
+Spirorbinae,Asterina fimbriata
+Spirorbinae,Cosmasterias lurida
+Tonicia sp.,Anasterias antarctica
+Tonicia sp.,Paralomis granulosa
+Tonicia sp.,Lithodes santolla
+Trophon geversianus,Anasterias antarctica
+Trophon geversianus,Patagonotothen tessellata
+Trophon geversianus,Asterina fimbriata
+Trophon geversianus,Austrolycus depressiceps
+Trophon geversianus,Cosmasterias lurida
+Trophon geversianus,Eleginops maclovinus
+Xymenopsis muriciformis ,Anasterias antarctica
+Xymenopsis muriciformis ,Patagonotothen tessellata
+Xymenopsis muriciformis ,Austrolycus depressiceps
+Xymenopsis muriciformis ,Eleginops maclovinus
+Bryozoa,Polyplacophora
+Bryozoa,Pseudechinus magellanicus
+Bryozoa,Tonicia sp.
+Bryozoa,Munida gregaria
+Bryozoa,Dissostichus eleginoides
+Bryozoa,Genypterus blacodes
+Bryozoa,Arbacia dufresnii
+Bryozoa,Paralomis granulosa
+Bryozoa,Paranotothenia magellanica
+Bryozoa,Polynoidae
+Bryozoa,Glabraster antarctica
+Bryozoa,Lithodes santolla
+Copepoda,Zooplankton
+Copepoda,Eurypodius latreillii
+Copepoda,Halicarcinus planatus 
+Copepoda,Pagurus comptus
+Copepoda,Polychaeta
+Copepoda,Pseudechinus magellanicus
+Copepoda,Harpagifer bispinis
+Copepoda,Munida gregaria
+Copepoda,Patagonotothen cornucola
+Copepoda,Nemertea
+Copepoda,Cephalopoda
+Copepoda,Dissostichus eleginoides
+Copepoda,Euphausiacea
+Copepoda,Gammaridea
+Copepoda,Peltarion spinosulum
+Copepoda,Genypterus blacodes
+Copepoda,Macruronus magellanicus
+Copepoda,Patagonotothen sp.
+Copepoda,Sprattus fuegensis
+Copepoda,Bathyraja griseocauda
+Copepoda,Patagonotothen longipes
+Copepoda,Patagonotothen sima
+Copepoda,Patagonotothen tessellata
+Copepoda,Arbacia dufresnii
+Copepoda,Paralomis granulosa
+Copepoda,Paranotothenia magellanica
+Copepoda,Patagonotothen brevicauda brevicauda
+Copepoda,Patagonotothen ramsayi
+Copepoda,Salilota australis
+Copepoda,Polynoidae
+Copepoda,Hydrozoa
+Copepoda,Galaxias maculatus
+Copepoda,Hyperiidea
+Copepoda,Stromateus brasiliensis
+Copepoda,Zygochlamys patagonica
+Copepoda,Champsocephalus esox
+Copepoda,Eleginops maclovinus
+Copepoda,Lithodes santolla
+Copepoda,Odontesthes nigricans
+Cumacea,Polychaeta
+Cumacea,Pseudechinus magellanicus
+Cumacea,Dissostichus eleginoides
+Cumacea,Ophiuroidea
+Cumacea,Arbacia dufresnii
+Cumacea,Bathyraja albomaculata
+Cumacea,Nereididae
+Cumacea,Eleginops maclovinus
+Membranipora isabelleana,Eurypodius latreillii
+Membranipora isabelleana,Halicarcinus planatus 
+Membranipora isabelleana,Pagurus comptus
+Membranipora isabelleana,Pseudechinus magellanicus
+Membranipora isabelleana,Peltarion spinosulum
+Membranipora isabelleana,Arbacia dufresnii
+Membranipora isabelleana,Paralomis granulosa
+Membranipora isabelleana,Lithodes santolla
+Phytoplankton,Crustacea
+Phytoplankton,Zooplankton
+Phytoplankton,Ostracoda
+Phytoplankton,Ascidiacea
+Phytoplankton,Aulacomya atra
+Phytoplankton,Bivalvia
+Phytoplankton,Crepipatella dilatata
+Phytoplankton,Gaimardia trapesina
+Phytoplankton,Halicarcinus planatus 
+Phytoplankton,Laevilitorina caliginosa
+Phytoplankton,Mytilus edulis chilensis
+Phytoplankton,Nacella deaurata
+Phytoplankton,Nacella magellanica
+Phytoplankton,Nacella mytilina
+Phytoplankton,Notochthamalus scabrosus 
+Phytoplankton,Pagurus comptus
+Phytoplankton,Perumytilus purpuratus
+Phytoplankton,Plaxiphora sp.
+Phytoplankton,Polyplacophora
+Phytoplankton,Pseudechinus magellanicus
+Phytoplankton,Siphonaria lessonii
+Phytoplankton,Spirorbinae
+Phytoplankton,Bryozoa
+Phytoplankton,Copepoda
+Phytoplankton,Membranipora isabelleana
+Phytoplankton,Serpulidae
+Phytoplankton,Munida gregaria
+Phytoplankton,Cephalopoda
+Phytoplankton,Euphausiacea
+Phytoplankton,Gammaridea
+Phytoplankton,Ophiuroidea
+Phytoplankton,Sprattus fuegensis
+Phytoplankton,Arbacia dufresnii
+Phytoplankton,Notobalanus flosculus
+Phytoplankton,Tanaidacea
+Phytoplankton,Hiatella arctica
+Phytoplankton,Hydrozoa
+Phytoplankton,Zygochlamys patagonica
+Phytoplankton,Cirripedia
+Phytoplankton,Cirratulidae
+Phytoplankton,Chthamalus sp.
+Phytoplankton,Glabraster antarctica
+Serpulidae,Mytilus edulis chilensis
+Serpulidae,Arbacia dufresnii
+Serpulidae,Cosmasterias lurida
+Serpulidae,Lithodes santolla
+Diatomea,Crustacea
+Diatomea,Ostracoda
+Diatomea,Ascidiacea
+Diatomea,Bivalvia
+Diatomea,Crepipatella dilatata
+Diatomea,Gaimardia trapesina
+Diatomea,Halicarcinus planatus 
+Diatomea,Laevilitorina caliginosa
+Diatomea,Mytilus edulis chilensis
+Diatomea,Nacella deaurata
+Diatomea,Nacella magellanica
+Diatomea,Pagurus comptus
+Diatomea,Polyplacophora
+Diatomea,Pseudechinus magellanicus
+Diatomea,Cumacea
+Diatomea,Serpulidae
+Diatomea,Munida gregaria
+Diatomea,Gammaridea
+Diatomea,Ophiuroidea
+Diatomea,Terebellidae
+Diatomea,Sprattus fuegensis
+Diatomea,Arbacia dufresnii
+Diatomea,Notobalanus flosculus
+Diatomea,Nereididae
+Diatomea,Polynoidae
+Diatomea,Tanaidacea
+Diatomea,Hydrozoa
+Diatomea,Porifera
+Diatomea,Zygochlamys patagonica
+Diatomea,Ctenophora
+Diatomea,Cirratulidae
+Diatomea,Chthamalus sp.
+Diatomea,Glabraster antarctica
+Adenocystis utricularis,Isopoda
+Adenocystis utricularis,Nacella deaurata
+Adenocystis utricularis,Nacella magellanica
+Adenocystis utricularis,Polyplacophora
+Adenocystis utricularis,Siphonaria lessonii
+Adenocystis utricularis,Munida gregaria
+Adenocystis utricularis,Patagonotothen tessellata
+Adenocystis utricularis,Austrolycus depressiceps
+Adenocystis utricularis,Eleginops maclovinus
+Harpagifer bispinis,Cottoperca gobio
+Harpagifer bispinis,Austrolycus depressiceps
+Munida gregaria,Eurypodius latreillii
+Munida gregaria,Trophon geversianus
+Munida gregaria,Patagonotothen cornucola
+Munida gregaria,Peltarion spinosulum
+Munida gregaria,Bathyraja brachyurops
+Munida gregaria,Cottoperca gobio
+Munida gregaria,Genypterus blacodes
+Munida gregaria,Macruronus magellanicus
+Munida gregaria,Merluccius hubbsi
+Munida gregaria,Patagonotothen sp.
+Munida gregaria,Bathyraja griseocauda
+Munida gregaria,Patagonotothen longipes
+Munida gregaria,Patagonotothen sima
+Munida gregaria,Patagonotothen tessellata
+Munida gregaria,Paralomis granulosa
+Munida gregaria,Bathyraja albomaculata
+Munida gregaria,Paranotothenia magellanica
+Munida gregaria,Patagonotothen brevicauda brevicauda
+Munida gregaria,Patagonotothen ramsayi
+Munida gregaria,Salilota australis
+Munida gregaria,Raja (Dipturus) chilensis
+Munida gregaria,Champsocephalus esox
+Munida gregaria,Austrolycus depressiceps
+Munida gregaria,Cosmasterias lurida
+Munida gregaria,Eleginops maclovinus
+Munida gregaria,Lithodes santolla
+Munida gregaria,Odontesthes nigricans
+Munida gregaria,Schroederichthys bivius
+Patagonotothen cornucola,Patagonotothen brevicauda brevicauda
+Patagonotothen cornucola,Austrolycus depressiceps
+Patagonotothen cornucola,Eleginops maclovinus
+Nemertea,Harpagifer bispinis
+Nemertea,Myxine glutinosa
+Nemertea,Bathyraja brachyurops
+Nemertea,Patagonotothen tessellata
+Nemertea,Bathyraja albomaculata
+Nemertea,Hydrozoa
+Nemertea,Austrolycus depressiceps
+Nemertea,Eleginops maclovinus
+Nemertea,Schroederichthys bivius
+Cephalopoda,Dissostichus eleginoides
+Cephalopoda,Bathyraja brachyurops
+Cephalopoda,Cottoperca gobio
+Cephalopoda,Genypterus blacodes
+Cephalopoda,Macruronus magellanicus
+Cephalopoda,Merluccius hubbsi
+Cephalopoda,Bathyraja griseocauda
+Cephalopoda,Bathyraja scaphiops
+Cephalopoda,Patagonotothen tessellata
+Cephalopoda,Bathyraja albomaculata
+Cephalopoda,Paranotothenia magellanica
+Cephalopoda,Patagonotothen ramsayi
+Cephalopoda,Salilota australis
+Cephalopoda,Raja (Dipturus) chilensis
+Cephalopoda,Champsocephalus esox
+Cephalopoda,Schroederichthys bivius
+Dissostichus eleginoides,Bathyraja brachyurops
+Dissostichus eleginoides,Cottoperca gobio
+Dissostichus eleginoides,Genypterus blacodes
+Dissostichus eleginoides,Bathyraja griseocauda
+Dissostichus eleginoides,Bathyraja albomaculata
+Dissostichus eleginoides,Salilota australis
+Euphausiacea,Polychaeta
+Euphausiacea,Cephalopoda
+Euphausiacea,Dissostichus eleginoides
+Euphausiacea,Ophiuroidea
+Euphausiacea,Bathyraja brachyurops
+Euphausiacea,Cottoperca gobio
+Euphausiacea,Genypterus blacodes
+Euphausiacea,Macruronus magellanicus
+Euphausiacea,Merluccius hubbsi
+Euphausiacea,Sprattus fuegensis
+Euphausiacea,Bathyraja griseocauda
+Euphausiacea,Patagonotothen longipes
+Euphausiacea,Patagonotothen tessellata
+Euphausiacea,Bathyraja albomaculata
+Euphausiacea,Patagonotothen ramsayi
+Euphausiacea,Salilota australis
+Euphausiacea,Hydrozoa
+Euphausiacea,Hyperiidea
+Euphausiacea,Odontesthes nigricans
+Euphausiacea,Schroederichthys bivius
+Gammaridea,Harpagifer bispinis
+Gammaridea,Patagonotothen cornucola
+Gammaridea,Nemertea
+Gammaridea,Glyceridae
+Gammaridea,Ophiuroidea
+Gammaridea,Bathyraja brachyurops
+Gammaridea,Macruronus magellanicus
+Gammaridea,Bathyraja griseocauda
+Gammaridea,Bathyraja albomaculata
+Gammaridea,Patagonotothen ramsayi
+Gammaridea,Salilota australis
+Gammaridea,Nereididae
+Gammaridea,Polynoidae
+Gammaridea,Hydrozoa
+Gammaridea,Congiopodus peruvianus
+Gammaridea,Raja (Dipturus) chilensis
+Gammaridea,Eleginops maclovinus
+Glyceridae,Pagurus comptus
+Glyceridae,Bathyraja albomaculata
+Myxine glutinosa,Bathyraja brachyurops
+Myxine glutinosa,Macruronus magellanicus
+Myxine glutinosa,Bathyraja griseocauda
+Myxine glutinosa,Bathyraja albomaculata
+Myxine glutinosa,Raja (Dipturus) chilensis
+Ophiuroidea,Dissostichus eleginoides
+Ophiuroidea,Bathyraja brachyurops
+Ophiuroidea,Cottoperca gobio
+Ophiuroidea,Genypterus blacodes
+Ophiuroidea,Merluccius hubbsi
+Ophiuroidea,Patagonotothen tessellata
+Ophiuroidea,Bathyraja albomaculata
+Ophiuroidea,Patagonotothen ramsayi
+Ophiuroidea,Salilota australis
+Ophiuroidea,Eleginops maclovinus
+Ophiuroidea,Lithodes santolla
+Ophiuroidea,Schroederichthys bivius
+Peltarion spinosulum,Bathyraja brachyurops
+Peltarion spinosulum,Cottoperca gobio
+Peltarion spinosulum,Bathyraja albomaculata
+Peltarion spinosulum,Patagonotothen ramsayi
+Peltarion spinosulum,Raja (Dipturus) chilensis
+Peltarion spinosulum,Eleginops maclovinus
+Peltarion spinosulum,Lithodes santolla
+Peltarion spinosulum,Schroederichthys bivius
+Terebellidae,Nemertea
+Terebellidae,Bathyraja albomaculata
+Terebellidae,Eleginops maclovinus
+Bathyraja brachyurops,Cottoperca gobio
+Bathyraja brachyurops,Genypterus blacodes
+Cottoperca gobio,Dissostichus eleginoides
+Cottoperca gobio,Bathyraja brachyurops
+Cottoperca gobio,Genypterus blacodes
+Cottoperca gobio,Bathyraja griseocauda
+Cottoperca gobio,Salilota australis
+Genypterus blacodes,Dissostichus eleginoides
+Genypterus blacodes,Bathyraja brachyurops
+Genypterus blacodes,Bathyraja griseocauda
+Genypterus blacodes,Raja (Dipturus) chilensis
+Macruronus magellanicus,Dissostichus eleginoides
+Macruronus magellanicus,Bathyraja brachyurops
+Macruronus magellanicus,Cottoperca gobio
+Macruronus magellanicus,Genypterus blacodes
+Macruronus magellanicus,Merluccius hubbsi
+Macruronus magellanicus,Bathyraja griseocauda
+Macruronus magellanicus,Salilota australis
+Macruronus magellanicus,Raja (Dipturus) chilensis
+Merluccius hubbsi,Bathyraja brachyurops
+Merluccius hubbsi,Cottoperca gobio
+Merluccius hubbsi,Genypterus blacodes
+Merluccius hubbsi,Macruronus magellanicus
+Merluccius hubbsi,Salilota australis
+Merluccius hubbsi,Raja (Dipturus) chilensis
+Merluccius hubbsi,Schroederichthys bivius
+Patagonotothen sp.,Bathyraja brachyurops
+Patagonotothen sp.,Bathyraja griseocauda
+Patagonotothen sp.,Bathyraja scaphiops
+Priapulida,Cephalopoda
+Priapulida,Myxine glutinosa
+Priapulida,Bathyraja brachyurops
+Priapulida,Cosmasterias lurida
+Priapulida,Eleginops maclovinus
+Priapulida,Schroederichthys bivius
+Sprattus fuegensis,Dissostichus eleginoides
+Sprattus fuegensis,Bathyraja brachyurops
+Sprattus fuegensis,Cottoperca gobio
+Sprattus fuegensis,Macruronus magellanicus
+Sprattus fuegensis,Merluccius hubbsi
+Sprattus fuegensis,Bathyraja griseocauda
+Sprattus fuegensis,Patagonotothen ramsayi
+Sprattus fuegensis,Salilota australis
+Sprattus fuegensis,Schroederichthys bivius
+Bathyraja scaphiops,Genypterus blacodes
+Bathyraja scaphiops,Bathyraja griseocauda
+Patagonotothen longipes,Cottoperca gobio
+Patagonotothen longipes,Champsocephalus esox
+Patagonotothen sima,Cottoperca gobio
+Patagonotothen sima,Champsocephalus esox
+Patagonotothen tessellata,Cottoperca gobio
+Patagonotothen tessellata,Patagonotothen ramsayi
+Patagonotothen tessellata,Champsocephalus esox
+Arbacia dufresnii,Raja (Dipturus) chilensis
+Arbacia dufresnii,Cosmasterias lurida
+Loxechinus albus,Cosmasterias lurida
+Notobalanus flosculus,Cosmasterias lurida
+Paralomis granulosa,Dissostichus eleginoides
+Paralomis granulosa,Cosmasterias lurida
+Bathyraja albomaculata,Dissostichus eleginoides
+Bathyraja albomaculata,Cottoperca gobio
+Bathyraja albomaculata,Genypterus blacodes
+Paranotothenia magellanica,Cottoperca gobio
+Patagonotothen brevicauda brevicauda,Dissostichus eleginoides
+Patagonotothen brevicauda brevicauda,Cottoperca gobio
+Patagonotothen ramsayi,Dissostichus eleginoides
+Patagonotothen ramsayi,Cottoperca gobio
+Patagonotothen ramsayi,Genypterus blacodes
+Patagonotothen ramsayi,Macruronus magellanicus
+Patagonotothen ramsayi,Merluccius hubbsi
+Patagonotothen ramsayi,Salilota australis
+Patagonotothen ramsayi,Raja (Dipturus) chilensis
+Patagonotothen ramsayi,Schroederichthys bivius
+Salilota australis,Dissostichus eleginoides
+Salilota australis,Cottoperca gobio
+Salilota australis,Genypterus blacodes
+Salilota australis,Macruronus magellanicus
+Salilota australis,Merluccius hubbsi
+Echiura,Dissostichus eleginoides
+Echiura,Ophiuroidea
+Echiura,Eleginops maclovinus
+Echiura,Schroederichthys bivius
+Holothuroidea,Dissostichus eleginoides
+Holothuroidea,Genypterus blacodes
+Holothuroidea,Merluccius hubbsi
+Holothuroidea,Patagonotothen ramsayi
+Holothuroidea,Salilota australis
+Callophyllis pinnata,Isopoda
+Callophyllis pinnata,Nacella deaurata
+Callophyllis pinnata,Polyplacophora
+Callophyllis pinnata,Siphonaria lessonii
+Callophyllis pinnata,Munida gregaria
+Callophyllis pinnata,Patagonotothen tessellata
+Callophyllis pinnata,Eleginops maclovinus
+Ceramium diaphanum,Isopoda
+Ceramium diaphanum,Nacella deaurata
+Ceramium diaphanum,Polyplacophora
+Ceramium diaphanum,Pseudechinus magellanicus
+Ceramium diaphanum,Siphonaria lessonii
+Ceramium diaphanum,Munida gregaria
+Ceramium diaphanum,Patagonotothen tessellata
+Ceramium diaphanum,Eleginops maclovinus
+Cladophora sp.,Fissurella picta
+Cladophora sp.,Halicarcinus planatus 
+Cladophora sp.,Laevilitorina caliginosa
+Cladophora sp.,Pseudechinus magellanicus
+Cladophora sp.,Munida gregaria
+Cladophora sp.,Eleginops maclovinus
+Delesseriaceae ,Pseudechinus magellanicus
+Delesseriaceae ,Munida gregaria
+Delesseriaceae ,Eleginops maclovinus
+Ectocarpus sp.,Fissurella picta
+Ectocarpus sp.,Nacella deaurata
+Ectocarpus sp.,Nacella magellanica
+Ectocarpus sp.,Pseudechinus magellanicus
+Ectocarpus sp.,Munida gregaria
+Ectocarpus sp.,Eleginops maclovinus
+Nereididae,Harpagifer bispinis
+Nereididae,Patagonotothen cornucola
+Nereididae,Nemertea
+Nereididae,Glyceridae
+Nereididae,Priapulida
+Nereididae,Patagonotothen longipes
+Nereididae,Patagonotothen tessellata
+Nereididae,Polynoidae
+Nereididae,Eleginops maclovinus
+Nothogenia fastigiata,Isopoda
+Nothogenia fastigiata,Nacella deaurata
+Nothogenia fastigiata,Nacella magellanica
+Nothogenia fastigiata,Polyplacophora
+Nothogenia fastigiata,Siphonaria lessonii
+Nothogenia fastigiata,Munida gregaria
+Nothogenia fastigiata,Patagonotothen tessellata
+Nothogenia fastigiata,Eleginops maclovinus
+Polynoidae,Harpagifer bispinis
+Polynoidae,Patagonotothen cornucola
+Polynoidae,Nemertea
+Polynoidae,Glyceridae
+Polynoidae,Ophiuroidea
+Polynoidae,Patagonotothen tessellata
+Polynoidae,Hydrozoa
+Polynoidae,Eleginops maclovinus
+Rhizoclonium sp.,Nacella deaurata
+Rhizoclonium sp.,Nacella magellanica
+Rhizoclonium sp.,Pseudechinus magellanicus
+Rhizoclonium sp.,Munida gregaria
+Rhizoclonium sp.,Patagonotothen cornucola
+Rhizoclonium sp.,Eleginops maclovinus
+Scytothamus fasciculatus,Isopoda
+Scytothamus fasciculatus,Nacella deaurata
+Scytothamus fasciculatus,Polyplacophora
+Scytothamus fasciculatus,Siphonaria lessonii
+Scytothamus fasciculatus,Munida gregaria
+Scytothamus fasciculatus,Patagonotothen tessellata
+Scytothamus fasciculatus,Eleginops maclovinus
+Tanaidacea,Gastropoda
+Tanaidacea,Patagonotothen cornucola
+Tanaidacea,Eleginops maclovinus
+Ulva rigida,Isopoda
+Ulva rigida,Nacella deaurata
+Ulva rigida,Polyplacophora
+Ulva rigida,Siphonaria lessonii
+Ulva rigida,Munida gregaria
+Ulva rigida,Patagonotothen tessellata
+Ulva rigida,Eleginops maclovinus
+Hiatella arctica,Eurypodius latreillii
+Hiatella arctica,Trophon geversianus
+Hiatella arctica,Peltarion spinosulum
+Hiatella arctica,Paralomis granulosa
+Hiatella arctica,Lithodes santolla
+Hydrozoa,Eurypodius latreillii
+Hydrozoa,Pagurus comptus
+Hydrozoa,Pseudechinus magellanicus
+Hydrozoa,Munida gregaria
+Hydrozoa,Patagonotothen cornucola
+Hydrozoa,Ophiuroidea
+Hydrozoa,Peltarion spinosulum
+Hydrozoa,Genypterus blacodes
+Hydrozoa,Patagonotothen tessellata
+Hydrozoa,Loxechinus albus
+Hydrozoa,Paralomis granulosa
+Hydrozoa,Paranotothenia magellanica
+Hydrozoa,Nereididae
+Hydrozoa,Polynoidae
+Hydrozoa,Lithodes santolla
+Hydrozoa,Odontesthes nigricans
+Codium sp.,Fissurella picta
+Codium sp.,Siphonaria lessonii
+Codium sp.,Tonicia sp.
+Porifera,Fissurella picta
+Porifera,Gastropoda
+Porifera,Polyplacophora
+Porifera,Pseudechinus magellanicus
+Porifera,Tonicia sp.
+Porifera,Munida gregaria
+Porifera,Genypterus blacodes
+Porifera,Merluccius hubbsi
+Porifera,Salilota australis
+Porifera,Polynoidae
+Porifera,Zygochlamys patagonica
+Porifera,Raja (Dipturus) chilensis
+Porifera,Glabraster antarctica
+Porifera,Lithodes santolla
+Porifera,Schroederichthys bivius
+Galaxias maculatus,Odontesthes nigricans
+Desmarestia sp.,Laevilitorina caliginosa
+Desmarestia sp.,Munida gregaria
+Desmarestia sp.,Gammaridea
+Oligochaeta,Munida gregaria
+Oligochaeta,Nemertea
+Oligochaeta,Gammaridea
+Oligochaeta,Nereididae
+Polysiphonia sp.,Halicarcinus planatus 
+Polysiphonia sp.,Laevilitorina caliginosa
+Polysiphonia sp.,Nacella deaurata
+Polysiphonia sp.,Nacella magellanica
+Polysiphonia sp.,Pseudechinus magellanicus
+Polysiphonia sp.,Patagonotothen cornucola
+Polysiphonia sp.,Gammaridea
+Porphyra sp.,Laevilitorina caliginosa
+Porphyra sp.,Patagonotothen cornucola
+Porphyra sp.,Gammaridea
+Porphyra sp.,Patagonotothen longipes
+Campylonotus vagans,Genypterus blacodes
+Campylonotus vagans,Patagonotothen ramsayi
+Campylonotus vagans,Schroederichthys bivius
+Hyperiidea,Polychaeta
+Hyperiidea,Genypterus blacodes
+Hyperiidea,Macruronus magellanicus
+Hyperiidea,Merluccius hubbsi
+Hyperiidea,Patagonotothen ramsayi
+Hyperiidea,Salilota australis
+Hyperiidea,Raja (Dipturus) chilensis
+Stromateus brasiliensis,Genypterus blacodes
+Stromateus brasiliensis,Merluccius hubbsi
+Stromateus brasiliensis,Raja (Dipturus) chilensis
+Zygochlamys patagonica,Genypterus blacodes
+Zygochlamys patagonica,Patagonotothen tessellata
+Zygochlamys patagonica,Patagonotothen ramsayi
+Cirripedia,Harpagifer bispinis
+Cirripedia,Paralomis granulosa
+Cirripedia,Schroederichthys bivius
+Halopteris sp.,Nacella deaurata
+Halopteris sp.,Nacella magellanica
+Halopteris sp.,Munida gregaria
+Halopteris sp.,Loxechinus albus
+Ctenophora,Macruronus magellanicus
+Ctenophora,Patagonotothen ramsayi
+Ctenophora,Salilota australis
+Ctenophora,Stromateus brasiliensis
+Ballia sp.,Nacella deaurata
+Ballia sp.,Nacella magellanica
+Ballia sp.,Munida gregaria
+Bostrychia sp.,Nacella deaurata
+Bostrychia sp.,Nacella magellanica
+Bostrychia sp.,Pseudechinus magellanicus
+Bostrychia sp.,Munida gregaria
+Ceramium sp.,Nacella deaurata
+Ceramium sp.,Nacella magellanica
+Ceramium sp.,Pseudechinus magellanicus
+Ceramium sp.,Munida gregaria
+Ceramium sp.,Patagonotothen cornucola
+Griffithsia sp.,Munida gregaria
+Hincksia sp.,Pseudechinus magellanicus
+Hincksia sp.,Munida gregaria
+Hymenena sp.,Munida gregaria
+Monostroma sp.,Munida gregaria
+Myriogramme sp.,Munida gregaria
+Sphacelaria sp.,Pseudechinus magellanicus
+Sphacelaria sp.,Munida gregaria
+Trailliella sp.,Munida gregaria
+Cirratulidae,Patagonotothen tessellata
+Blidingia minima,Pseudechinus magellanicus
+Derbesia sp.,Pseudechinus magellanicus
+Ulothrix sp.,Pseudechinus magellanicus
+Congiopodus peruvianus,Raja (Dipturus) chilensis
+Champsocephalus esox,Schroederichthys bivius
+Chthamalus sp.,Trophon geversianus
