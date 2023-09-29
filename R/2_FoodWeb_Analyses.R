@@ -18,8 +18,14 @@ m_ig <- graph_from_data_frame(magellan_ok, directed = TRUE)
 
 ## Complexity & structure (topology)
 b_prop <- bind_cols(calc_topological_indices(b_ig), calc_modularity(b_ig)) %>% mutate(Name = "Beagle Channel")
-m_prop <- bind_cols(calc_topological_indices(m_ig)) %>% mutate(Name = "Magellan Strait")
+m_prop <- bind_cols(calc_topological_indices(m_ig)) %>% mutate(Name = "Magellan Strait")  # calc_modularity(b_ig)
 all_prop <- bind_rows(b_prop, m_prop) %>% rename(Network = Name)
 
+# Connected & disconnected spp: membership
 m_comp <- decompose(m_ig, mode = "weak")  # components
 m_comp
+comp <- as.data.frame(components(m_ig)["membership"])
+m_sp_comp <- bind_cols(m_sp, comp)
+  
+write.csv(m_sp_comp, file = "Data/Magellan_sp.csv")
+
