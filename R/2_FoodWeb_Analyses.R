@@ -21,6 +21,11 @@ b_prop <- bind_cols(calc_topological_indices(b_ig), calc_modularity(b_ig)) %>% m
 m_prop <- bind_cols(calc_topological_indices(m_ig)) %>% mutate(Name = "Magellan Strait")  # calc_modularity(b_ig)
 all_prop <- bind_rows(b_prop, m_prop) %>% rename(Network = Name)
 
+## Trophic coherence
+
+## QSS
+
+
 # Connected & disconnected spp: membership
 m_comp <- decompose(m_ig, mode = "weak")  # components
 m_comp
