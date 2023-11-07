@@ -11,7 +11,8 @@ require(janitor)
 # Load data ---------------------------------------------------------------
 
 beagle_df <- read.csv(file = "Data/BeagleChannel_links.csv", header = TRUE)
-magellan_df <- read.csv(file = "Data/MagellanStrait_links.csv", header = TRUE)
+magellan_df <- read.csv(file = "Data/MagellanStrait_links_nov23.csv", header = TRUE) %>% 
+  dplyr::select(resource, consumer)
 ## Check duplicated interactions
 beagle_dup <- read.csv(file = "Data/BeagleChannel_links.csv", header = TRUE) %>% 
   janitor::get_dupes(resource, consumer)
@@ -49,5 +50,5 @@ magellan_usp <- dplyr::anti_join(m_sp, b_sp)
 
 # Save data ---------------------------------------------------------------
 save(beagle_df, magellan_ok, b_sp, m_sp,
-     file = "Results/Data_tidy.rda")
+     file = "Results/Data_tidy_nov23.rda")
 

@@ -1,0 +1,422 @@
+resource,consumer,Prey group,Reference,URL/DOI,Observation
+Antholoba achates,Harpagifer bispinis,Pisces,Andrade (pers. comm.),,In situ observation (laboratory)
+Aptenoydes patagonicus,Sprattus fuegensis,Pisces,Huidobro & Oporto (2018),https://repositorio.uc.cl/xmlui/handle/11534/45382,Regurgited
+Aptenoydes patagonicus,Myctophidae,Pisces,Huidobro & Oporto (2018),https://repositorio.uc.cl/xmlui/handle/11534/45383,Regurgited
+Bathylagichthys parini (larvae),Fragilaria sp.,Diatoms,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8,Gut content
+Bathylagichthys parini (larvae),Bivalvia larva,Bivalvia,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8,Gut content
+Bathylagichthys parini (larvae),Copepod egg,Copepoda,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8,Gut content
+Bathylagichthys parini (larvae),Copepod nauplius,Copepoda,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8,Gut content
+Bathylagichthys parini (larvae),Calanoid copepodite,Copepoda,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8,Gut content
+Bathylagichthys parini (larvae),Ostracods,Ostracoda,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8,Gut content
+Bathylagichthys parini (larvae),Salp,Tunicata,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8,Gut content
+Bathylagichthys parini (larvae),Appendicularia fecal pellet,Tunicata,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8,Gut content
+Bunodactis octoradiata,Exosphaeroma gigas,Crustacea,Andrade C & Ríos C (2007),http://analesdelinstitutodelapatagonia.cl/index.php/analespatagonia/article/view/386,In situ observation
+Calidris canutus,Darina solenoides,Bivalvia,Espoz et al. (2008),https://www.researchgate.net/publication/262687507_Trophic_ecology_of_the_Red_Knot_Calidris_canutus_rufa_at_Bahia_Lomas_Tierra_del_Fuego_Chile?enrichId=rgreq-8c958f7066ac761a5d05454e0c0e8de9-XXX&enrichSource=Y292ZXJQYWdlOzI2MjY4NzUwNztBUzoxNDE3ODM2MTkwODQyODhAMTQxMDgxNTI1NzkyOQ%3D%3D&el=1_x_2&_esc=publicationCoverPdf,"SIA (bone, feathers, muscle)"
+Calidris canutus,Aricidea sp.,Polychaeta,Espoz et al. (2008),https://www.researchgate.net/publication/262687507_Trophic_ecology_of_the_Red_Knot_Calidris_canutus_rufa_at_Bahia_Lomas_Tierra_del_Fuego_Chile?enrichId=rgreq-8c958f7066ac761a5d05454e0c0e8de9-XXX&enrichSource=Y292ZXJQYWdlOzI2MjY4NzUwNztBUzoxNDE3ODM2MTkwODQyODhAMTQxMDgxNTI1NzkyOQ%3D%3D&el=1_x_2&_esc=publicationCoverPdf,"SIA (bone, feathers, muscle)"
+Cephalorhynchus commersonii commersonii,Patagonotothen spp.,Pisces,Riccialdelli et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1289-5,SIA (bone collagen) - Stomach contents
+Cephalorhynchus commersonii commersonii,Zoarcids,Pisces,Riccialdelli et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1289-6,SIA (bone collagen) - Stomach contents
+Cephalorhynchus commersonii commersonii,Eleginops maclovinus,Pisces,Riccialdelli et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1289-7,SIA (bone collagen) - Stomach contents
+Cephalorhynchus commersonii commersonii,Odontesthes spp.,Pisces,Riccialdelli et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1289-8,SIA (bone collagen) - Stomach contents
+Cephalorhynchus commersonii commersonii,Sprattus fuegensis,Pisces,Riccialdelli et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1289-9,SIA (bone collagen) - Stomach contents
+Cephalorhynchus commersonii commersonii,Macruronus magellanicus,Pisces,Riccialdelli et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1289-10,SIA (bone collagen) - Stomach contents
+Cephalorhynchus commersonii commersonii,Illex argentinus,Cephalopoda,Riccialdelli et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1289-11,SIA (bone collagen) - Stomach contents
+Cephalorhynchus commersonii commersonii,Doryteuthis gahi,Cephalopoda,Riccialdelli et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1289-12,SIA (bone collagen) - Stomach contents
+Cephalorhynchus commersonii commersonii,Enteroctopus megalocyathus,Cephalopoda,Riccialdelli et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1289-13,SIA (bone collagen) - Stomach contents
+Cephalorhynchus commersonii commersonii,Munida gregaria,Benthic decapoda,Riccialdelli et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1289-14,SIA (bone collagen) - Stomach contents
+Cephalorhynchus commersonii commersonii,Halicarcinus planatus,Benthic decapoda,Riccialdelli et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1289-15,SIA (bone collagen) - Stomach contents
+Cephalorhynchus commersonii commersonii,Campylonotus vagans,Benthic decapoda,Riccialdelli et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1289-16,SIA (bone collagen) - Stomach contents
+Champsocephalus esox,Patagonotothen tessellata,Pisces,Landaeta et al. (2020),https://www.cambridge.org/core/journals/antarctic-science/article/abs/shape-condition-and-diet-of-the-pike-icefish-champsocephalus-esox-teleostei-channichthyidae-evidence-of-phenotypic-plasticity/F45F7393F50141A0E3999A96CA55B1DC,Stomach content
+Champsocephalus esox,Patagonotothen cornucola,Pisces,Landaeta et al. (2020),https://www.cambridge.org/core/journals/antarctic-science/article/abs/shape-condition-and-diet-of-the-pike-icefish-champsocephalus-esox-teleostei-channichthyidae-evidence-of-phenotypic-plasticity/F45F7393F50141A0E3999A96CA55B1DC,Gut content
+Champsocephalus esox,Patagonotothen sima,Pisces,Landaeta et al. (2020),https://www.cambridge.org/core/journals/antarctic-science/article/abs/shape-condition-and-diet-of-the-pike-icefish-champsocephalus-esox-teleostei-channichthyidae-evidence-of-phenotypic-plasticity/F45F7393F50141A0E3999A96CA55B1DC,Gut content
+Crepipatella dilatata,Macrocystis pyrifera,Brown algae,C. Andrade (pers. comm.),,Gut content
+Eleginops maclovinus,Gammaridae,Amphipoda,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376,In situ observation
+Eleginops maclovinus,Tanaidae,Malacostraca,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376,Stomach content
+Eleginops maclovinus,Chlorophyta,Green algae,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376,Stomach content
+Eleginops maclovinus,Exosphaeroma gigas,Isopoda,Andrade (pers. comm.),,Stomach content
+Genypterus blacodes,Munida gregaria,Benthic decapoda,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376,Observation in stomach content
+Genypterus blacodes,Amphipoda,Amphipoda,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376,Stomach content
+Genypterus blacodes,Merluccius sp.,Pisces,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376,Stomach content
+Genypterus blacodes,Patagonotothen sp.,Pisces,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376,Stomach content
+Genypterus blacodes,Odontesthes spp.,Pisces,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376,Stomach content
+Genypterus blacodes,Sprattus fuegensis,Pisces,Zuleta & Rubilar (2010),http://docplayer.es/46981536-Impacto-del-desarrollo-de-una-pesqueria-de-sardina-austral-sprattus-fueguensis-en-aguas-interiores-de-las-regiones-x-xii.html,Stomach content
+Genypterus blacodes,Lithodes santolla,Benthic decapoda,Andrade (pers. comm.),,Stomach content
+Halicarcinus planatus,Detritus,Detritus,C. Andrade (pers. comm.),,Observed in stomach content
+Labidiaster radiosus,Exosphaeroma gigas,Isopoda,C. Andrade (pers. comm.),,
+Lagenorhynchus australis,Enteroctopus megalocyathus,Cephalopoda,Schiavini et al. (1997),https://www.vliz.be/imisdocs/publications/232079.pdf,In situ observation
+Lagenorhynchus australis,Macruronus magellanicus,Pisces,Schiavini et al. (1997),https://www.vliz.be/imisdocs/publications/232079.pdf,Stomach content
+Lagenorhynchus australis,Genypterus blacodes,Pisces,Schiavini et al. (1997),https://www.vliz.be/imisdocs/publications/232079.pdf,Stomach content
+Lagenorhynchus australis,Myxine australis,Myxini,Schiavini et al. (1997),https://www.vliz.be/imisdocs/publications/232079.pdf,Stomach content
+Lagenorhynchus australis,Salilota australis,Pisces,Schiavini et al. (1997),https://www.vliz.be/imisdocs/publications/232079.pdf,Stomach content
+Larus dominicanus,Gaimardia trapesina,Gastropoda,Hockey (1988),https://doi.org/10.1007/BF00379614,Stomach content
+Larus dominicanus,Mytilus chilensis,Bivalvia,Andrade (pers. comm.),,In situ observation
+Lithodes santolla,Macrocystis pyrifera,Brown algae,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/56,In situ observation
+Lithodes santolla,Hydrozoans,Hydrozoa,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/57,Stomach content
+Lithodes santolla,Bryozoans,Bryozoa,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/58,Stomach content
+Lithodes santolla,Sponges,Porifera,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/59,Stomach content
+Lithodes santolla,Foraminifera,Foraminifera,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/60,Stomach content
+Lithodes santolla,Polychaetes,Polychaeta,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/61,Stomach content
+Lithodes santolla,Echinoderms,Echinodermata,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/62,Stomach content
+Lithodes santolla,Crustaceans,Crustacea,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/63,Stomach content
+Lithodes santolla,Bivalves,Bivalvia,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/64,Stomach content
+Lithodes santolla,Gastropods,Gastropoda,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/65,Stomach content
+Lithodes santolla,Cephalopods,Cephalopoda,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/66,Stomach content
+Lithodes santolla,Fish,Pisces,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/67,Stomach content
+Lithodes santolla,Sediment,Sediment,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/68,Stomach content
+Lithodes santolla,Detritus,Detritus,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/69,Stomach content
+Lithodes santolla,Debris allocthonus,Debris allocthonus,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/69,Stomach content
+Lithodes santolla (juvenile),Amphipoda,Amphipoda,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/556,Stomach content
+Lithodes santolla (juvenile),Bivalves,Bivalvia,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/557,Stomach content
+Lithodes santolla (juvenile),Macrocystis pyrifera,Brown algae,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/558,Stomach content
+Lithodes santolla (juvenile),Sediment,Sediment,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/559,Stomach content
+Lithodes santolla (juvenile),Hydrozoans,Hydrozoa,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/560,Stomach content
+Lithodes santolla (juvenile),Echinoderms,Echinodermata,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/561,Stomach content
+Lithodes santolla (juvenile),Sponges,Porifera,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/561,Stomach content
+Lithodes santolla (juvenile),Forams,Foraminifera,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/561,Stomach content
+Lithodes santolla (juvenile),Polychaetes,Polychaeta,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/561,Stomach content
+Lithodes santolla (juvenile),Nacella spp.,Gatropoda,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/561,Stomach content
+Lithodes santolla (juvenile),Polyplacophora,Polyplacophora,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/561,Stomach content
+Lithodes santolla (juvenile),Ulva sp.,Green algae,Pardo et al.(2021),,Stomach content
+Lithodes santolla (juvenile),Lithodes santolla,Benthic decapoda,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/556,
+Lontra felina,Prolatilus jugularis,Pisces,Córdova et al. (2009),https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext,Stomach content
+Lontra felina,Patagonotothen sp.,Pisces,Córdova et al. (2009),https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext,Feaces
+Lontra felina,Cottoperca gobio,Pisces,Córdova et al. (2009),https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext,Feaces
+Lontra felina,Harpagifer bispinis,Pisces,Córdova et al. (2009),https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext,Feaces
+Lontra felina,Acanthocyclus albatrossis,Benthic decapoda,Córdova et al. (2009),https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext,Feaces
+Lontra felina,Lithodes santolla,Benthic decapoda,Córdova et al. (2009),https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext,Feaces
+Lontra felina,Munida gregaria,Benthic decapoda,Córdova et al. (2009),https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext,Feaces
+Lontra felina,Campylonotus vagans,Benthic decapoda,Córdova et al. (2009),https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext,Feaces
+Lontra felina,Taliepus dentatus,Benthic decapoda,Córdova et al. (2009),https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext,Feaces
+Lontra felina,Cancer edwardsii,Benthic decapoda,Córdova et al. (2009),https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext,Feaces
+Loxechinus albus,Macrocystis pyrifera,Brown algae,Castilla (1985),https://www.academia.edu/download/31744106/Castilla_Moreno_1982.pdf,Feaces
+Loxechinus albus,Rhodymenia falklandica,Red algae,Castilla (1985),https://www.academia.edu/download/31744106/Castilla_Moreno_1982.pdf,Stomach content
+Loxechinus albus,Lessonia flavicans,Brown algae,Castilla (1985),https://www.academia.edu/download/31744106/Castilla_Moreno_1982.pdf,Stomach content
+Loxechinus albus,Sarcopeltis skottsbergii,Red algae,Castilla (1985),https://www.academia.edu/download/31744106/Castilla_Moreno_1982.pdf,Stomach content
+Loxechinus albus,Callophyllis variegata,Red algae,Castilla (1985),https://www.academia.edu/download/31744106/Castilla_Moreno_1982.pdf,Stomach content
+Loxechinus albus,Harpagifer bispinis,Pisces,Andrade (pers. comm.),,Stomach content
+Macruronus magellanicus,Sprattus fuegensis,Pisces,Zuleta & Rubilar (2010),http://docplayer.es/46981536-Impacto-del-desarrollo-de-una-pesqueria-de-sardina-austral-sprattus-fueguensis-en-aguas-interiores-de-las-regiones-x-xii.html,In situ observation (laboratory)
+Margarella violacea,Macrocystis pyrifera,Brown algae,C. Andrade (pers. comm.),,Stomach content
+Megaptera novaeangliae,Munida gregaria,Benthic decapoda,Haro D. (2013),https://repositorio.anid.cl/entities/tesis/406746d0-8cbf-4a5f-a5f8-6812504b84a2,In situ observation
+Megaptera novaeangliae,Sprattus fuegensis,Pisces,Haro D. (2013),https://repositorio.anid.cl/entities/tesis/406746d0-8cbf-4a5f-a5f8-6812504b84a2,SIA (skin)
+Megaptera novaeangliae,Euphausia lucens,Pelagic crustacea,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376,SIA (skin)
+Megaptera novaeangliae,Euphausia vallentini,Pelagic crustacea,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376,SIA (skin)
+Megaptera novaeangliae,Themisto gaudichaudii ,Amphipoda,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376,SIA (skin)
+Merluccius australis,Sprattus fuegensis,Pisces,Zuleta & Rubilar (2010),http://docplayer.es/46981536-Impacto-del-desarrollo-de-una-pesqueria-de-sardina-austral-sprattus-fueguensis-en-aguas-interiores-de-las-regiones-x-xii.html,SIA (skin)
+Munida gregaria,Ulva sp.,Green algae,Andrade (pers. comm.),,Stomach content
+Munida gregaria,Serolis sp.,Isopoda,Andrade (pers. comm.),,In situ observation 
+Munida gregaria,Sponges,Porifera,Andrade (pers. comm.),,
+Munida gregaria,Phytodetritus,Phytodetritus,Andrade (pers. comm.),,
+Munida gregaria,Detritus,Detritus,Andrade (pers. comm.),,
+Nacella deaurata,Bivalvia,Bivalvia,Andrade C & Brey T (2014),https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en,
+Nacella deaurata,Forams,Forams,Andrade C & Brey T (2014),https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en,Gut content
+Nacella deaurata,Elphidium macellum,Forams,Andrade C & Brey T (2014),https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en,Gut content
+Nacella deaurata,Brown algae,Brown algae,Andrade C & Brey T (2014),https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en,Gut content
+Nacella deaurata,Green algae,Green algae,Andrade C & Brey T (2014),https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en,Gut content
+Nacella deaurata,Miscellaneus,Miscellaneus,Andrade C & Brey T (2014),https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en,Gut content
+Nacella deaurata,Red algae,Red algae,Andrade C & Brey T (2014),https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en,Gut content
+Nacella deaurata,Chroococcus sp.,Cyanobacteria,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content
+Nacella deaurata,Oscillatoria sp.,Cyanobacteria,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Melosira sp.,Plankton diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Coscinodiscus sp.,Plankton diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Stephanopyxis sp.,Plankton diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Biddulphia sp.,Benthic diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Pinnularia sp.,Benthic diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Navicula sp.,Plankton diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Gyrosigma sp.,Benthic diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Diploneis sp.,Benthic diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Plagiotropis sp.,Benthic diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Cocconeis sp.,Benthic diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Surirella sp.,Benthic diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Gomphonema sp.,Benthic diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Cymbella sp.,Benthic diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Licmophora sp,Benthic diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Amphora sp.,Benthic diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Cylindrotheca sp.,Benthic diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Nitzschia sp.,Benthic diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Achnanthes sp.,Benthic diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Rhabdonema sp.,Plankton diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Grammatophora sp.,Benthic diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Fragilaria sp.,Plankton diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Dinophysis sp.,Miozoa,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Protoperidinium sp.,Miozoa,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Prorocentrum sp.,Miozoa,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Spongomorpha pacifica,Green algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Ulothrix sp.,Green algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Ulva clathrata,Green algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Ulva lactuca,Green algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Ulva prolifera,Green algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Ulva sp.,Green algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Rhizoclonium sp.,Green algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Ectocarpus siliculosus,Brown algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Caepidium antarcticum,Brown algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Adenocystis utricularis,Brown algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Scytosiphon lomentaria,Brown algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Halopteris funnicularis,Brown algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Acrochaetium sp.,Red algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Nothogenia fastigiata,Red algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Iridaea chordata,Red algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Sarcothalia crispata,Red algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Grateloupia sp.,Red algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Ceramium sp.,Red algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Polysiphonia sp.,Red algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Pterosiphonia sp.,Red algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Ballia callitricha,Red algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Bostrychia sp.,Red algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Plocamium sp.,Red algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Forams,Foraminifera,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Margarella violacea,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Laevilitorina caliginosa,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Eatoniella sp.,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Mytilus platensis,Bivalvia,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Lasaea sp.,BIvalvia,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Ostracods,Ostracoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Amphipoda indet,Amphipoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Elminius kingii,Cirripedia,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Arachnida indet,Arachnida,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella deaurata,Halirytus magellanicus,Insecta,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Bivalvia,Bivalvia,Andrade C & Brey T (2014),https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en,Gut content (seasonal sampling)
+Nacella magellanica,Forams,Forams,Andrade C & Brey T (2014),https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en,Gut content
+Nacella magellanica,Red algae,Red algae,Andrade C & Brey T (2014),https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en,Gut content
+Nacella magellanica,Green algae,Green algae,Andrade C & Brey T (2014),https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en,Gut content
+Nacella magellanica,Miscellaneus,Miscellaneus,Andrade C & Brey T (2014),https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en,Gut content
+Nacella magellanica,Chroococcus sp.,Microalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content
+Nacella magellanica,Oscillatoria sp.,Cyanobacteria,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Melosira sp.,Microalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Coscinodiscus sp.,Plankton diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Biddulphia sp.,Benthic diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Pinnularia sp.,Benthic diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Navicula sp.,Plankton diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Gyrosigma sp.,Benthic diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Diploneis sp.,Benthic diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Plagiotropis sp.,Benthic diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Cocconeis sp.,Benthic diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Surirella sp.,Benthic diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Gomphonema sp.,Benthic diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Cymbella sp.,Benthic diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Licmophora sp,Benthic diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Amphora sp.,Benthic diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Cylindrotheca sp.,Benthic diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Nitzschia sp.,Benthic diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Achnanthes sp.,Benthic diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Rhabdonema sp.,Plankton diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Grammatophora sp.,Benthic diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Fragilaria sp.,Plankton diatom,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Dinophysis sp.,Miozoa,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Prorocentrum sp.,Miozoa,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Spongomorpha pacifica,Green algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Ulothrix sp.,Green algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Ulva lactuca,Green algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Ulva prolifera,Green algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Ulva sp.,Green algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Rhizoclonium sp.,Green algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Ectocarpus siliculosus,Brown algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Caepidium antarcticum,Brown algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Adenocystis utricularis,Brown algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Scytosiphon lomentaria,Brown algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Halopteris funnicularis,Brown algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Macrocystis pyrifera,Brown algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Acrochaetium sp.,Red algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Nothogenia fastigiata,Red algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Iridaea chordata,Red algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Sarcothalia crispata,Red algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Mazzaella laminaroides,Red algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Grateloupia sp,Red algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Heterosiphonia sp.,Red algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Polysiphonia sp.,Red algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Pterosiphonia sp.,Red algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Ballia callitricha,Red algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Bostrychia sp.,Red algae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Forams,Foraminifera,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Margarella violacea,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Laevilitorina caliginosa,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Onchidella marginata,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Mytilus platensis,Bivalvia,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Lasaea sp.,BIvalvia,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Ostracods,Ostracoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Notochthamalus scabrosus,Cirripedia,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Elminius kingii,Cirripedia,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Arachnida indet,Arachnida,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Nacella magellanica,Halirytus magellanicus,Insecta,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/,Gut content (seasonal sampling)
+Oncorhynchus tschawytscha,Munida gregaria,Benthic decapoda,Hüne et al. (2018),https://polarresearch.net/index.php/polar/article/view/2632/6024,Gut content (seasonal sampling)
+Ophiactis asperula,Phytodetritus,Phytodetritus,Rivera (pers. Comm),,Stomach content
+Ophiuroglypha lymani,Phytodetritus,Phytodetritus,Dahm (1999),https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/972,Stomach content
+Ophiuroglypha lymani,Crustaceans,Crustacea,Dahm (1999),https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/973,Stomach content
+Ophiuroglypha lymani,Fecal pellets,Fecal pellets,Dahm (1999),https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/974,Stomach content
+Ophiuroglypha lymani,Detritus,Detritus,Dahm (1999),https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/975,Stomach content
+Ophiuroglypha lymani,Sediment,Sediment,Dahm (1999),https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/976,Stomach content
+Ophiuroglypha lymani,Macroalgae,Macroalgae,Dahm (1999),https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/977,Stomach content
+Ophiuroglypha lymani,Bivalves,BIvalvia,Dahm (1999),https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/978,Stomach content
+Ophiuroglypha lymani,Bryozoans,Bryozoa,Dahm (1999),https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/979,Stomach content
+Otaria byronia,Munida gregaria,Benthic decapoda,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12379,Stomach content
+Otaria byronia,Oncorhynchus mykiss,Pisces,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12380,"SIA (skin, muscle)"
+Otaria byronia,Oncorhynchus kisutch,Pisces,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12381,"SIA (skin, muscle)"
+Otaria byronia,Salmo salar,Pisces,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12382,"SIA (skin, muscle)"
+Otaria byronia,Eleginops maclovinus,Pisces,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12383,"SIA (skin, muscle)"
+Otaria byronia,Mustelus mento,Pisces,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12384,"SIA (skin, muscle)"
+Otaria byronia,Thyrsites atun,Pisces,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12385,"SIA (skin, muscle)"
+Otaria byronia,Paralabrax humeralis,Pisces,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12386,"SIA (skin, muscle)"
+Otaria byronia,Odontesthes regia,Pisces,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12387,"SIA (skin, muscle)"
+Otaria byronia,Sprattus fuegensis,Pisces,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12388,"SIA (skin, muscle)"
+Otaria byronia,Trachurus murphyi,Pisces,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12389,"SIA (skin, muscle)"
+Otaria byronia,Merluccius australis,Pisces,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12390,"SIA (skin, muscle)"
+Otaria byronia,Cilus gilberti,Pisces,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12391,"SIA (skin, muscle)"
+Otaria byronia,Genypterus spp.,Pisces,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12392,"SIA (skin, muscle)"
+Otaria byronia,Callorhinchus callorhynchus,Pisces,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12393,"SIA (skin, muscle)"
+Otaria byronia,Pinguipes chilensis,Pisces,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12394,"SIA (skin, muscle)"
+Pagurus sp.,Detritus,Detritus,C. Andrade (pers. comm.),,"SIA (skin, muscle)"
+Paraeuthria fuscata,Detritus,Detritus,Andrade C (2009),,In situ observation
+Patagonotothen cornucola,Munida gregaria,Benthic decapoda,Hüne et al. (2018),https://polarresearch.net/index.php/polar/article/view/2632/6022,In situ observation
+Patagonotothen cornucola,Unidentified fish,Pisces,Hüne et al. (2018),https://polarresearch.net/index.php/polar/article/view/2632/6023,Stomach content
+Patagonotothen tessellata,Platynereis australis,Polychaeta,Hüne & Vega (2015),https://link.springer.com/article/10.1007/s00300-015-1726-8,Stomach content
+Patagonotothen tessellata,Gammaridae,Amphipoda,Hüne & Vega (2015),https://link.springer.com/article/10.1007/s00300-015-1726-9,Stomach content
+Patagonotothen tessellata,Ostracods,Ostracoda,Hüne & Vega (2015),https://link.springer.com/article/10.1007/s00300-015-1726-10,Stomach content
+Patagonotothen tessellata,Rhizoclonium sp,Microalgae,Hüne & Vega (2015),https://link.springer.com/article/10.1007/s00300-015-1726-11,Stomach content
+Patagonotothen tessellata,Polysiphonia sp.,Red algae,Hüne & Vega (2015),https://link.springer.com/article/10.1007/s00300-015-1726-12,Stomach content
+Patagonotothen tessellata,Chironomidae,Insecta,Hüne & Vega (2015),https://link.springer.com/article/10.1007/s00300-015-1726-13,Stomach content
+Patagonotothen tessellata,Austroregia sp.,Amphipoda,Hüne et al. (2018),https://polarresearch.net/index.php/polar/article/view/2632/6020,Stomach content
+Patagonotothen tessellata,Munida gregaria,Benthic decapoda,Hüne et al. (2018),https://polarresearch.net/index.php/polar/article/view/2632/6021,Stomach content
+Patagonotothen tessellata (larvae),Bivalvia larva,Bivalvia,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8,Stomach content
+Patagonotothen tessellata (larvae),Pluteus larva,Echinodermata,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8,Gut content
+Patagonotothen tessellata (larvae),Copepod egg,Copepoda,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8,Gut content
+Patagonotothen tessellata (larvae),Copepod nauplius,Copepoda,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8,Gut content
+Patagonotothen tessellata (larvae),Calanoid copepodite,Copepoda,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8,Gut content
+Patagonotothen tessellata (larvae),Aetideus arcuatus,Copepoda,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8,Gut content
+Patagonotothen tessellata (larvae),Calanoides patagoniensis,Copepoda,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8,Gut content
+Patagonotothen tessellata (larvae),Calanus simillimus,Copepoda,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8,Gut content
+Patagonotothen tessellata (larvae),Paracalanus indicus,Copepoda,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8,Gut content
+Patagonotothen tessellata (larvae),Chitinous remains,-,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8,Gut content
+Plaxiphora aurata,Phytodetritus,Phytodetritus,C. Andrade (pers. comm.),,Gut content
+Plaxiphora aurata,Diatoms,Benthic diatom,C. Andrade (pers. comm.),,
+Pseudorca crassidens,Squid,Cephalopoda,Haro et al. (2015),https://www.scielo.cl/scielo.php?pid=S0718-19572015000100013&script=sci_arttext&tlng=pt,
+Pseudorca crassidens,Martialia hyadesii,Cephalopoda,Alonso & Pedraza (1999),https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1748-7692.1999.tb00838.x,Stomach content
+Pseudorca crassidens,Illex argentinus,Cephalopoda,Alonso & Pedraza (1999),https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1748-7692.1999.tb00838.x,Stomach content
+Pseudorca crassidens,Macruronus magellanicus,Pisces,Alonso & Pedraza (1999),https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1748-7692.1999.tb00838.x,Stomach content
+Salilota australis,Munida gregaria,Benthic decapoda,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376,Stomach content
+Salilota australis,Austrolycus depressiceps,Pisces,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376,Stomach content
+Salilota australis,Patagonotothen cornucola,Pisces,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376,Stomach content
+Spheniscus magellanicus,Sprattus fuegensis,Pisces,Almonacid (2018),http://www.aveschile.cl/wp-content/uploads/2019/01/2_Almonacid_Vol.24-1-2018-RChO_dieta-pinguinos.pdf,Stomach content
+Spheniscus magellanicus,Patagonotothen wiltoni,Pisces,Almonacid (2018),http://www.aveschile.cl/wp-content/uploads/2019/01/2_Almonacid_Vol.24-1-2018-RChO_dieta-pinguinos.pdf,Stomach content
+Spheniscus magellanicus,Doryteuthis  gahi,Cephalopoda,Almonacid (2018),http://www.aveschile.cl/wp-content/uploads/2019/01/2_Almonacid_Vol.24-1-2018-RChO_dieta-pinguinos.pdf,Stomach content
+Sprattus fuegensis  ,Amphipoda,Amphipoda,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376,Stomach content
+Sprattus fuegensis  ,Hyperiidea,Amphipoda,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376,Stomach content
+Sprattus fuegensis  ,Mysida,Mysida,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376,Stomach content
+Sprattus fuegensis  ,Calanoida,Copepoda,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376,Stomach content
+Sprattus fuegensis  ,Harpacticoida,Copepoda,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376,Stomach content
+Sprattus fuegensis  ,Megacalanus sp.,Copepoda,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376,Stomach content
+Sprattus fuegensis  ,Copepoda,Copepoda,Montecinos (2015),http://repositorio.udec.cl/jspui/bitstream/11594/1828/1/Tesis_Composicion_dietaria_de_Sprattus.Marked.pdf,Stomach content
+Sprattus fuegensis  ,Isopoda,Isopoda,Montecinos (2015),http://repositorio.udec.cl/jspui/bitstream/11594/1828/1/Tesis_Composicion_dietaria_de_Sprattus.Marked.pdf,Stomach content
+Sprattus fuegensis  ,Pseudonitzschia sp.,Plankton diatom,Montecinos (2015),http://repositorio.udec.cl/jspui/bitstream/11594/1828/1/Tesis_Composicion_dietaria_de_Sprattus.Marked.pdf,Stomach content
+Sprattus fuegensis  ,Rhizosolenia sp.,Plankton diatom,Montecinos (2015),http://repositorio.udec.cl/jspui/bitstream/11594/1828/1/Tesis_Composicion_dietaria_de_Sprattus.Marked.pdf,Stomach content
+Sprattus fuegensis  ,Chaetoceros sp.,Plankton diatom,Montecinos (2015),http://repositorio.udec.cl/jspui/bitstream/11594/1828/1/Tesis_Composicion_dietaria_de_Sprattus.Marked.pdf,Stomach content
+Sprattus fuegensis  ,Centric diatoms,Diatoms,Montecinos (2015),http://repositorio.udec.cl/jspui/bitstream/11594/1828/1/Tesis_Composicion_dietaria_de_Sprattus.Marked.pdf,Stomach content
+Sprattus fuegensis  ,Pennate diatoms,Diatoms,Montecinos (2015),http://repositorio.udec.cl/jspui/bitstream/11594/1828/1/Tesis_Composicion_dietaria_de_Sprattus.Marked.pdf,Stomach content
+Sprattus fuegensis  ,Asterionellopsis sp.,Plankton diatom,Montecinos (2015),http://repositorio.udec.cl/jspui/bitstream/11594/1828/1/Tesis_Composicion_dietaria_de_Sprattus.Marked.pdf,Stomach content
+Sprattus fuegensis  ,Thalassiosira sp.,Plankton diatom,Montecinos (2015),http://repositorio.udec.cl/jspui/bitstream/11594/1828/1/Tesis_Composicion_dietaria_de_Sprattus.Marked.pdf,Stomach content
+Stercorarius chilensis,Ramnogaster arcuata,Pisces,Sepúlveda (2016),https://repositorio.unab.cl/xmlui/handle/ria/9936,Stomach content
+Stercorarius chilensis,Sprattus fuegensis,Pisces,Sepúlveda (2016),https://repositorio.unab.cl/xmlui/handle/ria/9936,Regurgited
+Tegula atra,Macrocystis pyrifera,Brown algae,Pinochet et al. (2018),https://www.scielo.cl/scielo.php?pid=S0718-686X2018000300051&script=sci_arttext&tlng=pt,Regurgited
+Tegula atra,Mazzaella laminarioides,Red algae,Pinochet et al. (2018),https://www.scielo.cl/scielo.php?pid=S0718-686X2018000300051&script=sci_arttext&tlng=pt,In situ observation under laboratory conditions
+Tegula atra,Ulva sp.,Green algae,Pinochet et al. (2018),https://www.scielo.cl/scielo.php?pid=S0718-686X2018000300051&script=sci_arttext&tlng=pt,In situ observation under laboratory conditions
+Trophon geversianus,Mytilus chilensis,Bivalvia,Andrade C & Ríos C (2007),http://analesdelinstitutodelapatagonia.cl/index.php/analespatagonia/article/view/387,In situ observation under laboratory conditions
+Trophon geversianus,Aulacomya atra,Bivalvia,Andrade C & Ríos C (2007),http://analesdelinstitutodelapatagonia.cl/index.php/analespatagonia/article/view/388,In situ observation
+Trophon geversianus,Hiatella arctica,Bivalvia,Andrade C & Ríos C (2007),http://analesdelinstitutodelapatagonia.cl/index.php/analespatagonia/article/view/389,In situ observation
+Trophon geversianus,Perumytilus purpuratus,Bivalvia,Andrade C & Ríos C (2007),http://analesdelinstitutodelapatagonia.cl/index.php/analespatagonia/article/view/390,In situ observation
+Cosmasterias lurida,Mytilus chilensis,Bivalvia,Andrade (pers. comm.),,In situ observation
+Anasterias antarctica,Mytilus chilensis,Bivalvia,Andrade (pers. comm.),,In situ observation
+Cosmasterias lurida,Austrochlamys natans,Bivalvia,Andrade (pers. comm.),,In situ observation
+Plaxiphora aurata,Diatoms,Diatoms,Andrade (pers. comm.),,In situ observation
+Plaxiphora aurata,Phytodetritus,Phytodetritus,Andrade (pers. comm.),,Observed in stomach content
+Arbacia dufresnii,Macrocystis pyrifera,Brown algae,Newcombe et al. (2012),https://www.int-res.com/abstracts/ab/v15/n2/p135-144,
+Paralomis granulosa,Macrocystis pyrifera,Brown algae,Andrade (pers. comm.),,In situ observation
+Paralomis granulosa,Rhodophyta indet,Red algae,Andrade (pers. comm.),,Stomach content (unpublished data)
+Paralomis granulosa,Hydrozoans,Hydrozoa,Andrade (pers. comm.),,Stomach content (unpublished data)
+Paralomis granulosa,Bryozoans,Bryozoa,Andrade (pers. comm.),,Stomach content (unpublished data)
+Paralomis granulosa,Sponges,Porifera,Andrade (pers. comm.),,Stomach content (unpublished data)
+Paralomis granulosa,Forams,Foraminifera,Andrade (pers. comm.),,Stomach content (unpublished data)
+Paralomis granulosa,Polychaetes,Polychaeta,Andrade (pers. comm.),,Stomach content (unpublished data)
+Paralomis granulosa,Pseudechinus magellanicus,Echinodermata,Andrade (pers. comm.),,Stomach content (unpublished data)
+Paralomis granulosa,Enteroctopus megalocyathus,Cephalopoda,Andrade (pers. comm.),,Stomach content (unpublished data)
+Paralomis granulosa,Mytilus chilensis,Bivalvia,Andrade (pers. comm.),,Stomach content (unpublished data)
+Paralomis granulosa,Amphipoda,Amphipoda,Andrade (pers. comm.),,Stomach content (unpublished data)
+Paralomis granulosa,Debris allocthonus,Debris allocthonus,Andrade (pers. comm.),,Stomach content (unpublished data)
+Spheniscus magellanicus,Ramnogaster arcuata,Pisces,Venegas & Sielfeld (1981),"VENEGAS, C. & W. SIELFELD. 1981. Utilización de aves como indicadoras de presencia y potencialidad de recursos marinos eventualmente manejables. Resumen. P. 83, in Jornadas de Ciencias del Mar. Valdivia, Chile.",Stomach content (unpublished data)
+Spheniscus magellanicus,Munida gregaria,Benthic decapoda,Venegas & Sielfeld (1981),"VENEGAS, C. & W. SIELFELD. 1981. Utilización de aves como indicadoras de presencia y potencialidad de recursos marinos eventualmente manejables. Resumen. P. 83, in Jornadas de Ciencias del Mar. Valdivia, Chile.",Stomach content
+Spheniscus magellanicus,Cephalopoda indet,Cephalopoda,Boswall & MacIver (1975),"Boswall, J. and D. MacIver 1975 The Magellanic Penguin Spheniscus magellanicus. In Stonehouse, B. (ed.), The Biology of Penguins. University Park Press, Baltimore, USA 271-305.",Stomach content
+Chloephaga hybrida,Macroalgae,Macroalgae,Venegas (1985),"Venegas, C. 1985-1986. Prospección aérea de gansos (Chloephaga) en la estepa central de Magallanes. Anales del Instituto de la Patagonia 16: 67˗73.",Stomach content
+Eleginops maclovinus,Acanthocyclus albatrossis ,Benthic decapoda,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379,In situ observation
+Eleginops maclovinus,Polychaetes,Polychaeta,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379,Stomach content
+Eleginops maclovinus,Halicarcinus planatus,Benthic decapoda,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379,Stomach content
+Eleginops maclovinus,Cephalopods,Cephalopoda,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379,Stomach content
+Eleginops maclovinus,Ostracods,Ostracoda,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379,Stomach content
+Eleginops maclovinus,Amphipoda,Amphipoda,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379,Stomach content
+Eleginops maclovinus,Enteromorpha sp.,Green algae,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379,Stomach content
+Eleginops maclovinus,Ectocarpus sp.,Green algae,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379,Stomach content
+Eleginops maclovinus,Ulva sp.,Green algae,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379,Stomach content
+Eleginops maclovinus,Rhizoclonium sp.,Green algae,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379,Stomach content
+Eleginops maclovinus,Cladophora sp.,Green algae,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379,Stomach content
+Eleginops maclovinus,Ceramium sp.,Red algae,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379,Stomach content
+Eleginops maclovinus,Oscillatoria sp.,Cyanobacteria,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379,Stomach content
+Eleginops maclovinus,Copepods,Copepoda,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379,Stomach content
+Eleginops maclovinus,Ostracods,Ostracoda,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379,Stomach content
+Eleginops maclovinus,Isopoda,Isopoda,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379,Stomach content
+Eleginops maclovinus,Decapoda,Decapoda,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379,Stomach content
+Eleginops maclovinus,Acari,Arachnida,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379,Stomach content
+Eleginops maclovinus,Appendicularians,Tunicata,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379,Stomach content
+Eleginops maclovinus,Forams,Foraminifera,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379,Stomach content
+Eleginops maclovinus,Brachiopods,Brachiopoda,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379,Stomach content
+Eleginops maclovinus,Fishes,Pisces,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379,Stomach content
+Eleginops maclovinus,Sediments,Sediment,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379,Stomach content
+Orcinus orca,Otaria byronia,Sea lion,Capella et al. (1999),http://bibliotecadigital.umag.cl/handle/20.500.11893/1443,Stomach content
+Orcinus orca,Arctocephalus australis,Sea lion,Capella et al. (1999),http://bibliotecadigital.umag.cl/handle/20.500.11893/1444,In situ observation
+Orcinus orca,Tachyeres pteneres,Magellanic flightless steamer duck,Capella et al. (1999),http://bibliotecadigital.umag.cl/handle/20.500.11893/1445,In situ observation
+Orcinus orca,Fishes,Pisces,Capella et al. (1999),http://bibliotecadigital.umag.cl/handle/20.500.11893/1446,In situ observation
+Eurypodius latreillei,Plankton eggs,Plankton eggs,Campodónico & Guzmán (1972),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/193?locale-attribute=en,In situ observation
+Eurypodius latreillei,Plankton larvae,Plankton larvae,Campodónico & Guzmán (1972),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/193?locale-attribute=en,In situ observation (laboratory)
+Acanthina monodon,Perumytilus purpuratus,Bivalvia,Andrade (pers. comm.),,In situ observation (laboratory)
+Acanthina monodon,Mytilus chilensis,Bivalvia,Ríos & Gerdes (1997),https://epic.awi.de/id/eprint/5233/,Field observation
+Anasterias antarctica,Trophon geversianus,Gastropoda,Ríos & Gerdes (1997),https://epic.awi.de/id/eprint/5233/,In situ observation
+Siphonaria lessonii,Macroalgae,Brown algae,Ríos & Gerdes (1997),https://epic.awi.de/id/eprint/5233/,In situ observation
+Siphonaria lessonii,Phytodetritus,Phytodetritus,Andrade (pers. comm.),,In situ observation
+Siphonaria lessonii,Macrocystis pyrifera,Brown algae,Andrade (pers. comm.),,Stomach content
+Fissurella oriens,Macrocystis pyrifera,Brown algae,Andrade (pers. comm.),,
+Fissurella oriens,Macroalgae,Macroalgae,Mutschke et al. (1998),https://www.researchgate.net/publication/234585529_Situacion_actual_de_la_macrofauna_presente_en_el_intermareal_de_bloques_y_cantos_de_Bahia_Laredo_Estrecho_de_Magallanes,
+Fissurella radiosa,Macrocystis pyrifera,Brown algae,Andrade (pers. comm.),,In situ observation
+Fissurella radiosa,Macroalgae,Macroalgae,Mutschke et al. (1998),https://www.researchgate.net/publication/234585529_Situacion_actual_de_la_macrofauna_presente_en_el_intermareal_de_bloques_y_cantos_de_Bahia_Laredo_Estrecho_de_Magallanes,
+Nacella mytilina,Microalgae,Microalgae,Mutschke et al. (1998),https://www.researchgate.net/publication/234585529_Situacion_actual_de_la_macrofauna_presente_en_el_intermareal_de_bloques_y_cantos_de_Bahia_Laredo_Estrecho_de_Magallanes,In situ observation
+Nacella mytilina,Macrocystis pyrifera,Brown algae,Andrade (pers. comm.),,In situ observation
+Mytilus chilensis,Phytoplankton,Plankton,Mutschke et al. (1998),https://www.researchgate.net/publication/234585529_Situacion_actual_de_la_macrofauna_presente_en_el_intermareal_de_bloques_y_cantos_de_Bahia_Laredo_Estrecho_de_Magallanes,
+Mytilus chilensis,Zooplankton,Plankton,Mutschke et al. (1998),https://www.researchgate.net/publication/234585529_Situacion_actual_de_la_macrofauna_presente_en_el_intermareal_de_bloques_y_cantos_de_Bahia_Laredo_Estrecho_de_Magallanes,In situ observation
+Nacella mytilina,Phytodetritus,Phytodetritus,Andrade (pers. comm.),,In situ observation
+Harpagifer bispinis,Gammaridae,Amphipoda,Hüne & Vega (2016),,Stomach content
+Harpagifer bispinis,Isopoda,Isopoda,Andrade (pers. comm.),,Stomach content
+Harpagifer bispinis,Tanaidae,Malacostraca,Hüne & Vega (2016),,Stomach content
+Harpagifer bispinis,Polychaetes,Polychaeta,Hüne & Rivera (2010),,
+Anasterias antarctica,Aulacomya atra,Bivalvia,Andrade (pers. comm.),,
+Maurolicus australis (larvae),Copepod egg,Copepoda,Landaeta et al. (2011),,
+Maurolicus australis (larvae),Bivalvia larva,Bivalvia,Landaeta et al. (2011),,
+Maurolicus australis (larvae),Copepod nauplius,Copepoda,Landaeta et al. (2011),,
+Maurolicus australis (larvae),Calanoid copepodite,Copepoda,Landaeta et al. (2011),,
+Lagenorhynchus australis,Salp,Tunicata,Schiavini et al. (1997),https://oceanrep.geomar.de/id/eprint/53025,
+Patagonotothen cornucola,Exospheroma gigas,Isopoda,Hüne & Vega (2016),,
+Harpagifer bispinis,Exospheroma gigas,Isopoda,Hüne & Vega (2016),,
+Patagonotothen tessellata,Patagonotothen spp.,Pisces,Hüne et al. (2023),,
+Lagenorhynchus australis,Eleginops maclovinus,Pisces,Schiavini et al. (1997),,
+Macruronus magellanicus ,Munida gregaria,Pisces,Acevedo (2013),https://aquadocs.org/handle/1834/6952,
+Lagenorhynchus australis,Illex argentinus,Cephalopoda,Schiavini et al. (1997),,
+Aptenoydes patagonicus,Doryteuthis gahi ,Cephalopoda,Pütz et al. (2021),https://www.sciencedirect.com/science/article/pii/S2351989421002195,
+Aptenoydes patagonicus,Patagonotothen tessellata,Pisces,Pütz et al. (2021),,
+Enteroctopus megalocyathus,Tawera elliptica,Bivalvia,Sepúlveda (pers. comm),,
+Enteroctopus megalocyathus,Peltarion spinulosum,Crustacea,Sepúlveda (pers. comm),,
+Lagenorhynchus australis,Patagonotothen tessellata,Pisces,Viddi & Lescrauwaet (2005),https://www.vliz.be/imisdocs/publications/ocrd/102931.pdf,
+Pseudorca crassidens,Genypterus blacodes,Pisces,Alonso & Pedraza (1999),,
+Paralomis granulosa,Gaimardia trapesina,Gastropoda,Cañete et al. (2021),https://www.scielo.br/j/nau/a/DwGRczmMrxWjByhxjy8GHhD/,
+Ostracoda,Phytoplankton,Ostracoda,,,
+Ostracoda,Zooplankton,Ostracoda,,,
+Aulacomya atra,Zooplankton,Bivalvia,,,
+Aulacomya atra,Phytoplankton,Bivalvia,,,
+Cosmasterias lurida,Trophon geversianus,Gastropoda,,,
+Perumytilus purpuratus,Zooplankton,Bivalvia,,,
+Perumytilus purpuratus,Phytoplankton,Bivalvia,,,
+Salilota australis,Merluccius hubbsi,Pisces,,,
+Salilota australis,Munida gregaria,Benthic decapoda,,,
+Salilota australis,Patagonotothen spp.,Pisces,,,
+Gaimardia sp.,Phytoplankton,Plankton,,,
