@@ -1,0 +1,259 @@
+ID,TrophicSpecies,TotalDegree,NumPrey,NumPred,Between,TL,Omn
+1,Harpagifer bispinis,8,5,3,19.5,2,0
+2,Sprattus fuegensis,24,15,9,173,2,0
+3,Myctophidae,1,0,1,0,1,0
+4,Fragilaria sp.,3,0,3,0,1,0
+5,Bivalvia larva,3,0,3,0,1,0
+6,Copepod egg,3,0,3,0,1,0
+7,Copepod nauplius,3,0,3,0,1,0
+8,Calanoid copepodite,3,0,3,0,1,0
+9,Ostracods,6,0,6,0,1,0
+10,Salp,2,0,2,0,1,0
+11,Appendicularia fecal pellet,1,0,1,0,1,0
+12,Exosphaeroma gigas,3,0,3,0,1,0
+13,Darina solenoides,5,2,3,9.33333333333333,2,0
+14,Patagonotothen spp.,3,0,3,0,1,0
+15,Zoarcids,1,0,1,0,1,0
+16,Eleginops maclovinus,28,25,3,91.7,2.04,0.038
+17,Odontesthes spp.,3,1,2,8,3,0
+18,Macruronus magellanicus,4,1,3,14.5,3,0
+19,Illex argentinus,3,0,3,0,1,0
+20,Doryteuthis gahi,1,0,1,0,1,0
+21,Enteroctopus megalocyathus,5,2,3,6,2,0
+22,Munida gregaria,16,5,11,73.35,2,0
+23,Halicarcinus planatus,4,1,3,2.2,2,0
+24,Campylonotus vagans,2,0,2,0,1,0
+25,Patagonotothen tessellata,12,9,3,32.45,2.111,0.099
+26,Patagonotothen cornucola,5,3,2,9,2.333,0.222
+27,Patagonotothen sima,1,0,1,0,1,0
+28,Macrocystis pyrifera,13,0,13,0,1,0
+29,Gammaridae,3,0,3,0,1,0
+30,Tanaidae,2,0,2,0,1,0
+31,Ulva sp.,7,0,7,0,1,0
+32,Amphipoda,5,0,5,0,1,0
+33,Merluccius sp.,1,0,1,0,1,0
+34,Patagonotothen sp.,2,0,2,0,1,0
+35,Lithodes santolla,19,16,3,64.95,2,0
+36,Detritus,7,0,7,0,1,0
+37,Genypterus blacodes,9,7,2,61.9,2.714,0.49
+38,Myxine australis,1,0,1,0,1,0
+39,Salilota australis,6,5,1,6.95,2.467,0.338
+40,Gaimardia trapesina,3,1,2,0.833333333333333,2,0
+41,Mytilus chilensis,8,2,6,6.5,2,0
+42,Hydrozoans,3,0,3,0,1,0
+43,Bryozoans,4,0,4,0,1,0
+44,Sponges,4,0,4,0,1,0
+45,Forams,8,0,8,0,1,0
+46,Polychaetes,4,0,4,0,1,0
+47,Echinoderms,2,0,2,0,1,0
+48,Crustaceans,2,0,2,0,1,0
+49,Bivalves,3,0,3,0,1,0
+50,Gastropods,1,0,1,0,1,0
+51,Cephalopods,2,0,2,0,1,0
+52,Fish,1,0,1,0,1,0
+53,Sediment,3,0,3,0,1,0
+54,Debris allocthonous,2,0,2,0,1,0
+55,Nacella spp.,1,0,1,0,1,0
+56,Polyplacophora,1,0,1,0,1,0
+57,Prolatilus jugularis,1,0,1,0,1,0
+58,Cottoperca gobio,1,0,1,0,1,0
+59,Acanthocyclus albatrossis,1,0,1,0,1,0
+60,Taliepus dentatus,1,0,1,0,1,0
+61,Cancer edwardsii,1,0,1,0,1,0
+62,Rhodymenia falklandica,1,0,1,0,1,0
+63,Lessonia flavicans,1,0,1,0,1,0
+64,Sarcopeltis skottsbergii,2,0,2,0,1,0
+65,Callophyllis variegata,1,0,1,0,1,0
+66,Euphausia lucens,1,0,1,0,1,0
+67,Euphausia vallentini,1,0,1,0,1,0
+68,Themisto gaudichaudii ,1,0,1,0,1,0
+69,Serolis sp.,1,0,1,0,1,0
+70,Phytodetritus,6,0,6,0,1,0
+71,Bivalvia,2,0,2,0,1,0
+72,Elphidium macellum,1,0,1,0,1,0
+73,Brown algae,1,0,1,0,1,0
+74,Green algae,2,0,2,0,1,0
+75,Miscellaneus,2,0,2,0,1,0
+76,Red algae,2,0,2,0,1,0
+77,Chroococcus sp.,2,0,2,0,1,0
+78,Oscillatoria sp.,3,0,3,0,1,0
+79,Melosira sp.,2,0,2,0,1,0
+80,Coscinodiscus sp.,2,0,2,0,1,0
+81,Stephanopyxis sp.,1,0,1,0,1,0
+82,Biddulphia sp.,2,0,2,0,1,0
+83,Pinnularia sp.,2,0,2,0,1,0
+84,Navicula sp.,2,0,2,0,1,0
+85,Gyrosigma sp.,2,0,2,0,1,0
+86,Diploneis sp.,2,0,2,0,1,0
+87,Plagiotropis sp.,2,0,2,0,1,0
+88,Cocconeis sp.,2,0,2,0,1,0
+89,Surirella sp.,2,0,2,0,1,0
+90,Gomphonema sp.,2,0,2,0,1,0
+91,Cymbella sp.,2,0,2,0,1,0
+92,Licmophora sp,2,0,2,0,1,0
+93,Amphora sp.,2,0,2,0,1,0
+94,Cylindrotheca sp.,2,0,2,0,1,0
+95,Nitzschia sp.,2,0,2,0,1,0
+96,Achnanthes sp.,2,0,2,0,1,0
+97,Rhabdonema sp.,2,0,2,0,1,0
+98,Grammatophora sp.,2,0,2,0,1,0
+99,Dinophysis sp.,2,0,2,0,1,0
+100,Protoperidinium sp.,1,0,1,0,1,0
+101,Prorocentrum sp.,2,0,2,0,1,0
+102,Spongomorpha pacifica,2,0,2,0,1,0
+103,Ulothrix sp.,2,0,2,0,1,0
+104,Ulva clathrata,1,0,1,0,1,0
+105,Ulva lactuca,2,0,2,0,1,0
+106,Ulva prolifera,2,0,2,0,1,0
+107,Rhizoclonium sp.,3,0,3,0,1,0
+108,Ectocarpus siliculosus,2,0,2,0,1,0
+109,Caepidium antarcticum,2,0,2,0,1,0
+110,Adenocystis utricularis,2,0,2,0,1,0
+111,Scytosiphon lomentaria,2,0,2,0,1,0
+112,Halopteris funnicularis,2,0,2,0,1,0
+113,Acrochaetium sp.,2,0,2,0,1,0
+114,Nothogenia fastigiata,2,0,2,0,1,0
+115,Iridaea chordata,2,0,2,0,1,0
+116,Sarcothalia crispata,2,0,2,0,1,0
+117,Grateloupia sp.,1,0,1,0,1,0
+118,Ceramium sp.,3,0,3,0,1,0
+119,Polysiphonia sp.,3,0,3,0,1,0
+120,Pterosiphonia sp.,2,0,2,0,1,0
+121,Ballia callitricha,2,0,2,0,1,0
+122,Bostrychia sp.,2,0,2,0,1,0
+123,Plocamium sp.,1,0,1,0,1,0
+124,Margarella violacea,3,1,2,1,2,0
+125,Laevilitorina caliginosa,2,0,2,0,1,0
+126,Eatoniella sp.,1,0,1,0,1,0
+127,Mytilus platensis,2,0,2,0,1,0
+128,Lasaea sp.,2,0,2,0,1,0
+129,Amphipoda indet,1,0,1,0,1,0
+130,Elminius kingii,2,0,2,0,1,0
+131,Arachnida indet,2,0,2,0,1,0
+132,Halirytus magellanicus,2,0,2,0,1,0
+133,Mazzaella laminaroides,1,0,1,0,1,0
+134,Grateloupia sp,1,0,1,0,1,0
+135,Heterosiphonia sp.,2,0,2,0,1,0
+136,Onchidella marginata,1,0,1,0,1,0
+137,Notochthamalus scabrosus,1,0,1,0,1,0
+138,Fecal pellets,1,0,1,0,1,0
+139,Macroalgae,5,0,5,0,1,0
+140,Oncorhynchus mykiss,1,0,1,0,1,0
+141,Oncorhynchus kisutch,1,0,1,0,1,0
+142,Salmo salar,1,0,1,0,1,0
+143,Mustelus mento,1,0,1,0,1,0
+144,Thyrsites atun,1,0,1,0,1,0
+145,Paralabrax humeralis,1,0,1,0,1,0
+146,Odontesthes regia,1,0,1,0,1,0
+147,Trachurus murphyi,1,0,1,0,1,0
+148,Merluccius australis,2,1,1,0,3,0
+149,Cilus gilberti,1,0,1,0,1,0
+150,Genypterus spp.,1,0,1,0,1,0
+151,Callorhinchus callorhynchus,1,0,1,0,1,0
+152,Pinguipes chilensis,1,0,1,0,1,0
+153,Unidentified fish,1,0,1,0,1,0
+154,Platynereis australis,2,0,2,0,1,0
+155,Rhizoclonium sp,1,0,1,0,1,0
+156,Chironomidae,1,0,1,0,1,0
+157,Austroregia sp.,1,0,1,0,1,0
+158,Pluteus larva,1,0,1,0,1,0
+159,Aetideus arcuatus,1,0,1,0,1,0
+160,Calanoides patagoniensis,1,0,1,0,1,0
+161,Calanus simillimus,1,0,1,0,1,0
+162,Paracalanus indicus,1,0,1,0,1,0
+163,Chitinous remains,1,0,1,0,1,0
+164,Diatoms,1,0,1,0,1,0
+165,Squid,1,0,1,0,1,0
+166,Martialia hyadesii,1,0,1,0,1,0
+167,Austrolycus depressiceps,1,0,1,0,1,0
+168,Patagonotothen wiltoni,1,0,1,0,1,0
+169,Doryteuthis  gahi,1,0,1,0,1,0
+170,Hyperiidea,1,0,1,0,1,0
+171,Mysida,1,0,1,0,1,0
+172,Calanoida,1,0,1,0,1,0
+173,Harpacticoida,1,0,1,0,1,0
+174,Megacalanus sp.,1,0,1,0,1,0
+175,Copepoda,1,0,1,0,1,0
+176,Isopoda,4,0,4,0,1,0
+177,Pseudonitzschia sp.,1,0,1,0,1,0
+178,Rhizosolenia sp.,1,0,1,0,1,0
+179,Chaetoceros sp.,1,0,1,0,1,0
+180,Centric diatoms,1,0,1,0,1,0
+181,Pennate diatoms,1,0,1,0,1,0
+182,Asterionellopsis sp.,1,0,1,0,1,0
+183,Thalassiosira sp.,1,0,1,0,1,0
+184,Ramnogaster arcuata,2,0,2,0,1,0
+185,Mazzaella laminarioides,1,0,1,0,1,0
+186,Aulacomya atra,5,2,3,2.66666666666667,2,0
+187,Hiatella arctica,1,0,1,0,1,0
+188,Perumytilus purpuratus,4,2,2,1.66666666666667,2,0
+189,Austrochlamys natans,1,0,1,0,1,0
+190,Rhodophyta indet,1,0,1,0,1,0
+191,Pseudechinus magellanicus,2,0,2,0,1,0
+192,Cephalopoda indet,1,0,1,0,1,0
+193,Acanthocyclus albatrossis ,1,0,1,0,1,0
+194,Enteromorpha sp.,1,0,1,0,1,0
+195,Ectocarpus sp.,1,0,1,0,1,0
+196,Cladophora sp.,1,0,1,0,1,0
+197,Copepods,1,0,1,0,1,0
+198,Decapoda,1,0,1,0,1,0
+199,Acari,1,0,1,0,1,0
+200,Appendicularians,1,0,1,0,1,0
+201,Brachiopods,1,0,1,0,1,0
+202,Fishes,2,0,2,0,1,0
+203,Sediments,1,0,1,0,1,0
+204,Otaria byronia,17,16,1,57,2.315,0.343
+205,Arctocephalus australis,1,0,1,0,1,0
+206,Tachyeres pteneres,1,0,1,0,1,0
+207,Pagurus sp.,2,1,1,0.5,2,0
+208,Trophon geversianus,6,4,2,4,2.75,0.188
+209,Microalgae,1,0,1,0,1,0
+210,Phytoplankton,6,0,6,0,1,0
+211,Zooplankton,4,0,4,0,1,0
+212,Exospheroma gigas,2,0,2,0,1,0
+213,Doryteuthis gahi ,1,0,1,0,1,0
+214,Tawera elliptica,1,0,1,0,1,0
+215,Peltarion spinulosum,1,0,1,0,1,0
+216,Merluccius hubbsi,1,0,1,0,1,0
+217,Arbacia dufresnii,7,6,1,5.5,2,0
+218,Loxechinus albus,7,6,1,10.5,2.167,0.139
+219,Antholoba achates,1,1,0,0,3,0
+220,Aptenoydes patagonicus,4,4,0,0,2.528,0.28
+221,Bathylagichthys parini (larvae),8,8,0,0,2,0
+222,Bunodactis octoradiata,1,1,0,0,2,0
+223,Calidris canutus,1,1,0,0,3,0
+224,Cephalorhynchus commersonii commersonii,12,12,0,0,2.753,0.523
+225,Champsocephalus esox,3,3,0,0,2.815,0.34
+226,Crepipatella dilatata,1,1,0,0,2,0
+227,Labidiaster radiosus,1,1,0,0,2,0
+228,Lagenorhynchus australis,9,9,0,0,2.926,0.521
+229,Larus dominicanus,3,3,0,0,3,0
+230,Lithodes santolla (juvenile),13,13,0,0,2.077,0.071
+231,Lontra felina,10,10,0,0,2.3,0.21
+232,Megaptera novaeangliae,5,5,0,0,2.4,0.24
+233,Nacella deaurata,66,66,0,0,2.015,0.015
+234,Nacella magellanica,62,62,0,0,2.016,0.016
+235,Oncorhynchus tschawytscha,1,1,0,0,3,0
+236,Ophiactis asperula,1,1,0,0,2,0
+237,Ophiuroglypha lymani,8,8,0,0,2,0
+238,Paraeuthria fuscata,1,1,0,0,2,0
+239,Patagonotothen tessellata (larvae),10,10,0,0,2,0
+240,Plaxiphora aurata,2,2,0,0,2,0
+241,Pseudorca crassidens,5,5,0,0,2.743,0.836
+242,Spheniscus magellanicus,6,6,0,0,2.333,0.222
+243,Stercorarius chilensis,2,2,0,0,2.5,0.25
+244,Tegula atra,3,3,0,0,2,0
+245,Cosmasterias lurida,7,7,0,0,2.845,0.346
+246,Anasterias antarctica,3,3,0,0,3.25,0.125
+247,Paralomis granulosa,13,13,0,0,2.231,0.178
+248,Chloephaga hybrida,1,1,0,0,2,0
+249,Orcinus orca,4,4,0,0,2.329,0.324
+250,Eurypodius latreillei,5,5,0,0,2.4,0.24
+251,Acanthina monodon,2,2,0,0,3,0
+252,Siphonaria lessonii,3,3,0,0,2,0
+253,Fissurella oriens,2,2,0,0,2,0
+254,Fissurella radiosa,2,2,0,0,2,0
+255,Nacella mytilina,3,3,0,0,2,0
+256,Maurolicus australis (larvae),4,4,0,0,2,0
+257,Macruronus magellanicus ,1,1,0,0,3,0
+258,Ostracoda,2,2,0,0,2,0
