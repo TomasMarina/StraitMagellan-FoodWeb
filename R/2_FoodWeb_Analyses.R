@@ -7,9 +7,10 @@
 require(igraph)
 require(multiweb)
 require(tidyverse)
+require(NetIndices)
 
 # Load data ---------------------------------------------------------------
-load("Results/Data_tidy_7nov23.rda")
+load("Results/Data_tidy_24nov23.rda")
 
 # Network analyses ------------------------------------------------------
 ## igraph objects
@@ -64,4 +65,4 @@ spp_total <- bind_cols(spp_id, spp_name, spp_totdegree, spp_indegree,
                        spp_outdegree, spp_btw, spp_tl, spp_omn)
 colnames(spp_total) <- c("ID", "TrophicSpecies", "TotalDegree", 
                          "NumPrey", "NumPred", "Between", "TL", "Omn")
-write.csv(spp_total, file = "Results/Magellan_sp_prop_nov23.csv")
+write.csv(spp_total, file = "Results/Magellan_sp_prop_24nov23.csv")
