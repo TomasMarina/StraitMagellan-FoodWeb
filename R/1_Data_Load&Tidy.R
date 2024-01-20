@@ -1,5 +1,5 @@
 # Load & tidy data
-# Data: September 2023
+# Data: September 2023 - January 2024
 # Author: Tomas I. Marina
 
 
@@ -9,25 +9,23 @@ require(janitor)
 
 
 # Load data ---------------------------------------------------------------
-
 beagle_df <- read.csv(file = "Data/BeagleChannel_links.csv", header = TRUE)
-magellan_df <- read.csv(file = "Data/MagellanStrait_links_24nov23.csv", header = TRUE) %>% 
+magellan_raw <- read.csv(file = "Data/MagellanStrait_links_polish_20jan24.csv", header = TRUE) %>% 
   dplyr::select(resource, consumer)
 ## Check duplicated interactions
-beagle_dup <- read.csv(file = "Data/BeagleChannel_links.csv", header = TRUE) %>% 
+beagle_dup <- beagle_df %>% 
   janitor::get_dupes(resource, consumer)
-magellan_dup <- read.csv(file = "Data/MagellanStrait_links_24nov23.csv", header = TRUE) %>% 
+magellan_dup <- magellan_raw %>% 
   janitor::get_dupes(resource, consumer)
-magellan_ok <- magellan_df %>%
+magellan_df <- magellan_raw %>%
   distinct()
 
 
 # Sim & Diff --------------------------------------------------------------
-
 ## Interactions
-shared_links <- dplyr::inner_join(magellan_ok, beagle_df)
-beagle_ulinks <- dplyr::anti_join(beagle_df, magellan_ok)
-magellan_ulinks <- dplyr::anti_join(magellan_ok, beagle_df)
+shared_links <- dplyr::inner_join(magellan_df, beagle_df)
+beagle_ulinks <- dplyr::anti_join(beagle_df, magellan_df)
+magellan_ulinks <- dplyr::anti_join(magellan_df, beagle_df)
 
 ## Species
 ### Beagle
@@ -37,8 +35,8 @@ b_sp <- as.data.frame(c(b_res, b_con)) %>%
   distinct() %>% 
   rename(., Species = "c(b_res, b_con)")
 ### Magellan
-m_res <- unique(magellan_ok$resource)
-m_con <- unique(magellan_ok$consumer)
+m_res <- unique(magellan_df$resource)
+m_con <- unique(magellan_df$consumer)
 m_sp <- as.data.frame(c(m_res, m_con)) %>% 
   distinct() %>% 
   rename(., Species = "c(m_res, m_con)")
@@ -49,5 +47,5 @@ magellan_usp <- dplyr::anti_join(m_sp, b_sp)
 
 
 # Save data ---------------------------------------------------------------
-save(beagle_df, magellan_ok, b_sp, m_sp,
-     file = "Results/Data_tidy_24nov23.rda")
+save(beagle_df, magellan_df, b_sp, m_sp,
+     file = "Results/Data_tidy_20jan24.rda")
