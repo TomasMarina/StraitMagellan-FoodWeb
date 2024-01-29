@@ -13,7 +13,7 @@ require(NetworkExtinction)
 
 
 # Load data ---------------------------------------------------------------
-load("Results/Data_tidy_20jan24.rda")
+load("Results/Data_tidy_28jan24.rda")
 
 
 # Network analyses ------------------------------------------------------
@@ -32,9 +32,13 @@ m_prop <- bind_cols(calc_topological_indices(m_ig), calc_modularity(m_ig)) %>% m
 all_prop <- bind_rows(b_prop, m_prop) %>% rename(Network = Name)
 
 ### Degree distribution ----
+b_net <- network::as.network(as.matrix(b_ig))
+b_dd <- NetworkExtinction::DegreeDistribution(b_net)
+b_dd  # plot cumulative degree distribution, best model: Exponential
+
 m_net <- network::as.network(as.matrix(m_ig))
 m_dd <- NetworkExtinction::DegreeDistribution(m_net)
-m_dd  # plot cumulative degree distribution, best model: PowerLaw
+m_dd  # plot cumulative degree distribution, best model: Exponential
 
 ### Trophic coherence
 
@@ -67,8 +71,17 @@ spp_btw <- as.data.frame(V(m_ig)$Btw)
 #spp_cls <- as.data.frame(V(m_ig)$Close)
 spp_tl <- as.data.frame(V(m_ig)$TL)
 spp_omn <- as.data.frame(V(m_ig)$Omn)
-spp_total <- bind_cols(spp_id, spp_name, spp_totdegree, spp_indegree, 
+m_spp_total <- bind_cols(spp_id, spp_name, spp_totdegree, spp_indegree, 
                        spp_outdegree, spp_btw, spp_tl, spp_omn)
-colnames(spp_total) <- c("ID", "TrophicSpecies", "TotalDegree", 
+colnames(m_spp_total) <- c("ID", "TrophicSpecies", "TotalDegree", 
                          "NumPrey", "NumPred", "Between", "TL", "Omn")
-# write.csv(spp_total, file = "Results/Magellan_sp_prop_20jan24.csv")
+write.csv(m_spp_total, file = "Results/Magellan_sp_prop_28jan24.csv")
+
+
+# Plot food web -----------------------------------------------------------
+plt_fw <- plot_troph_level(m_ig, vertexLabel = F, modules = F, ylab = "Trophic level")
+
+
+# Save data ---------------------------------------------------------------
+save(m_ig, b_ig, m_dd, b_dd, all_prop, m_spp_total,
+     file = "Results/FoodWeb_28jan24.rda")
