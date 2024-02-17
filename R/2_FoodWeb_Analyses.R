@@ -13,7 +13,7 @@ require(NetworkExtinction)
 
 
 # Load data ---------------------------------------------------------------
-load("Results/Data_tidy_28jan24.rda")
+load("Results/Data_tidy_13feb24.rda")
 
 
 # Network analyses ------------------------------------------------------
@@ -75,7 +75,7 @@ m_spp_total <- bind_cols(spp_id, spp_name, spp_totdegree, spp_indegree,
                        spp_outdegree, spp_btw, spp_tl, spp_omn)
 colnames(m_spp_total) <- c("ID", "TrophicSpecies", "TotalDegree", 
                          "NumPrey", "NumPred", "Between", "TL", "Omn")
-write.csv(m_spp_total, file = "Results/Magellan_sp_prop_28jan24.csv")
+write.csv(m_spp_total, file = "Results/Magellan_sp_prop_13feb24.csv")
 
 
 # Plot food web -----------------------------------------------------------
@@ -84,4 +84,4 @@ plt_fw <- plot_troph_level(m_ig, vertexLabel = F, modules = F, ylab = "Trophic l
 
 # Save data ---------------------------------------------------------------
 save(m_ig, b_ig, m_dd, b_dd, all_prop, m_spp_total,
-     file = "Results/FoodWeb_28jan24.rda")
+     file = "Results/FoodWeb_13feb24.rda")

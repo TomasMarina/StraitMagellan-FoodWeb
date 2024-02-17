@@ -1,0 +1,141 @@
+"","ID","TrophicSpecies","TotalDegree","NumPrey","NumPred","Between","TL","Omn"
+"1",1,"Mytilus sp.",12,2,10,25.695670995671,2.5,0.25
+"2",2,"Perumytilus purpuratus",4,2,2,1.83333333333333,2.5,0.25
+"3",3,"Phytodetritus",9,0,9,0,1,0
+"4",4,"Bivalvia",15,1,14,10.7054112554113,2,0
+"5",5,"Gastropoda",8,1,7,1.85497835497835,2,0
+"6",6,"Harpagifer bispinis",8,5,3,40.4611111111111,3.158,0.039
+"7",7,"Zooplankton",17,1,16,5.28354978354978,2,0
+"8",8,"Doryteuthis gahi",11,2,9,20.0833333333333,4.167,0.111
+"9",9,"Myctophidae",5,1,4,8.58333333333333,3.333,0
+"10",10,"Patagonotothen tessellata",12,8,4,38.6214285714286,3.191,0.727
+"11",11,"Sprattus fuegensis",17,4,13,98.1393217893218,2.833,0.25
+"12",12,"Brown algae",22,0,22,0,1,0
+"13",13,"Foraminifera",13,3,10,23.5159090909091,2.444,0.395
+"14",14,"Green algae",10,0,10,0,1,0
+"15",15,"Ostracoda",13,3,10,20.4004329004329,2.333,0.222
+"16",16,"Red algae",10,0,10,0,1,0
+"17",17,"Merluccius australis",3,1,2,6,3.833,0
+"18",18,"Phytoplankton",28,0,28,0,1,0
+"19",19,"Isopoda",9,3,6,30.0777777777778,2,0
+"20",20,"Patagonotothen cornucola",6,2,4,5.86666666666667,3.75,0.562
+"21",21,"Polychaeta",21,8,13,120.845238095238,2.458,0.359
+"22",22,"Bivalvia (larvae)",5,2,3,4.5,2,0
+"23",23,"Calanoid (copepodite)",4,1,3,1.83333333333333,2,0
+"24",24,"Copepoda (egg)",3,0,3,0,1,0
+"25",25,"Copepoda (nauplius)",4,1,3,2.5,2,0
+"26",26,"Detritus",24,0,24,0,1,0
+"27",27,"Plankton diatom",8,0,8,0,1,0
+"28",28,"Salp",5,3,2,4.16666666666667,2.444,0.395
+"29",29,"Benthic diatom",5,0,5,0,1,0
+"30",30,"Exosphaeroma gigas",7,1,6,5.53888888888889,2,0
+"31",31,"Benthic decapoda",22,1,21,46.2194805194805,3.5,0
+"32",32,"Eleginops maclovinus",23,20,3,60.827886002886,3.17,0.789
+"33",33,"Enteroctopus megalocyathus",5,2,3,3.89285714285714,3.75,0.562
+"34",34,"Halicarcinus planatus",4,1,3,0.833333333333333,2,0
+"35",35,"Illex argentinus",7,4,3,11.1678571428571,3.625,0.811
+"36",36,"Macruronus magellanicus",8,2,6,9.55952380952381,4.167,0.111
+"37",37,"Odontesthes sp.",9,2,7,13.3672799422799,3,0
+"38",38,"Patagonotothen sp.",10,4,6,37.734126984127,3.24,0.808
+"39",39,"Zoarcidae",4,2,2,2.14404761904762,3.229,0.053
+"40",40,"Patagonotothen sima",5,4,1,5.33333333333333,3.573,0.315
+"41",41,"Amphipoda",18,1,17,26.3488095238095,2,0
+"42",42,"Nanoflagellates",2,0,2,0,1,0
+"43",43,"Arbacia dufresnii",6,5,1,4.33333333333333,2.556,0.464
+"44",44,"Loxechinus albus",4,3,1,7.83333333333333,2.719,1.035
+"45",45,"Pseudechinus magellanicus",8,3,5,17,2.926,0.431
+"46",46,"Munida gregaria",6,5,1,6.09444444444444,2.4,0.24
+"47",47,"Peltarion spinulosum",2,1,1,14.95,3.642,0
+"48",48,"Genypterus blacodes",10,6,4,32.3198412698413,4.168,0.536
+"49",49,"Lithodes santolla",17,15,2,29.534632034632,2.827,0.727
+"50",50,"Salilota australis",7,5,2,11.0357142857143,4.732,0.157
+"51",51,"Acanthocyclus albatrossis",2,1,1,0.642857142857143,3.5,0
+"52",52,"Brachiopoda",2,1,1,0.366883116883117,2,0
+"53",53,"Cephalopoda",5,2,3,4.33333333333333,3.75,0.562
+"54",54,"Copepoda",14,3,11,45.3722943722944,2.333,0.222
+"55",55,"Cyanobacteria",3,0,3,0,1,0
+"56",56,"Sediment",4,0,4,0,1,0
+"57",57,"Tanaidae",5,3,2,6.42799422799423,2.333,0.222
+"58",58,"Bryozoa",8,2,6,9.10497835497836,2.5,0.25
+"59",59,"Pagurus sp.",5,1,4,2.44444444444444,2,0
+"60",60,"Merluccius sp.",9,6,3,45.4166666666667,4.432,0.37
+"61",61,"Euphausia lucens",3,1,2,1.41666666666667,2,0
+"62",62,"Myxine australis",2,1,1,0.5,2,0
+"63",63,"Bassanago sp.",1,0,1,0,1,0
+"64",64,"Hydrozoa",6,3,3,2.08831168831169,2.333,0.222
+"65",65,"Porifera",6,2,4,2.25497835497836,2,0
+"66",66,"Nacella deaurata",18,16,2,40.9833333333333,2.642,0.345
+"67",67,"Polyplacophora",5,4,1,1.73333333333333,2.625,0.422
+"68",68,"Cottoperca gobio",7,6,1,17.5111111111111,4.4,0.433
+"69",69,"Prolatilus jugularis",4,3,1,3.78888888888889,3.153,0.047
+"70",70,"Euphausia vallentini",4,2,2,3.66666666666667,2,0
+"71",71,"Chironomidae",5,2,3,3,2,0
+"72",72,"Cirripedia",3,1,2,0.333333333333333,2,0
+"73",73,"Margarella violacea",3,1,2,0,2,0
+"74",74,"Notochthamalus scabrosus",2,1,1,0,2,0
+"75",75,"Dissostichus eleginoides",7,6,1,19.9094516594517,4.816,0.525
+"76",76,"Otaria flavescens",16,15,1,37.0450937950938,4.408,0.69
+"77",77,"Tachyeres pteneres",2,1,1,1.04545454545455,4.5,0
+"78",78,"Callorhinchus callorynchus",2,1,1,0.95021645021645,3,0
+"79",79,"Cilus gilberti",4,3,1,2.75873015873016,2.819,0.371
+"80",80,"Mustelus mento",3,2,1,1,3.5,0.25
+"81",81,"Oncorhynchus sp.",2,1,1,0,4.5,0
+"82",82,"Paralabrax humeralis",1,0,1,0,1,0
+"83",83,"Pinguipes chilensis",7,6,1,5.37561327561328,3.688,0.553
+"84",84,"Salmo salar",4,3,1,2.67539682539683,4.144,0.996
+"85",85,"Thyrsites atun",4,3,1,0.5,4.333,0.352
+"86",86,"Trachurus murphyi",5,4,1,5.93398268398268,3.625,0.172
+"87",87,"Paracalanus indicus",2,1,1,0.5,2,0
+"88",88,"Pluteus (larva)",2,1,1,0.5,3,0
+"89",89,"Aulacomya atra",3,2,1,1.61688311688312,2.5,0.25
+"90",90,"Martialia hyadesii",2,1,1,1.66666666666667,3,0
+"91",91,"Austrolycus depressiceps",4,3,1,5.31666666666667,3.736,0.549
+"92",92,"Ramnogaster arcuata",2,0,2,0,1,0
+"93",93,"Crustacea",3,2,1,0.783549783549784,2.5,0.25
+"94",94,"Acanthina monodon",2,2,0,0,3.5,0
+"95",95,"Anasterias antarctica",3,3,0,0,3.167,0.056
+"96",96,"Antholoba achates",1,1,0,0,4.158,0
+"97",97,"Appendicularians",1,1,0,0,3,0
+"98",98,"Aptenoydes patagonicus",4,4,0,0,4.381,0.239
+"99",99,"Arctocephalus australis",2,2,0,0,4.583,0.063
+"100",100,"Austrochlamys natans",1,1,0,0,2,0
+"101",101,"Bathylagichthys parini (larvae)",8,8,0,0,2.722,0.336
+"102",102,"Bunodactis octoradiata",1,1,0,0,3,0
+"103",103,"Calidris canutus",1,1,0,0,3,0
+"104",104,"Campylonotus vagans",1,1,0,0,3,0
+"105",105,"Cephalorhynchus commersonii commersonii",11,11,0,0,4.335,0.351
+"106",106,"Champsocephalus esox",3,3,0,0,4.505,0.054
+"107",107,"Chloephaga hybrida",1,1,0,0,2,0
+"108",108,"Cosmasterias lurida",6,6,0,0,3.45,0.12
+"109",109,"Crepipatella dilatata",1,1,0,0,2,0
+"110",110,"Darina solenoides",1,1,0,0,2,0
+"111",111,"Eurypodius latreillei",5,5,0,0,3.189,0.054
+"112",112,"Fissurella oriens",1,1,0,0,2,0
+"113",113,"Fissurella radiosa",1,1,0,0,2,0
+"114",114,"Gaimardia trapesina",1,1,0,0,2,0
+"115",115,"Gammaridae",3,3,0,0,2.333,0.222
+"116",116,"Labidiaster radiosus",1,1,0,0,3,0
+"117",117,"Lagenorhynchus australis",10,10,0,0,4.448,0.61
+"118",118,"Larus dominicanus",3,3,0,0,3.167,0.056
+"119",119,"Lithodes santolla (juvenile)",13,13,0,0,3.148,0.549
+"120",120,"Lontra felina",5,5,0,0,4.49,0.223
+"121",121,"Maurolicus australis (larvae)",4,4,0,0,2.75,0.187
+"122",122,"Megaptera novaeangliae",5,5,0,0,3.467,0.371
+"123",123,"Nacella magellanica",17,17,0,0,2.605,0.347
+"124",124,"Nacella mytilina",3,3,0,0,2,0
+"125",125,"Ophiactis asperula",1,1,0,0,2,0
+"126",126,"Ophiuroglypha lymani",7,7,0,0,2.714,0.847
+"127",127,"Orcinus orca",3,3,0,0,5.574,0.031
+"128",128,"Paraeuthria fuscata",1,1,0,0,2,0
+"129",129,"Paralomis granulosa",13,13,0,0,3.147,0.589
+"130",130,"Patagonotothen tessellata (larvae)",7,7,0,0,3.048,0.299
+"131",131,"Platynereis australis",2,2,0,0,2,0
+"132",132,"Plaxiphora aurata",2,2,0,0,2,0
+"133",133,"Psedechinus magellanicus",3,3,0,0,2.926,0.431
+"134",134,"Pseudorca crassidens",4,4,0,0,4.74,0.231
+"135",135,"Siphonaria lessonii",2,2,0,0,2,0
+"136",136,"Spheniscus magellanicus",6,6,0,0,4.082,1.036
+"137",137,"Stercorarius chilensis",2,2,0,0,2.917,0.84
+"138",138,"Tegula atra",3,3,0,0,2,0
+"139",139,"Themisto gaudichaudii",1,1,0,0,3.333,0
+"140",140,"Trophon geversianus",3,3,0,0,3.333,0.056

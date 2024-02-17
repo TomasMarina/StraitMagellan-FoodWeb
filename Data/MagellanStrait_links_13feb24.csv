@@ -1,0 +1,578 @@
+consumer,resource_original,resource_collapsed,resource_group,reference,reference_link
+Acanthina monodon,Mytilus chilensis,Mytilus sp.,Bivalvia,Ríos & Gerdes (1997),https://epic.awi.de/id/eprint/5233/
+Acanthina monodon,Perumytilus purpuratus,Perumytilus purpuratus,Bivalvia,Andrade (pers. comm.),
+Acanthocyclus albatrossis,Mytilus chilensis,Mytilus sp.,Bivalvia,,https://www.sciencedirect.com/science/article/abs/pii/S0022098122000387
+Amphipoda,Phytodetritus,Phytodetritus,Non-living,Andrade (pers. comm.),
+Amphipoda,Phytodetritus,Phytodetritus,Non-living,Andrade (pers. comm.),
+Anasterias antarctica,Aulacomya atra,Bivalvia,Bivalvia,Andrade (pers. comm.),
+Anasterias antarctica,Trophon geversianus,Gastropoda,Gastropoda,Ríos & Gerdes (1997),https://epic.awi.de/id/eprint/5233/
+Anasterias antarctica,Mytilus chilensis,Mytilus sp.,Bivalvia,Andrade (pers. comm.),
+Antholoba achates,Harpagifer bispinis,Harpagifer bispinis,Pisces,Andrade (pers. comm.),
+Appendicularians,Zooplankton,Zooplankton,Zooplankton,,
+Aptenoydes patagonicus,Doryteuthis gahi,Doryteuthis gahi,Cephalopoda,Pütz et al. (2021),https://www.sciencedirect.com/science/article/pii/S2351989421002195
+Aptenoydes patagonicus,Myctophidae,Myctophidae,Pisces,Huidobro & Oporto (2018),https://repositorio.uc.cl/xmlui/handle/11534/45383
+Aptenoydes patagonicus,Patagonotothen tessellata,Patagonotothen tessellata,Pisces,Pütz et al. (2021),
+Aptenoydes patagonicus,Sprattus fuegensis,Sprattus fuegensis,Pisces,Huidobro & Oporto (2018),https://repositorio.uc.cl/xmlui/handle/11534/45382
+Arbacia dufresnii,Macrocystis pyrifera,Brown algae,Macroalgae,Newcombe et al. (2012),https://www.int-res.com/abstracts/ab/v15/n2/p135-144
+Arbacia dufresnii,Forams,Foraminifera,Foraminifera,Castro et al. (2022),
+Arbacia dufresnii,Ulva sp.,Green algae,Macroalgae,Castro et al. (2022),
+Arbacia dufresnii,Ostracods,Ostracoda,Ostracoda,Castro et al. (2022),
+Arbacia dufresnii,Ceramium sp.,Red algae,Macroalgae,Castro et al. (2022),
+Arbacia dufresnii,Heterosiphonia sp.,Red algae,Macroalgae,Castro et al. (2022),
+Arctocephalus australis,Merluccius australis,Merluccius australis,Pisces,,http://cybertesis.uach.cl/tesis/uach/2012/fcv297h/doc/fcv297h.pdf
+Arctocephalus australis,Myctophidae,Myctophidae,Pisces,,http://cybertesis.uach.cl/tesis/uach/2012/fcv297h/doc/fcv297h.pdf
+Aulacomya atra,Phytoplankton,Phytoplankton,Phytoplankton,,
+Aulacomya atra,Zooplankton,Zooplankton,Bivalvia,,
+Austrochlamys natans,Phytoplankton,Phytoplankton,Phytoplankton,,
+Austrolycus depressiceps,Isopoda,Isopoda,Isopoda,Reyes & Hüne (2012),Peces del sur de Chile
+Austrolycus depressiceps,Patagonotothen cornucola,Patagonotothen cornucola,Pisces,Reyes & Hüne (2012),Peces del sur de Chile
+Austrolycus depressiceps,Polychaetes,Polychaeta,Polychaeta,Reyes & Hüne (2012),Peces del sur de Chile
+Bathylagichthys parini (larvae),Bivalvia larva,Bivalvia (larvae),Bivalvia,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8
+Bathylagichthys parini (larvae),Calanoid (copepodite),Calanoid (copepodite),Copepoda,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8
+Bathylagichthys parini (larvae),Copepod egg,Copepoda (egg),Copepoda,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8
+Bathylagichthys parini (larvae),Copepod nauplius,Copepoda (nauplius),Copepoda,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8
+Bathylagichthys parini (larvae),Appendicularia fecal pellet,Detritus,Non-living,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8
+Bathylagichthys parini (larvae),Ostracods,Ostracoda,Ostracoda,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8
+Bathylagichthys parini (larvae),Fragilaria sp.,Plankton diatom,Phytoplankton,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8
+Bathylagichthys parini (larvae),Salp,Salp,Tunicata,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8
+Benthic decapoda,Mytilus sp.,Mytilus sp.,Bivalvia,,
+Bivalvia,Phytoplankton,Phytoplankton,Phytoplankton,,
+Bivalvia (larvae),Diatoms,Benthic diatom,Phytoplankton,,
+Bivalvia (larvae),Chaetoceros sp.,Plankton diatom,Phytoplankton,,https://www.sciencedirect.com/science/article/pii/S0044848603002722
+Brachiopoda,Phytoplankton,Phytoplankton,Phytoplankton,,
+Bryozoa,Phytoplankton,Phytoplankton,Phytoplankton,,
+Bryozoa,Zooplankton,Zooplankton,Zooplankton,,
+Bunodactis octoradiata,Exosphaeroma gigas,Exosphaeroma gigas,Crustacea,Andrade C & Ríos C (2007),http://analesdelinstitutodelapatagonia.cl/index.php/analespatagonia/article/view/386
+Calanoid (copepodite),Phytoplankton,Phytoplankton,Phytoplankton,,
+Calidris canutus,Darina solenoides,Bivalvia,Bivalvia,Espoz et al. (2008),https://www.researchgate.net/publication/262687507_Trophic_ecology_of_the_Red_Knot_Calidris_canutus_rufa_at_Bahia_Lomas_Tierra_del_Fuego_Chile?enrichId=rgreq-8c958f7066ac761a5d05454e0c0e8de9-XXX&enrichSource=Y292ZXJQYWdlOzI2MjY4NzUwNztBUzoxNDE3ODM2MTkwODQyODhAMTQxMDgxNTI1NzkyOQ%3D%3D&el=1_x_2&_esc=publicationCoverPdf
+Callorhinchus callorynchus,Bivalves,Bivalvia,Bivalvia,Di Giacomo & Perier (1996),https://www.publish.csiro.au/mf/mf9960801
+Campylonotus vagans,Zooplankton,Zooplankton,Plankton,,
+Cephalopoda,Crustaceans,Benthic decapoda,Decapoda,,
+Cephalopoda,Bivalves,Bivalvia,Bivalvia,,
+Cephalorhynchus commersonii commersonii,Campylonotus vagans,Benthic decapoda,Decapoda,Riccialdelli et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1289-16
+Cephalorhynchus commersonii commersonii,Munida gregaria,Benthic decapoda,Decapoda,Riccialdelli et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1289-14
+Cephalorhynchus commersonii commersonii,Doryteuthis gahi,Doryteuthis gahi,Cephalopoda,Riccialdelli et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1289-12
+Cephalorhynchus commersonii commersonii,Eleginops maclovinus,Eleginops maclovinus,Pisces,Riccialdelli et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1289-7
+Cephalorhynchus commersonii commersonii,Enteroctopus megalocyathus,Enteroctopus megalocyathus,Cephalopoda,Riccialdelli et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1289-13
+Cephalorhynchus commersonii commersonii,Halicarcinus planatus,Halicarcinus planatus,Decapoda,Riccialdelli et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1289-15
+Cephalorhynchus commersonii commersonii,Illex argentinus,Illex argentinus,Cephalopoda,Riccialdelli et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1289-11
+Cephalorhynchus commersonii commersonii,Macruronus magellanicus,Macruronus magellanicus,Pisces,Riccialdelli et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1289-10
+Cephalorhynchus commersonii commersonii,Odontesthes spp.,Odontesthes sp.,Pisces,Riccialdelli et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1289-8
+Cephalorhynchus commersonii commersonii,Patagonotothen spp.,Patagonotothen sp.,Pisces,Riccialdelli et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1289-5
+Cephalorhynchus commersonii commersonii,Sprattus fuegensis,Sprattus fuegensis,Pisces,Riccialdelli et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1289-9
+Cephalorhynchus commersonii commersonii,Zoarcids,Zoarcidae,Pisces,Riccialdelli et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1289-6
+Champsocephalus esox,Patagonotothen cornucola,Patagonotothen cornucola,Pisces,Landaeta et al. (2020),https://www.cambridge.org/core/journals/antarctic-science/article/abs/shape-condition-and-diet-of-the-pike-icefish-champsocephalus-esox-teleostei-channichthyidae-evidence-of-phenotypic-plasticity/F45F7393F50141A0E3999A96CA55B1DC
+Champsocephalus esox,Patagonotothen sima,Patagonotothen sima,Pisces,Landaeta et al. (2020),https://www.cambridge.org/core/journals/antarctic-science/article/abs/shape-condition-and-diet-of-the-pike-icefish-champsocephalus-esox-teleostei-channichthyidae-evidence-of-phenotypic-plasticity/F45F7393F50141A0E3999A96CA55B1DC
+Champsocephalus esox,Patagonotothen tessellata,Patagonotothen tessellata,Pisces,Landaeta et al. (2020),https://www.cambridge.org/core/journals/antarctic-science/article/abs/shape-condition-and-diet-of-the-pike-icefish-champsocephalus-esox-teleostei-channichthyidae-evidence-of-phenotypic-plasticity/F45F7393F50141A0E3999A96CA55B1DC
+Chironomidae,Detritus,Detritus,Non-living,,https://www.scielo.br/j/isz/a/bDrCDYjPB5jgPmsKhxq5FQp/#
+Chironomidae,Diatoms,Plankton diatom,Phytoplankton,,https://www.scielo.br/j/isz/a/bDrCDYjPB5jgPmsKhxq5FQp/#
+Chloephaga hybrida,Macroalgae,Brown algae,Macroalgae,Venegas (1985),"Venegas, C. 1985-1986. Prospección aérea de gansos (Chloephaga) en la estepa central de Magallanes. Anales del Instituto de la Patagonia 16: 67˗73."
+Cilus gilberti,Amphipoda,Amphipoda,Amphipoda,Reyes & Hüne (2012),Peces del sur de Chile
+Cilus gilberti,Polychaetes,Polychaeta,Polychaeta,Reyes & Hüne (2012),Peces del sur de Chile
+Cilus gilberti,Ulva lactuca,Green algae,Green algae,Reyes & Hüne (2012),Peces del sur de Chile
+Cirripedia,Phytoplankton,Phytoplankton,Phytoplankton,,
+Copepoda,Detritus,Detritus,Non-living,,
+Copepoda,Phytoplankton,Phytoplankton,Phytoplankton,,
+Copepoda,Phytoplankton,Phytoplankton,Phytoplankton,,
+Copepoda,Zooplankton,Zooplankton,Zooplankton,,
+Copepoda,Zooplankton,Zooplankton,Plankton,,
+Copepoda (nauplius),Nanoflagellates,Nanoflagellates,Phytoplankton,,https://link.springer.com/article/10.1007/s00227-009-1353-4
+Cosmasterias lurida,Arbacia dufresnii,Arbacia dufresnii,Echinodermata,Garrido et al. (2021),
+Cosmasterias lurida,Aulacomya atra,Bivalvia,Bivalvia,Garrido et al. (2021),
+Cosmasterias lurida,Austrochlamys natans,Bivalvia,Bivalvia,Andrade (pers. comm.),
+Cosmasterias lurida,Trophon geversianus,Gastropoda,Gastropoda,,
+Cosmasterias lurida,Loxechinus albus,Loxechinus albus,Echinodermata,Garrido et al. (2021),
+Cosmasterias lurida,Mytilus chilensis,Mytilus sp.,Bivalvia,Andrade (pers. comm.),
+Cosmasterias lurida,Pseudechinus magellanicus,Pseudechinus magellanicus,Echinodermata,Garrido et al. (2021),
+Cottoperca gobio,Doryteuthis gahi,Doryteuthis gahi,Cephalopoda,,https://onlinelibrary.wiley.com/doi/full/10.1046/j.1439-0426.2003.00340.x?casa_token=6dL3l09v8GkAAAAA%3A4Fd89SBAZOIkE2TKrEQxaEERaCADR0kGhkXGR-Bz35FUg2Z12Z3dRPMgT5ckTZ1c__S6NpyqOz9_Q0E
+Cottoperca gobio,Macruronus magellanicus,Macruronus magellanicus,Pisces,,https://onlinelibrary.wiley.com/doi/full/10.1046/j.1439-0426.2003.00340.x?casa_token=6dL3l09v8GkAAAAA%3A4Fd89SBAZOIkE2TKrEQxaEERaCADR0kGhkXGR-Bz35FUg2Z12Z3dRPMgT5ckTZ1c__S6NpyqOz9_Q0E
+Cottoperca gobio,Munida gregaria,Munida gregaria,Decapoda,Vinuesa & Varisco (2007),https://www.scielo.cl/scielo.php?pid=S0717-71782007000200003&script=sci_arttext&tlng=pt
+Cottoperca gobio,Patagonotothen tessellata,Patagonotothen tessellata,Pisces,,https://onlinelibrary.wiley.com/doi/full/10.1046/j.1439-0426.2003.00340.x?casa_token=6dL3l09v8GkAAAAA%3A4Fd89SBAZOIkE2TKrEQxaEERaCADR0kGhkXGR-Bz35FUg2Z12Z3dRPMgT5ckTZ1c__S6NpyqOz9_Q0E
+Cottoperca gobio,Peltarion spinulosum,Peltarion spinulosum,Decapoda,,https://onlinelibrary.wiley.com/doi/full/10.1046/j.1439-0426.2003.00340.x?casa_token=6dL3l09v8GkAAAAA%3A4Fd89SBAZOIkE2TKrEQxaEERaCADR0kGhkXGR-Bz35FUg2Z12Z3dRPMgT5ckTZ1c__S6NpyqOz9_Q0E
+Cottoperca gobio,Sprattus fuegensis,Sprattus fuegensis,Pisces,,https://onlinelibrary.wiley.com/doi/full/10.1046/j.1439-0426.2003.00340.x?casa_token=6dL3l09v8GkAAAAA%3A4Fd89SBAZOIkE2TKrEQxaEERaCADR0kGhkXGR-Bz35FUg2Z12Z3dRPMgT5ckTZ1c__S6NpyqOz9_Q0E
+Crepipatella dilatata,Macrocystis pyrifera,Brown algae,Macroalgae,C. Andrade (pers. comm.),
+Crustacea,Phytoplankton,Phytoplankton,Phytoplankton,,
+Crustacea,Zooplankton,Zooplankton,Zooplankton,,
+Darina solenoides,Phytoplankton,Phytoplankton,Phytoplankton,,
+Dissostichus eleginoides,Doryteuthis gahi,Doryteuthis gahi,Cephalopoda,Troccoli et al. (2020),https://link.springer.com/article/10.1007/s00300-020-02730-2
+Dissostichus eleginoides,Genypterus blacodes,Genypterus blacodes,Pisces,Troccoli et al. (2020),https://link.springer.com/article/10.1007/s00300-020-02730-2
+Dissostichus eleginoides,Lithodes santolla,Lithodes santolla,Decapoda,Murillo et al. (2008),https://www.scielo.cl/scielo.php?pid=S0717-65382008000100011&script=sci_arttext&tlng=pt
+Dissostichus eleginoides,Macruronus magellanicus,Macruronus magellanicus,Pisces,Troccoli et al. (2020),https://link.springer.com/article/10.1007/s00300-020-02730-2
+Dissostichus eleginoides,Salilota australis,Salilota australis,Pisces,Troccoli et al. (2020),https://link.springer.com/article/10.1007/s00300-020-02730-2
+Dissostichus eleginoides,Sprattus fuegensis,Sprattus fuegensis,Pisces,Troccoli et al. (2020),https://link.springer.com/article/10.1007/s00300-020-02730-2
+Doryteuthis gahi,Munida gregaria,Benthic decapoda,Decapoda,Almonacid (pers. comm),
+Doryteuthis gahi,Sprattus fuegensis  ,Sprattus fuegensis  ,Pisces,Almonacid (pers. comm),
+Eleginops maclovinus,Acanthocyclus albatrossis,Acanthocyclus albatrossis,Decapoda,Córdova et al. (2009),https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext
+Eleginops maclovinus,Acanthocyclus albatrossis,Acanthocyclus albatrossis ,Decapoda,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+Eleginops maclovinus,Amphipoda,Amphipoda,Amphipoda,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+Eleginops maclovinus,Gammaridae,Amphipoda,Amphipoda,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376
+Eleginops maclovinus,Decapoda,Benthic decapoda,Decapoda,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+Eleginops maclovinus,Brachiopods,Brachiopoda,Brachiopoda,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+Eleginops maclovinus,Cephalopods,Cephalopoda,Cephalopoda,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+Eleginops maclovinus,Copepods,Copepoda,Copepoda,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+Eleginops maclovinus,Oscillatoria sp.,Cyanobacteria,Cyanobacteria,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+Eleginops maclovinus,Detritus,Detritus,Non-living,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+Eleginops maclovinus,Exosphaeroma gigas,Exosphaeroma gigas,Isopoda,Andrade (pers. comm.),
+Eleginops maclovinus,Forams,Foraminifera,Foraminifera,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+Eleginops maclovinus,Cladophora sp.,Green algae,Macroalgae,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+Eleginops maclovinus,Ectocarpus sp.,Green algae,Macroalgae,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+Eleginops maclovinus,Enteromorpha sp.,Green algae,Macroalgae,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+Eleginops maclovinus,Rhizoclonium sp.,Green algae,Macroalgae,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+Eleginops maclovinus,Ulva sp.,Green algae,Macroalgae,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376
+Eleginops maclovinus,Ulva sp.,Green algae,Macroalgae,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+Eleginops maclovinus,Halicarcinus planatus,Halicarcinus planatus,Decapoda,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+Eleginops maclovinus,Isopoda,Isopoda,Isopoda,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+Eleginops maclovinus,Ostracods,Ostracoda,Ostracoda,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+Eleginops maclovinus,Ostracods,Ostracoda,Ostracoda,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+Eleginops maclovinus,Patagonotothen cornucola,Patagonotothen cornucola,Pisces,Martin & Bastida (2008),https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0718-560X2008000100001
+Eleginops maclovinus,Platynereis australis,Polychaeta,Polychaeta,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+Eleginops maclovinus,Ceramium sp.,Red algae,Macroalgae,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+Eleginops maclovinus,Sediment,Sediment,Non-living,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+Eleginops maclovinus,Tanaidae,Tanaidae,Malacostraca,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376
+Eleginops maclovinus,Appendicularians,Zooplankton,Tunicata,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+Enteroctopus megalocyathus,Peltarion spinulosum,Benthic decapoda,Crustacea,Sepúlveda (pers. comm),
+Enteroctopus megalocyathus,Tawera elliptica,Bivalvia,Bivalvia,Sepúlveda (pers. comm),
+Euphausia lucens,Phytoplankton,Phytoplankton,Phytoplankton,,
+Euphausia vallentini,Phytoplankton,Phytoplankton,Phytoplankton,,https://academic.oup.com/plankt/article/33/8/1212/1441310?login=false
+Euphausia vallentini,Centric diatoms,Plankton diatom,Phytoplankton,,https://academic.oup.com/plankt/article/33/8/1212/1441310?login=false
+Eurypodius latreillei,Bryozoans,Bryozoa,Bryozoa,Comoglio (1994),https://bibliotecadigital.exactas.uba.ar/download/tesis/tesis_n2640_Comoglio.pdf
+Eurypodius latreillei,Forams ,Foraminifera,Foraminifera,Comoglio (1994),https://bibliotecadigital.exactas.uba.ar/download/tesis/tesis_n2640_Comoglio.pdf
+Eurypodius latreillei,Halicarcinus planatus,Halicarcinus planatus,Crustacea,Comoglio (1994),https://bibliotecadigital.exactas.uba.ar/download/tesis/tesis_n2640_Comoglio.pdf
+Eurypodius latreillei,Isopoda,Isopoda,Isopoda,Comoglio (1994),https://bibliotecadigital.exactas.uba.ar/download/tesis/tesis_n2640_Comoglio.pdf
+Eurypodius latreillei,Pagurus sp.,Pagurus sp.,Crustacea,Comoglio (1994),https://bibliotecadigital.exactas.uba.ar/download/tesis/tesis_n2640_Comoglio.pdf
+Exosphaeroma gigas,Detritus,Detritus,Non-living,,
+Fissurella oriens,Macrocystis pyrifera,Brown algae,Macroalgae,Andrade (pers. comm.),
+Fissurella oriens,Macroalgae,Brown algae,Macroalgae,Mutschke et al. (1998),https://www.researchgate.net/publication/234585529_Situacion_actual_de_la_macrofauna_presente_en_el_intermareal_de_bloques_y_cantos_de_Bahia_Laredo_Estrecho_de_Magallanes
+Fissurella radiosa,Macrocystis pyrifera,Brown algae,Macroalgae,Andrade (pers. comm.),
+Fissurella radiosa,Macroalgae,Brown algae,Macroalgae,Mutschke et al. (1998),https://www.researchgate.net/publication/234585529_Situacion_actual_de_la_macrofauna_presente_en_el_intermareal_de_bloques_y_cantos_de_Bahia_Laredo_Estrecho_de_Magallanes
+Foraminifera,Copepods,Copepoda,Copepoda,,https://www.researchgate.net/profile/Bruce-Hayward/publication/351275033_Molecular_and_morphological_taxonomy_of_living_Ammonia_and_related_taxa_Foraminifera_and_their_biogeography/links/60da697592851ca94493fa31/Molecular-and-morphological-taxonomy-of-living-Ammonia-and-related-taxa-Foraminifera-and-their-biogeography.pdf
+Foraminifera,Phytodetritus,Phytodetritus,Non-living,,https://www.researchgate.net/profile/Bruce-Hayward/publication/351275033_Molecular_and_morphological_taxonomy_of_living_Ammonia_and_related_taxa_Foraminifera_and_their_biogeography/links/60da697592851ca94493fa31/Molecular-and-morphological-taxonomy-of-living-Ammonia-and-related-taxa-Foraminifera-and-their-biogeography.pdf
+Foraminifera,Phytoplankton,Phytoplankton,Phytoplankton,,https://www.researchgate.net/profile/Bruce-Hayward/publication/351275033_Molecular_and_morphological_taxonomy_of_living_Ammonia_and_related_taxa_Foraminifera_and_their_biogeography/links/60da697592851ca94493fa31/Molecular-and-morphological-taxonomy-of-living-Ammonia-and-related-taxa-Foraminifera-and-their-biogeography.pdf
+Gaimardia trapesina,Phytoplankton,Phytoplankton,Phytoplankton,,
+Gammaridae,Detritus,Detritus,Non-living,,
+Gammaridae,Phytoplankton,Phytoplankton,Phytoplankton,,
+Gammaridae,Zooplankton,Zooplankton,Zooplankton,,
+Gastropoda,Phytoplankton,Phytoplankton,Phytoplankton,,
+Genypterus blacodes,Amphipoda,Amphipoda,Amphipoda,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376
+Genypterus blacodes,Lithodes santolla,Benthic decapoda,Decapoda,Andrade (pers. comm.),
+Genypterus blacodes,Munida gregaria,Benthic decapoda,Decapoda,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376
+Genypterus blacodes,Merluccius sp.,Merluccius sp.,Pisces,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376
+Genypterus blacodes,Odontesthes spp.,Odontesthes sp.,Pisces,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376
+Genypterus blacodes,Patagonotothen spp.,Patagonotothen sp.,Pisces,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376
+Genypterus blacodes,Sprattus fuegensis,Sprattus fuegensis,Pisces,Zuleta & Rubilar (2010),http://docplayer.es/46981536-Impacto-del-desarrollo-de-una-pesqueria-de-sardina-austral-sprattus-fueguensis-en-aguas-interiores-de-las-regiones-x-xii.html
+Halicarcinus planatus,Detritus,Detritus,Non-living,C. Andrade (pers. comm.),
+Harpagifer bispinis,Gammaridae,Amphipoda,Amphipoda,Hüne & Vega (2016),
+Harpagifer bispinis,Exospheroma gigas,Exosphaeroma gigas,Isopoda,Hüne & Vega (2016),
+Harpagifer bispinis,Isopoda,Isopoda,Isopoda,Andrade (pers. comm.),
+Harpagifer bispinis,Polychaetes,Polychaeta,Polychaeta,Hüne & Rivera (2010),
+Harpagifer bispinis,Tanaidae,Tanaidae,Malacostraca,Hüne & Vega (2016),
+Hydrozoa,Detritus,Detritus,Non-living,,
+Hydrozoa,Phytoplankton,Phytoplankton,Phytoplankton,,
+Hydrozoa,Zooplankton,Zooplankton,Zooplankton,,
+Illex argentinus,Themisto gaudichaudii,Amphipoda,Amphipoda,,https://aquadocs.org/bitstream/handle/1834/4224/Rev%20Invest%20Desarr%20Pesq%2020%2051-63.pdf?sequence=1&isAllowed=y
+Illex argentinus,Copepods,Copepoda,Copepoda,,https://aquadocs.org/bitstream/handle/1834/4224/Rev%20Invest%20Desarr%20Pesq%2020%2051-63.pdf?sequence=1&isAllowed=y
+Illex argentinus,Doryteuthis gahi,Doryteuthis gahi,Cephalopoda,,https://aquadocs.org/bitstream/handle/1834/4224/Rev%20Invest%20Desarr%20Pesq%2020%2051-63.pdf?sequence=1&isAllowed=y
+Illex argentinus,Euphausia lucens,Euphausia lucens,Zooplankton,,https://aquadocs.org/bitstream/handle/1834/4224/Rev%20Invest%20Desarr%20Pesq%2020%2051-63.pdf?sequence=1&isAllowed=y
+Isopoda,Macroalgae,Brown algae,Macroalgae,,
+Isopoda,Detritus,Detritus,Non-living,,
+Isopoda,Phytodetritus,Phytodetritus,Non-living,,
+Labidiaster radiosus,Exosphaeroma gigas,Exosphaeroma gigas,Isopoda,C. Andrade (pers. comm.),
+Lagenorhynchus australis,Eleginops maclovinus,Eleginops maclovinus,Pisces,Schiavini et al. (1997),
+Lagenorhynchus australis,Enteroctopus megalocyathus,Enteroctopus megalocyathus,Cephalopoda,Schiavini et al. (1997),https://www.vliz.be/imisdocs/publications/232079.pdf
+Lagenorhynchus australis,Genypterus blacodes,Genypterus blacodes,Pisces,Schiavini et al. (1997),https://www.vliz.be/imisdocs/publications/232079.pdf
+Lagenorhynchus australis,Illex argentinus,Illex argentinus,Cephalopoda,Schiavini et al. (1997),
+Lagenorhynchus australis,Macruronus magellanicus,Macruronus magellanicus,Pisces,Schiavini et al. (1997),https://www.vliz.be/imisdocs/publications/232079.pdf
+Lagenorhynchus australis,Myxine australis,Myxine australis,Miscellaneous,Schiavini et al. (1997),https://www.vliz.be/imisdocs/publications/232079.pdf
+Lagenorhynchus australis,Patagonotothen tessellata,Patagonotothen tessellata,Pisces,Viddi & Lescrauwaet (2005),https://www.vliz.be/imisdocs/publications/ocrd/102931.pdf
+Lagenorhynchus australis,Salilota australis,Salilota australis,Pisces,Schiavini et al. (1997),https://www.vliz.be/imisdocs/publications/232079.pdf
+Lagenorhynchus australis,Salp,Salp,Tunicata,Schiavini et al. (1997),https://oceanrep.geomar.de/id/eprint/53025
+Lagenorhynchus australis,Zoarcids,Zoarcidae,Pisces,,https://oceanrep.geomar.de/id/eprint/53025/1/3857.pdf
+Larus dominicanus,Darina solenoides,Bivalvia,Bivalvia,Gordillo et al. (2020),https://www.cambridge.org/core/journals/journal-of-the-marine-biological-association-of-the-united-kingdom/article/abs/naticid-drilling-predation-from-tidal-flats-in-northern-patagonia-sw-atlantic/3EB5A0897064DF2E2381CE9844F5F348
+Larus dominicanus,Gaimardia trapesina,Gastropoda,Gastropoda,Hockey (1988),https://doi.org/10.1007/BF00379614
+Larus dominicanus,Mytilus chilensis,Mytilus sp.,Bivalvia,Andrade (pers. comm.),
+Lithodes santolla,Bassanago sp.,Bassanago sp.,Pisces,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/67
+Lithodes santolla,Bivalves,Bivalvia,Bivalvia,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/64
+Lithodes santolla,Macrocystis pyrifera,Brown algae,Macroalgae,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/56
+Lithodes santolla,Bryozoans,Bryozoa,Bryozoa,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/58
+Lithodes santolla,Cephalopods,Cephalopoda,Cephalopoda,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/66
+Lithodes santolla,Debris allocthonous,Detritus,Non-living,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/69
+Lithodes santolla,Detritus,Detritus,Non-living,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/69
+Lithodes santolla,Forams,Foraminifera,Foraminifera,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/60
+Lithodes santolla,Gastropods,Gastropoda,Gastropoda,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/65
+Lithodes santolla,Hydrozoans,Hydrozoa,Hydrozoa,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/57
+Lithodes santolla,Crustaceans,Lithodes santolla,Crustacea,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/63
+Lithodes santolla,Polychaetes,Polychaeta,Polychaeta,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/61
+Lithodes santolla,Sponges,Porifera,Porifera,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/59
+Lithodes santolla,Pseudechinus magellanicus,Pseudechinus magellanicus,Echinodermata,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/62
+Lithodes santolla,Sarcopeltis skottsbergii,Red algae,Macroalgae,Andrade et al. (2022),
+Lithodes santolla,Sediment,Sediment,Non-living,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/68
+Lithodes santolla (juvenile),Amphipoda,Amphipoda,Amphipoda,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/556
+Lithodes santolla (juvenile),Lithodes santolla,Benthic decapoda,Decapoda,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/556
+Lithodes santolla (juvenile),Bivalves,Bivalvia,Bivalvia,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/557
+Lithodes santolla (juvenile),Macrocystis pyrifera,Brown algae,Macroalgae,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/558
+Lithodes santolla (juvenile),Forams,Foraminifera,Foraminifera,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/561
+Lithodes santolla (juvenile),Ulva sp.,Green algae,Macroalgae,Pardo et al.(2021),
+Lithodes santolla (juvenile),Hydrozoans,Hydrozoa,Hydrozoa,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/560
+Lithodes santolla (juvenile),Nacella spp.,Nacella deaurata,Gatropoda,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/561
+Lithodes santolla (juvenile),Polychaetes,Polychaeta,Polychaeta,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/561
+Lithodes santolla (juvenile),Polyplacophora,Polyplacophora,Polyplacophora,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/561
+Lithodes santolla (juvenile),Sponges,Porifera,Porifera,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/561
+Lithodes santolla (juvenile),Pseudechinus magellanicus,Pseudechinus magellanicus,Echinodermata,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/561
+Lithodes santolla (juvenile),Sediment,Sediment,Non-living,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/559
+Lontra felina,Campylonotus vagans,Benthic decapoda,Decapoda,Córdova et al. (2009),https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext
+Lontra felina,Cancer edwardsii,Benthic decapoda,Decapoda,Córdova et al. (2009),https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext
+Lontra felina,Lithodes santolla,Benthic decapoda,Decapoda,Córdova et al. (2009),https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext
+Lontra felina,Munida gregaria,Benthic decapoda,Decapoda,Córdova et al. (2009),https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext
+Lontra felina,Taliepus dentatus,Benthic decapoda,Decapoda,Córdova et al. (2009),https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext
+Lontra felina,Cottoperca gobio,Cottoperca gobio,Pisces,Córdova et al. (2009),https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext
+Lontra felina,Harpagifer bispinis,Harpagifer bispinis,Pisces,Córdova et al. (2009),https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext
+Lontra felina,Patagonotothen spp.,Patagonotothen sp.,Pisces,Córdova et al. (2009),https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext
+Lontra felina,Prolatilus jugularis,Prolatilus jugularis,Pisces,Córdova et al. (2009),https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext
+Loxechinus albus,Lessonia flavicans,Brown algae,Macroalgae,Castilla (1985),https://www.academia.edu/download/31744106/Castilla_Moreno_1982.pdf
+Loxechinus albus,Macrocystis pyrifera,Brown algae,Macroalgae,Castilla (1985),https://www.academia.edu/download/31744106/Castilla_Moreno_1982.pdf
+Loxechinus albus,Harpagifer bispinis,Harpagifer bispinis,Pisces,Andrade (pers. comm.),
+Loxechinus albus,Callophyllis variegata,Red algae,Macroalgae,Castilla (1985),https://www.academia.edu/download/31744106/Castilla_Moreno_1982.pdf
+Loxechinus albus,Rhodymenia falklandica,Red algae,Macroalgae,Castilla (1985),https://www.academia.edu/download/31744106/Castilla_Moreno_1982.pdf
+Loxechinus albus,Sarcopeltis skottsbergii,Red algae,Macroalgae,Castilla (1985),https://www.academia.edu/download/31744106/Castilla_Moreno_1982.pdf
+Macruronus magellanicus,Sprattus fuegensis,Sprattus fuegensis,Pisces,Zuleta & Rubilar (2010),http://docplayer.es/46981536-Impacto-del-desarrollo-de-una-pesqueria-de-sardina-austral-sprattus-fueguensis-en-aguas-interiores-de-las-regiones-x-xii.html
+Macruronus magellanicus ,Munida gregaria,Benthic decapoda,Decapoda,Acevedo (2013),https://aquadocs.org/handle/1834/6952
+Margarella violacea,Macrocystis pyrifera,Brown algae,Macroalgae,C. Andrade (pers. comm.),
+Martialia hyadesii,Euphausia vallentini,Euphausia vallentini,Zooplankton,Hughes (2010),https://figshare.utas.edu.au/articles/thesis/Determining_the_unknown_in_Southern_Ocean_squid_distribution_and_diet_of_Histeoteuthis_eltaninae_and_Martialia_hyadesi/23230271/1
+Maurolicus australis (larvae),Bivalvia larva,Bivalvia (larvae),Bivalvia,Landaeta et al. (2011),
+Maurolicus australis (larvae),Calanoid (copepodite),Calanoid (copepodite),Copepoda,Landaeta et al. (2011),
+Maurolicus australis (larvae),Copepod egg,Copepoda (egg),Copepoda,Landaeta et al. (2011),
+Maurolicus australis (larvae),Copepod nauplius,Copepoda (nauplius),Copepoda,Landaeta et al. (2011),
+Megaptera novaeangliae,Themisto gaudichaudii ,Amphipoda,Amphipoda,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376
+Megaptera novaeangliae,Munida gregaria,Benthic decapoda,Decapoda,Haro D. (2013),https://repositorio.anid.cl/entities/tesis/406746d0-8cbf-4a5f-a5f8-6812504b84a2
+Megaptera novaeangliae,Euphausia lucens,Euphausia lucens,Zooplankton,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376
+Megaptera novaeangliae,Euphausia vallentini,Euphausia vallentini,Zooplankton,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376
+Megaptera novaeangliae,Sprattus fuegensis,Sprattus fuegensis,Pisces,Haro D. (2013),https://repositorio.anid.cl/entities/tesis/406746d0-8cbf-4a5f-a5f8-6812504b84a2
+Merluccius australis,Sprattus fuegensis,Sprattus fuegensis,Pisces,Zuleta & Rubilar (2010),http://docplayer.es/46981536-Impacto-del-desarrollo-de-una-pesqueria-de-sardina-austral-sprattus-fueguensis-en-aguas-interiores-de-las-regiones-x-xii.html
+Merluccius sp.,Munida gregaria,Benthic decapoda,Decapoda,,https://www.researchgate.net/profile/Aldo-Hernandez-22/publication/283868315_Prey_composition_and_estimation_of_QB_for_the_Chilean_hake_Merluccius_gayi_Gadiformes_Merluccidae_in_the_central-south_area_off_Chile_34_-_40S/links/56fa6ded08ae95e8b6d4a2dc/Prey-composition-and-estimation-of-Q-B-for-the-Chilean-hake-Merluccius-gayi-Gadiformes-Merluccidae-in-the-central-south-area-off-Chile-34-40S.pdf
+Merluccius sp.,Bryozoans,Bryozoa,Bryozoa,,https://www.sciencedirect.com/science/article/abs/pii/S2352485518304250
+Merluccius sp.,Doryteuthis gahi,Doryteuthis gahi,Cephalopoda,,https://www.researchgate.net/profile/Aldo-Hernandez-22/publication/283868315_Prey_composition_and_estimation_of_QB_for_the_Chilean_hake_Merluccius_gayi_Gadiformes_Merluccidae_in_the_central-south_area_off_Chile_34_-_40S/links/56fa6ded08ae95e8b6d4a2dc/Prey-composition-and-estimation-of-Q-B-for-the-Chilean-hake-Merluccius-gayi-Gadiformes-Merluccidae-in-the-central-south-area-off-Chile-34-40S.pdf
+Merluccius sp.,Macruronus magellanicus,Macruronus magellanicus,Pisces,,https://www.researchgate.net/profile/Aldo-Hernandez-22/publication/283868315_Prey_composition_and_estimation_of_QB_for_the_Chilean_hake_Merluccius_gayi_Gadiformes_Merluccidae_in_the_central-south_area_off_Chile_34_-_40S/links/56fa6ded08ae95e8b6d4a2dc/Prey-composition-and-estimation-of-Q-B-for-the-Chilean-hake-Merluccius-gayi-Gadiformes-Merluccidae-in-the-central-south-area-off-Chile-34-40S.pdf
+Merluccius sp.,Myctophidae,Myctophidae,Pisces,,https://www.researchgate.net/profile/Aldo-Hernandez-22/publication/283868315_Prey_composition_and_estimation_of_QB_for_the_Chilean_hake_Merluccius_gayi_Gadiformes_Merluccidae_in_the_central-south_area_off_Chile_34_-_40S/links/56fa6ded08ae95e8b6d4a2dc/Prey-composition-and-estimation-of-Q-B-for-the-Chilean-hake-Merluccius-gayi-Gadiformes-Merluccidae-in-the-central-south-area-off-Chile-34-40S.pdf
+Merluccius sp.,Pseudechinus magellanicus,Pseudechinus magellanicus,Echinodermata,,https://www.sciencedirect.com/science/article/abs/pii/S2352485518304250
+Munida gregaria,Detritus,Detritus,Non-living,Andrade (pers. comm.),
+Munida gregaria,Ulva sp.,Green algae,Macroalgae,Andrade (pers. comm.),
+Munida gregaria,Serolis sp.,Isopoda,Isopoda,Andrade (pers. comm.),
+Munida gregaria,Phytodetritus,Phytodetritus,Non-living,Andrade (pers. comm.),
+Munida gregaria,Sponges,Porifera,Porifera,Andrade (pers. comm.),
+Mustelus mento,Odontesthes regia,Odontesthes sp.,Pisces,Vargas et al. (1999),https://www.scielo.sa.cr/scielo.php?script=sci_arttext&pid=S0034-77441999000300034
+Mustelus mento,Pagurus sp.,Pagurus sp.,Decapoda,Silva-Garay et al. (2018),https://link.springer.com/article/10.1007/s10641-018-0797-0
+Myctophidae,Copepods,Copepoda,Copepoda,,https://link.springer.com/article/10.1007/BF00349518
+Mytilus sp.,Phytoplankton,Phytoplankton,Phytoplankton,Mutschke et al. (1998),https://www.researchgate.net/publication/234585529_Situacion_actual_de_la_macrofauna_presente_en_el_intermareal_de_bloques_y_cantos_de_Bahia_Laredo_Estrecho_de_Magallanes
+Mytilus sp.,Zooplankton,Zooplankton,Zooplankton,Mutschke et al. (1998),https://www.researchgate.net/publication/234585529_Situacion_actual_de_la_macrofauna_presente_en_el_intermareal_de_bloques_y_cantos_de_Bahia_Laredo_Estrecho_de_Magallanes
+Myxine australis,Detritus,Detritus,Non-living,GloBI,https://www.globalbioticinteractions.org/browse/?interactionType=interactsWith&resultType=json&sourceTaxon=Myxine
+Nacella deaurata,Amphipoda indet,Amphipoda,Amphipoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Achnanthes sp.,Benthic diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Amphora sp.,Benthic diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Biddulphia sp.,Benthic diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Cocconeis sp.,Benthic diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Cylindrotheca sp.,Benthic diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Cymbella sp.,Benthic diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Diploneis sp.,Benthic diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Gomphonema sp.,Benthic diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Grammatophora sp.,Benthic diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Gyrosigma sp.,Benthic diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Licmophora sp,Benthic diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Nitzschia sp.,Benthic diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Pinnularia sp.,Benthic diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Plagiotropis sp.,Benthic diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Surirella sp.,Benthic diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Bivalves,Bivalvia,Bivalvia,Andrade C & Brey T (2014) ,https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en
+Nacella deaurata,Lasaea sp.,Bivalvia,Bivalvia,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Adenocystis utricularis,Brown algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Brown algae,Brown algae,Macroalgae,Andrade C & Brey T (2014) ,https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en
+Nacella deaurata,Caepidium antarcticum,Brown algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Ectocarpus siliculosus,Brown algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Halopteris funnicularis,Brown algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Scytosiphon lomentaria,Brown algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Halirytus magellanicus,Chironomidae,Miscellaneous,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Elminius kingii,Cirripedia,Cirripedia,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Chroococcus sp.,Cyanobacteria,Cyanobacteria,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Oscillatoria sp.,Cyanobacteria,Cyanobacteria,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Arachnida indet,Detritus,Non-living,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Miscellaneous,Detritus,Non-living,Andrade C & Brey T (2014) ,https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en
+Nacella deaurata,Elphidium macellum,Foraminifera,Foraminifera,Andrade C & Brey T (2014) ,https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en
+Nacella deaurata,Forams,Foraminifera,Foraminifera,Andrade C & Brey T (2014) ,https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en
+Nacella deaurata,Forams,Foraminifera,Foraminifera,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Eatoniella sp.,Gastropoda,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Laevilitorina caliginosa,Gastropoda,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Green algae,Green algae,Macroalgae,Andrade C & Brey T (2014) ,https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en
+Nacella deaurata,Rhizoclonium sp.,Green algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Spongomorpha pacifica,Green algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Ulothrix sp.,Green algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Ulva clathrata,Green algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Ulva lactuca,Green algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Ulva prolifera,Green algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Ulva sp.,Green algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Margarella violacea,Margarella violacea,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Mytilus platensis,Mytilus sp.,Bivalvia,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Ostracods,Ostracoda,Ostracoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Coscinodiscus sp.,Plankton diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Fragilaria sp.,Plankton diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Melosira sp.,Plankton diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Navicula sp.,Plankton diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Rhabdonema sp.,Plankton diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Stephanopyxis sp.,Plankton diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Acrochaetium sp.,Red algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Ballia callitricha,Red algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Bostrychia sp.,Red algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Ceramium sp.,Red algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Grateloupia sp.,Red algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Iridaea chordata,Red algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Nothogenia fastigiata,Red algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Plocamium sp.,Red algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Polysiphonia sp.,Red algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Pterosiphonia sp.,Red algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella deaurata,Red algae,Red algae,Macroalgae,Andrade C & Brey T (2014) ,https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en
+Nacella deaurata,Sarcothalia crispata,Red algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Achnanthes sp.,Benthic diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Amphora sp.,Benthic diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Biddulphia sp.,Benthic diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Cocconeis sp.,Benthic diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Cylindrotheca sp.,Benthic diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Cymbella sp.,Benthic diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Diploneis sp.,Benthic diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Gomphonema sp.,Benthic diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Grammatophora sp.,Benthic diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Gyrosigma sp.,Benthic diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Licmophora sp,Benthic diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Nitzschia sp.,Benthic diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Pinnularia sp.,Benthic diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Plagiotropis sp.,Benthic diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Surirella sp.,Benthic diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Bivalvia,Bivalvia,Bivalvia,Andrade C & Brey T (2014) ,https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en
+Nacella magellanica,Lasaea sp.,Bivalvia,Bivalvia,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Adenocystis utricularis,Brown algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Caepidium antarcticum,Brown algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Ectocarpus siliculosus,Brown algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Halopteris funnicularis,Brown algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Macrocystis pyrifera,Brown algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Scytosiphon lomentaria,Brown algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Halirytus magellanicus,Chironomidae,Miscellaneous,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Elminius kingii,Cirripedia,Cirripedia,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Oscillatoria sp.,Cyanobacteria,Cyanobacteria,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Arachnida indet,Detritus,Non-living,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Miscellaneous,Detritus,Non-living,Andrade C & Brey T (2014) ,https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en
+Nacella magellanica,Forams,Foraminifera,Foraminifera,Andrade C & Brey T (2014) ,https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en
+Nacella magellanica,Forams,Foraminifera,Foraminifera,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Laevilitorina caliginosa,Gastropoda,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Onchidella marginata,Gastropoda,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Green algae,Green algae,Macroalgae,Andrade C & Brey T (2014) ,https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en
+Nacella magellanica,Rhizoclonium sp.,Green algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Spongomorpha pacifica,Green algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Ulothrix sp.,Green algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Ulva lactuca,Green algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Ulva prolifera,Green algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Ulva sp.,Green algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Margarella violacea,Margarella violacea,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Mytilus platensis,Mytilus sp.,Bivalvia,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Notochthamalus scabrosus,Notochthamalus scabrosus,Cirripedia,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Ostracods,Ostracoda,Ostracoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Chroococcus sp.,Phytoplankton,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Melosira sp.,Phytoplankton,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Coscinodiscus sp.,Plankton diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Fragilaria sp.,Plankton diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Navicula sp.,Plankton diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Rhabdonema sp.,Plankton diatom,Phytoplankton,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Acrochaetium sp.,Red algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Ballia callitricha,Red algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Bostrychia sp.,Red algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Grateloupia sp,Red algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Heterosiphonia sp.,Red algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Iridaea chordata,Red algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Mazzaella laminaroides,Red algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Nothogenia fastigiata,Red algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Polysiphonia sp.,Red algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Pterosiphonia sp.,Red algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella magellanica,Red algae,Red algae,Macroalgae,Andrade C & Brey T (2014) ,https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en
+Nacella magellanica,Sarcothalia crispata,Red algae,Macroalgae,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+Nacella mytilina,Macrocystis pyrifera,Brown algae,Macroalgae,Andrade (pers. comm.),
+Nacella mytilina,Phytodetritus,Phytodetritus,Non-living,Andrade (pers. comm.),
+Nacella mytilina,Phytoplankton,Phytoplankton,Phytoplankton,Mutschke et al. (1998),https://www.researchgate.net/publication/234585529_Situacion_actual_de_la_macrofauna_presente_en_el_intermareal_de_bloques_y_cantos_de_Bahia_Laredo_Estrecho_de_Magallanes
+Notochthamalus scabrosus,Phytoplankton,Phytoplankton,Phytoplankton,,
+Odontesthes sp.,Amphipoda,Amphipoda,Amphipoda,Antezana (pers. comm),
+Odontesthes sp.,Darina solenoides,Bivalvia,Bivalvia,Gordillo et al. (2020),https://www.cambridge.org/core/journals/journal-of-the-marine-biological-association-of-the-united-kingdom/article/abs/naticid-drilling-predation-from-tidal-flats-in-northern-patagonia-sw-atlantic/3EB5A0897064DF2E2381CE9844F5F348
+Oncorhynchus sp.,Munida gregaria,Benthic decapoda,Decapoda,Hüne et al. (2018),https://polarresearch.net/index.php/polar/article/view/2632/6024
+Ophiactis asperula,Phytodetritus,Phytodetritus,Non-living,Rivera (pers. Comm),
+Ophiuroglypha lymani,Crustaceans,Benthic decapoda,Decapoda,Dahm (1999),https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/973
+Ophiuroglypha lymani,Bivalves,Bivalvia,Bivalvia,Dahm (1999),https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/978
+Ophiuroglypha lymani,Macroalgae,Brown algae,Macroalgae,Dahm (1999),https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/977
+Ophiuroglypha lymani,Bryozoans,Bryozoa,Bryozoa,Dahm (1999),https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/979
+Ophiuroglypha lymani,Fecal pellets,Detritus,Non-living,Dahm (1999),https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/974
+Ophiuroglypha lymani,Detritus,Detritus,Non-living,Dahm (1999),https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/975
+Ophiuroglypha lymani,Phytodetritus,Phytodetritus,Non-living,Dahm (1999),https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/972
+Ophiuroglypha lymani,Sediment,Sediment,Non-living,Dahm (1999),https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/976
+Orcinus orca,Dissostichus eleginoides,Dissostichus eleginoides,Pisces,Capella et al. (2014),https://link.springer.com/article/10.1007/s00300-014-1535-5
+Orcinus orca,Arctocephalus australis,Otaria flavescens,Pinnipedia,Capella et al. (1999),http://bibliotecadigital.umag.cl/handle/20.500.11893/1444
+Orcinus orca,Otaria flavescens,Otaria flavescens,Pinnipedia,Capella et al. (1999),http://bibliotecadigital.umag.cl/handle/20.500.11893/1443
+Orcinus orca,Tachyeres pteneres,Tachyeres pteneres,Aves,Capella et al. (1999),http://bibliotecadigital.umag.cl/handle/20.500.11893/1445
+Ostracoda,Detritus,Detritus,Non-living,,
+Ostracoda,Picoplankton,Phytoplankton,Phytoplankton,Cañete (pers. comm.),
+Ostracoda,Zooplankton,Zooplankton,Zooplankton,,
+Otaria flavescens,Munida gregaria,Benthic decapoda,Decapoda,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12379
+Otaria flavescens,Callorhinchus callorynchus,Callorhinchus callorynchus,Pisces,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12393
+Otaria flavescens,Cilus gilberti,Cilus gilberti,Pisces,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12391
+Otaria flavescens,Eleginops maclovinus,Eleginops maclovinus,Pisces,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12383
+Otaria flavescens,Genypterus blacodes,Genypterus blacodes,Pisces,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12392
+Otaria flavescens,Merluccius australis,Merluccius australis,Pisces,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12390
+Otaria flavescens,Mustelus mento,Mustelus mento,Pisces,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12384
+Otaria flavescens,Odontesthes regia,Odontesthes sp.,Pisces,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12387
+Otaria flavescens,Oncorhynchus kisutch,Oncorhynchus sp.,Pisces,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12381
+Otaria flavescens,Oncorhynchus mykiss,Oncorhynchus sp.,Pisces,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12380
+Otaria flavescens,Paralabrax humeralis,Paralabrax humeralis,Pisces,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12386
+Otaria flavescens,Pinguipes chilensis,Pinguipes chilensis,Pisces,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12394
+Otaria flavescens,Salmo salar,Salmo salar,Pisces,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12382
+Otaria flavescens,Sprattus fuegensis,Sprattus fuegensis,Pisces,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12388
+Otaria flavescens,Thyrsites atun,Thyrsites atun,Pisces,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12385
+Otaria flavescens,Trachurus murphyi,Trachurus murphyi,Pisces,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12389
+Pagurus sp.,Detritus,Detritus,Non-living,C. Andrade (pers. comm.),
+Paracalanus indicus,Rhizosolenia sp.,Plankton diatom,Plankton diatom,Aguilera et al. (2011),https://www.tandfonline.com/doi/abs/10.1080/17451000.2010.499437
+Paracalanus indicus,Thalassiosira sp.,Plankton diatom,Plankton diatom,Aguilera et al. (2011),https://www.tandfonline.com/doi/abs/10.1080/17451000.2010.499437
+Paraeuthria fuscata,Detritus,Detritus,Non-living,Andrade C (2009) ,
+Paralomis granulosa,Amphipoda,Amphipoda,Amphipoda,Andrade (pers. comm.),
+Paralomis granulosa,Macrocystis pyrifera,Brown algae,Macroalgae,Andrade (pers. comm.),
+Paralomis granulosa,Bryozoans,Bryozoa,Bryozoa,Andrade (pers. comm.),
+Paralomis granulosa,Debris allocthonous,Detritus,Non-living,Andrade (pers. comm.),
+Paralomis granulosa,Enteroctopus megalocyathus,Enteroctopus megalocyathus,Cephalopoda,Andrade (pers. comm.),
+Paralomis granulosa,Forams,Foraminifera,Foraminifera,Andrade (pers. comm.),
+Paralomis granulosa,Gaimardia trapesina,Gastropoda,Gastropoda,Cañete et al. (2021),https://www.scielo.br/j/nau/a/DwGRczmMrxWjByhxjy8GHhD/
+Paralomis granulosa,Hydrozoans,Hydrozoa,Hydrozoa,Andrade (pers. comm.),
+Paralomis granulosa,Mytilus chilensis,Mytilus sp.,Bivalvia,Andrade (pers. comm.),
+Paralomis granulosa,Polychaetes,Polychaeta,Polychaeta,Andrade (pers. comm.),
+Paralomis granulosa,Sponges,Porifera,Porifera,Andrade (pers. comm.),
+Paralomis granulosa,Pseudechinus magellanicus,Pseudechinus magellanicus,Echinodermata,Andrade (pers. comm.),
+Paralomis granulosa,Rhodophyta indet,Red algae,Macroalgae,Andrade (pers. comm.),
+Patagonotothen cornucola,Munida gregaria,Benthic decapoda,Decapoda,Hüne et al. (2018),https://polarresearch.net/index.php/polar/article/view/2632/6022
+Patagonotothen cornucola,Exospheroma gigas,Exosphaeroma gigas,Isopoda,Hüne & Vega (2016),
+Patagonotothen sima,Amphipoda,Amphipoda,Amphipoda,,https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile
+Patagonotothen sima,Munida gregaria,Benthic decapoda,Decapoda,,https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile
+Patagonotothen sima,Copepods,Copepoda,Copepoda,,https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile
+Patagonotothen sima,Polychaetes,Polychaeta,Polychaeta,,https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile
+Patagonotothen sp.,Munida gregaria,Benthic decapoda,Decapoda,,
+Patagonotothen sp.,Macroalgae,Brown algae,Macroalgae,,
+Patagonotothen sp.,Exospheroma gigas,Exosphaeroma gigas,Isopoda,,
+Patagonotothen sp.,Polychaetes,Polychaeta,Polychaeta,,
+Patagonotothen tessellata,Austroregia sp.,Amphipoda,Amphipoda,Hüne et al. (2018),https://polarresearch.net/index.php/polar/article/view/2632/6020
+Patagonotothen tessellata,Gammaridae,Amphipoda,Amphipoda,Hüne & Vega (2015),https://link.springer.com/article/10.1007/s00300-015-1726-9
+Patagonotothen tessellata,Munida gregaria,Benthic decapoda,Decapoda,Hüne et al. (2018),https://polarresearch.net/index.php/polar/article/view/2632/6021
+Patagonotothen tessellata,Chironomidae,Chironomidae,Miscellaneous,Hüne & Vega (2015),https://link.springer.com/article/10.1007/s00300-015-1726-13
+Patagonotothen tessellata,Rhizoclonium sp,Green algae,Macroalgae,Hüne & Vega (2015),https://link.springer.com/article/10.1007/s00300-015-1726-11
+Patagonotothen tessellata,Ostracods,Ostracoda,Ostracoda,Hüne & Vega (2015),https://link.springer.com/article/10.1007/s00300-015-1726-10
+Patagonotothen tessellata,Patagonotothen spp.,Patagonotothen sp.,Pisces,Hüne et al. (2023),
+Patagonotothen tessellata,Platynereis australis,Polychaeta,Polychaeta,Hüne & Vega (2015),https://link.springer.com/article/10.1007/s00300-015-1726-8
+Patagonotothen tessellata,Polysiphonia sp.,Red algae,Macroalgae,Hüne & Vega (2015),https://link.springer.com/article/10.1007/s00300-015-1726-12
+Patagonotothen tessellata (larvae),Bivalvia larva,Bivalvia (larvae),Bivalvia,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8
+Patagonotothen tessellata (larvae),Calanoid (copepodite),Calanoid (copepodite),Copepoda,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8
+Patagonotothen tessellata (larvae),Aetideus arcuatus,Copepoda,Copepoda,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8
+Patagonotothen tessellata (larvae),Calanoides patagoniensis,Copepoda,Copepoda,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8
+Patagonotothen tessellata (larvae),Calanus simillimus,Copepoda,Copepoda,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8
+Patagonotothen tessellata (larvae),Copepod egg,Copepoda (egg),Copepoda,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8
+Patagonotothen tessellata (larvae),Copepod nauplius,Copepoda (nauplius),Copepoda,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8
+Patagonotothen tessellata (larvae),Paracalanus indicus,Paracalanus indicus,Copepoda,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8
+Patagonotothen tessellata (larvae),Pluteus larva,Pluteus (larva),Echinodermata,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8
+Peltarion spinulosum,Nacella deaurata,Nacella deaurata,Gastropoda,,https://link.springer.com/article/10.1007/s10530-022-02806-6
+Perumytilus purpuratus,Phytoplankton,Phytoplankton,Phytoplankton,,
+Perumytilus purpuratus,Zooplankton,Zooplankton,Plankton,,
+Pinguipes chilensis,Amphipoda,Amphipoda,Amphipoda,González & Oyarzún (2003),https://onlinelibrary.wiley.com/doi/full/10.1111/j.1439-0426.2003.00444.x?casa_token=AbNjCPTg-P4AAAAA%3Az5Ua1HLrjp6Mfb0bulTPDtXlWtmLhPMnmq2lvzYFAPRzFWIdJhpKCdBHjuCJWJBQMdHupNJmU_fDt6A
+Pinguipes chilensis,Aulacomya atra,Aulacomya atra,Bivalvia,González & Oyarzún (2003),https://onlinelibrary.wiley.com/doi/full/10.1111/j.1439-0426.2003.00444.x?casa_token=AbNjCPTg-P4AAAAA%3Az5Ua1HLrjp6Mfb0bulTPDtXlWtmLhPMnmq2lvzYFAPRzFWIdJhpKCdBHjuCJWJBQMdHupNJmU_fDt6A
+Pinguipes chilensis,Doryteuthis gahi,Doryteuthis gahi,Cephalopoda,González & Oyarzún (2003),https://onlinelibrary.wiley.com/doi/full/10.1111/j.1439-0426.2003.00444.x?casa_token=AbNjCPTg-P4AAAAA%3Az5Ua1HLrjp6Mfb0bulTPDtXlWtmLhPMnmq2lvzYFAPRzFWIdJhpKCdBHjuCJWJBQMdHupNJmU_fDt6A
+Pinguipes chilensis,Odontesthes regia,Odontesthes sp.,Pisces,,
+Pinguipes chilensis,Pagurus sp.,Pagurus sp.,Decapoda,González & Oyarzún (2003),https://onlinelibrary.wiley.com/doi/full/10.1111/j.1439-0426.2003.00444.x?casa_token=AbNjCPTg-P4AAAAA%3Az5Ua1HLrjp6Mfb0bulTPDtXlWtmLhPMnmq2lvzYFAPRzFWIdJhpKCdBHjuCJWJBQMdHupNJmU_fDt6A
+Pinguipes chilensis,Polychaetes,Polychaeta,Polychaeta,González & Oyarzún (2003),https://onlinelibrary.wiley.com/doi/full/10.1111/j.1439-0426.2003.00444.x?casa_token=AbNjCPTg-P4AAAAA%3Az5Ua1HLrjp6Mfb0bulTPDtXlWtmLhPMnmq2lvzYFAPRzFWIdJhpKCdBHjuCJWJBQMdHupNJmU_fDt6A
+Platynereis australis,Macroalgae,Brown algae,Macroalgae,Montiel (pers. comm.),
+Platynereis australis,Detritus,Detritus,Non-living,Montiel (pers. comm.),
+Plaxiphora aurata,Diatoms,Benthic diatom,Phytoplankton,Andrade (pers. comm.),
+Plaxiphora aurata,Diatoms,Benthic diatom,Phytoplankton,Andrade (pers. comm.),
+Plaxiphora aurata,Phytodetritus,Phytodetritus,Non-living,C. Andrade (pers. comm.),
+Plaxiphora aurata,Phytodetritus,Phytodetritus,Non-living,Andrade (pers. comm.),
+Pluteus (larva),Zooplankton,Zooplankton,Zooplankton,,
+Polychaeta,Diatoms,Benthic diatom,Phytoplankton,Fauchald (1979),https://repository.si.edu/bitstream/handle/10088/3422/OMBARFauchald1979.pdf
+Polychaeta,Brown algae,Brown algae,Macroalgae,Fauchald (1979),https://repository.si.edu/bitstream/handle/10088/3422/OMBARFauchald1979.pdf
+Polychaeta,Copepods,Copepoda,Copepoda,Fauchald (1979),https://repository.si.edu/bitstream/handle/10088/3422/OMBARFauchald1979.pdf
+Polychaeta,Detritus,Detritus,Non-living,Fauchald (1979),https://repository.si.edu/bitstream/handle/10088/3422/OMBARFauchald1979.pdf
+Polychaeta,Green algae,Green algae,Macroalgae,Fauchald (1979),https://repository.si.edu/bitstream/handle/10088/3422/OMBARFauchald1979.pdf
+Polychaeta,Ostracods,Ostracoda,Ostracoda,Fauchald (1979),https://repository.si.edu/bitstream/handle/10088/3422/OMBARFauchald1979.pdf
+Polychaeta,Red algae,Red algae,Macroalgae,Fauchald (1979),https://repository.si.edu/bitstream/handle/10088/3422/OMBARFauchald1979.pdf
+Polychaeta,Zooplankton,Zooplankton,Zooplankton,Fauchald (1979),https://repository.si.edu/bitstream/handle/10088/3422/OMBARFauchald1979.pdf
+Polyplacophora,Bryozoans,Bryozoa,Bryozoa,,
+Polyplacophora,Detritus,Detritus,Non-living,,
+Polyplacophora,Phytoplankton,Phytoplankton,Phytoplankton,,
+Polyplacophora,Zooplankton,Zooplankton,Zooplankton,,
+Porifera,Detritus,Detritus,Non-living,,
+Porifera,Phytoplankton,Phytoplankton,Phytoplankton,,
+Prolatilus jugularis,Amphipoda,Amphipoda,Amphipoda,Reyes & Hüne (2012),Peces del sur de Chile
+Prolatilus jugularis,Pagurus sp.,Pagurus sp.,Decapoda,Reyes & Hüne (2012),Peces del sur de Chile
+Prolatilus jugularis,Polychaetes,Polychaeta,Polychaeta,,http://opac.pucv.cl/pucv_txt/txt-0000/UCH0448_01.pdf
+Psedechinus magellanicus,Macroalgae,Brown algae,Macroalgae,,https://www.tandfonline.com/doi/abs/10.1080/00785326.2004.10410216
+Psedechinus magellanicus,Forams,Foraminifera,Foraminifera,,https://www.tandfonline.com/doi/abs/10.1080/00785326.2004.10410216
+Psedechinus magellanicus,Ostracods,Ostracoda,Ostracoda,,https://www.tandfonline.com/doi/abs/10.1080/00785326.2004.10410216
+Pseudechinus magellanicus,Brown algae,Brown algae,Macroalgae,,
+Pseudechinus magellanicus,Forams,Foraminifera,Foraminifera,,
+Pseudechinus magellanicus,Ostracods,Ostracoda,Ostracoda,,
+Pseudorca crassidens,Genypterus blacodes,Genypterus blacodes,Pisces,Alonso & Pedraza (1999),
+Pseudorca crassidens,Illex argentinus,Illex argentinus,Cephalopoda,Alonso & Pedraza (1999),https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1748-7692.1999.tb00838.x
+Pseudorca crassidens,Macruronus magellanicus,Macruronus magellanicus,Pisces,Alonso & Pedraza (1999),https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1748-7692.1999.tb00838.x
+Pseudorca crassidens,Martialia hyadesii,Martialia hyadesii,Cephalopoda,Alonso & Pedraza (1999),https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1748-7692.1999.tb00838.x
+Salilota australis,Austrolycus depressiceps,Austrolycus depressiceps,Pisces,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376
+Salilota australis,Munida gregaria,Benthic decapoda,Decapoda,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376
+Salilota australis,Munida gregaria,Benthic decapoda,Decapoda,,
+Salilota australis,Merluccius sp.,Merluccius sp.,Pisces,Jimena Torres pers. comm,
+Salilota australis,Patagonotothen cornucola,Patagonotothen cornucola,Pisces,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376
+Salilota australis,Patagonotothen spp.,Patagonotothen sp.,Pisces,,
+Salmo salar,Amphipoda,Amphipoda,Amphipoda,Soto et al. (2001),https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/1051-0761%282001%29011%5B1750%3AESITIS%5D2.0.CO%3B2?casa_token=TDoh8tCi2eIAAAAA%3A7ZcavXsn4BEGEZEFHNSW3mE4QSVijx-U3ciIVTnnVuD-7e4TSDmKR_NhtXDRuQPUmuiiHLWIk80f9Bc
+Salmo salar,Merluccius sp.,Merluccius sp.,Pisces,Soto et al. (2001),https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/1051-0761%282001%29011%5B1750%3AESITIS%5D2.0.CO%3B2?casa_token=TDoh8tCi2eIAAAAA%3A7ZcavXsn4BEGEZEFHNSW3mE4QSVijx-U3ciIVTnnVuD-7e4TSDmKR_NhtXDRuQPUmuiiHLWIk80f9Bc
+Salmo salar,Odontesthes regia,Odontesthes sp.,Pisces,Antezana (pers. comm),
+Salp,Copepods,Copepoda,Copepoda,,https://www.int-res.com/abstracts/meps/v195/p201-220/
+Salp,Nanoflagellates,Nanoflagellates,Phytoplankton,,https://academic.oup.com/plankt/article/26/7/827/1514027?login=false
+Salp,Picoplankton,Phytoplankton,Phytoplankton,Cañete (pers. comm.),
+Siphonaria lessonii,Macroalgae,Brown algae,Macroalgae,Ríos & Gerdes (1997),https://epic.awi.de/id/eprint/5233/
+Siphonaria lessonii,Macrocystis pyrifera,Brown algae,Macroalgae,Andrade (pers. comm.),
+Siphonaria lessonii,Phytodetritus,Phytodetritus,Non-living,Andrade (pers. comm.),
+Spheniscus magellanicus,Munida gregaria,Benthic decapoda,Decapoda,Venegas & Sielfeld (1981),"VENEGAS, C. & W. SIELFELD. 1981. Utilización de aves como indicadoras de presencia y potencialidad de recursos marinos eventualmente manejables. Resumen. P. 83, in Jornadas de Ciencias del Mar. Valdivia, Chile."
+Spheniscus magellanicus,Cephalopoda indet,Cephalopoda,Cephalopoda,Boswall & MacIver (1975),"Boswall, J. and D. MacIver 1975 The Magellanic Penguin Spheniscus magellanicus. In Stonehouse, B. (ed.), The Biology of Penguins. University Park Press, Baltimore, USA 271-305."
+Spheniscus magellanicus,Doryteuthis gahi,Doryteuthis gahi,Cephalopoda,Almonacid (2018),http://www.aveschile.cl/wp-content/uploads/2019/01/2_Almonacid_Vol.24-1-2018-RChO_dieta-pinguinos.pdf
+Spheniscus magellanicus,Patagonotothen wiltoni,Patagonotothen sp.,Pisces,Almonacid (2018),http://www.aveschile.cl/wp-content/uploads/2019/01/2_Almonacid_Vol.24-1-2018-RChO_dieta-pinguinos.pdf
+Spheniscus magellanicus,Ramnogaster arcuata,Ramnogaster arcuata,Pisces,Venegas & Sielfeld (1981),"VENEGAS, C. & W. SIELFELD. 1981. Utilización de aves como indicadoras de presencia y potencialidad de recursos marinos eventualmente manejables. Resumen. P. 83, in Jornadas de Ciencias del Mar. Valdivia, Chile."
+Spheniscus magellanicus,Sprattus fuegensis,Sprattus fuegensis,Pisces,Almonacid (2018),http://www.aveschile.cl/wp-content/uploads/2019/01/2_Almonacid_Vol.24-1-2018-RChO_dieta-pinguinos.pdf
+Sprattus fuegensis  ,Amphipoda,Amphipoda,Amphipoda,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376
+Sprattus fuegensis  ,Hyperiidea,Amphipoda,Amphipoda,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376
+Sprattus fuegensis  ,Calanoida,Copepoda,Copepoda,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376
+Sprattus fuegensis  ,Copepods,Copepoda,Copepoda,Montecinos (2015),http://repositorio.udec.cl/jspui/bitstream/11594/1828/1/Tesis_Composicion_dietaria_de_Sprattus.Marked.pdf
+Sprattus fuegensis  ,Harpacticoida,Copepoda,Copepoda,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376
+Sprattus fuegensis  ,Megacalanus sp.,Copepoda,Copepoda,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376
+Sprattus fuegensis  ,Isopoda,Isopoda,Isopoda,Montecinos (2015),http://repositorio.udec.cl/jspui/bitstream/11594/1828/1/Tesis_Composicion_dietaria_de_Sprattus.Marked.pdf
+Sprattus fuegensis  ,Centric diatoms,Plankton diatom,Phytoplankton,Montecinos (2015),http://repositorio.udec.cl/jspui/bitstream/11594/1828/1/Tesis_Composicion_dietaria_de_Sprattus.Marked.pdf
+Sprattus fuegensis  ,Pennate diatoms,Plankton diatom,Phytoplankton,Montecinos (2015),http://repositorio.udec.cl/jspui/bitstream/11594/1828/1/Tesis_Composicion_dietaria_de_Sprattus.Marked.pdf
+Sprattus fuegensis  ,Asterionellopsis sp.,Plankton diatom,Phytoplankton,Montecinos (2015),http://repositorio.udec.cl/jspui/bitstream/11594/1828/1/Tesis_Composicion_dietaria_de_Sprattus.Marked.pdf
+Sprattus fuegensis  ,Chaetoceros sp.,Plankton diatom,Phytoplankton,Montecinos (2015),http://repositorio.udec.cl/jspui/bitstream/11594/1828/1/Tesis_Composicion_dietaria_de_Sprattus.Marked.pdf
+Sprattus fuegensis  ,Pseudonitzschia sp.,Plankton diatom,Phytoplankton,Montecinos (2015),http://repositorio.udec.cl/jspui/bitstream/11594/1828/1/Tesis_Composicion_dietaria_de_Sprattus.Marked.pdf
+Sprattus fuegensis  ,Rhizosolenia sp.,Plankton diatom,Phytoplankton,Montecinos (2015),http://repositorio.udec.cl/jspui/bitstream/11594/1828/1/Tesis_Composicion_dietaria_de_Sprattus.Marked.pdf
+Sprattus fuegensis  ,Thalassiosira sp.,Plankton diatom,Phytoplankton,Montecinos (2015),http://repositorio.udec.cl/jspui/bitstream/11594/1828/1/Tesis_Composicion_dietaria_de_Sprattus.Marked.pdf
+Stercorarius chilensis,Ramnogaster arcuata,Ramnogaster arcuata,Pisces,Sepúlveda (2016),https://repositorio.unab.cl/xmlui/handle/ria/9936
+Stercorarius chilensis,Sprattus fuegensis,Sprattus fuegensis,Pisces,Sepúlveda (2016),https://repositorio.unab.cl/xmlui/handle/ria/9936
+Tachyeres pteneres,Crustaceans,Benthic decapoda,Decapoda,,
+Tanaidae,Detritus,Detritus,Non-living,,
+Tanaidae,Phytoplankton,Phytoplankton,Phytoplankton,,
+Tanaidae,Zooplankton,Zooplankton,Plankton,,
+Tegula atra,Macrocystis pyrifera,Brown algae,Macroalgae,Pinochet et al. (2018),https://www.scielo.cl/scielo.php?pid=S0718-686X2018000300051&script=sci_arttext&tlng=pt
+Tegula atra,Ulva sp.,Green algae,Macroalgae,Pinochet et al. (2018),https://www.scielo.cl/scielo.php?pid=S0718-686X2018000300051&script=sci_arttext&tlng=pt
+Tegula atra,Mazzaella laminarioides,Red algae,Macroalgae,Pinochet et al. (2018),https://www.scielo.cl/scielo.php?pid=S0718-686X2018000300051&script=sci_arttext&tlng=pt
+Themisto gaudichaudii,Copepods,Copepoda,Copepoda,Pakhomov & Perissinotto (1996),https://www.int-res.com/articles/meps/134/m134p091.pdf
+Thyrsites atun,Doryteuthis gahi,Doryteuthis gahi,Cephalopoda,Carimán & Reyes (2019),https://www.scielo.cl/scielo.php?pid=S0718-19572019000100011&script=sci_arttext&tlng=en
+Thyrsites atun,Odontesthes regia,Odontesthes sp.,Pisces,Carimán & Reyes (2019),https://www.scielo.cl/scielo.php?pid=S0718-19572019000100011&script=sci_arttext&tlng=en
+Thyrsites atun,Sprattus fuegensis,Sprattus fuegensis,Pisces,Carimán & Reyes (2019),https://www.scielo.cl/scielo.php?pid=S0718-19572019000100011&script=sci_arttext&tlng=en
+Trachurus murphyi,Copepods,Copepoda,Copepoda,Medina & Arancibia (2002),https://www.scielo.cl/scielo.php?pid=S0717-71782002000100003&script=sci_arttext
+Trachurus murphyi,Crustaceans,Crustacea,Crustacea,,
+Trachurus murphyi,Myctophidae,Myctophidae,Pisces,Medina & Arancibia (2002),https://www.scielo.cl/scielo.php?pid=S0717-71782002000100003&script=sci_arttext
+Trachurus murphyi,Ostracods,Ostracoda,Ostracoda,Medina & Arancibia (2002),https://www.scielo.cl/scielo.php?pid=S0717-71782002000100003&script=sci_arttext
+Trophon geversianus,Aulacomya atra,Bivalvia,Bivalvia,Andrade C & Ríos C (2007),http://analesdelinstitutodelapatagonia.cl/index.php/analespatagonia/article/view/388
+Trophon geversianus,Hiatella arctica,Bivalvia,Bivalvia,Andrade C & Ríos C (2007),http://analesdelinstitutodelapatagonia.cl/index.php/analespatagonia/article/view/389
+Trophon geversianus,Mytilus chilensis,Mytilus sp.,Bivalvia,Andrade C & Ríos C (2007),http://analesdelinstitutodelapatagonia.cl/index.php/analespatagonia/article/view/387
+Trophon geversianus,Perumytilus purpuratus,Perumytilus purpuratus,Bivalvia,Andrade C & Ríos C (2007),http://analesdelinstitutodelapatagonia.cl/index.php/analespatagonia/article/view/390
+Zoarcidae,Amphipoda,Amphipoda,Amphipoda,,https://oceanrep.geomar.de/id/eprint/53025/1/3857.pdf
+Zoarcidae,Polychaetes,Polychaeta,Polychaeta,,https://oceanrep.geomar.de/id/eprint/53025/1/3857.pdf
+Zooplankton,Phytoplankton,Phytoplankton,Phytoplankton,,

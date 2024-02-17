@@ -10,7 +10,7 @@ require(janitor)
 
 # Load data ---------------------------------------------------------------
 beagle_df <- read.csv(file = "Data/BeagleChannel_links.csv", header = TRUE)
-magellan_raw <- read.csv(file = "Data/MagellanStrait_links_28jan24.csv", header = TRUE) %>% 
+magellan_raw <- read.csv(file = "Data/MagellanStrait_links_13feb24.csv", header = TRUE) %>% 
   dplyr::select(resource_original, consumer, resource_collapsed) %>% 
   mutate(across(where(is.character), str_trim)) %>% 
   dplyr::select(resource_collapsed, consumer) %>% 
@@ -52,4 +52,4 @@ magellan_usp <- dplyr::anti_join(m_sp, b_sp)
 
 # Save data ---------------------------------------------------------------
 save(beagle_df, magellan_df, b_sp, m_sp,
-     file = "Results/Data_tidy_28jan24.rda")
+     file = "Results/Data_tidy_13feb24.rda")
