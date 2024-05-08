@@ -107,5 +107,5 @@ plt_fw <- plot_troph_level(m_ig, vertexLabel = F, modules = F, ylab = "Trophic l
 
 
 # Save data ---------------------------------------------------------------
-save(m_ig, b_ig, m_dd, b_dd, all_prop, m_spp_total, key_ind,
+save(m_ig, m_dd, m_prop, m_spp_total, key_ind,
      file = "Results/Network&SpProps_19feb24.rda")
