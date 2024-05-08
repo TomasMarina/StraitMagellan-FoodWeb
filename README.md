@@ -1,9 +1,9 @@
 # Trophic structure and species role in the Magellan Strait food web
 
-Authors: Claudia Andrade<sup>1</sup>, Taryn Sepúlveda^1^, Cristóbal Rivera^1, Cristian Aldea^2 & Tomás I. Marina^3
+Authors: Claudia Andrade<sup>1</sup>, Taryn Sepúlveda<sup>1</sup>, Cristóbal Rivera<sup>1</sup>, Cristian Aldea<sup>2</sup> & Tomás I. Marina<sup>3</sup>
 
-1. Laboratorio de Ecología Funcional, Universidad de Magallanes, Punta Arenas, Chile. claudia.andrade@umag.cl
-2. Facultad de Ciencias, Universidad de Magallanes, Punta Arenas, Chile.
-3. Centro Austral de Investigaciones Científicas (CADIC-CONICET), Ushuaia, Argentina.
+<sup>1</sup> Laboratorio de Ecología Funcional, Universidad de Magallanes, Punta Arenas, Chile. claudia.andrade@umag.cl
+<sup>2</sup> Facultad de Ciencias, Universidad de Magallanes, Punta Arenas, Chile.
+<sup>3</sup> Centro Austral de Investigaciones Científicas (CADIC-CONICET), Ushuaia, Argentina.
 
 Work in progress...
