@@ -1,5 +1,3 @@
-# Subantarctic food webs: Magellan Strait - Beagle Channel comparison
+# Trophic structure and species role in the Magellan Strait food web
 
 Work in progress...
-
-Compare the structure and species' role in subantartic marine food webs: Magellan Strait and Beagle Channel cases
