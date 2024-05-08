@@ -21,7 +21,8 @@ load("Results/Network&SpProps_19feb24.rda")
 # Network-level analysis --------------------------------------------------
 
 ## Plot food web -----------------------------------------------------------
-plt_fw <- plot_troph_level(m_ig, vertexLabel = F, modules = F, ylab = "Trophic level")
+plt_fw <- plot_troph_level(m_ig, vertexLabel = F, vertexSizeFactor = 2,
+                           ylab = "Nivel trófico")
 
 plot_fw <- plot.igraph(m_ig,
                        vertex.size = degree*0.5,
