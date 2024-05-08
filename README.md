@@ -1,4 +1,4 @@
-# Trophic structure and species role in the Magellan Strait food web
+# Trophic structure and species role of the Magellan Strait food web
 
 ### Authors: Claudia Andrade<sup>1</sup>, Taryn Sepúlveda<sup>1</sup>, Cristóbal Rivera<sup>1</sup>, Cristian Aldea<sup>2</sup> & Tomás I. Marina<sup>3</sup>
 
