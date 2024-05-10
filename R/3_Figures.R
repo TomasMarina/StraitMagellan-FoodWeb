@@ -21,15 +21,9 @@ load("Results/Network&SpProps_19feb24.rda")
 # Network-level analysis --------------------------------------------------
 
 ## Plot food web -----------------------------------------------------------
+set.seed(1)
 plt_fw <- plot_troph_level(m_ig, vertexLabel = F, vertexSizeFactor = 2,
                            ylab = "Nivel trófico")
-
-plot_fw <- plot.igraph(m_ig,
-                       vertex.size = degree*0.5,
-                       vertex.label = NA,
-                       layout = layout_trophic,
-                       edge.width = .75,
-                       edge.arrow.size = 0.15, edge.curved = 0.3)
 
 ### by degree ----
 ## Calculate trophic level & omnivory
@@ -175,11 +169,11 @@ V(m_ig)$betweeness <- igraph::betweenness(m_ig)
 # Gráficos comparativos índices de centralidad
 par(mfrow = c(1,1))
 set.seed(1)
-deg_plot <- multiweb::plot_troph_level(m_ig, vertex.size=0.5*(V(m_ig)$totdegree), ylab = "Trophic level", main = "Degree")
+deg_plot <- multiweb::plot_troph_level(m_ig, vertex.size=0.5*(V(m_ig)$TotalDegree), ylab = "Nivel trófico", main = "Degree")
 set.seed(1)
-btw_plot <- multiweb::plot_troph_level(m_ig, vertex.size=sqrt(V(m_ig)$betweeness), ylab = "Trophic level", main = "Betweenness")
+btw_plot <- multiweb::plot_troph_level(m_ig, vertex.size=sqrt(V(m_ig)$betweeness), ylab = "Nivel trófico", main = "Betweenness")
 set.seed(1)
-clo_plot <- multiweb::plot_troph_level(m_ig, vertex.size=2000*(V(m_ig)$closeness), ylab = "Trophic level", main = "Closeness")
+clo_plot <- multiweb::plot_troph_level(m_ig, vertex.size=2000*(V(m_ig)$closeness), ylab = "Nivel trófico", main = "Closeness")
 
 ## TL vs Keystone ind ----
 ind_tl <- key_ind %>% 
