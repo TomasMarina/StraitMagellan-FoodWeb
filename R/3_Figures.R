@@ -24,6 +24,9 @@ load("Results/Network&SpProps_19feb24.rda")
 set.seed(1)
 plt_fw <- plot_troph_level(m_ig, vertexLabel = F, vertexSizeFactor = 2,
                            ylab = "Nivel trófico")
+set.seed(1)
+plt_fw <- plot_troph_level(m_ig, vertexLabel = F, vertexSizeFactor = V(m_ig)$TotalDegree*0.5,
+                           bpal = "orange", ylab = "Nivel trófico")
 
 ### by degree ----
 ## Calculate trophic level & omnivory
