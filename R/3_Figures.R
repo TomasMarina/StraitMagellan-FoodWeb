@@ -7,6 +7,7 @@
 require(igraph)
 require(multiweb)
 require(tidyverse)
+require(ggpubr)
 require(NetIndices)
 require(network)
 require(NetworkExtinction)
@@ -17,16 +18,12 @@ load("Results/Data_tidy_13feb24.rda")
 load("Results/Network&SpProps_19feb24.rda")
 
 
-
 # Network-level analysis --------------------------------------------------
-
-## Plot food web -----------------------------------------------------------
+## Plot food web ----------------------------------------------------------
+### Figure 2
 set.seed(1)
-plt_fw <- plot_troph_level(m_ig, vertexLabel = F, vertexSizeFactor = 2,
-                           ylab = "Nivel trófico")
-set.seed(1)
-plt_fw <- plot_troph_level(m_ig, vertexLabel = F, vertexSizeFactor = V(m_ig)$TotalDegree*0.5,
-                           bpal = "orange", ylab = "Nivel trófico")
+plt_fw <- plot_troph_level(m_ig, vertexLabel = F, vertex.size = 8,
+                           ylab = "Trophic level")
 
 ### by degree ----
 ## Calculate trophic level & omnivory
@@ -52,23 +49,6 @@ plot_fw <- plot.igraph(m_ig,
 
 
 ## Degree distribution -----------------------------------------------------
-degree <- as.data.frame(degree(m_ig, mode = "total"))
-plot_distdegree <- ggplot(degree, aes(degree[,1])) +
-    geom_histogram(stat = "count") +
-    labs(x = "Cantidad de interacciones", y = "Frecuencia") +
-    theme(legend.position = "none",
-          axis.text.x = element_text(size = 14),
-          axis.text.y = element_text(size = 14),
-          axis.title.x = element_text(face = "bold", size = 16),
-          axis.title.y = element_text(face = "bold", size = 16))
-
-### Model fitting ----
-m_net <- network::as.network(as.matrix(m_ig))
-m_dd <- NetworkExtinction::DegreeDistribution(m_net)
-
-
-## Generality & Vulnerability ----------------------------------------------
-
 tot.deg <- degree(m_ig, mode = "all")
 V(m_ig)$totdegree <- degree(m_ig, mode="all")
 out.deg <- degree(m_ig, mode = "out")
@@ -76,11 +56,28 @@ V(m_ig)$outdegree <-  out.deg
 in.deg <- degree(m_ig, mode = "in")
 V(m_ig)$indegree <-  in.deg
 
-# Generality
+### Cumulative
+upgrade_graph(m_ig)
+g_net <- as.network(as.matrix(m_ig))
+dist_fit <- NetworkExtinction::DegreeDistribution(g_net)
+
+(plot_cumdeg <- dist_fit[["graph"]] +
+  labs(y = "Cumulative degree distribution", x = "Degree (k)") +
+  #ggtitle("A)") +
+  theme(axis.title.x = element_text(size = 12),
+        axis.title.y = element_text(size = 12),
+        axis.text.x = element_text(size = 12),
+        axis.text.y = element_text(size = 12),
+        panel.background = element_blank(),
+        panel.grid.major=element_blank(),
+        panel.grid.minor=element_blank(),
+        panel.border=element_blank(),
+        axis.line = element_line(colour = "black")))
+
+### Generality -------------------------------------------------------------
 gen.fun <- function(m_ig){
   pred <- degree(m_ig, mode = "in") > 0
   G <- sum(degree(m_ig, mode = "in")[pred] / sum(pred))
-  
   return(G)
 }
 
@@ -89,21 +86,23 @@ data_indeg <- data_indeg %>%
   filter(V(m_ig)$indegree != 0) %>% 
   rename(n = "V(m_ig)$indegree")
 (plot_indeg <- ggplot(data_indeg, aes(x = n)) +
-    geom_histogram(stat = "count") +
-    labs(x = "Depredadores", y = "Cantidad de presas") +
-    theme(legend.position = "none",
-          axis.text.x = element_text(size = 14),
-          axis.text.y = element_text(size = 14),
-          axis.title.x = element_text(face = "bold", size = 16),
-          axis.title.y = element_text(face = "bold", size = 16)) +
-    annotate("text", x = Inf, y = Inf, label = paste("Presas por depredador = ", round(gen.fun(m_ig),2), sep = ""), 
-             size = 6, vjust=1, hjust=1))
+  geom_histogram(stat = "count") +
+  labs(x = "Predators", y = "Number of prey") +
+  #ggtitle("B)") +
+  theme(legend.position = "none",
+        panel.background = element_blank(),
+        axis.title.x = element_text(size = 12),
+        axis.title.y = element_text(size = 12),
+        axis.text.x = element_text(size = 12),
+        axis.text.y = element_text(size = 12),
+        axis.line = element_line(colour = "black", linetype = "solid"))) #+
+    # annotate("text", x = Inf, y = Inf, label = paste("Presas por depredador = ", round(gen.fun(m_ig),2), sep = ""), 
+    #          size = 6, vjust=1, hjust=1)
 
-# Vulnerability
+### Vulnerability ----------------------------------------------------------
 vul.fun <- function(m_ig){
   prey <- degree(m_ig, mode = "out") > 0
   V <- sum(degree(m_ig, mode = "out")[prey]) / sum(prey)
-  
   return(V)
 }
 
@@ -112,21 +111,31 @@ data_outdeg <- data_outdeg %>%
   filter(V(m_ig)$outdegree != 0) %>% 
   rename(n = "V(m_ig)$outdegree")
 (plot_outdeg <- ggplot(data_outdeg, aes(x = n)) +
-    geom_histogram(stat = "count") +
-    labs(x = "Presas", y = "Cantidad de depredadores") +
-    theme(legend.position = "none",
-          axis.text.x = element_text(size = 14),
-          axis.text.y = element_text(size = 14),
-          axis.title.x = element_text(face = "bold", size = 16),
-          axis.title.y = element_text(face = "bold", size = 16)) +
-    annotate("text", x = Inf, y = Inf, label = paste("Depredadores por presa = ", round(vul.fun(m_ig),2), sep = ""), 
-             size = 6, vjust=1, hjust=1))
+  geom_histogram(stat = "count") +
+  labs(x = "Prey", y = "Number of predators") +
+  #ggtitle("C)") +
+  theme(legend.position = "none",
+        panel.background = element_blank(),
+        axis.title.x = element_text(size = 12),
+        axis.title.y = element_text(size = 12),
+        axis.text.x = element_text(size = 12),
+        axis.text.y = element_text(size = 12),
+        axis.line = element_line(colour = "black", size = .5, linetype = "solid"))) #+
+    # annotate("text", x = Inf, y = Inf, label = paste("Depredadores por presa = ", round(vul.fun(m_ig),2), sep = ""), 
+    #          size = 6, vjust=1, hjust=1)
 
+### Figure 3
+fig3 <- ggarrange(plot_cumdeg,                                                 # First row with scatter plot
+          ggarrange(plot_indeg, plot_outdeg, ncol = 2, labels = c("B", "C")), # Second row with box and dot plots
+          nrow = 2, 
+          labels = "A"                                        # Labels of the scatter plot
+) 
 
+# ggsave(filename = "Figures/Fig3full_020125.png", plot = fig3,
+#        width = 10, units = "in", dpi = 600, bg = "white")
 
 # Species-level analysis --------------------------------------------------
-
-## TL vs Degree ----
+## TL vs Degree -----------------------------------------------------------
 plot_sp_tl <- ggplot(m_spp_total, aes(x = reorder(TrophicSpecies, TL), y = TotalDegree)) +
   geom_point() +
   geom_smooth(aes(as.numeric(reorder(TrophicSpecies, TL)), degree), method = "loess") +
@@ -162,23 +171,29 @@ pr_pred_int <- m_spp_total %>%
   layout(yaxis = list(title = 'Number of interactions'), 
          xaxis = list(title = 'Species'), barmode = 'stack')
 
-## Centrality indices ----
+## Centrality indices ------------------------------------------------------
 ### Closeness ----
 V(m_ig)$closeness <- igraph::closeness(m_ig,mode="all")
 
 ### Betweenness ----
 V(m_ig)$betweeness <- igraph::betweenness(m_ig)
 
-# Gráficos comparativos índices de centralidad
+### Figure 4
 par(mfrow = c(1,1))
 set.seed(1)
-deg_plot <- multiweb::plot_troph_level(m_ig, vertex.size=0.5*(V(m_ig)$TotalDegree), ylab = "Nivel trófico", main = "Degree")
+deg_plot <- multiweb::plot_troph_level(m_ig, vertex.size=0.5*(V(m_ig)$TotalDegree), 
+                                       edge.arrow.width=0.5, 
+                                       ylab = "Trophic level", main = "A)")
 set.seed(1)
-btw_plot <- multiweb::plot_troph_level(m_ig, vertex.size=sqrt(V(m_ig)$betweeness), ylab = "Nivel trófico", main = "Betweenness")
+btw_plot <- multiweb::plot_troph_level(m_ig, vertex.size=sqrt(V(m_ig)$betweeness), 
+                                       edge.arrow.width=0.5,
+                                       main = "B)")
 set.seed(1)
-clo_plot <- multiweb::plot_troph_level(m_ig, vertex.size=2000*(V(m_ig)$closeness), ylab = "Nivel trófico", main = "Closeness")
+clo_plot <- multiweb::plot_troph_level(m_ig, vertex.size=2000*(V(m_ig)$closeness),
+                                       edge.arrow.width=0.5,
+                                       main = "C)")
 
-## TL vs Keystone ind ----
+## TL vs Keystone ind ------------------------------------------------------
 ind_tl <- key_ind %>% 
    #dplyr::filter(IEC <= 10) %>% 
    ggplot(aes(x=TL, y=Keystone_ind)) + 
