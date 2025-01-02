@@ -1,5 +1,5 @@
-# Food web analyses
-# Data: September 2023 - January 2024
+# Magellan Strait food web: network & node-level analysis
+# Data: September 2023 - January 2025
 # Author: Tomas I. Marina
 
 

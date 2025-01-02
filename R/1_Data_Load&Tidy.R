@@ -1,4 +1,4 @@
-# Load & tidy data
+# Magellan Strait food web: Load & tidy data
 # Data: September 2023 - January 2025
 # Author: Tomas I. Marina
 
