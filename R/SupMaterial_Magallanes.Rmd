@@ -1,0 +1,103 @@
+---
+output:
+  pdf_document:
+    latex_engine: xelatex
+    keep_tex: yes
+  word_document: default
+# classoption: landscape
+bibliography: AMPYaganes.bib
+csl: "elsevier-harvard2.csl"
+documentclass: article
+geometry:
+- vmargin=1in
+- hmargin=1in
+header-includes:
+- \usepackage{amsmath}
+- \usepackage{pdflscape,booktabs}
+- \usepackage{lscape}
+- \newcommand{\blandscape}{\begin{landscape}}
+- \newcommand{\elandscape}{\end{landscape}}
+- \usepackage[running]{lineno}
+- \linenumbers
+---
+
+# Supplementary Material for 'Food web structure and species’ role in an oceanic Marine Protected Area in the subantarctic'
+
+The following figure and tables summarise the data we used to build the network of trophic (predator-prey) interactions for the Marine Protected Area Yaganes ecosystem. Details of some results are also included.
+Table 1 is the complete list of trophic interactions and references that confirm each of them. Table 2 is the species list with details on trophic species cases (aggregated taxa) and its species-level properties (in-degree, out-degree, total degree, closeness, betweenness, trophic level and keystone species index). Table 3 shows the results of the degree distribution fit of the food web.
+
+\newpage
+\blandscape
+
+```{r tableS1, echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
+
+# Load packages
+require(tidyverse)
+require(knitr)
+require(dplyr)
+require(kableExtra)
+require(pander)
+
+# Load data
+load("../Datos/datosdepurados_dic24.rda")
+
+# Filter interaction list
+int_tbl <- lista_interaccionesok %>% 
+  dplyr::select(Prey, Predator, Reference, Link, Observations) %>% 
+  distinct(Prey, Predator, .keep_all = TRUE)
+
+# Table S1
+pandoc.table(int_tbl %>% arrange(., (Predator)) %>% 
+               mutate(Prey = paste('\\tiny', Prey), Predator = paste('\\tiny', Predator), Reference = paste('\\tiny', Reference), Link = paste('\\tiny', Link), Observations = paste('\\tiny', Observations)), style="multiline", split.tables = Inf, justify = c("left","left","left","left","right"),
+             caption = "List of predator-prey (trophic) interactions used to build the network for the Marine Protected Area Yaganes ecosystem (MPAY).")
+
+```
+
+\newpage
+
+```{r tableS2, echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
+
+# Load data
+load("../Datos/analisis_datos_dic24.rda")
+
+# Filter species list
+sp_tbl <- sp_level %>% 
+  dplyr::select(name, degree.in, degree.out, degree.total, closeness, betweeness, TL, IEC) %>% 
+  # add taxonomic level
+  mutate(TaxLevel = case_when(str_detect(name, "dae") ~ "Family",
+                              name %in% c("Detritus","Necromass","Ichthyoplankton","Zooplankton","Phytoplankton") ~ "NA",
+                              name %in% c("Copepoda_others","Gastropoda_others","Ostracoda","Polyplacophora","Polychaeta") ~ "Class",
+                              name %in% c("Amphipoda","Decapoda_others","Calanoida","Isopoda_others","Squaliformes","Cumacea") ~ "Order",
+                              name == "Foraminifera" ~ "Phylum",
+                              str_detect(name, "_sp|_spp") ~ "Genus",
+                              str_detect(name, "Lepidonotothen") ~ "Genus",
+                              TRUE ~ "Species"))
+
+# Table S2
+pandoc.table(sp_tbl %>% arrange(., (IEC)) %>% 
+               mutate_at(vars(IEC, TL), round, 2) %>% 
+               mutate_at(vars(closeness, betweeness), round, 5) %>% 
+               rename("Species"="name", "InDegree"="degree.in", "OutDegree"="degree.out", "TotDegree"="degree.total", "Closeness"="closeness", "Betweeness"="betweeness", "KSI"="IEC"), style="multiline", split.tables = Inf, justify = c("left","center","center","center","center","center","center","center","right"),
+             caption = "List of species, including  species-level properties, for the food web of the Marine Protected Area Yaganes. TotDegree: total degree; TL: Trophic Level; KSI: Keystone Species Index. TaxLevel: Taxonomic Level. Ordered by the KSI.")
+
+```
+
+
+\elandscape
+
+\newpage
+
+```{r tableS3, echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
+
+# Load data
+load("../Datos/analisis_datos_dic24.rda")
+
+# Table S3
+pandoc.table(dist_fit$models %>% 
+               arrange(., (AIC)) %>% 
+               dplyr::select(AIC, BIC, family, model) %>% 
+               rename("Model"="model", "Model family"="family"), style="multiline", split.tables = Inf, justify = c("left","left","left","left"),
+             caption = "Results of the degree distribution fit. Exponential and power law model families were tested, and AIC (Akaike Information Criterion) and BIC (Bayesian Information Criterion) were used to select the best fit (i.e., lower AIC and BIC). The exponential model is the best fit.")
+
+
+```
