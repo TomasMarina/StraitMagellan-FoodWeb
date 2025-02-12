@@ -14,8 +14,8 @@ require(NetworkExtinction)
 
 
 # Load data ---------------------------------------------------------------
-load("Results/Data_tidy_13feb24.rda")
-load("Results/Network&SpProps_19feb24.rda")
+load("Results/Data_tidy_12feb25.rda")
+load("Results/Network&SpProps_12feb25.rda")
 
 
 # Network-level analysis --------------------------------------------------
@@ -27,7 +27,7 @@ plt_fw <- plot_troph_level(m_ig, vertexLabel = F, vertex.size = 8,
 
 ### by degree ----
 ## Calculate trophic level & omnivory
-adj_mat <- get.adjacency(m_ig, sparse = FALSE)
+adj_mat <- as_adjacency_matrix(m_ig, sparse = FALSE)
 tl <- round(TrophInd(adj_mat), digits = 3)
 degree <- degree(m_ig, mode = "total")
 V(m_ig)$TL <- tl$TL
@@ -80,6 +80,7 @@ gen.fun <- function(m_ig){
   G <- sum(degree(m_ig, mode = "in")[pred] / sum(pred))
   return(G)
 }
+gen.fun(m_ig) # average number of preys per predator
 
 data_indeg <- as.data.frame(V(m_ig)$indegree) 
 data_indeg <- data_indeg %>% 
@@ -95,9 +96,7 @@ data_indeg <- data_indeg %>%
         axis.title.y = element_text(size = 12),
         axis.text.x = element_text(size = 12),
         axis.text.y = element_text(size = 12),
-        axis.line = element_line(colour = "black", linetype = "solid"))) #+
-    # annotate("text", x = Inf, y = Inf, label = paste("Presas por depredador = ", round(gen.fun(m_ig),2), sep = ""), 
-    #          size = 6, vjust=1, hjust=1)
+        axis.line = element_line(colour = "black", linetype = "solid")))
 
 ### Vulnerability ----------------------------------------------------------
 vul.fun <- function(m_ig){
@@ -105,6 +104,7 @@ vul.fun <- function(m_ig){
   V <- sum(degree(m_ig, mode = "out")[prey]) / sum(prey)
   return(V)
 }
+vul.fun(m_ig) # average number of predators per prey
 
 data_outdeg <- as.data.frame(V(m_ig)$outdegree) 
 data_outdeg <- data_outdeg %>% 
@@ -120,9 +120,7 @@ data_outdeg <- data_outdeg %>%
         axis.title.y = element_text(size = 12),
         axis.text.x = element_text(size = 12),
         axis.text.y = element_text(size = 12),
-        axis.line = element_line(colour = "black", size = .5, linetype = "solid"))) #+
-    # annotate("text", x = Inf, y = Inf, label = paste("Depredadores por presa = ", round(vul.fun(m_ig),2), sep = ""), 
-    #          size = 6, vjust=1, hjust=1)
+        axis.line = element_line(colour = "black", linewidth = .5, linetype = "solid")))
 
 ### Figure 3
 fig3 <- ggarrange(plot_cumdeg,                                                 # First row with scatter plot

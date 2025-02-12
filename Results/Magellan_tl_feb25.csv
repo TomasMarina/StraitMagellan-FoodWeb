@@ -1,0 +1,141 @@
+"","TL","OI"
+"Mytilus sp.",2.5,0.25
+"Perumytilus purpuratus",2.5,0.25
+"Phytodetritus",1,0
+"Bivalvia",2,0
+"Gastropoda",2,0
+"Harpagifer bispinis",3.158,0.039
+"Zooplankton",2,0
+"Doryteuthis gahi",4.167,0.111
+"Myctophidae",3.333,0
+"Patagonotothen tessellata",3.191,0.727
+"Sprattus fuegensis",2.833,0.25
+"Brown algae",1,0
+"Foraminifera",2.444,0.395
+"Green algae",1,0
+"Ostracoda",2.333,0.222
+"Red algae",1,0
+"Merluccius australis",3.833,0
+"Phytoplankton",1,0
+"Isopoda",2,0
+"Patagonotothen cornucola",3.75,0.562
+"Polychaeta",2.458,0.359
+"Bivalvia (larvae)",2,0
+"Calanoid (copepodite)",2,0
+"Copepoda (egg)",1,0
+"Copepoda (nauplius)",2,0
+"Detritus",1,0
+"Plankton diatom",1,0
+"Salp",2.444,0.395
+"Benthic diatom",1,0
+"Exosphaeroma gigas",2,0
+"Benthic decapoda",3.5,0
+"Eleginops maclovinus",3.17,0.789
+"Enteroctopus megalocyathus",3.75,0.562
+"Halicarcinus planatus",2,0
+"Illex argentinus",3.625,0.811
+"Macruronus magellanicus",4.167,0.111
+"Odontesthes sp.",3,0
+"Patagonotothen sp.",3.24,0.808
+"Zoarcidae",3.229,0.053
+"Patagonotothen sima",3.573,0.315
+"Amphipoda",2,0
+"Nanoflagellates",1,0
+"Arbacia dufresnii",2.556,0.464
+"Loxechinus albus",2.719,1.035
+"Pseudechinus magellanicus",1,0
+"Grimothea gregaria",2.4,0.24
+"Peltarion spinulosum",3.642,0
+"Genypterus blacodes",4.114,0.415
+"Lithodes santolla",2.699,0.706
+"Salilota australis",4.667,0.084
+"Acanthocyclus albatrossis",3.5,0
+"Brachiopoda",2,0
+"Cephalopoda",3.75,0.562
+"Copepoda",2.333,0.222
+"Cyanobacteria",1,0
+"Sediment",1,0
+"Tanaidae",2.333,0.222
+"Bryozoa",2.5,0.25
+"Pagurus sp.",2,0
+"Merluccius sp.",4.111,1.21
+"Euphausia lucens",2,0
+"Myxine australis",2,0
+"Bassanago sp.",1,0
+"Hydrozoa",2.333,0.222
+"Porifera",2,0
+"Nacella deaurata",2.642,0.345
+"Polyplacophora",2.625,0.422
+"Cottoperca gobio",4.4,0.433
+"Prolatilus jugularis",3.153,0.047
+"Euphausia vallentini",2,0
+"Chironomidae",2,0
+"Cirripedia",2,0
+"Margarella violacea",2,0
+"Notochthamalus scabrosus",2,0
+"Dissostichus eleginoides",4.775,0.544
+"Otaria flavescens",4.397,0.675
+"Tachyeres pteneres",4.5,0
+"Callorhinchus callorynchus",3,0
+"Cilus gilberti",2.819,0.371
+"Mustelus mento",3.5,0.25
+"Oncorhynchus sp.",4.5,0
+"Paralabrax humeralis",1,0
+"Pinguipes chilensis",3.688,0.553
+"Salmo salar",4.037,0.743
+"Thyrsites atun",4.333,0.352
+"Trachurus murphyi",3.625,0.172
+"Paracalanus indicus",2,0
+"Pluteus (larva)",3,0
+"Aulacomya atra",2.5,0.25
+"Martialia hyadesii",3,0
+"Austrolycus depressiceps",3.736,0.549
+"Ramnogaster arcuata",1,0
+"Crustacea",2.5,0.25
+"Acanthina monodon",3.5,0
+"Anasterias antarctica",3.167,0.056
+"Antholoba achates",4.158,0
+"Appendicularians",3,0
+"Aptenoydes patagonicus",4.381,0.239
+"Arctocephalus australis",4.583,0.063
+"Austrochlamys natans",2,0
+"Bathylagichthys parini (larvae)",2.722,0.336
+"Bunodactis octoradiata",3,0
+"Calidris canutus",3,0
+"Campylonotus vagans",3,0
+"Cephalorhynchus commersonii commersonii",4.335,0.351
+"Champsocephalus esox",4.505,0.054
+"Chloephaga hybrida",2,0
+"Cosmasterias lurida",3.129,0.329
+"Crepipatella dilatata",2,0
+"Darina solenoides",2,0
+"Eurypodius latreillei",3.189,0.054
+"Fissurella oriens",2,0
+"Fissurella radiosa",2,0
+"Gaimardia trapesina",2,0
+"Gammaridae",2.333,0.222
+"Labidiaster radiosus",3,0
+"Lagenorhynchus australis",4.436,0.586
+"Larus dominicanus",3.167,0.056
+"Lithodes santolla (juvenile)",3,0.582
+"Lontra felina",4.49,0.223
+"Maurolicus australis (larvae)",2.75,0.188
+"Megaptera novaeangliae",3.467,0.371
+"Nacella magellanica",2.605,0.347
+"Nacella mytilina",2,0
+"Ophiactis asperula",2,0
+"Ophiuroglypha lymani",2.714,0.847
+"Orcinus orca",5.557,0.025
+"Paraeuthria fuscata",2,0
+"Paralomis granulosa",2.999,0.622
+"Patagonotothen tessellata (larvae)",3.048,0.299
+"Platynereis australis",2,0
+"Plaxiphora aurata",2,0
+"Psedechinus magellanicus",2.926,0.431
+"Pseudorca crassidens",4.726,0.221
+"Siphonaria lessonii",2,0
+"Spheniscus magellanicus",4.082,1.036
+"Stercorarius chilensis",2.917,0.84
+"Tegula atra",2,0
+"Themisto gaudichaudii",3.333,0
+"Trophon geversianus",3.333,0.056
