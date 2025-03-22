@@ -13,13 +13,14 @@ require(NetworkExtinction)
 
 
 # Load data ---------------------------------------------------------------
-load("Results/Data_tidy_12feb25.rda")
+load("Results/Data_tidy_22mar25.rda")
 
 
-# Network analyses ------------------------------------------------------
-## igraph objects
-# b_ig <- graph_from_data_frame(beagle_df, directed = TRUE)
-m_ig <- graph_from_data_frame(magellan_df, directed = TRUE)
+# Network analyses --------------------------------------------------------
+## igraph object
+magellan_fw <- magellan_df %>% 
+  dplyr::select(Prey, Predator)
+m_ig <- graph_from_data_frame(magellan_fw, directed = TRUE)
 
 ### Connected & disconnected spp: membership
 m_comp <- decompose(m_ig, mode = "weak")  # components
@@ -29,21 +30,22 @@ comp <- as.data.frame(components(m_ig)["membership"])
 
 ## Network-level ----
 ### Complexity & Structure ----
-# b_prop <- bind_cols(calc_topological_indices(b_ig), calc_modularity(b_ig)) %>% mutate(Name = "Beagle Channel")
 m_prop <- bind_cols(calc_topological_indices(m_ig), calc_modularity(m_ig)) %>% mutate(Name = "Magellan Strait")
-# all_prop <- bind_rows(b_prop, m_prop) %>% rename(Network = Name)
+
+top_per <- round(m_prop$Top/m_prop$Size*100, 2)  # Percentage of Top Species
+bas_per <- round(m_prop$Basal/m_prop$Size*100, 2)  # Percentage of Basal Species
+int_per <- 100 - (top_per+bas_per)  # Percentage of Intermediate Species
+omn_per <- round(m_prop$Omnivory*100, 2)  # Percentage of Omnivores
+mean_tl <- round(m_prop$TLmean, 2)  # Food web mean trophic level
 
 ### Degree distribution ----
-# b_net <- network::as.network(as.matrix(b_ig))
-# b_dd <- NetworkExtinction::DegreeDistribution(b_net)
-# b_dd  # plot cumulative degree distribution, best model: Exponential
-
 m_net <- network::as.network(as.matrix(m_ig))
 m_dd <- NetworkExtinction::DegreeDistribution(m_net)
-m_dd  # plot cumulative degree distribution, best model: Exponential
+m_dd  # plot cumulative degree distribution
+dd_best_fit <- m_dd$models[1,]  # best fit: Exponential
 
 ### Small-world pattern ----
-rnd_g <- lapply(1:100, function (x) {
+rnd_g <- lapply(1:1000, function (x) {
   e <- sample_gnm(m_prop$Size, m_prop$Links, directed = TRUE) # create Erdos-Renyi (ER) networks
   # Check that the ER networks has only one connected component
   while(components(e)$no > 1)
@@ -53,6 +55,9 @@ rnd_g <- lapply(1:100, function (x) {
 
 sw <- multiweb::calc_swness_zscore(m_ig, nullDist = rnd_g, weights = NA, ncores = 4)
 datos_sw <- as.data.frame(sw["da"])
+
+path_length <- round(datos_sw$da.PathLength, 2)  # Food web path length
+clus_coef <- round(datos_sw$da.Clustering, 2)  # Food web clustering coefficient
 
 
 ## Node-level ----
@@ -74,7 +79,7 @@ V(m_ig)$Btw <- igraph::betweenness(m_ig, directed = TRUE, cutoff = -1)
 ### Closeness ----
 V(m_ig)$Clo <- igraph::closeness(m_ig, mode = "all")
 
-## Node properties
+## Species properties
 spp_id <- as.data.frame(1:m_prop$Size)
 spp_name <- as.data.frame(V(m_ig)$name)
 spp_totdegree <- as.data.frame(V(m_ig)$TotalDegree)
@@ -99,13 +104,13 @@ key_ind <- m_spp_total %>%
          clo_rank = dense_rank(desc(Closeness))) %>% 
   mutate(Keystone_ind = (deg_rank + btw_rank + clo_rank)/3,
          Keystone_rank = dense_rank(Keystone_ind))
-#write.csv(key_ind, file = "Results/Magellan_sp_prop_12feb25.csv")
+#write.csv(key_ind, file = "Results/Magellan_sp_prop_22mar25.csv")
 
 
-# Plot food web -----------------------------------------------------------
+# Plot food web -------------------------------------------------------------
 plt_fw <- plot_troph_level(m_ig, vertexLabel = F, modules = F, ylab = "Trophic level")
 
 
-# Save data ---------------------------------------------------------------
+# Save data -----------------------------------------------------------------
 save(m_ig, m_dd, m_prop, m_spp_total, key_ind,
-     file = "Results/Network&SpProps_12feb25.rda")
+     file = "Results/Network&SpProps_22mar25.rda")

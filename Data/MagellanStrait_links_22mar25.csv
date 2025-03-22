@@ -1,0 +1,507 @@
+ID,Prey,Taxonomic_group_prey,Predator,Taxonomic_group_pred,Reference,Reference_link
+1,Mytilus sp.,Bivalvia,Acanthina monodon,Gastropoda,Ríos & Gerdes (1997),https://epic.awi.de/id/eprint/5233/
+2,Perumytilus purpuratus,Bivalvia,Acanthina monodon,Gastropoda,Andrade (pers. comm.),
+3,Mytilus sp.,Bivalvia,Acanthocyclus albatrossis,Decapoda,Uzkiaga et al. (2022),https://www.sciencedirect.com/science/article/abs/pii/S0022098122000387
+4,Phytodetritus,"Non-living
+",Amphipoda,Amphipoda,Andrade (pers. comm.),
+5,Bivalvia,Bivalvia,Anasterias antarctica,Asteroidea,Andrade (pers. comm.),
+6,Gastropoda,Gastropoda,Anasterias antarctica,Asteroidea,Ríos & Gerdes (1997),https://epic.awi.de/id/eprint/5233/
+7,Mytilus sp.,Bivalvia,Anasterias antarctica,Asteroidea,Andrade (pers. comm.),
+8,Harpagifer bispinis,Teleostei,Antholoba achates,Hexacorallia,Andrade (pers. comm.),
+9,Zooplankton,Zooplankton,Appendicularians,Appendicularia,Cañete (pers. comm.),
+10,Doryteuthis gahi,Cephalopoda,Aptenodytes patagonicus,Aves,Pütz et al. (2021),https://www.sciencedirect.com/science/article/pii/S2351989421002195
+11,Myctophidae,Teleostei,Aptenodytes patagonicus,Aves,Huidobro & Oporto (2018),https://repositorio.uc.cl/xmlui/handle/11534/45383
+12,Patagonotothen tessellata,Teleostei,Aptenodytes patagonicus,Aves,Pütz et al. (2021),https://www.sciencedirect.com/science/article/pii/S2351989421002195
+13,Sprattus fuegensis,Teleostei,Aptenodytes patagonicus,Aves,Huidobro & Oporto (2018),https://repositorio.uc.cl/xmlui/handle/11534/45382
+14,Brown algae,Macroalgae,Arbacia dufresnii,Echinoidea,Newcombe et al. (2012),https://www.int-res.com/abstracts/ab/v15/n2/p135-144
+15,Foraminifera,Foraminifera,Arbacia dufresnii,Echinoidea,Castro et al. (2022),https://www.sciencedirect.com/science/article/abs/pii/S2352249622000039?via%3Dihub
+16,Green algae,Macroalgae,Arbacia dufresnii,Echinoidea,Castro et al. (2022),https://www.sciencedirect.com/science/article/abs/pii/S2352249622000039?via%3Dihub
+17,Ostracoda,Ostracoda,Arbacia dufresnii,Echinoidea,Castro et al. (2022),https://www.sciencedirect.com/science/article/abs/pii/S2352249622000039?via%3Dihub
+18,Red algae,Macroalgae,Arbacia dufresnii,Echinoidea,Castro et al. (2022),https://www.sciencedirect.com/science/article/abs/pii/S2352249622000039?via%3Dihub
+19,Merluccius australis,Teleostei,Arctocephalus australis,Mammalia,Vargas (2012),http://cybertesis.uach.cl/tesis/uach/2012/fcv297h/doc/fcv297h.pdf
+20,Myctophidae,Teleostei,Arctocephalus australis,Mammalia,Vargas (2012),http://cybertesis.uach.cl/tesis/uach/2012/fcv297h/doc/fcv297h.pdf
+21,Phytoplankton,Phytoplankton,Aulacomya atra,Bivalvia,Montero et al. (2021),https://www.frontiersin.org/articles/10.3389/fmars.2021.612406/full
+22,Zooplankton,Zooplankton,Aulacomya atra,Bivalvia,Montero et al. (2021),https://www.frontiersin.org/articles/10.3389/fmars.2021.612406/full
+23,Phytoplankton,Phytoplankton,Austrochlamys natans,Bivalvia,Gallardo et al. (2024),https://onlinelibrary.wiley.com/doi/full/10.1155/2024/6685325
+24,Isopoda,Isopoda,Austrolycus depressiceps,Teleostei,Reyes & Hüne (2012),"https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile#:~:text=Abstract,que%20viven%20en%20aguas%20chilenas."
+25,Patagonotothen cornucola,Teleostei,Austrolycus depressiceps,Teleostei,Reyes & Hüne (2012),"https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile#:~:text=Abstract,que%20viven%20en%20aguas%20chilenas."
+26,Polychaeta,Polychaeta,Austrolycus depressiceps,Teleostei,Reyes & Hüne (2012),"https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile#:~:text=Abstract,que%20viven%20en%20aguas%20chilenas."
+27,Bivalvia (larvae),Bivalvia,Bathylagichthys parini (larvae),Teleostei,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8
+28,Calanoid (copepodite),Copepoda,Bathylagichthys parini (larvae),Teleostei,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8
+29,Copepoda (egg),Copepoda,Bathylagichthys parini (larvae),Teleostei,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8
+30,Copepoda (nauplius),Copepoda,Bathylagichthys parini (larvae),Teleostei,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8
+31,Detritus,"Non-living
+",Bathylagichthys parini (larvae),Teleostei,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8
+32,Ostracoda,Ostracoda,Bathylagichthys parini (larvae),Teleostei,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8
+33,Plankton diatom,Bacillariophyceae,Bathylagichthys parini (larvae),Teleostei,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8
+34,Salp,Thaliacea,Bathylagichthys parini (larvae),Teleostei,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8
+35,Mytilus sp.,Bivalvia,Benthic decapoda,Decapoda,Andrade (pers. comm.),
+36,Phytoplankton,Phytoplankton,Bivalvia,Bivalvia,Arapov et al. (2010),https://ribarstvo.agr.hr/articles/5795_BIVALVE_FEEDING_HOW_AND_WHAT_THEY_EAT__en.pdf
+37,Benthic diatom,Bacillariophyceae,Bivalvia (larvae),Bivalvia,Arapov et al. (2010),https://ribarstvo.agr.hr/articles/5795_BIVALVE_FEEDING_HOW_AND_WHAT_THEY_EAT__en.pdf
+38,Plankton diatom,Bacillariophyceae,Bivalvia (larvae),Bivalvia,Farías et al. (2003),https://www.sciencedirect.com/science/article/pii/S0044848603002722
+39,Phytoplankton,Phytoplankton,Brachiopoda,Brachiopoda,Peck et al. (1987),https://www.sciencedirect.com/science/article/abs/pii/0022098187901420?via%3Dihub
+40,Phytoplankton,Phytoplankton,Bryozoa,Bryozoa,Winston (1981),https://www.cambridge.org/core/journals/series-in-geology-notes-for-short-course/article/abs/feeding-behavior-of-modern-bryozoans/D38156D6C6C0553E2EF87DA56EF05AC8
+41,Zooplankton,Zooplankton,Bryozoa,Bryozoa,Winston (1981),https://www.cambridge.org/core/journals/series-in-geology-notes-for-short-course/article/abs/feeding-behavior-of-modern-bryozoans/D38156D6C6C0553E2EF87DA56EF05AC8
+42,Exosphaeroma gigas,Isopoda,Bunodactis octoradiata,Hexacorallia,Andrade C & Ríos C (2007),http://analesdelinstitutodelapatagonia.cl/index.php/analespatagonia/article/view/386
+43,Phytoplankton,Phytoplankton,Calanoid (copepodite),Copepoda,Cañete (pers. comm.),
+44,Bivalvia,Bivalvia,Calidris canutus,Aves,Espoz et al. (2008),https://www.researchgate.net/publication/262687507_Trophic_ecology_of_the_Red_Knot_Calidris_canutus_rufa_at_Bahia_Lomas_Tierra_del_Fuego_Chile?enrichId=rgreq-8c958f7066ac761a5d05454e0c0e8de9-XXX&enrichSource=Y292ZXJQYWdlOzI2MjY4NzUwNztBUzoxNDE3ODM2MTkwODQyODhAMTQxMDgxNTI1NzkyOQ%3D%3D&el=1_x_2&_esc=publicationCoverPdf
+45,Bivalvia,Bivalvia,Callorhinchus callorynchus,Chondrostei,Di Giacomo & Perier (1996),https://www.publish.csiro.au/mf/mf9960801
+46,Zooplankton,Zooplankton,Campylonotus vagans,Decapoda,Thatje et al. (2004),https://www.sciencedirect.com/science/article/pii/S0022098103005021?casa_token=teBJHmRgoUoAAAAA:XLM3A_oEKvJ3sW1mYuQ4kkTU-GgKioakdkP34Pf_SE9cXTIR7RFCMIwNbATLhbKFGijc4n5P4A
+47,Benthic decapoda,Decapoda,Cephalopoda,Cephalopoda,Sepúlveda (pers. comm),
+48,Bivalvia,Bivalvia,Cephalopoda,Cephalopoda,Sepúlveda (pers. comm),
+49,Benthic decapoda,Decapoda,Cephalorhynchus commersonii commersonii,Mammalia,Riccialdelli et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1289-16
+50,Doryteuthis gahi,Cephalopoda,Cephalorhynchus commersonii commersonii,Mammalia,Riccialdelli et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1289-12
+51,Eleginops maclovinus,"Teleostei
+",Cephalorhynchus commersonii commersonii,Mammalia,Riccialdelli et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1289-7
+52,Enteroctopus megalocyathus,Cephalopoda,Cephalorhynchus commersonii commersonii,Mammalia,Riccialdelli et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1289-13
+53,Halicarcinus planatus,Decapoda,Cephalorhynchus commersonii commersonii,Mammalia,Riccialdelli et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1289-15
+54,Illex argentinus,Cephalopoda,Cephalorhynchus commersonii commersonii,Mammalia,Riccialdelli et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1289-11
+55,Macruronus magellanicus,Teleostei,Cephalorhynchus commersonii commersonii,Mammalia,Riccialdelli et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1289-10
+56,Odontesthes sp.,Teleostei ,Cephalorhynchus commersonii commersonii,Mammalia,Riccialdelli et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1289-8
+57,Patagonotothen sp.,Teleostei,Cephalorhynchus commersonii commersonii,Mammalia,Riccialdelli et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1289-5
+58,Sprattus fuegensis,Teleostei,Cephalorhynchus commersonii commersonii,Mammalia,Riccialdelli et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1289-9
+59,Zoarcidae,"Teleostei
+",Cephalorhynchus commersonii commersonii,Mammalia,Riccialdelli et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1289-6
+60,Patagonotothen cornucola,Teleostei,Champsocephalus esox,Teleostei,Landaeta et al. (2020),https://www.cambridge.org/core/journals/antarctic-science/article/abs/shape-condition-and-diet-of-the-pike-icefish-champsocephalus-esox-teleostei-channichthyidae-evidence-of-phenotypic-plasticity/F45F7393F50141A0E3999A96CA55B1DC
+61,Patagonotothen sima,Teleostei,Champsocephalus esox,"Teleostei
+",Landaeta et al. (2020),https://www.cambridge.org/core/journals/antarctic-science/article/abs/shape-condition-and-diet-of-the-pike-icefish-champsocephalus-esox-teleostei-channichthyidae-evidence-of-phenotypic-plasticity/F45F7393F50141A0E3999A96CA55B1DC
+62,Patagonotothen tessellata,Teleostei,Champsocephalus esox,"Teleostei
+",Landaeta et al. (2020),https://www.cambridge.org/core/journals/antarctic-science/article/abs/shape-condition-and-diet-of-the-pike-icefish-champsocephalus-esox-teleostei-channichthyidae-evidence-of-phenotypic-plasticity/F45F7393F50141A0E3999A96CA55B1DC
+63,Detritus,"Non-living
+",Chironomidae,Insecta,Galizzi et al (2012),https://www.scielo.br/j/isz/a/bDrCDYjPB5jgPmsKhxq5FQp/#
+64,Plankton diatom,Bacillariophyceae,Chironomidae,Insecta,Galizzi et al (2012),https://www.scielo.br/j/isz/a/bDrCDYjPB5jgPmsKhxq5FQp/#
+65,Brown algae,Macroalgae,Chloephaga hybrida,Aves,Venegas (1985),"Venegas, C. 1985-1986. Prospección aérea de gansos (Chloephaga) en la estepa central de Magallanes. Anales del Instituto de la Patagonia 16: 67˗73."
+66,Amphipoda,Amphipoda,Cilus gilberti,Teleostei,Reyes & Hüne (2012),"https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile#:~:text=Abstract,que%20viven%20en%20aguas%20chilenas."
+67,Polychaeta,Polychaeta,Cilus gilberti,Teleostei,Reyes & Hüne (2012),"https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile#:~:text=Abstract,que%20viven%20en%20aguas%20chilenas."
+68,Green algae,Macroalgae,Cilus gilberti,Teleostei,Reyes & Hüne (2012),"https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile#:~:text=Abstract,que%20viven%20en%20aguas%20chilenas."
+69,Phytoplankton,Phytoplankton,Cirripedia,Scalpellomorpha,Andrade (pers. comm.),
+70,Detritus,"Non-living
+",Copepoda,Copepoda,Kleppel (1993),https://www.int-res.com/articles/meps/99/m099p183.pdf
+71,Phytoplankton,Phytoplankton,Copepoda,Copepoda,Kleppel (1993),https://www.int-res.com/articles/meps/99/m099p183.pdf
+72,Zooplankton,Zooplankton,Copepoda,Copepoda,Kleppel (1993),https://www.int-res.com/articles/meps/99/m099p183.pdf
+73,Nanoflagellates,Nanoflagellates,Copepoda (nauplius),Copepoda,Böttjer et al. (2009),https://link.springer.com/article/10.1007/s00227-009-1353-4
+74,Arbacia dufresnii,Echinoidea,Cosmasterias lurida,Asteroidea,Garrido et al. (2021),https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2021.636208/full
+75,Bivalvia,Bivalvia,Cosmasterias lurida,Asteroidea,Garrido et al. (2021),https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2021.636208/full
+76,Gastropoda,Gastropoda,Cosmasterias lurida,Asteroidea,Andrade (pers. comm.),
+77,Loxechinus albus,Echinoidea,Cosmasterias lurida,Asteroidea,Garrido et al. (2021),https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2021.636208/full
+78,Mytilus sp.,Bivalvia,Cosmasterias lurida,Asteroidea,Andrade (pers. comm.),
+79,Pseudechinus magellanicus,Echinoidea,Cosmasterias lurida,Asteroidea,Garrido et al. (2021),https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2021.636208/full
+80,Doryteuthis gahi,Cephalopoda,Cottoperca gobio,Teleostei,Laptikhovsky & Arkhipkin (2003),https://onlinelibrary.wiley.com/doi/full/10.1046/j.1439-0426.2003.00340.x?casa_token=6dL3l09v8GkAAAAA%3A4Fd89SBAZOIkE2TKrEQxaEERaCADR0kGhkXGR-Bz35FUg2Z12Z3dRPMgT5ckTZ1c__S6NpyqOz9_Q0E
+81,Macruronus magellanicus,Teleostei,Cottoperca gobio,Teleostei,Laptikhovsky & Arkhipkin (2003),https://onlinelibrary.wiley.com/doi/full/10.1046/j.1439-0426.2003.00340.x?casa_token=6dL3l09v8GkAAAAA%3A4Fd89SBAZOIkE2TKrEQxaEERaCADR0kGhkXGR-Bz35FUg2Z12Z3dRPMgT5ckTZ1c__S6NpyqOz9_Q0E
+82,Grimothea gregaria,Decapoda,Cottoperca gobio,Teleostei,Vinuesa & Varisco (2007),https://www.scielo.cl/scielo.php?pid=S0717-71782007000200003&script=sci_arttext&tlng=pt
+83,Patagonotothen tessellata,Teleostei,Cottoperca gobio,Teleostei,Laptikhovsky & Arkhipkin (2003),https://onlinelibrary.wiley.com/doi/full/10.1046/j.1439-0426.2003.00340.x?casa_token=6dL3l09v8GkAAAAA%3A4Fd89SBAZOIkE2TKrEQxaEERaCADR0kGhkXGR-Bz35FUg2Z12Z3dRPMgT5ckTZ1c__S6NpyqOz9_Q0E
+84,Peltarion spinulosum,Decapoda,Cottoperca gobio,Teleostei,Laptikhovsky & Arkhipkin (2003),https://onlinelibrary.wiley.com/doi/full/10.1046/j.1439-0426.2003.00340.x?casa_token=6dL3l09v8GkAAAAA%3A4Fd89SBAZOIkE2TKrEQxaEERaCADR0kGhkXGR-Bz35FUg2Z12Z3dRPMgT5ckTZ1c__S6NpyqOz9_Q0E
+85,Sprattus fuegensis,Teleostei,Cottoperca gobio,Teleostei,Laptikhovsky & Arkhipkin (2003),https://onlinelibrary.wiley.com/doi/full/10.1046/j.1439-0426.2003.00340.x?casa_token=6dL3l09v8GkAAAAA%3A4Fd89SBAZOIkE2TKrEQxaEERaCADR0kGhkXGR-Bz35FUg2Z12Z3dRPMgT5ckTZ1c__S6NpyqOz9_Q0E
+86,Brown algae,Macroalgae,Crepipatella dilatata,Gastropoda,C. Andrade (pers. comm.),
+87,Phytoplankton,Phytoplankton,Crustacea,Crustacea,C. Andrade (pers. comm.),
+88,Zooplankton,Zooplankton,Crustacea,Crustacea,C. Andrade (pers. comm.),
+89,Phytoplankton,Phytoplankton,Darina solenoides,Bivalvia,López et al. (2022),https://bioone.org/journals/malacologia/volume-64/issue-2/040.064.0203/Reproduction-and-Recruitment-of-the-Intertidal-Clam-iDarina-solenoides-i/10.4002/040.064.0203.short
+90,Doryteuthis gahi,Cephalopoda,Dissostichus eleginoides,"Teleostei
+",Troccoli et al. (2020),https://link.springer.com/article/10.1007/s00300-020-02730-2
+91,Genypterus blacodes,Teleostei ,Dissostichus eleginoides,"Teleostei
+",Troccoli et al. (2020),https://link.springer.com/article/10.1007/s00300-020-02730-2
+92,Lithodes santolla,Decapoda,Dissostichus eleginoides,"Teleostei
+",Murillo et al. (2008),https://www.scielo.cl/scielo.php?pid=S0717-65382008000100011&script=sci_arttext&tlng=pt
+93,Macruronus magellanicus,Teleostei,Dissostichus eleginoides,"Teleostei
+",Troccoli et al. (2020),https://link.springer.com/article/10.1007/s00300-020-02730-2
+94,Salilota australis,Teleostei,Dissostichus eleginoides,"Teleostei
+",Troccoli et al. (2020),https://link.springer.com/article/10.1007/s00300-020-02730-2
+95,Sprattus fuegensis,Teleostei,Dissostichus eleginoides,"Teleostei
+",Troccoli et al. (2020),https://link.springer.com/article/10.1007/s00300-020-02730-2
+96,Benthic decapoda,Decapoda,Doryteuthis gahi,Cephalopoda,Almonacid (pers. comm),
+97,Sprattus fuegensis,Teleostei,Doryteuthis gahi,Cephalopoda,Almonacid (pers. comm),
+98,Acanthocyclus albatrossis,Decapoda,Eleginops maclovinus,"Teleostei
+",Córdova et al. (2009),https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext
+99,Amphipoda,Amphipoda,Eleginops maclovinus,"Teleostei
+",Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+100,Benthic decapoda,Decapoda,Eleginops maclovinus,Teleostei,Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+101,Brachiopoda,Brachiopoda,Eleginops maclovinus,"Teleostei
+",Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+102,Cephalopoda,Cephalopoda,Eleginops maclovinus,"Teleostei
+",Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+103,Copepoda,Copepoda,Eleginops maclovinus,"Teleostei
+",Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+104,Cyanobacteria,Cyanophyceae,Eleginops maclovinus,"Teleostei
+",Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+105,Detritus,"Non-living
+",Eleginops maclovinus,"Teleostei
+",Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+106,Exosphaeroma gigas,Isopoda,Eleginops maclovinus,"Teleostei
+",Andrade (pers. comm.),
+107,Foraminifera,Foraminifera,Eleginops maclovinus,"Teleostei
+",Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+108,Green algae,Macroalgae,Eleginops maclovinus,"Teleostei
+",Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+109,Halicarcinus planatus,Decapoda,Eleginops maclovinus,"Teleostei
+",Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+110,Isopoda,Isopoda,Eleginops maclovinus,"Teleostei
+",Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+111,Ostracoda,Ostracoda,Eleginops maclovinus,"Teleostei
+",Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+112,Patagonotothen cornucola,Teleostei,Eleginops maclovinus,"Teleostei
+",Martin & Bastida (2008),https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0718-560X2008000100001
+113,Polychaeta,Polychaeta,Eleginops maclovinus,"Teleostei
+",Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+114,Red algae,Macroalgae,Eleginops maclovinus,"Teleostei
+",Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+115,Sediment,"Non-living
+",Eleginops maclovinus,"Teleostei
+",Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+116,Tanaidae,Tanaidacea,Eleginops maclovinus,"Teleostei
+",Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376
+117,Zooplankton,Zooplankton,Eleginops maclovinus,"Teleostei
+",Guzmán & Campodonico (1973),http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379
+118,Benthic decapoda,Decapoda,Enteroctopus megalocyathus,Cephalopoda,Sepúlveda (pers. comm),
+119,Bivalvia,Bivalvia,Enteroctopus megalocyathus,Cephalopoda,Sepúlveda (pers. comm),
+120,Phytoplankton,Phytoplankton,Euphausia lucens,Euphausiacea,Stuart (1986),https://www.int-res.com/articles/meps/30/m030p117.pdf
+121,Phytoplankton,Phytoplankton,Euphausia vallentini,Euphausiacea,Sánchez et al. (2011),https://academic.oup.com/plankt/article/33/8/1212/1441310?login=false
+122,Plankton diatom,Bacillariophyceae,Euphausia vallentini,Euphausiacea,Sánchez et al. (2011),https://academic.oup.com/plankt/article/33/8/1212/1441310?login=false
+123,Bryozoa,Bryozoa,Eurypodius latreillei,Decapoda,Comoglio (1994),https://bibliotecadigital.exactas.uba.ar/download/tesis/tesis_n2640_Comoglio.pdf
+124,Foraminifera,Foraminifera,Eurypodius latreillei,Decapoda,Comoglio (1994),https://bibliotecadigital.exactas.uba.ar/download/tesis/tesis_n2640_Comoglio.pdf
+125,Halicarcinus planatus,Decapoda,Eurypodius latreillei,Decapoda,Comoglio (1994),https://bibliotecadigital.exactas.uba.ar/download/tesis/tesis_n2640_Comoglio.pdf
+126,Isopoda,Isopoda,Eurypodius latreillei,Decapoda,Comoglio (1994),https://bibliotecadigital.exactas.uba.ar/download/tesis/tesis_n2640_Comoglio.pdf
+127,Pagurus sp.,Decapoda,Eurypodius latreillei,Decapoda,Comoglio (1994),https://bibliotecadigital.exactas.uba.ar/download/tesis/tesis_n2640_Comoglio.pdf
+128,Detritus,"Non-living
+",Exosphaeroma gigas,Isopoda,Andrade (pers. comm.),
+129,Brown algae,Macroalgae,Fissurella oriens,Gastropoda,Andrade (pers. comm.),
+130,Brown algae,Macroalgae,Fissurella radiosa,Gastropoda,Andrade (pers. comm.),
+131,Copepoda,Copepoda,Foraminifera,Foraminifera,Hayward et al. (2021),https://www.researchgate.net/profile/Bruce-Hayward/publication/351275033_Molecular_and_morphological_taxonomy_of_living_Ammonia_and_related_taxa_Foraminifera_and_their_biogeography/links/60da697592851ca94493fa31/Molecular-and-morphological-taxonomy-of-living-Ammonia-and-related-taxa-Foraminifera-and-their-biogeography.pdf
+132,Phytodetritus,"Non-living
+",Foraminifera,Foraminifera,Hayward et al. (2021),https://www.researchgate.net/profile/Bruce-Hayward/publication/351275033_Molecular_and_morphological_taxonomy_of_living_Ammonia_and_related_taxa_Foraminifera_and_their_biogeography/links/60da697592851ca94493fa31/Molecular-and-morphological-taxonomy-of-living-Ammonia-and-related-taxa-Foraminifera-and-their-biogeography.pdf
+133,Phytoplankton,Phytoplankton,Foraminifera,Foraminifera,Hayward et al. (2021),https://www.researchgate.net/profile/Bruce-Hayward/publication/351275033_Molecular_and_morphological_taxonomy_of_living_Ammonia_and_related_taxa_Foraminifera_and_their_biogeography/links/60da697592851ca94493fa31/Molecular-and-morphological-taxonomy-of-living-Ammonia-and-related-taxa-Foraminifera-and-their-biogeography.pdf
+134,Phytoplankton,Phytoplankton,Gaimardia trapesina,Bivalvia,Adami & Gordillo (1999),https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/902
+135,Detritus,"Non-living
+",Gammaridae,Bivalvia,Felten et al. (2008),http://srv01.lin.irk.ru/copp/rus/files/95_Felten_2008_4_Quantification%20of%20diet%20variability%20in%20a%20stream%20amphipod.pdf
+136,Phytoplankton,Phytoplankton,Gammaridae,Bivalvia,Felten et al. (2008),http://srv01.lin.irk.ru/copp/rus/files/95_Felten_2008_4_Quantification%20of%20diet%20variability%20in%20a%20stream%20amphipod.pdf
+137,Zooplankton,Zooplankton,Gammaridae,Bivalvia,Felten et al. (2008),http://srv01.lin.irk.ru/copp/rus/files/95_Felten_2008_4_Quantification%20of%20diet%20variability%20in%20a%20stream%20amphipod.pdf
+138,Phytoplankton,Phytoplankton,Gastropoda,Gastropoda,Andrade & Brey (2014),https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en
+139,Amphipoda,Amphipoda,Genypterus blacodes,Teleostei ,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376
+140,Benthic decapoda,Decapoda,Genypterus blacodes,Teleostei ,Andrade (pers. comm.),
+141,Merluccius sp.,Teleostei,Genypterus blacodes,Teleostei ,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376
+142,Odontesthes sp.,Teleostei ,Genypterus blacodes,Teleostei ,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376
+143,Patagonotothen sp.,Teleostei,Genypterus blacodes,Teleostei ,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376
+144,Sprattus fuegensis,Teleostei,Genypterus blacodes,Teleostei ,Zuleta & Rubilar (2010),http://docplayer.es/46981536-Impacto-del-desarrollo-de-una-pesqueria-de-sardina-austral-sprattus-fueguensis-en-aguas-interiores-de-las-regiones-x-xii.html
+145,Detritus,"Non-living
+",Halicarcinus planatus,Decapoda,C. Andrade (pers. comm.),
+146,Amphipoda,Amphipoda,Harpagifer bispinis,Teleostei,Hüne & Vega (2016),https://link.springer.com/article/10.1007/s00300-015-1726-8
+147,Exosphaeroma gigas,Isopoda,Harpagifer bispinis,Teleostei,Hüne & Vega (2016),https://link.springer.com/article/10.1007/s00300-015-1726-8
+148,Isopoda,Isopoda,Harpagifer bispinis,Teleostei,Andrade (pers. comm.),
+149,Polychaeta,Polychaeta,Harpagifer bispinis,Teleostei,Hüne & Rivera (2010),https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0718-686X2010000200004
+150,Tanaidae,Tanaidacea,Harpagifer bispinis,Teleostei,Hüne & Vega (2016),https://link.springer.com/article/10.1007/s00300-015-1726-8
+151,Detritus,"Non-living
+",Hydrozoa,Hydrozoa,Aldea (pers. comm.),
+152,Phytoplankton,Phytoplankton,Hydrozoa,Hydrozoa,Aldea (pers. comm.),
+153,Zooplankton,Zooplankton,Hydrozoa,Hydrozoa,Aldea (pers. comm.),
+154,Amphipoda,Amphipoda,Illex argentinus,Cephalopoda,Ivanovic (2010),https://aquadocs.org/bitstream/handle/1834/4224/Rev%20Invest%20Desarr%20Pesq%2020%2051-63.pdf?sequence=1&isAllowed=y
+155,Copepoda,Copepoda,Illex argentinus,Cephalopoda,Ivanovic (2010),https://aquadocs.org/bitstream/handle/1834/4224/Rev%20Invest%20Desarr%20Pesq%2020%2051-63.pdf?sequence=1&isAllowed=y
+156,Doryteuthis gahi,Cephalopoda,Illex argentinus,Cephalopoda,Ivanovic (2010),https://aquadocs.org/bitstream/handle/1834/4224/Rev%20Invest%20Desarr%20Pesq%2020%2051-63.pdf?sequence=1&isAllowed=y
+157,Euphausia lucens,Euphausiacea,Illex argentinus,Cephalopoda,Ivanovic (2010),https://aquadocs.org/bitstream/handle/1834/4224/Rev%20Invest%20Desarr%20Pesq%2020%2051-63.pdf?sequence=1&isAllowed=y
+158,Brown algae,Macroalgae,Isopoda,Isopoda,Andrade (pers. comm.),
+159,Detritus,"Non-living
+",Isopoda,Isopoda,Andrade (pers. comm.),
+160,Phytodetritus,"Non-living
+",Isopoda,Isopoda,Andrade (pers. comm.),
+161,Exosphaeroma gigas,Isopoda,Labidiaster radiosus,Asteroidea,Andrade (pers. comm.),
+162,Eleginops maclovinus,"Teleostei
+",Lagenorhynchus australis,Mammalia,Schiavini et al. (1997),https://www.vliz.be/imisdocs/publications/232079.pdf
+163,Enteroctopus megalocyathus,Cephalopoda,Lagenorhynchus australis,Mammalia,Schiavini et al. (1997),https://www.vliz.be/imisdocs/publications/232079.pdf
+164,Genypterus blacodes,Teleostei ,Lagenorhynchus australis,Mammalia,Schiavini et al. (1997),https://www.vliz.be/imisdocs/publications/232079.pdf
+165,Illex argentinus,Cephalopoda,Lagenorhynchus australis,Mammalia,Schiavini et al. (1997),https://www.vliz.be/imisdocs/publications/232079.pdf
+166,Macruronus magellanicus,Teleostei,Lagenorhynchus australis,Mammalia,Schiavini et al. (1997),https://www.vliz.be/imisdocs/publications/232079.pdf
+167,Myxine australis,Teleostei,Lagenorhynchus australis,Mammalia,Schiavini et al. (1997),https://www.vliz.be/imisdocs/publications/232079.pdf
+168,Patagonotothen tessellata,Teleostei,Lagenorhynchus australis,Mammalia,Viddi & Lescrauwaet (2005),https://www.vliz.be/imisdocs/publications/ocrd/102931.pdf
+169,Salilota australis,Teleostei,Lagenorhynchus australis,Mammalia,Schiavini et al. (1997),https://www.vliz.be/imisdocs/publications/232079.pdf
+170,Salp,Thaliacea,Lagenorhynchus australis,Mammalia,Schiavini et al. (1997),https://www.vliz.be/imisdocs/publications/232079.pdf
+171,Zoarcidae,"Teleostei
+",Lagenorhynchus australis,Mammalia,Schiavini et al. (1997),https://www.vliz.be/imisdocs/publications/232079.pdf
+172,Bivalvia,Bivalvia,Larus dominicanus,Aves,Gordillo et al. (2020),https://www.cambridge.org/core/journals/journal-of-the-marine-biological-association-of-the-united-kingdom/article/abs/naticid-drilling-predation-from-tidal-flats-in-northern-patagonia-sw-atlantic/3EB5A0897064DF2E2381CE9844F5F348
+173,Gastropoda,Gastropoda,Larus dominicanus,Aves,Hockey (1988),https://doi.org/10.1007/BF00379614
+174,Mytilus sp.,Bivalvia,Larus dominicanus,Aves,Andrade (pers. comm.),
+175,Bassanago sp.,Teleostei,Lithodes santolla,Decapoda,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/67
+176,Bivalvia,Bivalvia,Lithodes santolla,Decapoda,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/64
+177,Brown algae,Macroalgae,Lithodes santolla,Decapoda,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/56
+178,Bryozoa,Bryozoa,Lithodes santolla,Decapoda,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/58
+179,Cephalopoda,Cephalopoda,Lithodes santolla,Decapoda,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/66
+180,Detritus,"Non-living
+",Lithodes santolla,Decapoda,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/69
+181,Foraminifera,Foraminifera,Lithodes santolla,Decapoda,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/60
+182,Gastropoda,Gastropoda,Lithodes santolla,Decapoda,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/65
+183,Hydrozoa,Hydrozoa,Lithodes santolla,Decapoda,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/57
+184,Lithodes santolla,Decapoda,Lithodes santolla,Decapoda,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/63
+185,Polychaeta,Polychaeta,Lithodes santolla,Decapoda,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/61
+186,Porifera,Porifera,Lithodes santolla,Decapoda,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/59
+187,Pseudechinus magellanicus,Echinoidea,Lithodes santolla,Decapoda,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/62
+188,Red algae,Macroalgae,Lithodes santolla,Decapoda,Andrade et al. (2022),
+189,Sediment,"Non-living
+",Lithodes santolla,Decapoda,Andrade et al. (2022),https://www.mdpi.com/1424-2818/14/1/68
+190,Amphipoda,Amphipoda,Lithodes santolla (juvenile),Decapoda,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/556
+191,Benthic decapoda,Decapoda,Lithodes santolla (juvenile),Decapoda,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/556
+192,Bivalvia,Bivalvia,Lithodes santolla (juvenile),Decapoda,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/557
+193,Brown algae,Macroalgae,Lithodes santolla (juvenile),Decapoda,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/558
+194,Foraminifera,Foraminifera,Lithodes santolla (juvenile),Decapoda,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/561
+195,Green algae,Macroalgae,Lithodes santolla (juvenile),Decapoda,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/561
+196,Hydrozoa,Hydrozoa,Lithodes santolla (juvenile),Decapoda,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/560
+197,Nacella deaurata,Gastropoda,Lithodes santolla (juvenile),Decapoda,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/561
+198,Polychaeta,Polychaeta,Lithodes santolla (juvenile),Decapoda,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/561
+199,Polyplacophora,Polyplacophora,Lithodes santolla (juvenile),Decapoda,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/561
+200,Porifera,Porifera,Lithodes santolla (juvenile),Decapoda,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/561
+201,Pseudechinus magellanicus,Echinoidea,Lithodes santolla (juvenile),Decapoda,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/561
+202,Sediment,"Non-living
+",Lithodes santolla (juvenile),Decapoda,Pardo et al.(2021),https://www.mdpi.com/1424-2818/13/11/559
+203,Benthic decapoda,Decapoda,Lutra felina,Mammalia,Córdova et al. (2009),https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext
+204,Cottoperca gobio,Teleostei,Lutra felina,Mammalia,Córdova et al. (2009),https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext
+205,Harpagifer bispinis,Teleostei,Lutra felina,Mammalia,Córdova et al. (2009),https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext
+206,Patagonotothen sp.,Teleostei,Lutra felina,Mammalia,Córdova et al. (2009),https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext
+207,Prolatilus jugularis,Teleostei,Lutra felina,Mammalia,Córdova et al. (2009),https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext
+208,Brown algae,Macroalgae,Loxechinus albus,Echinoidea,Castilla (1985),https://www.academia.edu/download/31744106/Castilla_Moreno_1982.pdf
+209,Harpagifer bispinis,Teleostei,Loxechinus albus,Echinoidea,Andrade (pers. comm.),
+210,Red algae,Macroalgae,Loxechinus albus,Echinoidea,Castilla (1985),https://www.academia.edu/download/31744106/Castilla_Moreno_1982.pdf
+211,Sprattus fuegensis,Teleostei,Macruronus magellanicus,Teleostei,Zuleta & Rubilar (2010),http://docplayer.es/46981536-Impacto-del-desarrollo-de-una-pesqueria-de-sardina-austral-sprattus-fueguensis-en-aguas-interiores-de-las-regiones-x-xii.html
+212,Benthic decapoda,Decapoda,Macruronus magellanicus,Teleostei,Acevedo (2013),https://aquadocs.org/handle/1834/6952
+213,Brown algae,Macroalgae,Margarella violacea,Gastropoda,C. Andrade (pers. comm.),
+214,Euphausia vallentini,Euphausiacea,Martialia hyadesii,Cephalopoda,Hughes (2010),https://figshare.utas.edu.au/articles/thesis/Determining_the_unknown_in_Southern_Ocean_squid_distribution_and_diet_of_Histeoteuthis_eltaninae_and_Martialia_hyadesi/23230271/1
+215,Bivalvia (larvae),Bivalvia,Maurolicus australis (larvae),Teleostei,Landaeta et al. (2011),https://academic.oup.com/plankt/article/33/12/1813/1542048?login=false
+216,Calanoid (copepodite),Copepoda,Maurolicus australis (larvae),Teleostei,Landaeta et al. (2011),https://academic.oup.com/plankt/article/33/12/1813/1542048?login=false
+217,Copepoda (egg),Copepoda,Maurolicus australis (larvae),Teleostei,Landaeta et al. (2011),https://academic.oup.com/plankt/article/33/12/1813/1542048?login=false
+218,Copepoda (nauplius),Copepoda,Maurolicus australis (larvae),Teleostei,Landaeta et al. (2011),https://academic.oup.com/plankt/article/33/12/1813/1542048?login=false
+219,Amphipoda,Amphipoda,Megaptera novaeangliae,Mammalia,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376
+220,Benthic decapoda,Decapoda,Megaptera novaeangliae,Mammalia,Haro et al. (2025),https://www.sciencedirect.com/science/article/abs/pii/S0304380024003326
+221,Euphausia lucens,Euphausiacea,Megaptera novaeangliae,Mammalia,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376
+222,Euphausia vallentini,Euphausiacea,Megaptera novaeangliae,Mammalia,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376
+223,Sprattus fuegensis,Teleostei,Megaptera novaeangliae,Mammalia,Haro et al. (2025),https://www.sciencedirect.com/science/article/abs/pii/S0304380024003326
+224,Sprattus fuegensis,Teleostei,Merluccius australis,Teleostei,Zuleta & Rubilar (2010),http://docplayer.es/46981536-Impacto-del-desarrollo-de-una-pesqueria-de-sardina-austral-sprattus-fueguensis-en-aguas-interiores-de-las-regiones-x-xii.html
+225,Benthic decapoda,Decapoda,Merluccius sp.,Teleostei,Cubillos et al. (2003),https://www.researchgate.net/profile/Aldo-Hernandez-22/publication/283868315_Prey_composition_and_estimation_of_QB_for_the_Chilean_hake_Merluccius_gayi_Gadiformes_Merluccidae_in_the_central-south_area_off_Chile_34_-_40S/links/56fa6ded08ae95e8b6d4a2dc/Prey-composition-and-estimation-of-Q-B-for-the-Chilean-hake-Merluccius-gayi-Gadiformes-Merluccidae-in-the-central-south-area-off-Chile-34-40S.pdf
+226,Bryozoa,Bryozoa,Merluccius sp.,Teleostei,Alonso et al. (2019),https://www.sciencedirect.com/science/article/abs/pii/S2352485518304250
+227,Doryteuthis gahi,Cephalopoda,Merluccius sp.,Teleostei,Cubillos et al. (2003),https://www.researchgate.net/profile/Aldo-Hernandez-22/publication/283868315_Prey_composition_and_estimation_of_QB_for_the_Chilean_hake_Merluccius_gayi_Gadiformes_Merluccidae_in_the_central-south_area_off_Chile_34_-_40S/links/56fa6ded08ae95e8b6d4a2dc/Prey-composition-and-estimation-of-Q-B-for-the-Chilean-hake-Merluccius-gayi-Gadiformes-Merluccidae-in-the-central-south-area-off-Chile-34-40S.pdf
+228,Macruronus magellanicus,Teleostei,Merluccius sp.,Teleostei,Cubillos et al. (2003),https://www.researchgate.net/profile/Aldo-Hernandez-22/publication/283868315_Prey_composition_and_estimation_of_QB_for_the_Chilean_hake_Merluccius_gayi_Gadiformes_Merluccidae_in_the_central-south_area_off_Chile_34_-_40S/links/56fa6ded08ae95e8b6d4a2dc/Prey-composition-and-estimation-of-Q-B-for-the-Chilean-hake-Merluccius-gayi-Gadiformes-Merluccidae-in-the-central-south-area-off-Chile-34-40S.pdf
+229,Myctophidae,Teleostei,Merluccius sp.,Teleostei,Cubillos et al. (2003),https://www.researchgate.net/profile/Aldo-Hernandez-22/publication/283868315_Prey_composition_and_estimation_of_QB_for_the_Chilean_hake_Merluccius_gayi_Gadiformes_Merluccidae_in_the_central-south_area_off_Chile_34_-_40S/links/56fa6ded08ae95e8b6d4a2dc/Prey-composition-and-estimation-of-Q-B-for-the-Chilean-hake-Merluccius-gayi-Gadiformes-Merluccidae-in-the-central-south-area-off-Chile-34-40S.pdf
+230,Pseudechinus magellanicus,Echinoidea,Merluccius sp.,Teleostei,Alonso et al. (2019),https://www.sciencedirect.com/science/article/abs/pii/S2352485518304250
+231,Detritus,"Non-living
+",Grimothea gregaria,Decapoda,Andrade (pers. comm.),
+232,Green algae,Macroalgae,Grimothea gregaria,Decapoda,Andrade (pers. comm.),
+233,Isopoda,Isopoda,Grimothea gregaria,Decapoda,Andrade (pers. comm.),
+234,Phytodetritus,"Non-living
+",Grimothea gregaria,Decapoda,Andrade (pers. comm.),
+235,Porifera,Porifera,Grimothea gregaria,Decapoda,Andrade (pers. comm.),
+236,Odontesthes sp.,Teleostei ,Mustelus mento,Chondrostei,Vargas et al. (1999),https://www.scielo.sa.cr/scielo.php?script=sci_arttext&pid=S0034-77441999000300034
+237,Pagurus sp.,Decapoda,Mustelus mento,Chondrostei,Silva-Garay et al. (2018),https://link.springer.com/article/10.1007/s10641-018-0797-0
+238,Copepoda,Copepoda,Myctophidae,Teleostei,Hopkins & Gartner (1992),https://link.springer.com/article/10.1007/BF00349518
+239,Phytoplankton,Phytoplankton,Mytilus sp.,Bivalvia,Mutschke et al. (1998),https://www.researchgate.net/publication/234585529_Situacion_actual_de_la_macrofauna_presente_en_el_intermareal_de_bloques_y_cantos_de_Bahia_Laredo_Estrecho_de_Magallanes
+240,Zooplankton,Zooplankton,Mytilus sp.,Bivalvia,Mutschke et al. (1998),https://www.researchgate.net/publication/234585529_Situacion_actual_de_la_macrofauna_presente_en_el_intermareal_de_bloques_y_cantos_de_Bahia_Laredo_Estrecho_de_Magallanes
+241,Detritus,"Non-living
+",Myxine australis,Teleostei,GloBI,https://www.globalbioticinteractions.org/browse/?interactionType=interactsWith&resultType=json&sourceTaxon=Myxine
+242,Amphipoda,Amphipoda,Nacella deaurata,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+243,Benthic diatom,Bacillariophyceae,Nacella deaurata,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+244,Bivalvia,Bivalvia,Nacella deaurata,Gastropoda,Andrade & Brey (2014),https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en
+245,Brown algae,Macroalgae,Nacella deaurata,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+246,Chironomidae,Insecta,Nacella deaurata,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+247,Cirripedia,Scalpellomorpha,Nacella deaurata,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+248,Cyanobacteria,Cyanophyceae,Nacella deaurata,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+249,Detritus,"Non-living
+",Nacella deaurata,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+250,Foraminifera,Foraminifera,Nacella deaurata,Gastropoda,Andrade & Brey (2014),https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en
+251,Gastropoda,Gastropoda,Nacella deaurata,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+252,Green algae,Macroalgae,Nacella deaurata,Gastropoda,Andrade & Brey (2014),https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en
+253,Margarella violacea,Gastropoda,Nacella deaurata,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+254,Mytilus sp.,Bivalvia,Nacella deaurata,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+255,Ostracoda,Ostracoda,Nacella deaurata,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+256,Plankton diatom,Bacillariophyceae,Nacella deaurata,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+257,Red algae,Macroalgae,Nacella deaurata,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+258,Benthic diatom,Bacillariophyceae,Nacella magellanica,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+259,Bivalvia,Bivalvia,Nacella magellanica,Gastropoda,Andrade & Brey (2014),https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en
+260,Brown algae,Macroalgae,Nacella magellanica,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+261,Chironomidae,Insecta,Nacella magellanica,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+262,Cirripedia,Scalpellomorpha,Nacella magellanica,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+263,Cyanobacteria,Cyanophyceae,Nacella magellanica,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+264,Detritus,"Non-living
+",Nacella magellanica,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+265,Foraminifera,Foraminifera,Nacella magellanica,Gastropoda,Andrade & Brey (2014),https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en
+266,Gastropoda,Gastropoda,Nacella magellanica,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+267,Green algae,Macroalgae,Nacella magellanica,Gastropoda,Andrade & Brey (2014),https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en
+268,Margarella violacea,Gastropoda,Nacella magellanica,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+269,Mytilus sp.,Bivalvia,Nacella magellanica,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+270,Notochthamalus scabrosus,Cirripedia,Nacella magellanica,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+271,Ostracoda,Ostracoda,Nacella magellanica,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+272,Phytoplankton,Phytoplankton,Nacella magellanica,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+273,Plankton diatom,Bacillariophyceae,Nacella magellanica,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+274,Red algae,Macroalgae,Nacella magellanica,Gastropoda,Rosenfeld et al. (2018),https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/
+275,Brown algae,Macroalgae,Nacella mytilina,Gastropoda,Andrade (pers. comm.),
+276,Phytodetritus,"Non-living
+",Nacella mytilina,Gastropoda,Andrade (pers. comm.),
+277,Phytoplankton,Phytoplankton,Nacella mytilina,Gastropoda,Mutschke et al. (1998),https://www.researchgate.net/publication/234585529_Situacion_actual_de_la_macrofauna_presente_en_el_intermareal_de_bloques_y_cantos_de_Bahia_Laredo_Estrecho_de_Magallanes
+278,Phytoplankton,Phytoplankton,Notochthamalus scabrosus,Cirripedia,Andrade (pers. comm.),
+279,Amphipoda,Amphipoda,Odontesthes sp.,Teleostei ,Antezana (pers. comm),
+280,Bivalvia,Bivalvia,Odontesthes sp.,Teleostei ,Gordillo et al. (2020),https://www.cambridge.org/core/journals/journal-of-the-marine-biological-association-of-the-united-kingdom/article/abs/naticid-drilling-predation-from-tidal-flats-in-northern-patagonia-sw-atlantic/3EB5A0897064DF2E2381CE9844F5F348
+281,Benthic decapoda,Decapoda,Oncorhynchus sp.,Teleostei,Hüne et al. (2018),https://polarresearch.net/index.php/polar/article/view/2632/6024
+282,Phytodetritus,"Non-living
+",Ophiactis asperula,Ophiuroidea,Rivera (pers. Comm),
+283,Benthic decapoda,Decapoda,Ophiuroglypha lymani,Ophiuroidea,Dahm (1999),https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/973
+284,Bivalvia,Bivalvia,Ophiuroglypha lymani,Ophiuroidea,Dahm (1999),https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/978
+285,Brown algae,Macroalgae,Ophiuroglypha lymani,Ophiuroidea,Dahm (1999),https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/977
+286,Bryozoa,Bryozoa,Ophiuroglypha lymani,Ophiuroidea,Dahm (1999),https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/979
+287,Detritus,"Non-living
+",Ophiuroglypha lymani,Ophiuroidea,Dahm (1999),https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/974
+288,Phytodetritus,"Non-living
+",Ophiuroglypha lymani,Ophiuroidea,Dahm (1999),https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/972
+289,Sediment,"Non-living
+",Ophiuroglypha lymani,Ophiuroidea,Dahm (1999),https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/976
+290,Dissostichus eleginoides,"Teleostei
+",Orcinus orca,Mammalia,Capella et al. (2014),https://link.springer.com/article/10.1007/s00300-014-1535-5
+291,Otaria byronia,Mammalia,Orcinus orca,Mammalia,Capella et al. (1999),http://bibliotecadigital.umag.cl/handle/20.500.11893/1444
+292,Tachyeres pteneres,Aves,Orcinus orca,Mammalia,Capella et al. (1999),http://bibliotecadigital.umag.cl/handle/20.500.11893/1445
+293,Detritus,"Non-living
+",Ostracoda,Ostracoda,Cañete (pers. comm.),
+294,Phytoplankton,Phytoplankton,Ostracoda,Ostracoda,Cañete (pers. comm.),
+295,Zooplankton,Zooplankton,Ostracoda,Ostracoda,Cañete (pers. comm.),
+296,Benthic decapoda,Decapoda,Otaria byronia,Mammalia,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12379
+297,Callorhinchus callorynchus,Chondrostei,Otaria byronia,Mammalia,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12393
+298,Cilus gilberti,Teleostei,Otaria byronia,Mammalia,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12391
+299,Eleginops maclovinus,"Teleostei
+",Otaria byronia,Mammalia,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12383
+300,Genypterus blacodes,Teleostei ,Otaria byronia,Mammalia,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12392
+301,Merluccius australis,Teleostei,Otaria byronia,Mammalia,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12390
+302,Mustelus mento,Chondrostei,Otaria byronia,Mammalia,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12384
+303,Odontesthes sp.,Teleostei ,Otaria byronia,Mammalia,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12387
+304,Oncorhynchus sp.,Teleostei,Otaria byronia,Mammalia,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12381
+305,Paralabrax humeralis,Teleostei,Otaria byronia,Mammalia,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12386
+306,Pinguipes chilensis,Teleostei,Otaria byronia,Mammalia,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12394
+307,Salmo salar,Teleostei,Otaria byronia,Mammalia,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12382
+308,Sprattus fuegensis,Teleostei,Otaria byronia,Mammalia,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12388
+309,Thyrsites atun,Teleostei,Otaria byronia,Mammalia,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12385
+310,Trachurus murphyi,Teleostei,Otaria byronia,Mammalia,Sepúlveda et al. (2016),https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12389
+311,Detritus,"Non-living
+",Pagurus sp.,Decapoda,C. Andrade (pers. comm.),
+312,Plankton diatom,Bacillariophyceae,Paracalanus indicus,Copepoda,Aguilera et al. (2011),https://www.tandfonline.com/doi/abs/10.1080/17451000.2010.499437
+313,Detritus,"Non-living
+",Paraeuthria fuscata,Gastropoda,Andrade C (2009),
+314,Amphipoda,Amphipoda,Paralomis granulosa,Decapoda,Andrade (pers. comm.),
+315,Brown algae,Macroalgae,Paralomis granulosa,Decapoda,Andrade (pers. comm.),
+316,Bryozoa,Bryozoa,Paralomis granulosa,Decapoda,Andrade (pers. comm.),
+317,Detritus,"Non-living
+",Paralomis granulosa,Decapoda,Andrade (pers. comm.),
+318,Enteroctopus megalocyathus,Cephalopoda,Paralomis granulosa,Decapoda,Andrade (pers. comm.),
+319,Foraminifera,Foraminifera,Paralomis granulosa,Decapoda,Andrade (pers. comm.),
+320,Gastropoda,Gastropoda,Paralomis granulosa,Decapoda,Cañete et al. (2021),https://www.scielo.br/j/nau/a/DwGRczmMrxWjByhxjy8GHhD/
+321,Hydrozoa,Hydrozoa,Paralomis granulosa,Decapoda,Andrade (pers. comm.),
+322,Mytilus sp.,Bivalvia,Paralomis granulosa,Decapoda,Andrade (pers. comm.),
+323,Polychaeta,Polychaeta,Paralomis granulosa,Decapoda,Andrade (pers. comm.),
+324,Porifera,Porifera,Paralomis granulosa,Decapoda,Andrade (pers. comm.),
+325,Pseudechinus magellanicus,Echinoidea,Paralomis granulosa,Decapoda,Andrade (pers. comm.),
+326,Red algae,Macroalgae,Paralomis granulosa,Decapoda,Andrade (pers. comm.),
+327,Benthic decapoda,Decapoda,Patagonotothen cornucola,Teleostei,Hüne et al. (2018),https://polarresearch.net/index.php/polar/article/view/2632/6022
+328,Exosphaeroma gigas,Isopoda,Patagonotothen cornucola,Teleostei,Hüne & Vega (2016),
+329,Amphipoda,Amphipoda,Patagonotothen sima,Teleostei,Reyes & Hüne (2012),https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile
+330,Benthic decapoda,Decapoda,Patagonotothen sima,Teleostei,Reyes & Hüne (2012),https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile
+331,Copepoda,Copepoda,Patagonotothen sima,Teleostei,Reyes & Hüne (2012),https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile
+332,Polychaeta,Polychaeta,Patagonotothen sima,Teleostei,Reyes & Hüne (2012),https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile
+333,Benthic decapoda,Decapoda,Patagonotothen sp.,Teleostei,Andrade (pers. comm.),
+334,Brown algae,Macroalgae,Patagonotothen sp.,Teleostei,Andrade (pers. comm.),
+335,Exosphaeroma gigas,Isopoda,Patagonotothen sp.,Teleostei,Andrade (pers. comm.),
+336,Polychaeta,Polychaeta,Patagonotothen sp.,Teleostei,Andrade (pers. comm.),
+337,Amphipoda,Amphipoda,Patagonotothen tessellata,Teleostei,Hüne et al. (2018),https://polarresearch.net/index.php/polar/article/view/2632/6020
+338,Benthic decapoda,Decapoda,Patagonotothen tessellata,Teleostei,Hüne et al. (2018),https://polarresearch.net/index.php/polar/article/view/2632/6021
+339,Chironomidae,Insecta,Patagonotothen tessellata,Teleostei,Hüne & Vega (2015),https://link.springer.com/article/10.1007/s00300-015-1726-13
+340,Green algae,Macroalgae,Patagonotothen tessellata,Teleostei,Hüne & Vega (2015),https://link.springer.com/article/10.1007/s00300-015-1726-11
+341,Ostracoda,Ostracoda,Patagonotothen tessellata,Teleostei,Hüne & Vega (2015),https://link.springer.com/article/10.1007/s00300-015-1726-10
+342,Patagonotothen sp.,Teleostei,Patagonotothen tessellata,Teleostei,Hüne et al. (2023),https://link.springer.com/10.1007/s10641-023-01428-8
+343,Polychaeta,Polychaeta,Patagonotothen tessellata,Teleostei,Hüne & Vega (2015),https://link.springer.com/article/10.1007/s00300-015-1726-8
+344,Red algae,Macroalgae,Patagonotothen tessellata,Teleostei,Hüne & Vega (2015),https://link.springer.com/article/10.1007/s00300-015-1726-12
+345,Bivalvia (larvae),Bivalvia,Patagonotothen tessellata (larvae),Teleostei,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8
+346,Calanoid (copepodite),Copepoda,Patagonotothen tessellata (larvae),Teleostei,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8
+347,Copepoda,Copepoda,Patagonotothen tessellata (larvae),Teleostei,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8
+348,Copepoda (egg),Copepoda,Patagonotothen tessellata (larvae),Teleostei,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8
+349,Copepoda (nauplius),Copepoda,Patagonotothen tessellata (larvae),Teleostei,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8
+350,Paracalanus indicus,Copepoda,Patagonotothen tessellata (larvae),Teleostei,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8
+351,Pluteus (larva),Echinoidea,Patagonotothen tessellata (larvae),Teleostei,Salas-Berrios et al. (2013),https://link.springer.com/article/10.1007/s00300-013-1359-8
+352,Nacella deaurata,Gastropoda,Peltarion spinulosum,Decapoda,Pardo et al. (2022),https://link.springer.com/article/10.1007/s10530-022-02806-6
+353,Phytoplankton,Phytoplankton,Perumytilus purpuratus,Bivalvia,Catalán et al. (2021),https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/1365-2656.13455
+354,Zooplankton,Zooplankton,Perumytilus purpuratus,Bivalvia,Catalán et al. (2021),https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/1365-2656.13455
+355,Amphipoda,Amphipoda,Pinguipes chilensis,Teleostei,González & Oyarzún (2003),https://onlinelibrary.wiley.com/doi/full/10.1111/j.1439-0426.2003.00444.x?casa_token=AbNjCPTg-P4AAAAA%3Az5Ua1HLrjp6Mfb0bulTPDtXlWtmLhPMnmq2lvzYFAPRzFWIdJhpKCdBHjuCJWJBQMdHupNJmU_fDt6A
+356,Aulacomya atra,Bivalvia,Pinguipes chilensis,Teleostei,González & Oyarzún (2003),https://onlinelibrary.wiley.com/doi/full/10.1111/j.1439-0426.2003.00444.x?casa_token=AbNjCPTg-P4AAAAA%3Az5Ua1HLrjp6Mfb0bulTPDtXlWtmLhPMnmq2lvzYFAPRzFWIdJhpKCdBHjuCJWJBQMdHupNJmU_fDt6A
+357,Doryteuthis gahi,Cephalopoda,Pinguipes chilensis,Teleostei,González & Oyarzún (2003),https://onlinelibrary.wiley.com/doi/full/10.1111/j.1439-0426.2003.00444.x?casa_token=AbNjCPTg-P4AAAAA%3Az5Ua1HLrjp6Mfb0bulTPDtXlWtmLhPMnmq2lvzYFAPRzFWIdJhpKCdBHjuCJWJBQMdHupNJmU_fDt6A
+358,Odontesthes sp.,Teleostei ,Pinguipes chilensis,Teleostei,González & Oyarzún (2003),https://onlinelibrary.wiley.com/doi/full/10.1111/j.1439-0426.2003.00444.x?casa_token=AbNjCPTg-P4AAAAA%3Az5Ua1HLrjp6Mfb0bulTPDtXlWtmLhPMnmq2lvzYFAPRzFWIdJhpKCdBHjuCJWJBQMdHupNJmU_fDt6A
+359,Pagurus sp.,Decapoda,Pinguipes chilensis,Teleostei,González & Oyarzún (2003),https://onlinelibrary.wiley.com/doi/full/10.1111/j.1439-0426.2003.00444.x?casa_token=AbNjCPTg-P4AAAAA%3Az5Ua1HLrjp6Mfb0bulTPDtXlWtmLhPMnmq2lvzYFAPRzFWIdJhpKCdBHjuCJWJBQMdHupNJmU_fDt6A
+360,Polychaeta,Polychaeta,Pinguipes chilensis,Teleostei,González & Oyarzún (2003),https://onlinelibrary.wiley.com/doi/full/10.1111/j.1439-0426.2003.00444.x?casa_token=AbNjCPTg-P4AAAAA%3Az5Ua1HLrjp6Mfb0bulTPDtXlWtmLhPMnmq2lvzYFAPRzFWIdJhpKCdBHjuCJWJBQMdHupNJmU_fDt6A
+361,Brown algae,Macroalgae,Platynereis australis,Polychaeta,Montiel (pers. comm.),
+362,Detritus,"Non-living
+",Platynereis australis,Polychaeta,Montiel (pers. comm.),
+363,Benthic diatom,Bacillariophyceae,Plaxiphora aurata,Polyplacophora,Andrade (pers. comm.),
+364,Phytodetritus,"Non-living
+",Plaxiphora aurata,Polyplacophora,C. Andrade (pers. comm.),
+365,Zooplankton,Zooplankton,Pluteus (larva),Echinoidea,Cañete (pers. comm.),
+366,Benthic diatom,Bacillariophyceae,Polychaeta,Polychaeta,Fauchald (1979),https://repository.si.edu/bitstream/handle/10088/3422/OMBARFauchald1979.pdf
+367,Brown algae,Macroalgae,Polychaeta,Polychaeta,Fauchald (1979),https://repository.si.edu/bitstream/handle/10088/3422/OMBARFauchald1979.pdf
+368,Copepoda,Copepoda,Polychaeta,Polychaeta,Fauchald (1979),https://repository.si.edu/bitstream/handle/10088/3422/OMBARFauchald1979.pdf
+369,Detritus,"Non-living
+",Polychaeta,Polychaeta,Fauchald (1979),https://repository.si.edu/bitstream/handle/10088/3422/OMBARFauchald1979.pdf
+370,Green algae,Macroalgae,Polychaeta,Polychaeta,Fauchald (1979),https://repository.si.edu/bitstream/handle/10088/3422/OMBARFauchald1979.pdf
+371,Ostracoda,Ostracoda,Polychaeta,Polychaeta,Fauchald (1979),https://repository.si.edu/bitstream/handle/10088/3422/OMBARFauchald1979.pdf
+372,Red algae,Macroalgae,Polychaeta,Polychaeta,Fauchald (1979),https://repository.si.edu/bitstream/handle/10088/3422/OMBARFauchald1979.pdf
+373,Zooplankton,Zooplankton,Polychaeta,Polychaeta,Fauchald (1979),https://repository.si.edu/bitstream/handle/10088/3422/OMBARFauchald1979.pdf
+374,Bryozoa,Bryozoa,Polyplacophora,Polyplacophora,Schwabe (2009),https://www.researchgate.net/publication/261699638_Polyplacophora_-_Chitones_Quitones
+375,Detritus,"Non-living
+",Polyplacophora,Polyplacophora,Schwabe (2009),https://www.researchgate.net/publication/261699638_Polyplacophora_-_Chitones_Quitones
+376,Phytoplankton,Phytoplankton,Polyplacophora,Polyplacophora,Schwabe (2009),https://www.researchgate.net/publication/261699638_Polyplacophora_-_Chitones_Quitones
+377,Zooplankton,Zooplankton,Polyplacophora,Polyplacophora,Schwabe (2009),https://www.researchgate.net/publication/261699638_Polyplacophora_-_Chitones_Quitones
+378,Detritus,"Non-living
+",Porifera,Porifera,Willenz et al. (2009),https://www.researchgate.net/profile/Philippe-Willenz/publication/257557891_Class_Calcarea/links/5497c3a50cf20f487d316b11/Class-Calcarea.pdf
+379,Phytoplankton,Phytoplankton,Porifera,Porifera,Willenz et al. (2009),https://www.researchgate.net/profile/Philippe-Willenz/publication/257557891_Class_Calcarea/links/5497c3a50cf20f487d316b11/Class-Calcarea.pdf
+380,Amphipoda,Amphipoda,Prolatilus jugularis,Teleostei,Reyes & Hüne (2012),https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile
+381,Pagurus sp.,Decapoda,Prolatilus jugularis,Teleostei,Reyes & Hüne (2012),https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile
+382,Polychaeta,Polychaeta,Prolatilus jugularis,Teleostei,Bello (2008),http://opac.pucv.cl/pucv_txt/txt-0000/UCH0448_01.pdf
+383,Brown algae,Macroalgae,Pseudechinus magellanicus,Echinoidea,Penchaszadeh et al. (2011),https://www.tandfonline.com/doi/abs/10.1080/00785326.2004.10410216
+384,Foraminifera,Foraminifera,Pseudechinus magellanicus,Echinoidea,Penchaszadeh et al. (2011),https://www.tandfonline.com/doi/abs/10.1080/00785326.2004.10410216
+385,Ostracoda,Ostracoda,Pseudechinus magellanicus,Echinoidea,Penchaszadeh et al. (2011),https://www.tandfonline.com/doi/abs/10.1080/00785326.2004.10410216
+386,Genypterus blacodes,Teleostei ,Pseudorca crassidens,Mammalia,Alonso & Pedraza (1999),https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1748-7692.1999.tb00838.x
+387,Illex argentinus,Cephalopoda,Pseudorca crassidens,Mammalia,Alonso & Pedraza (1999),https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1748-7692.1999.tb00838.x
+388,Macruronus magellanicus,Teleostei,Pseudorca crassidens,Mammalia,Alonso & Pedraza (1999),https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1748-7692.1999.tb00838.x
+389,Martialia hyadesii,Cephalopoda,Pseudorca crassidens,Mammalia,Alonso & Pedraza (1999),https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1748-7692.1999.tb00838.x
+390,Austrolycus depressiceps,"Teleostei
+",Salilota australis,Teleostei,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376
+391,Benthic decapoda,Decapoda,Salilota australis,Teleostei,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376
+392,Merluccius sp.,Teleostei,Salilota australis,Teleostei,Jimena Torres pers. comm,
+393,Patagonotothen cornucola,Teleostei,Salilota australis,Teleostei,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376
+394,Patagonotothen sp.,Teleostei,Salilota australis,Teleostei,Jimena Torres pers. comm,
+395,Amphipoda,Amphipoda,Salmo salar,Teleostei,Soto et al. (2001),https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/1051-0761%282001%29011%5B1750%3AESITIS%5D2.0.CO%3B2?casa_token=TDoh8tCi2eIAAAAA%3A7ZcavXsn4BEGEZEFHNSW3mE4QSVijx-U3ciIVTnnVuD-7e4TSDmKR_NhtXDRuQPUmuiiHLWIk80f9Bc
+396,Merluccius sp.,Teleostei,Salmo salar,Teleostei,Soto et al. (2001),https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/1051-0761%282001%29011%5B1750%3AESITIS%5D2.0.CO%3B2?casa_token=TDoh8tCi2eIAAAAA%3A7ZcavXsn4BEGEZEFHNSW3mE4QSVijx-U3ciIVTnnVuD-7e4TSDmKR_NhtXDRuQPUmuiiHLWIk80f9Bc
+397,Odontesthes sp.,Teleostei ,Salmo salar,Teleostei,Antezana (pers. comm),
+398,Copepoda,Copepoda,Salp,Thaliacea,González et al. (2000),https://www.int-res.com/abstracts/meps/v195/p201-220/
+399,Nanoflagellates,Nanoflagellates,Salp,Thaliacea,Vargas & Madis (2004),https://academic.oup.com/plankt/article/26/7/827/1514027?login=false
+400,Phytoplankton,Phytoplankton,Salp,Thaliacea,Cañete (pers. comm.),
+401,Brown algae,Macroalgae,Siphonaria lessonii,Gastropoda,Ríos & Gerdes (1997),https://epic.awi.de/id/eprint/5233/
+402,Phytodetritus,"Non-living
+",Siphonaria lessonii,Gastropoda,Andrade (pers. comm.),
+403,Benthic decapoda,Decapoda,Spheniscus magellanicus,Aves,Venegas & Sielfeld (1981),"VENEGAS, C. & W. SIELFELD. 1981. Utilización de aves como indicadoras de presencia y potencialidad de recursos marinos eventualmente manejables. Resumen. P. 83, in Jornadas de Ciencias del Mar. Valdivia, Chile."
+404,Cephalopoda,Cephalopoda,Spheniscus magellanicus,Aves,Boswall & MacIver (1975),"Boswall, J. and D. MacIver 1975 The Magellanic Penguin Spheniscus magellanicus. In Stonehouse, B. (ed.), The Biology of Penguins. University Park Press, Baltimore, USA 271-305."
+405,Doryteuthis gahi,Cephalopoda,Spheniscus magellanicus,Aves,Almonacid (2018),http://www.aveschile.cl/wp-content/uploads/2019/01/2_Almonacid_Vol.24-1-2018-RChO_dieta-pinguinos.pdf
+406,Patagonotothen sp.,Teleostei,Spheniscus magellanicus,Aves,Almonacid (2018),http://www.aveschile.cl/wp-content/uploads/2019/01/2_Almonacid_Vol.24-1-2018-RChO_dieta-pinguinos.pdf
+407,Ramnogaster arcuata,Teleostei,Spheniscus magellanicus,Aves,Venegas & Sielfeld (1981),"VENEGAS, C. & W. SIELFELD. 1981. Utilización de aves como indicadoras de presencia y potencialidad de recursos marinos eventualmente manejables. Resumen. P. 83, in Jornadas de Ciencias del Mar. Valdivia, Chile."
+408,Sprattus fuegensis,Teleostei,Spheniscus magellanicus,Aves,Almonacid (2018),http://www.aveschile.cl/wp-content/uploads/2019/01/2_Almonacid_Vol.24-1-2018-RChO_dieta-pinguinos.pdf
+409,Amphipoda,Amphipoda,Sprattus fuegensis,Teleostei,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376
+410,Copepoda,Copepoda,Sprattus fuegensis,Teleostei,Haro D. (2019),https://repositorio.uchile.cl/handle/2250/187376
+411,Isopoda,Isopoda,Sprattus fuegensis,Teleostei,Montecinos (2015),http://repositorio.udec.cl/jspui/bitstream/11594/1828/1/Tesis_Composicion_dietaria_de_Sprattus.Marked.pdf
+412,Plankton diatom,Bacillariophyceae,Sprattus fuegensis,Teleostei,Montecinos (2015),http://repositorio.udec.cl/jspui/bitstream/11594/1828/1/Tesis_Composicion_dietaria_de_Sprattus.Marked.pdf
+413,Ramnogaster arcuata,Teleostei,Stercorarius chilensis,Aves,Sepúlveda (2016),https://repositorio.unab.cl/xmlui/handle/ria/9936
+414,Sprattus fuegensis,Teleostei,Stercorarius chilensis,Aves,Sepúlveda (2016),https://repositorio.unab.cl/xmlui/handle/ria/9936
+415,Benthic decapoda,Decapoda,Tachyeres pteneres,Aves,Andrade (pers. comm.),
+416,Detritus,"Non-living
+",Tanaidae,Tanaidacea,Thiel & Hinojosa (2009),"Thiel, M., & Hinojosa, I. (2009). Peracarida–amphipods, isopods, tanaidaceans & cumaceans. Mar. Benthic Fauna Chil. Patagon, 671, 718."
+417,Phytoplankton,Phytoplankton,Tanaidae,Tanaidacea,Thiel & Hinojosa (2009),"Thiel, M., & Hinojosa, I. (2009). Peracarida–amphipods, isopods, tanaidaceans & cumaceans. Mar. Benthic Fauna Chil. Patagon, 671, 718."
+418,Zooplankton,Zooplankton,Tanaidae,Tanaidacea,Thiel & Hinojosa (2009),"Thiel, M., & Hinojosa, I. (2009). Peracarida–amphipods, isopods, tanaidaceans & cumaceans. Mar. Benthic Fauna Chil. Patagon, 671, 718."
+419,Brown algae,Macroalgae,Tegula atra,Gastropoda,Pinochet et al. (2018),https://www.scielo.cl/scielo.php?pid=S0718-686X2018000300051&script=sci_arttext&tlng=pt
+420,Green algae,Macroalgae,Tegula atra,Gastropoda,Pinochet et al. (2018),https://www.scielo.cl/scielo.php?pid=S0718-686X2018000300051&script=sci_arttext&tlng=pt
+421,Red algae,Macroalgae,Tegula atra,Gastropoda,Pinochet et al. (2018),https://www.scielo.cl/scielo.php?pid=S0718-686X2018000300051&script=sci_arttext&tlng=pt
+422,Copepoda,Copepoda,Themisto gaudichaudii,Amphipoda,Pakhomov & Perissinotto (1996),https://www.int-res.com/articles/meps/134/m134p091.pdf
+423,Doryteuthis gahi,Cephalopoda,Thyrsites atun,Teleostei,Carimán & Reyes (2019),https://www.scielo.cl/scielo.php?pid=S0718-19572019000100011&script=sci_arttext&tlng=en
+424,Odontesthes sp.,Teleostei ,Thyrsites atun,Teleostei,Carimán & Reyes (2019),https://www.scielo.cl/scielo.php?pid=S0718-19572019000100011&script=sci_arttext&tlng=en
+425,Sprattus fuegensis,Teleostei,Thyrsites atun,Teleostei,Carimán & Reyes (2019),https://www.scielo.cl/scielo.php?pid=S0718-19572019000100011&script=sci_arttext&tlng=en
+426,Copepoda,Copepoda,Trachurus murphyi,Teleostei,Medina & Arancibia (2002),https://www.scielo.cl/scielo.php?pid=S0717-71782002000100003&script=sci_arttext
+427,Crustacea,Crustacea,Trachurus murphyi,Teleostei,Medina & Arancibia (2002),https://www.scielo.cl/scielo.php?pid=S0717-71782002000100003&script=sci_arttext
+428,Myctophidae,Teleostei,Trachurus murphyi,Teleostei,Medina & Arancibia (2002),https://www.scielo.cl/scielo.php?pid=S0717-71782002000100003&script=sci_arttext
+429,Ostracoda,Ostracoda,Trachurus murphyi,Teleostei,Medina & Arancibia (2002),https://www.scielo.cl/scielo.php?pid=S0717-71782002000100003&script=sci_arttext
+430,Bivalvia,Bivalvia,Trophon geversianus,Gastropoda,Andrade C & Ríos C (2007),http://analesdelinstitutodelapatagonia.cl/index.php/analespatagonia/article/view/388
+431,Mytilus sp.,Bivalvia,Trophon geversianus,Gastropoda,Andrade C & Ríos C (2007),http://analesdelinstitutodelapatagonia.cl/index.php/analespatagonia/article/view/387
+432,Perumytilus purpuratus,Bivalvia,Trophon geversianus,Gastropoda,Andrade C & Ríos C (2007),http://analesdelinstitutodelapatagonia.cl/index.php/analespatagonia/article/view/390
+433,Amphipoda,Amphipoda,Zoarcidae,Teleostei,Schiavini et al. (1997),https://oceanrep.geomar.de/id/eprint/53025/1/3857.pdf
+434,Polychaeta,Polychaeta,Zoarcidae,Teleostei,Schiavini et al. (1997),https://oceanrep.geomar.de/id/eprint/53025/1/3857.pdf
+435,Phytoplankton,Phytoplankton,Zooplankton,Zooplankton,Andrade (pers. comm.),

@@ -14,8 +14,8 @@ require(NetworkExtinction)
 
 
 # Load data ---------------------------------------------------------------
-load("Results/Data_tidy_12feb25.rda")
-load("Results/Network&SpProps_12feb25.rda")
+load("Results/Data_tidy_22mar25.rda")
+load("Results/Network&SpProps_22mar25.rda")
 
 
 # Network-level analysis --------------------------------------------------

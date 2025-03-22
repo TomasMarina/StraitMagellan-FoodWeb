@@ -19,6 +19,10 @@ header-includes:
 - \newcommand{\elandscape}{\end{landscape}}
 - \usepackage[running]{lineno}
 - \linenumbers
+- \usepackage{array}
+- \usepackage{longtable}
+- \usepackage{ltablex}  # Ensures wrapping in long tables
+
 ---
 
 # Supplementary Material for 'Marine trophic network analysis and its potential resilience in the Strait of Magellan'
@@ -27,7 +31,7 @@ The following figure and tables summarise the data we used to build the network 
 
 Table 1 is the complete list of trophic interactions and references that confirm each of them.
 
-Table 2 is the species list with details on trophic species cases (aggregated taxa) and its species-level properties (degree, closeness, betweenness, Keystone Species Index -KSI-, trophic level, and topological role).
+Table 2 is the species list with details on trophic species cases (aggregated taxa) and its properties (degree, closeness, betweenness, Keystone Species Index -KSI-, trophic level, and topological role).
 
 Table 3 shows the results of the degree distribution fit of the food web.
 
@@ -42,6 +46,7 @@ require(knitr)
 require(dplyr)
 require(kableExtra)
 require(pander)
+require(flextable)
 
 # Load data
 int_list <- read.csv(file = "../Data/MagellanStrait_links_24jan25.csv", header = TRUE)
@@ -53,11 +58,43 @@ int_tbl <- int_list %>%
 # write.csv(int_tbl, file = "../InteractionList_Magellan_tocomplete.csv")
 
 # Table S1
-pandoc.table(int_tbl %>% 
-               arrange(., (Predator)) %>% 
-               mutate(Prey = paste('\\tiny', Prey), Predator = paste('\\tiny', Predator), Reference = paste('\\tiny', Reference), Reference_link = paste('\\tiny', Reference_link)), 
-             style="multiline", split.tables = Inf, justify = c("left","left","left","left"),
-             caption = "List of predator-prey (trophic) interactions used to build the food web of the Strait of Magellan.")
+# Using pandoc.table()
+# pandoc.table(int_tbl %>%
+#                arrange(., (Predator)) %>%
+#                dplyr::select(-ID) %>%
+#                mutate(Reference = paste('\\tiny', Reference), Reference_link = paste('\\tiny', Reference_link)),
+#              split.cells = c(10,10,5,5), split.table = Inf, justify = c("left","left","left","right"),
+#              caption = "List of predator-prey (trophic) interactions used to build the food web of the Strait of Magellan.")
+
+# Using flex.table()
+# int_tbl %>%
+#   arrange(Predator) %>%
+#   dplyr::select(-ID) %>%
+#   mutate(Reference = paste('\\tiny', Reference), Reference_link = paste('\\tiny', Reference_link)) %>%
+#   flextable() %>%
+#   width(j = 1:2, width = 2) %>%   # Set fixed width for first two columns
+#   width(j = 3:4, width = 3) %>%   # Set flexible width for last two columns
+#   autofit()
+
+# Using knitr::kable
+# Table S1 using kableExtra
+int_tbl %>%
+  arrange(Predator) %>%
+  rename(ReferenceLink = Reference_link) %>% 
+  dplyr::select(-ID) %>%
+  mutate(
+    Reference = paste0("\\tiny ", Reference), 
+    ReferenceLink = paste0("\\tiny ", ReferenceLink)
+  ) %>%
+  kable("latex", booktabs = TRUE, longtable = TRUE,
+        caption = "List of predator-prey (trophic) interactions used to build the food web of the Strait of Magellan.",
+        escape = FALSE, align = "lccc") %>%  # Ensure alignment for each column
+  kableExtra::column_spec(1, width = "4cm") %>%
+  kableExtra::column_spec(2, width = "4cm") %>%
+  kableExtra::column_spec(3, width = "6cm") %>%
+  kableExtra::column_spec(4, width = "6cm") %>%
+  kableExtra::kable_styling(latex_options = c("hold_position"))
+
 
 ```
 
@@ -66,7 +103,7 @@ pandoc.table(int_tbl %>%
 ```{r tableS2, echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
 
 # Load data
-load("../Results/Network&SpProps_19feb24.rda")
+load("../Results/Network&SpProps_12feb25.rda")
 load("../Results/Modularity_14jan25.rda")
 
 # Build species list
