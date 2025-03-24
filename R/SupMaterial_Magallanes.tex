@@ -70,10 +70,7 @@
 \newcommand{\blandscape}{\begin{landscape}}
 \newcommand{\elandscape}{\end{landscape}}
 \usepackage[running]{lineno}
-\linenumbers
-\usepackage{array}
-\usepackage{longtable}
-\usepackage{ltablex}
+\pagenumbering{gobble}
 \usepackage{booktabs}
 \usepackage{longtable}
 \usepackage{array}
@@ -95,762 +92,1734 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
 \hypersetup{
+  pdftitle={Supplementary Material for `Marine trophic network analysis and its potential resilience in the Strait of Magellan'},
+  pdfauthor={Claudia Andrade1*, Taryn Sepúlveda1, Cristóbal Rivera1, Cristian Aldea2 \& Tomás I. Marina3},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 
-\author{}
-\date{\vspace{-2.5em}}
+\title{Supplementary Material for `Marine trophic network analysis and
+its potential resilience in the Strait of Magellan'}
+\author{Claudia Andrade\textsuperscript{1}*, Taryn
+Sepúlveda\textsuperscript{1}, Cristóbal Rivera\textsuperscript{1},
+Cristian Aldea\textsuperscript{2} \& Tomás I. Marina\textsuperscript{3}}
+\date{1. Laboratorio de Ecología Funcional, Universidad de Magallanes,
+Punta Arenas, Chile. \newline 2. Centro de Investigación GAIA Antártica
+and Departamento de Ciencias y Recursos Naturales, Universidad de
+Magallanes, Punta Arenas, Chile. \newline 3. Centro Austral de
+Investigaciones Científicas (CADIC-CONICET), Ushuaia, Argentina.
+\newline *Corresponding author
+(\href{mailto:claudia.andrade@umag.cl}{\nolinkurl{claudia.andrade@umag.cl}})}
 
 \begin{document}
+\maketitle
 
-\section{Supplementary Material for `Marine trophic network analysis and
-its potential resilience in the Strait of
-Magellan'}\label{supplementary-material-for-marine-trophic-network-analysis-and-its-potential-resilience-in-the-strait-of-magellan}
-
-The following figure and tables summarise the data we used to build the
-network of trophic (predator-prey) interactions, food web, for the
-Strait of Magellan ecosystem. Details of some results are also included.
+The following tables summarise the data and results related to the study
+of the network of trophic (predator-prey) interactions, food web, for
+the Strait of Magellan ecosystem.
 
 Table 1 is the complete list of trophic interactions and references that
 confirm each of them.
 
 Table 2 is the species list with details on trophic species cases
-(aggregated taxa) and its properties (degree, closeness, betweenness,
-Keystone Species Index -KSI-, trophic level, and topological role).
+(aggregated taxa) and its properties (e.g.~degree, closeness,
+betweenness, Keystone Species Index -KSI-, trophic level, and
+topological role).
 
-Table 3 shows the results of the degree distribution fit of the food
-web.
+Table 3 shows the results for the small-world pattern analysis,
+following Marina et al.~(2018)
+(\url{https://doi.org/10.1371/journal.pone.0198217}).
+
+Table 4 shows the results of the cumulative degree distribution fit of
+the food web.
 
 \newpage
 \begin{landscape}
 
-\begin{longtable}[t]{>{\raggedright\arraybackslash}p{4cm}>{\centering\arraybackslash}p{4cm}>{\centering\arraybackslash}p{6cm}>{\centering\arraybackslash}p{6cm}}
-\caption{\label{tab:tableS1}List of predator-prey (trophic) interactions used to build the food web of the Strait of Magellan.}\\
-\toprule
-Prey & Predator & Reference & ReferenceLink\\
-\midrule
-Mytilus sp. & Acanthina monodon & \tiny Ríos & Gerdes (1997) & \tiny https://epic.awi.de/id/eprint/5233/\\
-Perumytilus purpuratus & Acanthina monodon & \tiny Andrade (pers. comm.) & \tiny\\
-Mytilus sp. & Acanthocyclus albatrossis & \tiny Uzkiaga et al. (2022) & \tiny https://www.sciencedirect.com/science/article/abs/pii/S0022098122000387\\
-Phytodetritus & Amphipoda & \tiny Andrade (pers. comm.) & \tiny\\
-Bivalvia & Anasterias antarctica & \tiny Andrade (pers. comm.) & \tiny\\
-\addlinespace
-Gastropoda & Anasterias antarctica & \tiny Ríos & Gerdes (1997) & \tiny https://epic.awi.de/id/eprint/5233/\\
-Mytilus sp. & Anasterias antarctica & \tiny Andrade (pers. comm.) & \tiny\\
-Harpagifer bispinis & Antholoba achates & \tiny Andrade (pers. comm.) & \tiny\\
-Zooplankton & Appendicularians & \tiny Cañete (pers. comm.) & \tiny\\
-Doryteuthis gahi & Aptenoydes patagonicus & \tiny Pütz et al. (2021) & \tiny https://www.sciencedirect.com/science/article/pii/S2351989421002195\\
-\addlinespace
-Myctophidae & Aptenoydes patagonicus & \tiny Huidobro & Oporto (2018) & \tiny https://repositorio.uc.cl/xmlui/handle/11534/45383\\
-Patagonotothen tessellata & Aptenoydes patagonicus & \tiny Pütz et al. (2021) & \tiny https://www.sciencedirect.com/science/article/pii/S2351989421002195\\
-Sprattus fuegensis & Aptenoydes patagonicus & \tiny Huidobro & Oporto (2018) & \tiny https://repositorio.uc.cl/xmlui/handle/11534/45382\\
-Brown algae & Arbacia dufresnii & \tiny Newcombe et al. (2012) & \tiny https://www.int-res.com/abstracts/ab/v15/n2/p135-144\\
-Foraminifera & Arbacia dufresnii & \tiny Castro et al. (2022) & \tiny https://www.sciencedirect.com/science/article/abs/pii/S2352249622000039?via%3Dihub\\
-\addlinespace
-Green algae & Arbacia dufresnii & \tiny Castro et al. (2022) & \tiny https://www.sciencedirect.com/science/article/abs/pii/S2352249622000039?via%3Dihub\\
-Ostracoda & Arbacia dufresnii & \tiny Castro et al. (2022) & \tiny https://www.sciencedirect.com/science/article/abs/pii/S2352249622000039?via%3Dihub\\
-Red algae & Arbacia dufresnii & \tiny Castro et al. (2022) & \tiny https://www.sciencedirect.com/science/article/abs/pii/S2352249622000039?via%3Dihub\\
-Merluccius australis & Arctocephalus australis & \tiny Vargas (2012) & \tiny http://cybertesis.uach.cl/tesis/uach/2012/fcv297h/doc/fcv297h.pdf\\
-Myctophidae & Arctocephalus australis & \tiny Vargas (2012) & \tiny http://cybertesis.uach.cl/tesis/uach/2012/fcv297h/doc/fcv297h.pdf\\
-\addlinespace
-Phytoplankton & Aulacomya atra & \tiny Montero et al. (2021) & \tiny https://www.frontiersin.org/articles/10.3389/fmars.2021.612406/full\\
-Zooplankton & Aulacomya atra & \tiny Montero et al. (2021) & \tiny https://www.frontiersin.org/articles/10.3389/fmars.2021.612406/full\\
-Phytoplankton & Austrochlamys natans & \tiny Gallardo et al. (2024) & \tiny https://onlinelibrary.wiley.com/doi/full/10.1155/2024/6685325\\
-Isopoda & Austrolycus depressiceps & \tiny Reyes & Hüne (2012) & \tiny https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile#:~:text=Abstract,que%20viven%20en%20aguas%20chilenas.\\
-Patagonotothen cornucola & Austrolycus depressiceps & \tiny Reyes & Hüne (2012) & \tiny https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile#:~:text=Abstract,que%20viven%20en%20aguas%20chilenas.\\
-\addlinespace
-Polychaeta & Austrolycus depressiceps & \tiny Reyes & Hüne (2012) & \tiny https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile#:~:text=Abstract,que%20viven%20en%20aguas%20chilenas.\\
-Bivalvia (larvae) & Bathylagichthys parini (larvae) & \tiny Salas-Berrios et al. (2013) & \tiny https://link.springer.com/article/10.1007/s00300-013-1359-8\\
-Calanoid (copepodite) & Bathylagichthys parini (larvae) & \tiny Salas-Berrios et al. (2013) & \tiny https://link.springer.com/article/10.1007/s00300-013-1359-8\\
-Copepoda (egg) & Bathylagichthys parini (larvae) & \tiny Salas-Berrios et al. (2013) & \tiny https://link.springer.com/article/10.1007/s00300-013-1359-8\\
-Copepoda (nauplius) & Bathylagichthys parini (larvae) & \tiny Salas-Berrios et al. (2013) & \tiny https://link.springer.com/article/10.1007/s00300-013-1359-8\\
-\addlinespace
-Detritus & Bathylagichthys parini (larvae) & \tiny Salas-Berrios et al. (2013) & \tiny https://link.springer.com/article/10.1007/s00300-013-1359-8\\
-Ostracoda & Bathylagichthys parini (larvae) & \tiny Salas-Berrios et al. (2013) & \tiny https://link.springer.com/article/10.1007/s00300-013-1359-8\\
-Plankton diatom & Bathylagichthys parini (larvae) & \tiny Salas-Berrios et al. (2013) & \tiny https://link.springer.com/article/10.1007/s00300-013-1359-8\\
-Salp & Bathylagichthys parini (larvae) & \tiny Salas-Berrios et al. (2013) & \tiny https://link.springer.com/article/10.1007/s00300-013-1359-8\\
-Mytilus sp. & Benthic decapoda & \tiny Andrade (pers. comm.) & \tiny\\
-\addlinespace
-Phytoplankton & Bivalvia & \tiny Arapov et al. (2010) & \tiny https://ribarstvo.agr.hr/articles/5795_BIVALVE_FEEDING_HOW_AND_WHAT_THEY_EAT__en.pdf\\
-Benthic diatom & Bivalvia (larvae) & \tiny Arapov et al. (2010) & \tiny https://ribarstvo.agr.hr/articles/5795_BIVALVE_FEEDING_HOW_AND_WHAT_THEY_EAT__en.pdf\\
-Plankton diatom & Bivalvia (larvae) & \tiny Farías et al. (2003) & \tiny https://www.sciencedirect.com/science/article/pii/S0044848603002722\\
-Phytoplankton & Brachiopoda & \tiny Peck et al. (1987) & \tiny https://www.sciencedirect.com/science/article/abs/pii/0022098187901420?via%3Dihub\\
-Phytoplankton & Bryozoa & \tiny Winston (1981) & \tiny https://www.cambridge.org/core/journals/series-in-geology-notes-for-short-course/article/abs/feeding-behavior-of-modern-bryozoans/D38156D6C6C0553E2EF87DA56EF05AC8\\
-\addlinespace
-Zooplankton & Bryozoa & \tiny Winston (1981) & \tiny https://www.cambridge.org/core/journals/series-in-geology-notes-for-short-course/article/abs/feeding-behavior-of-modern-bryozoans/D38156D6C6C0553E2EF87DA56EF05AC8\\
-Exosphaeroma gigas & Bunodactis octoradiata & \tiny Andrade C & Ríos C (2007) & \tiny http://analesdelinstitutodelapatagonia.cl/index.php/analespatagonia/article/view/386\\
-Phytoplankton & Calanoid (copepodite) & \tiny Cañete (pers. comm.) & \tiny\\
-Bivalvia & Calidris canutus & \tiny Espoz et al. (2008) & \tiny https://www.researchgate.net/publication/262687507_Trophic_ecology_of_the_Red_Knot_Calidris_canutus_rufa_at_Bahia_Lomas_Tierra_del_Fuego_Chile?enrichId=rgreq-8c958f7066ac761a5d05454e0c0e8de9-XXX&enrichSource=Y292ZXJQYWdlOzI2MjY4NzUwNztBUzoxNDE3ODM2MTkwODQyODhAMTQxMDgxNTI1NzkyOQ%3D%3D&el=1_x_2&_esc=publicationCoverPdf\\
-Bivalvia & Callorhinchus callorynchus & \tiny Di Giacomo & Perier (1996) & \tiny https://www.publish.csiro.au/mf/mf9960801\\
-\addlinespace
-Zooplankton & Campylonotus vagans & \tiny Thatje et al. (2004) & \tiny https://www.sciencedirect.com/science/article/pii/S0022098103005021?casa_token=teBJHmRgoUoAAAAA:XLM3A_oEKvJ3sW1mYuQ4kkTU-GgKioakdkP34Pf_SE9cXTIR7RFCMIwNbATLhbKFGijc4n5P4A\\
-Benthic decapoda & Cephalopoda & \tiny Sepúlveda (pers. comm) & \tiny\\
-Bivalvia & Cephalopoda & \tiny Sepúlveda (pers. comm) & \tiny\\
-Benthic decapoda & Cephalorhynchus commersonii commersonii & \tiny Riccialdelli et al. (2013) & \tiny https://link.springer.com/article/10.1007/s00300-013-1289-16\\
-Doryteuthis gahi & Cephalorhynchus commersonii commersonii & \tiny Riccialdelli et al. (2013) & \tiny https://link.springer.com/article/10.1007/s00300-013-1289-12\\
-\addlinespace
-Eleginops maclovinus & Cephalorhynchus commersonii commersonii & \tiny Riccialdelli et al. (2013) & \tiny https://link.springer.com/article/10.1007/s00300-013-1289-7\\
-Enteroctopus megalocyathus & Cephalorhynchus commersonii commersonii & \tiny Riccialdelli et al. (2013) & \tiny https://link.springer.com/article/10.1007/s00300-013-1289-13\\
-Halicarcinus planatus & Cephalorhynchus commersonii commersonii & \tiny Riccialdelli et al. (2013) & \tiny https://link.springer.com/article/10.1007/s00300-013-1289-15\\
-Illex argentinus & Cephalorhynchus commersonii commersonii & \tiny Riccialdelli et al. (2013) & \tiny https://link.springer.com/article/10.1007/s00300-013-1289-11\\
-Macruronus magellanicus & Cephalorhynchus commersonii commersonii & \tiny Riccialdelli et al. (2013) & \tiny https://link.springer.com/article/10.1007/s00300-013-1289-10\\
-\addlinespace
-Odontesthes sp. & Cephalorhynchus commersonii commersonii & \tiny Riccialdelli et al. (2013) & \tiny https://link.springer.com/article/10.1007/s00300-013-1289-8\\
-Patagonotothen sp. & Cephalorhynchus commersonii commersonii & \tiny Riccialdelli et al. (2013) & \tiny https://link.springer.com/article/10.1007/s00300-013-1289-5\\
-Sprattus fuegensis & Cephalorhynchus commersonii commersonii & \tiny Riccialdelli et al. (2013) & \tiny https://link.springer.com/article/10.1007/s00300-013-1289-9\\
-Zoarcidae & Cephalorhynchus commersonii commersonii & \tiny Riccialdelli et al. (2013) & \tiny https://link.springer.com/article/10.1007/s00300-013-1289-6\\
-Patagonotothen cornucola & Champsocephalus esox & \tiny Landaeta et al. (2020) & \tiny https://www.cambridge.org/core/journals/antarctic-science/article/abs/shape-condition-and-diet-of-the-pike-icefish-champsocephalus-esox-teleostei-channichthyidae-evidence-of-phenotypic-plasticity/F45F7393F50141A0E3999A96CA55B1DC\\
-\addlinespace
-Patagonotothen sima & Champsocephalus esox & \tiny Landaeta et al. (2020) & \tiny https://www.cambridge.org/core/journals/antarctic-science/article/abs/shape-condition-and-diet-of-the-pike-icefish-champsocephalus-esox-teleostei-channichthyidae-evidence-of-phenotypic-plasticity/F45F7393F50141A0E3999A96CA55B1DC\\
-Patagonotothen tessellata & Champsocephalus esox & \tiny Landaeta et al. (2020) & \tiny https://www.cambridge.org/core/journals/antarctic-science/article/abs/shape-condition-and-diet-of-the-pike-icefish-champsocephalus-esox-teleostei-channichthyidae-evidence-of-phenotypic-plasticity/F45F7393F50141A0E3999A96CA55B1DC\\
-Detritus & Chironomidae & \tiny Galizzi et al (2012) & \tiny https://www.scielo.br/j/isz/a/bDrCDYjPB5jgPmsKhxq5FQp/#\\
-Plankton diatom & Chironomidae & \tiny Galizzi et al (2012) & \tiny https://www.scielo.br/j/isz/a/bDrCDYjPB5jgPmsKhxq5FQp/#\\
-Brown algae & Chloephaga hybrida & \tiny Venegas (1985) & \tiny Venegas, C. 1985-1986. Prospección aérea de gansos (Chloephaga) en la estepa central de Magallanes. Anales del Instituto de la Patagonia 16: 67˗73.\\
-\addlinespace
-Amphipoda & Cilus gilberti & \tiny Reyes & Hüne (2012) & \tiny https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile#:~:text=Abstract,que%20viven%20en%20aguas%20chilenas.\\
-Polychaeta & Cilus gilberti & \tiny Reyes & Hüne (2012) & \tiny https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile#:~:text=Abstract,que%20viven%20en%20aguas%20chilenas.\\
-Green algae & Cilus gilberti & \tiny Reyes & Hüne (2012) & \tiny https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile#:~:text=Abstract,que%20viven%20en%20aguas%20chilenas.\\
-Phytoplankton & Cirripedia & \tiny Andrade (pers. comm.) & \tiny\\
-Detritus & Copepoda & \tiny Kleppel (1993) & \tiny https://www.int-res.com/articles/meps/99/m099p183.pdf\\
-\addlinespace
-Phytoplankton & Copepoda & \tiny Kleppel (1993) & \tiny https://www.int-res.com/articles/meps/99/m099p183.pdf\\
-Zooplankton & Copepoda & \tiny Kleppel (1993) & \tiny https://www.int-res.com/articles/meps/99/m099p183.pdf\\
-Nanoflagellates & Copepoda (nauplius) & \tiny Böttjer et al. (2009) & \tiny https://link.springer.com/article/10.1007/s00227-009-1353-4\\
-Arbacia dufresnii & Cosmasterias lurida & \tiny Garrido et al. (2021) & \tiny https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2021.636208/full\\
-Bivalvia & Cosmasterias lurida & \tiny Garrido et al. (2021) & \tiny https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2021.636208/full\\
-\addlinespace
-Gastropoda & Cosmasterias lurida & \tiny Andrade (pers. comm.) & \tiny\\
-Loxechinus albus & Cosmasterias lurida & \tiny Garrido et al. (2021) & \tiny https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2021.636208/full\\
-Mytilus sp. & Cosmasterias lurida & \tiny Andrade (pers. comm.) & \tiny\\
-Pseudechinus magellanicus & Cosmasterias lurida & \tiny Garrido et al. (2021) & \tiny https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2021.636208/full\\
-Doryteuthis gahi & Cottoperca gobio & \tiny Laptikhovsky & Arkhipkin (2003) & \tiny https://onlinelibrary.wiley.com/doi/full/10.1046/j.1439-0426.2003.00340.x?casa_token=6dL3l09v8GkAAAAA%3A4Fd89SBAZOIkE2TKrEQxaEERaCADR0kGhkXGR-Bz35FUg2Z12Z3dRPMgT5ckTZ1c__S6NpyqOz9_Q0E\\
-\addlinespace
-Macruronus magellanicus & Cottoperca gobio & \tiny Laptikhovsky & Arkhipkin (2003) & \tiny https://onlinelibrary.wiley.com/doi/full/10.1046/j.1439-0426.2003.00340.x?casa_token=6dL3l09v8GkAAAAA%3A4Fd89SBAZOIkE2TKrEQxaEERaCADR0kGhkXGR-Bz35FUg2Z12Z3dRPMgT5ckTZ1c__S6NpyqOz9_Q0E\\
-Grimothea gregaria & Cottoperca gobio & \tiny Vinuesa & Varisco (2007) & \tiny https://www.scielo.cl/scielo.php?pid=S0717-71782007000200003&script=sci_arttext&tlng=pt\\
-Patagonotothen tessellata & Cottoperca gobio & \tiny Laptikhovsky & Arkhipkin (2003) & \tiny https://onlinelibrary.wiley.com/doi/full/10.1046/j.1439-0426.2003.00340.x?casa_token=6dL3l09v8GkAAAAA%3A4Fd89SBAZOIkE2TKrEQxaEERaCADR0kGhkXGR-Bz35FUg2Z12Z3dRPMgT5ckTZ1c__S6NpyqOz9_Q0E\\
-Peltarion spinulosum & Cottoperca gobio & \tiny Laptikhovsky & Arkhipkin (2003) & \tiny https://onlinelibrary.wiley.com/doi/full/10.1046/j.1439-0426.2003.00340.x?casa_token=6dL3l09v8GkAAAAA%3A4Fd89SBAZOIkE2TKrEQxaEERaCADR0kGhkXGR-Bz35FUg2Z12Z3dRPMgT5ckTZ1c__S6NpyqOz9_Q0E\\
-Sprattus fuegensis & Cottoperca gobio & \tiny Laptikhovsky & Arkhipkin (2003) & \tiny https://onlinelibrary.wiley.com/doi/full/10.1046/j.1439-0426.2003.00340.x?casa_token=6dL3l09v8GkAAAAA%3A4Fd89SBAZOIkE2TKrEQxaEERaCADR0kGhkXGR-Bz35FUg2Z12Z3dRPMgT5ckTZ1c__S6NpyqOz9_Q0E\\
-\addlinespace
-Brown algae & Crepipatella dilatata & \tiny C. Andrade (pers. comm.) & \tiny\\
-Phytoplankton & Crustacea & \tiny C. Andrade (pers. comm.) & \tiny\\
-Zooplankton & Crustacea & \tiny C. Andrade (pers. comm.) & \tiny\\
-Phytoplankton & Darina solenoides & \tiny López et al. (2022) & \tiny https://bioone.org/journals/malacologia/volume-64/issue-2/040.064.0203/Reproduction-and-Recruitment-of-the-Intertidal-Clam-iDarina-solenoides-i/10.4002/040.064.0203.short\\
-Doryteuthis gahi & Dissostichus eleginoides & \tiny Troccoli et al. (2020) & \tiny https://link.springer.com/article/10.1007/s00300-020-02730-2\\
-\addlinespace
-Genypterus blacodes & Dissostichus eleginoides & \tiny Troccoli et al. (2020) & \tiny https://link.springer.com/article/10.1007/s00300-020-02730-2\\
-Lithodes santolla & Dissostichus eleginoides & \tiny Murillo et al. (2008) & \tiny https://www.scielo.cl/scielo.php?pid=S0717-65382008000100011&script=sci_arttext&tlng=pt\\
-Macruronus magellanicus & Dissostichus eleginoides & \tiny Troccoli et al. (2020) & \tiny https://link.springer.com/article/10.1007/s00300-020-02730-2\\
-Salilota australis & Dissostichus eleginoides & \tiny Troccoli et al. (2020) & \tiny https://link.springer.com/article/10.1007/s00300-020-02730-2\\
-Sprattus fuegensis & Dissostichus eleginoides & \tiny Troccoli et al. (2020) & \tiny https://link.springer.com/article/10.1007/s00300-020-02730-2\\
-\addlinespace
-Benthic decapoda & Doryteuthis gahi & \tiny Almonacid (pers. comm) & \tiny\\
-Sprattus fuegensis & Doryteuthis gahi & \tiny Almonacid (pers. comm) & \tiny\\
-Acanthocyclus albatrossis & Eleginops maclovinus & \tiny Córdova et al. (2009) & \tiny https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext\\
-Amphipoda & Eleginops maclovinus & \tiny Guzmán & Campodonico (1973) & \tiny http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379\\
-Benthic decapoda & Eleginops maclovinus & \tiny Guzmán & Campodonico (1973) & \tiny http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379\\
-\addlinespace
-Brachiopoda & Eleginops maclovinus & \tiny Guzmán & Campodonico (1973) & \tiny http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379\\
-Cephalopoda & Eleginops maclovinus & \tiny Guzmán & Campodonico (1973) & \tiny http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379\\
-Copepoda & Eleginops maclovinus & \tiny Guzmán & Campodonico (1973) & \tiny http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379\\
-Cyanobacteria & Eleginops maclovinus & \tiny Guzmán & Campodonico (1973) & \tiny http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379\\
-Detritus & Eleginops maclovinus & \tiny Guzmán & Campodonico (1973) & \tiny http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379\\
-\addlinespace
-Exosphaeroma gigas & Eleginops maclovinus & \tiny Andrade (pers. comm.) & \tiny\\
-Foraminifera & Eleginops maclovinus & \tiny Guzmán & Campodonico (1973) & \tiny http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379\\
-Green algae & Eleginops maclovinus & \tiny Guzmán & Campodonico (1973) & \tiny http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379\\
-Halicarcinus planatus & Eleginops maclovinus & \tiny Guzmán & Campodonico (1973) & \tiny http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379\\
-Isopoda & Eleginops maclovinus & \tiny Guzmán & Campodonico (1973) & \tiny http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379\\
-\addlinespace
-Ostracoda & Eleginops maclovinus & \tiny Guzmán & Campodonico (1973) & \tiny http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379\\
-Patagonotothen cornucola & Eleginops maclovinus & \tiny Martin & Bastida (2008) & \tiny https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0718-560X2008000100001\\
-Polychaeta & Eleginops maclovinus & \tiny Guzmán & Campodonico (1973) & \tiny http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379\\
-Red algae & Eleginops maclovinus & \tiny Guzmán & Campodonico (1973) & \tiny http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379\\
-Sediment & Eleginops maclovinus & \tiny Guzmán & Campodonico (1973) & \tiny http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379\\
-\addlinespace
-Tanaidae & Eleginops maclovinus & \tiny Haro D. (2019) & \tiny https://repositorio.uchile.cl/handle/2250/187376\\
-Zooplankton & Eleginops maclovinus & \tiny Guzmán & Campodonico (1973) & \tiny http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379\\
-Benthic decapoda & Enteroctopus megalocyathus & \tiny Sepúlveda (pers. comm) & \tiny\\
-Bivalvia & Enteroctopus megalocyathus & \tiny Sepúlveda (pers. comm) & \tiny\\
-Phytoplankton & Euphausia lucens & \tiny Stuart (1986) & \tiny https://www.int-res.com/articles/meps/30/m030p117.pdf\\
-\addlinespace
-Phytoplankton & Euphausia vallentini & \tiny Sánchez et al. (2011) & \tiny https://academic.oup.com/plankt/article/33/8/1212/1441310?login=false\\
-Plankton diatom & Euphausia vallentini & \tiny Sánchez et al. (2011) & \tiny https://academic.oup.com/plankt/article/33/8/1212/1441310?login=false\\
-Bryozoa & Eurypodius latreillei & \tiny Comoglio (1994) & \tiny https://bibliotecadigital.exactas.uba.ar/download/tesis/tesis_n2640_Comoglio.pdf\\
-Foraminifera & Eurypodius latreillei & \tiny Comoglio (1994) & \tiny https://bibliotecadigital.exactas.uba.ar/download/tesis/tesis_n2640_Comoglio.pdf\\
-Halicarcinus planatus & Eurypodius latreillei & \tiny Comoglio (1994) & \tiny https://bibliotecadigital.exactas.uba.ar/download/tesis/tesis_n2640_Comoglio.pdf\\
-\addlinespace
-Isopoda & Eurypodius latreillei & \tiny Comoglio (1994) & \tiny https://bibliotecadigital.exactas.uba.ar/download/tesis/tesis_n2640_Comoglio.pdf\\
-Pagurus sp. & Eurypodius latreillei & \tiny Comoglio (1994) & \tiny https://bibliotecadigital.exactas.uba.ar/download/tesis/tesis_n2640_Comoglio.pdf\\
-Detritus & Exosphaeroma gigas & \tiny Andrade (pers. comm.) & \tiny\\
-Brown algae & Fissurella oriens & \tiny Andrade (pers. comm.) & \tiny\\
-Brown algae & Fissurella radiosa & \tiny Andrade (pers. comm.) & \tiny\\
-\addlinespace
-Copepoda & Foraminifera & \tiny Hayward et al. (2021) & \tiny https://www.researchgate.net/profile/Bruce-Hayward/publication/351275033_Molecular_and_morphological_taxonomy_of_living_Ammonia_and_related_taxa_Foraminifera_and_their_biogeography/links/60da697592851ca94493fa31/Molecular-and-morphological-taxonomy-of-living-Ammonia-and-related-taxa-Foraminifera-and-their-biogeography.pdf\\
-Phytodetritus & Foraminifera & \tiny Hayward et al. (2021) & \tiny https://www.researchgate.net/profile/Bruce-Hayward/publication/351275033_Molecular_and_morphological_taxonomy_of_living_Ammonia_and_related_taxa_Foraminifera_and_their_biogeography/links/60da697592851ca94493fa31/Molecular-and-morphological-taxonomy-of-living-Ammonia-and-related-taxa-Foraminifera-and-their-biogeography.pdf\\
-Phytoplankton & Foraminifera & \tiny Hayward et al. (2021) & \tiny https://www.researchgate.net/profile/Bruce-Hayward/publication/351275033_Molecular_and_morphological_taxonomy_of_living_Ammonia_and_related_taxa_Foraminifera_and_their_biogeography/links/60da697592851ca94493fa31/Molecular-and-morphological-taxonomy-of-living-Ammonia-and-related-taxa-Foraminifera-and-their-biogeography.pdf\\
-Phytoplankton & Gaimardia trapesina & \tiny Adami & Gordillo (1999) & \tiny https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/902\\
-Detritus & Gammaridae & \tiny Felten et al. (2008) & \tiny http://srv01.lin.irk.ru/copp/rus/files/95_Felten_2008_4_Quantification%20of%20diet%20variability%20in%20a%20stream%20amphipod.pdf\\
-\addlinespace
-Phytoplankton & Gammaridae & \tiny Felten et al. (2008) & \tiny http://srv01.lin.irk.ru/copp/rus/files/95_Felten_2008_4_Quantification%20of%20diet%20variability%20in%20a%20stream%20amphipod.pdf\\
-Zooplankton & Gammaridae & \tiny Felten et al. (2008) & \tiny http://srv01.lin.irk.ru/copp/rus/files/95_Felten_2008_4_Quantification%20of%20diet%20variability%20in%20a%20stream%20amphipod.pdf\\
-Phytoplankton & Gastropoda & \tiny Andrade & Brey (2014) & \tiny https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en\\
-Amphipoda & Genypterus blacodes & \tiny Haro D. (2019) & \tiny https://repositorio.uchile.cl/handle/2250/187376\\
-Benthic decapoda & Genypterus blacodes & \tiny Andrade (pers. comm.) & \tiny\\
-\addlinespace
-Merluccius sp. & Genypterus blacodes & \tiny Haro D. (2019) & \tiny https://repositorio.uchile.cl/handle/2250/187376\\
-Odontesthes sp. & Genypterus blacodes & \tiny Haro D. (2019) & \tiny https://repositorio.uchile.cl/handle/2250/187376\\
-Patagonotothen sp. & Genypterus blacodes & \tiny Haro D. (2019) & \tiny https://repositorio.uchile.cl/handle/2250/187376\\
-Sprattus fuegensis & Genypterus blacodes & \tiny Zuleta & Rubilar (2010) & \tiny http://docplayer.es/46981536-Impacto-del-desarrollo-de-una-pesqueria-de-sardina-austral-sprattus-fueguensis-en-aguas-interiores-de-las-regiones-x-xii.html\\
-Detritus & Grimothea gregaria & \tiny Andrade (pers. comm.) & \tiny\\
-\addlinespace
-Green algae & Grimothea gregaria & \tiny Andrade (pers. comm.) & \tiny\\
-Isopoda & Grimothea gregaria & \tiny Andrade (pers. comm.) & \tiny\\
-Phytodetritus & Grimothea gregaria & \tiny Andrade (pers. comm.) & \tiny\\
-Porifera & Grimothea gregaria & \tiny Andrade (pers. comm.) & \tiny\\
-Detritus & Halicarcinus planatus & \tiny C. Andrade (pers. comm.) & \tiny\\
-\addlinespace
-Amphipoda & Harpagifer bispinis & \tiny Hüne & Vega (2016) & \tiny https://link.springer.com/article/10.1007/s00300-015-1726-8\\
-Exosphaeroma gigas & Harpagifer bispinis & \tiny Hüne & Vega (2016) & \tiny https://link.springer.com/article/10.1007/s00300-015-1726-8\\
-Isopoda & Harpagifer bispinis & \tiny Andrade (pers. comm.) & \tiny\\
-Polychaeta & Harpagifer bispinis & \tiny Hüne & Rivera (2010) & \tiny https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0718-686X2010000200004\\
-Tanaidae & Harpagifer bispinis & \tiny Hüne & Vega (2016) & \tiny https://link.springer.com/article/10.1007/s00300-015-1726-8\\
-\addlinespace
-Detritus & Hydrozoa & \tiny Aldea (pers. comm.) & \tiny\\
-Phytoplankton & Hydrozoa & \tiny Aldea (pers. comm.) & \tiny\\
-Zooplankton & Hydrozoa & \tiny Aldea (pers. comm.) & \tiny\\
-Amphipoda & Illex argentinus & \tiny Ivanovic (2010) & \tiny https://aquadocs.org/bitstream/handle/1834/4224/Rev%20Invest%20Desarr%20Pesq%2020%2051-63.pdf?sequence=1&isAllowed=y\\
-Copepoda & Illex argentinus & \tiny Ivanovic (2010) & \tiny https://aquadocs.org/bitstream/handle/1834/4224/Rev%20Invest%20Desarr%20Pesq%2020%2051-63.pdf?sequence=1&isAllowed=y\\
-\addlinespace
-Doryteuthis gahi & Illex argentinus & \tiny Ivanovic (2010) & \tiny https://aquadocs.org/bitstream/handle/1834/4224/Rev%20Invest%20Desarr%20Pesq%2020%2051-63.pdf?sequence=1&isAllowed=y\\
-Euphausia lucens & Illex argentinus & \tiny Ivanovic (2010) & \tiny https://aquadocs.org/bitstream/handle/1834/4224/Rev%20Invest%20Desarr%20Pesq%2020%2051-63.pdf?sequence=1&isAllowed=y\\
-Brown algae & Isopoda & \tiny Andrade (pers. comm.) & \tiny\\
-Detritus & Isopoda & \tiny Andrade (pers. comm.) & \tiny\\
-Phytodetritus & Isopoda & \tiny Andrade (pers. comm.) & \tiny\\
-\addlinespace
-Exosphaeroma gigas & Labidiaster radiosus & \tiny Andrade (pers. comm.) & \tiny\\
-Eleginops maclovinus & Lagenorhynchus australis & \tiny Schiavini et al. (1997) & \tiny https://www.vliz.be/imisdocs/publications/232079.pdf\\
-Enteroctopus megalocyathus & Lagenorhynchus australis & \tiny Schiavini et al. (1997) & \tiny https://www.vliz.be/imisdocs/publications/232079.pdf\\
-Genypterus blacodes & Lagenorhynchus australis & \tiny Schiavini et al. (1997) & \tiny https://www.vliz.be/imisdocs/publications/232079.pdf\\
-Illex argentinus & Lagenorhynchus australis & \tiny Schiavini et al. (1997) & \tiny https://www.vliz.be/imisdocs/publications/232079.pdf\\
-\addlinespace
-Macruronus magellanicus & Lagenorhynchus australis & \tiny Schiavini et al. (1997) & \tiny https://www.vliz.be/imisdocs/publications/232079.pdf\\
-Myxine australis & Lagenorhynchus australis & \tiny Schiavini et al. (1997) & \tiny https://www.vliz.be/imisdocs/publications/232079.pdf\\
-Patagonotothen tessellata & Lagenorhynchus australis & \tiny Viddi & Lescrauwaet (2005) & \tiny https://www.vliz.be/imisdocs/publications/ocrd/102931.pdf\\
-Salilota australis & Lagenorhynchus australis & \tiny Schiavini et al. (1997) & \tiny https://www.vliz.be/imisdocs/publications/232079.pdf\\
-Salp & Lagenorhynchus australis & \tiny Schiavini et al. (1997) & \tiny https://www.vliz.be/imisdocs/publications/232079.pdf\\
-\addlinespace
-Zoarcidae & Lagenorhynchus australis & \tiny Schiavini et al. (1997) & \tiny https://www.vliz.be/imisdocs/publications/232079.pdf\\
-Bivalvia & Larus dominicanus & \tiny Gordillo et al. (2020) & \tiny https://www.cambridge.org/core/journals/journal-of-the-marine-biological-association-of-the-united-kingdom/article/abs/naticid-drilling-predation-from-tidal-flats-in-northern-patagonia-sw-atlantic/3EB5A0897064DF2E2381CE9844F5F348\\
-Gastropoda & Larus dominicanus & \tiny Hockey (1988) & \tiny https://doi.org/10.1007/BF00379614\\
-Mytilus sp. & Larus dominicanus & \tiny Andrade (pers. comm.) & \tiny\\
-Bassanago sp. & Lithodes santolla & \tiny Andrade et al. (2022) & \tiny https://www.mdpi.com/1424-2818/14/1/67\\
-\addlinespace
-Bivalvia & Lithodes santolla & \tiny Andrade et al. (2022) & \tiny https://www.mdpi.com/1424-2818/14/1/64\\
-Brown algae & Lithodes santolla & \tiny Andrade et al. (2022) & \tiny https://www.mdpi.com/1424-2818/14/1/56\\
-Bryozoa & Lithodes santolla & \tiny Andrade et al. (2022) & \tiny https://www.mdpi.com/1424-2818/14/1/58\\
-Cephalopoda & Lithodes santolla & \tiny Andrade et al. (2022) & \tiny https://www.mdpi.com/1424-2818/14/1/66\\
-Detritus & Lithodes santolla & \tiny Andrade et al. (2022) & \tiny https://www.mdpi.com/1424-2818/14/1/69\\
-\addlinespace
-Foraminifera & Lithodes santolla & \tiny Andrade et al. (2022) & \tiny https://www.mdpi.com/1424-2818/14/1/60\\
-Gastropoda & Lithodes santolla & \tiny Andrade et al. (2022) & \tiny https://www.mdpi.com/1424-2818/14/1/65\\
-Hydrozoa & Lithodes santolla & \tiny Andrade et al. (2022) & \tiny https://www.mdpi.com/1424-2818/14/1/57\\
-Lithodes santolla & Lithodes santolla & \tiny Andrade et al. (2022) & \tiny https://www.mdpi.com/1424-2818/14/1/63\\
-Polychaeta & Lithodes santolla & \tiny Andrade et al. (2022) & \tiny https://www.mdpi.com/1424-2818/14/1/61\\
-\addlinespace
-Porifera & Lithodes santolla & \tiny Andrade et al. (2022) & \tiny https://www.mdpi.com/1424-2818/14/1/59\\
-Pseudechinus magellanicus & Lithodes santolla & \tiny Andrade et al. (2022) & \tiny https://www.mdpi.com/1424-2818/14/1/62\\
-Red algae & Lithodes santolla & \tiny Andrade et al. (2022) & \tiny\\
-Sediment & Lithodes santolla & \tiny Andrade et al. (2022) & \tiny https://www.mdpi.com/1424-2818/14/1/68\\
-Amphipoda & Lithodes santolla (juvenile) & \tiny Pardo et al.(2021) & \tiny https://www.mdpi.com/1424-2818/13/11/556\\
-\addlinespace
-Benthic decapoda & Lithodes santolla (juvenile) & \tiny Pardo et al.(2021) & \tiny https://www.mdpi.com/1424-2818/13/11/556\\
-Bivalvia & Lithodes santolla (juvenile) & \tiny Pardo et al.(2021) & \tiny https://www.mdpi.com/1424-2818/13/11/557\\
-Brown algae & Lithodes santolla (juvenile) & \tiny Pardo et al.(2021) & \tiny https://www.mdpi.com/1424-2818/13/11/558\\
-Foraminifera & Lithodes santolla (juvenile) & \tiny Pardo et al.(2021) & \tiny https://www.mdpi.com/1424-2818/13/11/561\\
-Green algae & Lithodes santolla (juvenile) & \tiny Pardo et al.(2021) & \tiny https://www.mdpi.com/1424-2818/13/11/561\\
-\addlinespace
-Hydrozoa & Lithodes santolla (juvenile) & \tiny Pardo et al.(2021) & \tiny https://www.mdpi.com/1424-2818/13/11/560\\
-Nacella deaurata & Lithodes santolla (juvenile) & \tiny Pardo et al.(2021) & \tiny https://www.mdpi.com/1424-2818/13/11/561\\
-Polychaeta & Lithodes santolla (juvenile) & \tiny Pardo et al.(2021) & \tiny https://www.mdpi.com/1424-2818/13/11/561\\
-Polyplacophora & Lithodes santolla (juvenile) & \tiny Pardo et al.(2021) & \tiny https://www.mdpi.com/1424-2818/13/11/561\\
-Porifera & Lithodes santolla (juvenile) & \tiny Pardo et al.(2021) & \tiny https://www.mdpi.com/1424-2818/13/11/561\\
-\addlinespace
-Pseudechinus magellanicus & Lithodes santolla (juvenile) & \tiny Pardo et al.(2021) & \tiny https://www.mdpi.com/1424-2818/13/11/561\\
-Sediment & Lithodes santolla (juvenile) & \tiny Pardo et al.(2021) & \tiny https://www.mdpi.com/1424-2818/13/11/559\\
-Benthic decapoda & Lontra felina & \tiny Córdova et al. (2009) & \tiny https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext\\
-Cottoperca gobio & Lontra felina & \tiny Córdova et al. (2009) & \tiny https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext\\
-Harpagifer bispinis & Lontra felina & \tiny Córdova et al. (2009) & \tiny https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext\\
-\addlinespace
-Patagonotothen sp. & Lontra felina & \tiny Córdova et al. (2009) & \tiny https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext\\
-Prolatilus jugularis & Lontra felina & \tiny Córdova et al. (2009) & \tiny https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext\\
-Brown algae & Loxechinus albus & \tiny Castilla (1985) & \tiny https://www.academia.edu/download/31744106/Castilla_Moreno_1982.pdf\\
-Harpagifer bispinis & Loxechinus albus & \tiny Andrade (pers. comm.) & \tiny\\
-Red algae & Loxechinus albus & \tiny Castilla (1985) & \tiny https://www.academia.edu/download/31744106/Castilla_Moreno_1982.pdf\\
-\addlinespace
-Sprattus fuegensis & Macruronus magellanicus & \tiny Zuleta & Rubilar (2010) & \tiny http://docplayer.es/46981536-Impacto-del-desarrollo-de-una-pesqueria-de-sardina-austral-sprattus-fueguensis-en-aguas-interiores-de-las-regiones-x-xii.html\\
-Benthic decapoda & Macruronus magellanicus & \tiny Acevedo (2013) & \tiny https://aquadocs.org/handle/1834/6952\\
-Brown algae & Margarella violacea & \tiny C. Andrade (pers. comm.) & \tiny\\
-Euphausia vallentini & Martialia hyadesii & \tiny Hughes (2010) & \tiny https://figshare.utas.edu.au/articles/thesis/Determining_the_unknown_in_Southern_Ocean_squid_distribution_and_diet_of_Histeoteuthis_eltaninae_and_Martialia_hyadesi/23230271/1\\
-Bivalvia (larvae) & Maurolicus australis (larvae) & \tiny Landaeta et al. (2011) & \tiny https://academic.oup.com/plankt/article/33/12/1813/1542048?login=false\\
-\addlinespace
-Calanoid (copepodite) & Maurolicus australis (larvae) & \tiny Landaeta et al. (2011) & \tiny https://academic.oup.com/plankt/article/33/12/1813/1542048?login=false\\
-Copepoda (egg) & Maurolicus australis (larvae) & \tiny Landaeta et al. (2011) & \tiny https://academic.oup.com/plankt/article/33/12/1813/1542048?login=false\\
-Copepoda (nauplius) & Maurolicus australis (larvae) & \tiny Landaeta et al. (2011) & \tiny https://academic.oup.com/plankt/article/33/12/1813/1542048?login=false\\
-Amphipoda & Megaptera novaeangliae & \tiny Haro D. (2019) & \tiny https://repositorio.uchile.cl/handle/2250/187376\\
-Benthic decapoda & Megaptera novaeangliae & \tiny Haro et al. (2025) & \tiny https://www.sciencedirect.com/science/article/abs/pii/S0304380024003326\\
-\addlinespace
-Euphausia lucens & Megaptera novaeangliae & \tiny Haro D. (2019) & \tiny https://repositorio.uchile.cl/handle/2250/187376\\
-Euphausia vallentini & Megaptera novaeangliae & \tiny Haro D. (2019) & \tiny https://repositorio.uchile.cl/handle/2250/187376\\
-Sprattus fuegensis & Megaptera novaeangliae & \tiny Haro et al. (2025) & \tiny https://www.sciencedirect.com/science/article/abs/pii/S0304380024003326\\
-Sprattus fuegensis & Merluccius australis & \tiny Zuleta & Rubilar (2010) & \tiny http://docplayer.es/46981536-Impacto-del-desarrollo-de-una-pesqueria-de-sardina-austral-sprattus-fueguensis-en-aguas-interiores-de-las-regiones-x-xii.html\\
-Benthic decapoda & Merluccius sp. & \tiny Cubillos et al. (2003) & \tiny https://www.researchgate.net/profile/Aldo-Hernandez-22/publication/283868315_Prey_composition_and_estimation_of_QB_for_the_Chilean_hake_Merluccius_gayi_Gadiformes_Merluccidae_in_the_central-south_area_off_Chile_34_-_40S/links/56fa6ded08ae95e8b6d4a2dc/Prey-composition-and-estimation-of-Q-B-for-the-Chilean-hake-Merluccius-gayi-Gadiformes-Merluccidae-in-the-central-south-area-off-Chile-34-40S.pdf\\
-\addlinespace
-Bryozoa & Merluccius sp. & \tiny Alonso et al. (2019) & \tiny https://www.sciencedirect.com/science/article/abs/pii/S2352485518304250\\
-Doryteuthis gahi & Merluccius sp. & \tiny Cubillos et al. (2003) & \tiny https://www.researchgate.net/profile/Aldo-Hernandez-22/publication/283868315_Prey_composition_and_estimation_of_QB_for_the_Chilean_hake_Merluccius_gayi_Gadiformes_Merluccidae_in_the_central-south_area_off_Chile_34_-_40S/links/56fa6ded08ae95e8b6d4a2dc/Prey-composition-and-estimation-of-Q-B-for-the-Chilean-hake-Merluccius-gayi-Gadiformes-Merluccidae-in-the-central-south-area-off-Chile-34-40S.pdf\\
-Macruronus magellanicus & Merluccius sp. & \tiny Cubillos et al. (2003) & \tiny https://www.researchgate.net/profile/Aldo-Hernandez-22/publication/283868315_Prey_composition_and_estimation_of_QB_for_the_Chilean_hake_Merluccius_gayi_Gadiformes_Merluccidae_in_the_central-south_area_off_Chile_34_-_40S/links/56fa6ded08ae95e8b6d4a2dc/Prey-composition-and-estimation-of-Q-B-for-the-Chilean-hake-Merluccius-gayi-Gadiformes-Merluccidae-in-the-central-south-area-off-Chile-34-40S.pdf\\
-Myctophidae & Merluccius sp. & \tiny Cubillos et al. (2003) & \tiny https://www.researchgate.net/profile/Aldo-Hernandez-22/publication/283868315_Prey_composition_and_estimation_of_QB_for_the_Chilean_hake_Merluccius_gayi_Gadiformes_Merluccidae_in_the_central-south_area_off_Chile_34_-_40S/links/56fa6ded08ae95e8b6d4a2dc/Prey-composition-and-estimation-of-Q-B-for-the-Chilean-hake-Merluccius-gayi-Gadiformes-Merluccidae-in-the-central-south-area-off-Chile-34-40S.pdf\\
-Pseudechinus magellanicus & Merluccius sp. & \tiny Alonso et al. (2019) & \tiny https://www.sciencedirect.com/science/article/abs/pii/S2352485518304250\\
-\addlinespace
-Odontesthes sp. & Mustelus mento & \tiny Vargas et al. (1999) & \tiny https://www.scielo.sa.cr/scielo.php?script=sci_arttext&pid=S0034-77441999000300034\\
-Pagurus sp. & Mustelus mento & \tiny Silva-Garay et al. (2018) & \tiny https://link.springer.com/article/10.1007/s10641-018-0797-0\\
-Copepoda & Myctophidae & \tiny Hopkins & Gartner (1992) & \tiny https://link.springer.com/article/10.1007/BF00349518\\
-Phytoplankton & Mytilus sp. & \tiny Mutschke et al. (1998) & \tiny https://www.researchgate.net/publication/234585529_Situacion_actual_de_la_macrofauna_presente_en_el_intermareal_de_bloques_y_cantos_de_Bahia_Laredo_Estrecho_de_Magallanes\\
-Zooplankton & Mytilus sp. & \tiny Mutschke et al. (1998) & \tiny https://www.researchgate.net/publication/234585529_Situacion_actual_de_la_macrofauna_presente_en_el_intermareal_de_bloques_y_cantos_de_Bahia_Laredo_Estrecho_de_Magallanes\\
-\addlinespace
-Detritus & Myxine australis & \tiny GloBI & \tiny https://www.globalbioticinteractions.org/browse/?interactionType=interactsWith&resultType=json&sourceTaxon=Myxine\\
-Amphipoda & Nacella deaurata & \tiny Rosenfeld et al. (2018) & \tiny https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/\\
-Benthic diatom & Nacella deaurata & \tiny Rosenfeld et al. (2018) & \tiny https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/\\
-Bivalvia & Nacella deaurata & \tiny Andrade & Brey (2014) & \tiny https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en\\
-Brown algae & Nacella deaurata & \tiny Rosenfeld et al. (2018) & \tiny https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/\\
-\addlinespace
-Chironomidae & Nacella deaurata & \tiny Rosenfeld et al. (2018) & \tiny https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/\\
-Cirripedia & Nacella deaurata & \tiny Rosenfeld et al. (2018) & \tiny https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/\\
-Cyanobacteria & Nacella deaurata & \tiny Rosenfeld et al. (2018) & \tiny https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/\\
-Detritus & Nacella deaurata & \tiny Rosenfeld et al. (2018) & \tiny https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/\\
-Foraminifera & Nacella deaurata & \tiny Andrade & Brey (2014) & \tiny https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en\\
-\addlinespace
-Gastropoda & Nacella deaurata & \tiny Rosenfeld et al. (2018) & \tiny https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/\\
-Green algae & Nacella deaurata & \tiny Andrade & Brey (2014) & \tiny https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en\\
-Margarella violacea & Nacella deaurata & \tiny Rosenfeld et al. (2018) & \tiny https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/\\
-Mytilus sp. & Nacella deaurata & \tiny Rosenfeld et al. (2018) & \tiny https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/\\
-Ostracoda & Nacella deaurata & \tiny Rosenfeld et al. (2018) & \tiny https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/\\
-\addlinespace
-Plankton diatom & Nacella deaurata & \tiny Rosenfeld et al. (2018) & \tiny https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/\\
-Red algae & Nacella deaurata & \tiny Rosenfeld et al. (2018) & \tiny https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/\\
-Benthic diatom & Nacella magellanica & \tiny Rosenfeld et al. (2018) & \tiny https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/\\
-Bivalvia & Nacella magellanica & \tiny Andrade & Brey (2014) & \tiny https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en\\
-Brown algae & Nacella magellanica & \tiny Rosenfeld et al. (2018) & \tiny https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/\\
-\addlinespace
-Chironomidae & Nacella magellanica & \tiny Rosenfeld et al. (2018) & \tiny https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/\\
-Cirripedia & Nacella magellanica & \tiny Rosenfeld et al. (2018) & \tiny https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/\\
-Cyanobacteria & Nacella magellanica & \tiny Rosenfeld et al. (2018) & \tiny https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/\\
-Detritus & Nacella magellanica & \tiny Rosenfeld et al. (2018) & \tiny https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/\\
-Foraminifera & Nacella magellanica & \tiny Andrade & Brey (2014) & \tiny https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en\\
-\addlinespace
-Gastropoda & Nacella magellanica & \tiny Rosenfeld et al. (2018) & \tiny https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/\\
-Green algae & Nacella magellanica & \tiny Andrade & Brey (2014) & \tiny https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en\\
-Margarella violacea & Nacella magellanica & \tiny Rosenfeld et al. (2018) & \tiny https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/\\
-Mytilus sp. & Nacella magellanica & \tiny Rosenfeld et al. (2018) & \tiny https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/\\
-Notochthamalus scabrosus & Nacella magellanica & \tiny Rosenfeld et al. (2018) & \tiny https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/\\
-\addlinespace
-Ostracoda & Nacella magellanica & \tiny Rosenfeld et al. (2018) & \tiny https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/\\
-Phytoplankton & Nacella magellanica & \tiny Rosenfeld et al. (2018) & \tiny https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/\\
-Plankton diatom & Nacella magellanica & \tiny Rosenfeld et al. (2018) & \tiny https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/\\
-Red algae & Nacella magellanica & \tiny Rosenfeld et al. (2018) & \tiny https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/\\
-Brown algae & Nacella mytilina & \tiny Andrade (pers. comm.) & \tiny\\
-\addlinespace
-Phytodetritus & Nacella mytilina & \tiny Andrade (pers. comm.) & \tiny\\
-Phytoplankton & Nacella mytilina & \tiny Mutschke et al. (1998) & \tiny https://www.researchgate.net/publication/234585529_Situacion_actual_de_la_macrofauna_presente_en_el_intermareal_de_bloques_y_cantos_de_Bahia_Laredo_Estrecho_de_Magallanes\\
-Phytoplankton & Notochthamalus scabrosus & \tiny Andrade (pers. comm.) & \tiny\\
-Amphipoda & Odontesthes sp. & \tiny Antezana (pers. comm) & \tiny\\
-Bivalvia & Odontesthes sp. & \tiny Gordillo et al. (2020) & \tiny https://www.cambridge.org/core/journals/journal-of-the-marine-biological-association-of-the-united-kingdom/article/abs/naticid-drilling-predation-from-tidal-flats-in-northern-patagonia-sw-atlantic/3EB5A0897064DF2E2381CE9844F5F348\\
-\addlinespace
-Benthic decapoda & Oncorhynchus sp. & \tiny Hüne et al. (2018) & \tiny https://polarresearch.net/index.php/polar/article/view/2632/6024\\
-Phytodetritus & Ophiactis asperula & \tiny Rivera (pers. Comm) & \tiny\\
-Benthic decapoda & Ophiuroglypha lymani & \tiny Dahm (1999) & \tiny https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/973\\
-Bivalvia & Ophiuroglypha lymani & \tiny Dahm (1999) & \tiny https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/978\\
-Brown algae & Ophiuroglypha lymani & \tiny Dahm (1999) & \tiny https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/977\\
-\addlinespace
-Bryozoa & Ophiuroglypha lymani & \tiny Dahm (1999) & \tiny https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/979\\
-Detritus & Ophiuroglypha lymani & \tiny Dahm (1999) & \tiny https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/974\\
-Phytodetritus & Ophiuroglypha lymani & \tiny Dahm (1999) & \tiny https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/972\\
-Sediment & Ophiuroglypha lymani & \tiny Dahm (1999) & \tiny https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/976\\
-Dissostichus eleginoides & Orcinus orca & \tiny Capella et al. (2014) & \tiny https://link.springer.com/article/10.1007/s00300-014-1535-5\\
-\addlinespace
-Otaria flavescens & Orcinus orca & \tiny Capella et al. (1999) & \tiny http://bibliotecadigital.umag.cl/handle/20.500.11893/1444\\
-Tachyeres pteneres & Orcinus orca & \tiny Capella et al. (1999) & \tiny http://bibliotecadigital.umag.cl/handle/20.500.11893/1445\\
-Detritus & Ostracoda & \tiny Cañete (pers. comm.) & \tiny\\
-Phytoplankton & Ostracoda & \tiny Cañete (pers. comm.) & \tiny\\
-Zooplankton & Ostracoda & \tiny Cañete (pers. comm.) & \tiny\\
-\addlinespace
-Benthic decapoda & Otaria flavescens & \tiny Sepúlveda et al. (2016) & \tiny https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12379\\
-Callorhinchus callorynchus & Otaria flavescens & \tiny Sepúlveda et al. (2016) & \tiny https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12393\\
-Cilus gilberti & Otaria flavescens & \tiny Sepúlveda et al. (2016) & \tiny https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12391\\
-Eleginops maclovinus & Otaria flavescens & \tiny Sepúlveda et al. (2016) & \tiny https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12383\\
-Genypterus blacodes & Otaria flavescens & \tiny Sepúlveda et al. (2016) & \tiny https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12392\\
-\addlinespace
-Merluccius australis & Otaria flavescens & \tiny Sepúlveda et al. (2016) & \tiny https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12390\\
-Mustelus mento & Otaria flavescens & \tiny Sepúlveda et al. (2016) & \tiny https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12384\\
-Odontesthes sp. & Otaria flavescens & \tiny Sepúlveda et al. (2016) & \tiny https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12387\\
-Oncorhynchus sp. & Otaria flavescens & \tiny Sepúlveda et al. (2016) & \tiny https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12381\\
-Paralabrax humeralis & Otaria flavescens & \tiny Sepúlveda et al. (2016) & \tiny https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12386\\
-\addlinespace
-Pinguipes chilensis & Otaria flavescens & \tiny Sepúlveda et al. (2016) & \tiny https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12394\\
-Salmo salar & Otaria flavescens & \tiny Sepúlveda et al. (2016) & \tiny https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12382\\
-Sprattus fuegensis & Otaria flavescens & \tiny Sepúlveda et al. (2016) & \tiny https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12388\\
-Thyrsites atun & Otaria flavescens & \tiny Sepúlveda et al. (2016) & \tiny https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12385\\
-Trachurus murphyi & Otaria flavescens & \tiny Sepúlveda et al. (2016) & \tiny https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12389\\
-\addlinespace
-Detritus & Pagurus sp. & \tiny C. Andrade (pers. comm.) & \tiny\\
-Plankton diatom & Paracalanus indicus & \tiny Aguilera et al. (2011) & \tiny https://www.tandfonline.com/doi/abs/10.1080/17451000.2010.499437\\
-Detritus & Paraeuthria fuscata & \tiny Andrade C (2009) & \tiny\\
-Amphipoda & Paralomis granulosa & \tiny Andrade (pers. comm.) & \tiny\\
-Brown algae & Paralomis granulosa & \tiny Andrade (pers. comm.) & \tiny\\
-\addlinespace
-Bryozoa & Paralomis granulosa & \tiny Andrade (pers. comm.) & \tiny\\
-Detritus & Paralomis granulosa & \tiny Andrade (pers. comm.) & \tiny\\
-Enteroctopus megalocyathus & Paralomis granulosa & \tiny Andrade (pers. comm.) & \tiny\\
-Foraminifera & Paralomis granulosa & \tiny Andrade (pers. comm.) & \tiny\\
-Gastropoda & Paralomis granulosa & \tiny Cañete et al. (2021) & \tiny https://www.scielo.br/j/nau/a/DwGRczmMrxWjByhxjy8GHhD/\\
-\addlinespace
-Hydrozoa & Paralomis granulosa & \tiny Andrade (pers. comm.) & \tiny\\
-Mytilus sp. & Paralomis granulosa & \tiny Andrade (pers. comm.) & \tiny\\
-Polychaeta & Paralomis granulosa & \tiny Andrade (pers. comm.) & \tiny\\
-Porifera & Paralomis granulosa & \tiny Andrade (pers. comm.) & \tiny\\
-Pseudechinus magellanicus & Paralomis granulosa & \tiny Andrade (pers. comm.) & \tiny\\
-\addlinespace
-Red algae & Paralomis granulosa & \tiny Andrade (pers. comm.) & \tiny\\
-Benthic decapoda & Patagonotothen cornucola & \tiny Hüne et al. (2018) & \tiny https://polarresearch.net/index.php/polar/article/view/2632/6022\\
-Exosphaeroma gigas & Patagonotothen cornucola & \tiny Hüne & Vega (2016) & \tiny\\
-Amphipoda & Patagonotothen sima & \tiny Reyes & Hüne (2012) & \tiny https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile\\
-Benthic decapoda & Patagonotothen sima & \tiny Reyes & Hüne (2012) & \tiny https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile\\
-\addlinespace
-Copepoda & Patagonotothen sima & \tiny Reyes & Hüne (2012) & \tiny https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile\\
-Polychaeta & Patagonotothen sima & \tiny Reyes & Hüne (2012) & \tiny https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile\\
-Benthic decapoda & Patagonotothen sp. & \tiny Andrade (pers. comm.) & \tiny\\
-Brown algae & Patagonotothen sp. & \tiny Andrade (pers. comm.) & \tiny\\
-Exosphaeroma gigas & Patagonotothen sp. & \tiny Andrade (pers. comm.) & \tiny\\
-\addlinespace
-Polychaeta & Patagonotothen sp. & \tiny Andrade (pers. comm.) & \tiny\\
-Amphipoda & Patagonotothen tessellata & \tiny Hüne et al. (2018) & \tiny https://polarresearch.net/index.php/polar/article/view/2632/6020\\
-Benthic decapoda & Patagonotothen tessellata & \tiny Hüne et al. (2018) & \tiny https://polarresearch.net/index.php/polar/article/view/2632/6021\\
-Chironomidae & Patagonotothen tessellata & \tiny Hüne & Vega (2015) & \tiny https://link.springer.com/article/10.1007/s00300-015-1726-13\\
-Green algae & Patagonotothen tessellata & \tiny Hüne & Vega (2015) & \tiny https://link.springer.com/article/10.1007/s00300-015-1726-11\\
-\addlinespace
-Ostracoda & Patagonotothen tessellata & \tiny Hüne & Vega (2015) & \tiny https://link.springer.com/article/10.1007/s00300-015-1726-10\\
-Patagonotothen sp. & Patagonotothen tessellata & \tiny Hüne et al. (2023) & \tiny https://link.springer.com/10.1007/s10641-023-01428-8\\
-Polychaeta & Patagonotothen tessellata & \tiny Hüne & Vega (2015) & \tiny https://link.springer.com/article/10.1007/s00300-015-1726-8\\
-Red algae & Patagonotothen tessellata & \tiny Hüne & Vega (2015) & \tiny https://link.springer.com/article/10.1007/s00300-015-1726-12\\
-Bivalvia (larvae) & Patagonotothen tessellata (larvae) & \tiny Salas-Berrios et al. (2013) & \tiny https://link.springer.com/article/10.1007/s00300-013-1359-8\\
-\addlinespace
-Calanoid (copepodite) & Patagonotothen tessellata (larvae) & \tiny Salas-Berrios et al. (2013) & \tiny https://link.springer.com/article/10.1007/s00300-013-1359-8\\
-Copepoda & Patagonotothen tessellata (larvae) & \tiny Salas-Berrios et al. (2013) & \tiny https://link.springer.com/article/10.1007/s00300-013-1359-8\\
-Copepoda (egg) & Patagonotothen tessellata (larvae) & \tiny Salas-Berrios et al. (2013) & \tiny https://link.springer.com/article/10.1007/s00300-013-1359-8\\
-Copepoda (nauplius) & Patagonotothen tessellata (larvae) & \tiny Salas-Berrios et al. (2013) & \tiny https://link.springer.com/article/10.1007/s00300-013-1359-8\\
-Paracalanus indicus & Patagonotothen tessellata (larvae) & \tiny Salas-Berrios et al. (2013) & \tiny https://link.springer.com/article/10.1007/s00300-013-1359-8\\
-\addlinespace
-Pluteus (larva) & Patagonotothen tessellata (larvae) & \tiny Salas-Berrios et al. (2013) & \tiny https://link.springer.com/article/10.1007/s00300-013-1359-8\\
-Nacella deaurata & Peltarion spinulosum & \tiny Pardo et al. (2022) & \tiny https://link.springer.com/article/10.1007/s10530-022-02806-6\\
-Phytoplankton & Perumytilus purpuratus & \tiny Catalán et al. (2021) & \tiny https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/1365-2656.13455\\
-Zooplankton & Perumytilus purpuratus & \tiny Catalán et al. (2021) & \tiny https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/1365-2656.13455\\
-Amphipoda & Pinguipes chilensis & \tiny González & Oyarzún (2003) & \tiny https://onlinelibrary.wiley.com/doi/full/10.1111/j.1439-0426.2003.00444.x?casa_token=AbNjCPTg-P4AAAAA%3Az5Ua1HLrjp6Mfb0bulTPDtXlWtmLhPMnmq2lvzYFAPRzFWIdJhpKCdBHjuCJWJBQMdHupNJmU_fDt6A\\
-\addlinespace
-Aulacomya atra & Pinguipes chilensis & \tiny González & Oyarzún (2003) & \tiny https://onlinelibrary.wiley.com/doi/full/10.1111/j.1439-0426.2003.00444.x?casa_token=AbNjCPTg-P4AAAAA%3Az5Ua1HLrjp6Mfb0bulTPDtXlWtmLhPMnmq2lvzYFAPRzFWIdJhpKCdBHjuCJWJBQMdHupNJmU_fDt6A\\
-Doryteuthis gahi & Pinguipes chilensis & \tiny González & Oyarzún (2003) & \tiny https://onlinelibrary.wiley.com/doi/full/10.1111/j.1439-0426.2003.00444.x?casa_token=AbNjCPTg-P4AAAAA%3Az5Ua1HLrjp6Mfb0bulTPDtXlWtmLhPMnmq2lvzYFAPRzFWIdJhpKCdBHjuCJWJBQMdHupNJmU_fDt6A\\
-Odontesthes sp. & Pinguipes chilensis & \tiny González & Oyarzún (2003) & \tiny https://onlinelibrary.wiley.com/doi/full/10.1111/j.1439-0426.2003.00444.x?casa_token=AbNjCPTg-P4AAAAA%3Az5Ua1HLrjp6Mfb0bulTPDtXlWtmLhPMnmq2lvzYFAPRzFWIdJhpKCdBHjuCJWJBQMdHupNJmU_fDt6A\\
-Pagurus sp. & Pinguipes chilensis & \tiny González & Oyarzún (2003) & \tiny https://onlinelibrary.wiley.com/doi/full/10.1111/j.1439-0426.2003.00444.x?casa_token=AbNjCPTg-P4AAAAA%3Az5Ua1HLrjp6Mfb0bulTPDtXlWtmLhPMnmq2lvzYFAPRzFWIdJhpKCdBHjuCJWJBQMdHupNJmU_fDt6A\\
-Polychaeta & Pinguipes chilensis & \tiny González & Oyarzún (2003) & \tiny https://onlinelibrary.wiley.com/doi/full/10.1111/j.1439-0426.2003.00444.x?casa_token=AbNjCPTg-P4AAAAA%3Az5Ua1HLrjp6Mfb0bulTPDtXlWtmLhPMnmq2lvzYFAPRzFWIdJhpKCdBHjuCJWJBQMdHupNJmU_fDt6A\\
-\addlinespace
-Brown algae & Platynereis australis & \tiny Montiel (pers. comm.) & \tiny\\
-Detritus & Platynereis australis & \tiny Montiel (pers. comm.) & \tiny\\
-Benthic diatom & Plaxiphora aurata & \tiny Andrade (pers. comm.) & \tiny\\
-Phytodetritus & Plaxiphora aurata & \tiny C. Andrade (pers. comm.) & \tiny\\
-Zooplankton & Pluteus (larva) & \tiny Cañete (pers. comm.) & \tiny\\
-\addlinespace
-Benthic diatom & Polychaeta & \tiny Fauchald (1979) & \tiny https://repository.si.edu/bitstream/handle/10088/3422/OMBARFauchald1979.pdf\\
-Brown algae & Polychaeta & \tiny Fauchald (1979) & \tiny https://repository.si.edu/bitstream/handle/10088/3422/OMBARFauchald1979.pdf\\
-Copepoda & Polychaeta & \tiny Fauchald (1979) & \tiny https://repository.si.edu/bitstream/handle/10088/3422/OMBARFauchald1979.pdf\\
-Detritus & Polychaeta & \tiny Fauchald (1979) & \tiny https://repository.si.edu/bitstream/handle/10088/3422/OMBARFauchald1979.pdf\\
-Green algae & Polychaeta & \tiny Fauchald (1979) & \tiny https://repository.si.edu/bitstream/handle/10088/3422/OMBARFauchald1979.pdf\\
-\addlinespace
-Ostracoda & Polychaeta & \tiny Fauchald (1979) & \tiny https://repository.si.edu/bitstream/handle/10088/3422/OMBARFauchald1979.pdf\\
-Red algae & Polychaeta & \tiny Fauchald (1979) & \tiny https://repository.si.edu/bitstream/handle/10088/3422/OMBARFauchald1979.pdf\\
-Zooplankton & Polychaeta & \tiny Fauchald (1979) & \tiny https://repository.si.edu/bitstream/handle/10088/3422/OMBARFauchald1979.pdf\\
-Bryozoa & Polyplacophora & \tiny Schwabe (2009) & \tiny https://www.researchgate.net/publication/261699638_Polyplacophora_-_Chitones_Quitones\\
-Detritus & Polyplacophora & \tiny Schwabe (2009) & \tiny https://www.researchgate.net/publication/261699638_Polyplacophora_-_Chitones_Quitones\\
-\addlinespace
-Phytoplankton & Polyplacophora & \tiny Schwabe (2009) & \tiny https://www.researchgate.net/publication/261699638_Polyplacophora_-_Chitones_Quitones\\
-Zooplankton & Polyplacophora & \tiny Schwabe (2009) & \tiny https://www.researchgate.net/publication/261699638_Polyplacophora_-_Chitones_Quitones\\
-Detritus & Porifera & \tiny Willenz et al. (2009) & \tiny https://www.researchgate.net/profile/Philippe-Willenz/publication/257557891_Class_Calcarea/links/5497c3a50cf20f487d316b11/Class-Calcarea.pdf\\
-Phytoplankton & Porifera & \tiny Willenz et al. (2009) & \tiny https://www.researchgate.net/profile/Philippe-Willenz/publication/257557891_Class_Calcarea/links/5497c3a50cf20f487d316b11/Class-Calcarea.pdf\\
-Amphipoda & Prolatilus jugularis & \tiny Reyes & Hüne (2012) & \tiny https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile\\
-\addlinespace
-Pagurus sp. & Prolatilus jugularis & \tiny Reyes & Hüne (2012) & \tiny https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile\\
-Polychaeta & Prolatilus jugularis & \tiny Bello (2008) & \tiny http://opac.pucv.cl/pucv_txt/txt-0000/UCH0448_01.pdf\\
-Brown algae & Psedechinus magellanicus & \tiny Penchaszadeh et al. (2011) & \tiny https://www.tandfonline.com/doi/abs/10.1080/00785326.2004.10410216\\
-Foraminifera & Psedechinus magellanicus & \tiny Penchaszadeh et al. (2011) & \tiny https://www.tandfonline.com/doi/abs/10.1080/00785326.2004.10410216\\
-Ostracoda & Psedechinus magellanicus & \tiny Penchaszadeh et al. (2011) & \tiny https://www.tandfonline.com/doi/abs/10.1080/00785326.2004.10410216\\
-\addlinespace
-Genypterus blacodes & Pseudorca crassidens & \tiny Alonso & Pedraza (1999) & \tiny https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1748-7692.1999.tb00838.x\\
-Illex argentinus & Pseudorca crassidens & \tiny Alonso & Pedraza (1999) & \tiny https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1748-7692.1999.tb00838.x\\
-Macruronus magellanicus & Pseudorca crassidens & \tiny Alonso & Pedraza (1999) & \tiny https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1748-7692.1999.tb00838.x\\
-Martialia hyadesii & Pseudorca crassidens & \tiny Alonso & Pedraza (1999) & \tiny https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1748-7692.1999.tb00838.x\\
-Austrolycus depressiceps & Salilota australis & \tiny Haro D. (2019) & \tiny https://repositorio.uchile.cl/handle/2250/187376\\
-\addlinespace
-Benthic decapoda & Salilota australis & \tiny Haro D. (2019) & \tiny https://repositorio.uchile.cl/handle/2250/187376\\
-Merluccius sp. & Salilota australis & \tiny Jimena Torres pers. comm & \tiny\\
-Patagonotothen cornucola & Salilota australis & \tiny Haro D. (2019) & \tiny https://repositorio.uchile.cl/handle/2250/187376\\
-Patagonotothen sp. & Salilota australis & \tiny Jimena Torres pers. comm & \tiny\\
-Amphipoda & Salmo salar & \tiny Soto et al. (2001) & \tiny https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/1051-0761%282001%29011%5B1750%3AESITIS%5D2.0.CO%3B2?casa_token=TDoh8tCi2eIAAAAA%3A7ZcavXsn4BEGEZEFHNSW3mE4QSVijx-U3ciIVTnnVuD-7e4TSDmKR_NhtXDRuQPUmuiiHLWIk80f9Bc\\
-\addlinespace
-Merluccius sp. & Salmo salar & \tiny Soto et al. (2001) & \tiny https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/1051-0761%282001%29011%5B1750%3AESITIS%5D2.0.CO%3B2?casa_token=TDoh8tCi2eIAAAAA%3A7ZcavXsn4BEGEZEFHNSW3mE4QSVijx-U3ciIVTnnVuD-7e4TSDmKR_NhtXDRuQPUmuiiHLWIk80f9Bc\\
-Odontesthes sp. & Salmo salar & \tiny Antezana (pers. comm) & \tiny\\
-Copepoda & Salp & \tiny González et al. (2000) & \tiny https://www.int-res.com/abstracts/meps/v195/p201-220/\\
-Nanoflagellates & Salp & \tiny Vargas & Madis (2004) & \tiny https://academic.oup.com/plankt/article/26/7/827/1514027?login=false\\
-Phytoplankton & Salp & \tiny Cañete (pers. comm.) & \tiny\\
-\addlinespace
-Brown algae & Siphonaria lessonii & \tiny Ríos & Gerdes (1997) & \tiny https://epic.awi.de/id/eprint/5233/\\
-Phytodetritus & Siphonaria lessonii & \tiny Andrade (pers. comm.) & \tiny\\
-Benthic decapoda & Spheniscus magellanicus & \tiny Venegas & Sielfeld (1981) & \tiny VENEGAS, C. & W. SIELFELD. 1981. Utilización de aves como indicadoras de presencia y potencialidad de recursos marinos eventualmente manejables. Resumen. P. 83, in Jornadas de Ciencias del Mar. Valdivia, Chile.\\
-Cephalopoda & Spheniscus magellanicus & \tiny Boswall & MacIver (1975) & \tiny Boswall, J. and D. MacIver 1975 The Magellanic Penguin Spheniscus magellanicus. In Stonehouse, B. (ed.), The Biology of Penguins. University Park Press, Baltimore, USA 271-305.\\
-Doryteuthis gahi & Spheniscus magellanicus & \tiny Almonacid (2018) & \tiny http://www.aveschile.cl/wp-content/uploads/2019/01/2_Almonacid_Vol.24-1-2018-RChO_dieta-pinguinos.pdf\\
-\addlinespace
-Patagonotothen sp. & Spheniscus magellanicus & \tiny Almonacid (2018) & \tiny http://www.aveschile.cl/wp-content/uploads/2019/01/2_Almonacid_Vol.24-1-2018-RChO_dieta-pinguinos.pdf\\
-Ramnogaster arcuata & Spheniscus magellanicus & \tiny Venegas & Sielfeld (1981) & \tiny VENEGAS, C. & W. SIELFELD. 1981. Utilización de aves como indicadoras de presencia y potencialidad de recursos marinos eventualmente manejables. Resumen. P. 83, in Jornadas de Ciencias del Mar. Valdivia, Chile.\\
-Sprattus fuegensis & Spheniscus magellanicus & \tiny Almonacid (2018) & \tiny http://www.aveschile.cl/wp-content/uploads/2019/01/2_Almonacid_Vol.24-1-2018-RChO_dieta-pinguinos.pdf\\
-Amphipoda & Sprattus fuegensis & \tiny Haro D. (2019) & \tiny https://repositorio.uchile.cl/handle/2250/187376\\
-Copepoda & Sprattus fuegensis & \tiny Haro D. (2019) & \tiny https://repositorio.uchile.cl/handle/2250/187376\\
-\addlinespace
-Isopoda & Sprattus fuegensis & \tiny Montecinos (2015) & \tiny http://repositorio.udec.cl/jspui/bitstream/11594/1828/1/Tesis_Composicion_dietaria_de_Sprattus.Marked.pdf\\
-Plankton diatom & Sprattus fuegensis & \tiny Montecinos (2015) & \tiny http://repositorio.udec.cl/jspui/bitstream/11594/1828/1/Tesis_Composicion_dietaria_de_Sprattus.Marked.pdf\\
-Ramnogaster arcuata & Stercorarius chilensis & \tiny Sepúlveda (2016) & \tiny https://repositorio.unab.cl/xmlui/handle/ria/9936\\
-Sprattus fuegensis & Stercorarius chilensis & \tiny Sepúlveda (2016) & \tiny https://repositorio.unab.cl/xmlui/handle/ria/9936\\
-Benthic decapoda & Tachyeres pteneres & \tiny Andrade (pers. comm.) & \tiny\\
-\addlinespace
-Detritus & Tanaidae & \tiny Thiel & Hinojosa (2009) & \tiny Thiel, M., & Hinojosa, I. (2009). Peracarida–amphipods, isopods, tanaidaceans & cumaceans. Mar. Benthic Fauna Chil. Patagon, 671, 718.\\
-Phytoplankton & Tanaidae & \tiny Thiel & Hinojosa (2009) & \tiny Thiel, M., & Hinojosa, I. (2009). Peracarida–amphipods, isopods, tanaidaceans & cumaceans. Mar. Benthic Fauna Chil. Patagon, 671, 718.\\
-Zooplankton & Tanaidae & \tiny Thiel & Hinojosa (2009) & \tiny Thiel, M., & Hinojosa, I. (2009). Peracarida–amphipods, isopods, tanaidaceans & cumaceans. Mar. Benthic Fauna Chil. Patagon, 671, 718.\\
-Brown algae & Tegula atra & \tiny Pinochet et al. (2018) & \tiny https://www.scielo.cl/scielo.php?pid=S0718-686X2018000300051&script=sci_arttext&tlng=pt\\
-Green algae & Tegula atra & \tiny Pinochet et al. (2018) & \tiny https://www.scielo.cl/scielo.php?pid=S0718-686X2018000300051&script=sci_arttext&tlng=pt\\
-\addlinespace
-Red algae & Tegula atra & \tiny Pinochet et al. (2018) & \tiny https://www.scielo.cl/scielo.php?pid=S0718-686X2018000300051&script=sci_arttext&tlng=pt\\
-Copepoda & Themisto gaudichaudii & \tiny Pakhomov & Perissinotto (1996) & \tiny https://www.int-res.com/articles/meps/134/m134p091.pdf\\
-Doryteuthis gahi & Thyrsites atun & \tiny Carimán & Reyes (2019) & \tiny https://www.scielo.cl/scielo.php?pid=S0718-19572019000100011&script=sci_arttext&tlng=en\\
-Odontesthes sp. & Thyrsites atun & \tiny Carimán & Reyes (2019) & \tiny https://www.scielo.cl/scielo.php?pid=S0718-19572019000100011&script=sci_arttext&tlng=en\\
-Sprattus fuegensis & Thyrsites atun & \tiny Carimán & Reyes (2019) & \tiny https://www.scielo.cl/scielo.php?pid=S0718-19572019000100011&script=sci_arttext&tlng=en\\
-\addlinespace
-Copepoda & Trachurus murphyi & \tiny Medina & Arancibia (2002) & \tiny https://www.scielo.cl/scielo.php?pid=S0717-71782002000100003&script=sci_arttext\\
-Crustacea & Trachurus murphyi & \tiny Medina & Arancibia (2002) & \tiny https://www.scielo.cl/scielo.php?pid=S0717-71782002000100003&script=sci_arttext\\
-Myctophidae & Trachurus murphyi & \tiny Medina & Arancibia (2002) & \tiny https://www.scielo.cl/scielo.php?pid=S0717-71782002000100003&script=sci_arttext\\
-Ostracoda & Trachurus murphyi & \tiny Medina & Arancibia (2002) & \tiny https://www.scielo.cl/scielo.php?pid=S0717-71782002000100003&script=sci_arttext\\
-Bivalvia & Trophon geversianus & \tiny Andrade C & Ríos C (2007) & \tiny http://analesdelinstitutodelapatagonia.cl/index.php/analespatagonia/article/view/388\\
-\addlinespace
-Mytilus sp. & Trophon geversianus & \tiny Andrade C & Ríos C (2007) & \tiny http://analesdelinstitutodelapatagonia.cl/index.php/analespatagonia/article/view/387\\
-Perumytilus purpuratus & Trophon geversianus & \tiny Andrade C & Ríos C (2007) & \tiny http://analesdelinstitutodelapatagonia.cl/index.php/analespatagonia/article/view/390\\
-Amphipoda & Zoarcidae & \tiny Schiavini et al. (1997) & \tiny https://oceanrep.geomar.de/id/eprint/53025/1/3857.pdf\\
-Polychaeta & Zoarcidae & \tiny Schiavini et al. (1997) & \tiny https://oceanrep.geomar.de/id/eprint/53025/1/3857.pdf\\
-Phytoplankton & Zooplankton & \tiny Andrade (pers. comm.) & \tiny\\
-\bottomrule
-\end{longtable}
-
-\newpage
-
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.3636}}
-  >{\centering\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.0795}}
-  >{\centering\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1023}}
-  >{\centering\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1023}}
-  >{\centering\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1023}}
-  >{\centering\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1250}}
-  >{\centering\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1250}}@{}}
-\caption{List of species, including node-level properties, for the food
-web of the Strait of Magellan. TL: Trophic Level; Clo: Closeness; Btw:
-Betweenness; Top\_role: Topological role, where `hubcon' = network
-connector, `modcon' = module connector, `modhub' = module hub, and
-`modspe' = module specialist; KSI\_rank: Keystone Species Index
-ranking.}\tabularnewline
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.0235}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.0647}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.0647}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.0647}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.7824}}@{}}
+\caption{List of predator-prey (trophic) interactions used to build the
+food web of the Strait of Magellan. References and link to them (Link)
+are provided for each interaction.}\tabularnewline
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
-TrophicSpecies
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-TL
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-Degree
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-Clo
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-Btw
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-KSI\_rank
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-Top\_role
+ID
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Prey
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Predator
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Reference
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Link
 \end{minipage} \\
 \midrule\noalign{}
 \endfirsthead
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
-TrophicSpecies
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-TL
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-Degree
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-Clo
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-Btw
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-KSI\_rank
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-Top\_role
+ID
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Prey
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Predator
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Reference
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Link
 \end{minipage} \\
 \midrule\noalign{}
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Eleginops maclovinus & 3.17 & 23 & 0.0033 & 60.83 & 1 & modcon \\
-Polychaeta & 2.46 & 21 & 0.0033 & 123.8 & 2 & modcon \\
-Benthic decapoda & 3.5 & 22 & 0.0032 & 46.22 & 3 & modhub \\
-Copepoda & 2.33 & 14 & 0.0033 & 46.37 & 4 & modcon \\
-Nacella deaurata & 2.64 & 18 & 0.0031 & 41.15 & 5 & modcon \\
-Sprattus fuegensis & 2.83 & 17 & 0.003 & 101.1 & 6 & modspe \\
-Amphipoda & 2 & 18 & 0.0031 & 26.85 & 7 & modcon \\
-Lithodes santolla & 2.7 & 17 & 0.003 & 29.53 & 8 & modspe \\
-Patagonotothen tessellata & 3.19 & 12 & 0.0029 & 38.62 & 9 & modcon \\
-Foraminifera & 2.44 & 12 & 0.003 & 20.02 & 9 & modcon \\
-Ostracoda & 2.33 & 12 & 0.0031 & 16.9 & 10 & modcon \\
-Otaria flavescens & 4.4 & 16 & 0.0028 & 37.05 & 10 & modhub \\
-Patagonotothen sp. & 3.24 & 10 & 0.0029 & 38.9 & 11 & modspe \\
-Mytilus sp. & 2.5 & 12 & 0.003 & 25.7 & 12 & modspe \\
-Isopoda & 2 & 9 & 0.0029 & 32.58 & 13 & modspe \\
-Genypterus blacodes & 4.11 & 10 & 0.0028 & 31.32 & 14 & modspe \\
-Bivalvia & 2 & 15 & 0.0029 & 10.71 & 15 & modcon \\
-Zooplankton & 2 & 17 & 0.0031 & 5.284 & 16 & modcon \\
-Harpagifer bispinis & 3.16 & 8 & 0.0026 & 40.46 & 17 & modcon \\
-Merluccius sp. & 4.11 & 9 & 0.0026 & 39.08 & 18 & modspe \\
-Bryozoa & 2.5 & 8 & 0.0028 & 9.105 & 19 & modspe \\
-Doryteuthis gahi & 4.17 & 11 & 0.0026 & 21.58 & 20 & modspe \\
-Odontesthes sp. & 3 & 9 & 0.0026 & 13.37 & 21 & modspe \\
-Phytoplankton & 1 & 28 & 0.0032 & 0 & 22 & hubcon \\
-Detritus & 1 & 24 & 0.0032 & 0 & 22 & modcon \\
-Illex argentinus & 3.62 & 7 & 0.0026 & 11.17 & 22 & modspe \\
-Tanaidae & 2.33 & 5 & 0.0028 & 6.428 & 22 & modcon \\
-Dissostichus eleginoides & 4.78 & 7 & 0.0026 & 19.91 & 23 & modspe \\
-Pinguipes chilensis & 3.69 & 7 & 0.0027 & 5.376 & 24 & modspe \\
-Patagonotothen sima & 3.57 & 5 & 0.0028 & 5.333 & 25 & modcon \\
-Nacella magellanica & 2.6 & 17 & 0.0031 & 0 & 25 & modcon \\
-Exosphaeroma gigas & 2 & 7 & 0.0027 & 5.539 & 26 & modspe \\
-Cephalopoda & 3.75 & 5 & 0.0028 & 4.333 & 26 & modcon \\
-Grimothea gregaria & 2.4 & 6 & 0.0026 & 6.094 & 27 & NA \\
-Brown algae & 1 & 21 & 0.003 & 0 & 28 & modhub \\
-Macruronus magellanicus & 4.17 & 8 & 0.0025 & 11.06 & 29 & modspe \\
-Cottoperca gobio & 4.4 & 7 & 0.0025 & 17.51 & 29 & modspe \\
-Lithodes santolla (juvenile) & 3 & 13 & 0.003 & 0 & 30 & modcon \\
-Arbacia dufresnii & 2.56 & 6 & 0.0026 & 7 & 31 & modspe \\
-Salilota australis & 4.67 & 7 & 0.0025 & 11.04 & 31 & modspe \\
-Paralomis granulosa & 3 & 13 & 0.003 & 0 & 32 & modcon \\
-Enteroctopus megalocyathus & 3.75 & 5 & 0.0027 & 3.893 & 33 & modspe \\
-Porifera & 2 & 6 & 0.0028 & 2.255 & 33 & modspe \\
-Chironomidae & 2 & 5 & 0.0027 & 3 & 33 & modcon \\
-Salp & 2.44 & 5 & 0.0026 & 4.167 & 34 & modcon \\
-Hydrozoa & 2.33 & 6 & 0.0027 & 2.088 & 34 & modspe \\
-Trachurus murphyi & 3.62 & 5 & 0.0025 & 5.934 & 34 & modspe \\
-Patagonotothen cornucola & 3.75 & 6 & 0.0025 & 5.867 & 35 & modspe \\
-Myctophidae & 3.33 & 5 & 0.0025 & 9.583 & 36 & modcon \\
-Gastropoda & 2 & 8 & 0.0027 & 1.855 & 37 & modspe \\
-Red algae & 1 & 10 & 0.0028 & 0 & 37 & modspe \\
-Ophiuroglypha lymani & 2.71 & 7 & 0.0029 & 0 & 37 & modspe \\
-Green algae & 1 & 10 & 0.0028 & 0 & 38 & modcon \\
-Polyplacophora & 2.62 & 5 & 0.0027 & 1.733 & 38 & modspe \\
-Cephalorhynchus commersonii commersonii & 4.34 & 11 & 0.0028 & 0 & 39 &
-modspe \\
-Cilus gilberti & 2.82 & 4 & 0.0026 & 2.759 & 40 & modspe \\
-Peltarion spinulosum & 3.64 & 2 & 0.0023 & 14.95 & 41 & modspe \\
-Austrolycus depressiceps & 3.74 & 4 & 0.0025 & 5.483 & 41 & modspe \\
-Plankton diatom & 1 & 8 & 0.0027 & 0 & 42 & modcon \\
-Lagenorhynchus australis & 4.44 & 10 & 0.0027 & 0 & 42 & modspe \\
-Prolatilus jugularis & 3.15 & 4 & 0.0025 & 3.789 & 43 & modspe \\
-Loxechinus albus & 2.72 & 4 & 0.0023 & 8 & 44 & modspe \\
-Phytodetritus & 1 & 9 & 0.0026 & 0 & 45 & modspe \\
-Euphausia vallentini & 2 & 4 & 0.0025 & 3.667 & 45 & modspe \\
-Zoarcidae & 3.23 & 4 & 0.0025 & 2.144 & 46 & modspe \\
-Merluccius australis & 3.83 & 3 & 0.0023 & 6 & 47 & modspe \\
-Halicarcinus planatus & 2 & 4 & 0.0026 & 0.8333 & 47 & modspe \\
-Megaptera novaeangliae & 3.47 & 5 & 0.0026 & 0 & 48 & modspe \\
-Benthic diatom & 1 & 5 & 0.0026 & 0 & 49 & modspe \\
-Bathylagichthys parini (larvae) & 2.72 & 8 & 0.0026 & 0 & 50 & modspe \\
-Salmo salar & 4.04 & 4 & 0.0024 & 2.675 & 51 & modspe \\
-Pagurus sp. & 2 & 5 & 0.0024 & 2.444 & 52 & modspe \\
-Spheniscus magellanicus & 4.08 & 6 & 0.0026 & 0 & 52 & modspe \\
-Bivalvia (larvae) & 2 & 5 & 0.0022 & 4.5 & 53 & modspe \\
-Brachiopoda & 2 & 2 & 0.0026 & 0.3669 & 53 & modspe \\
-Cyanobacteria & 1 & 3 & 0.0026 & 0 & 53 & modspe \\
-Nacella mytilina & 2 & 3 & 0.0026 & 0 & 53 & modspe \\
-Aulacomya atra & 2.5 & 3 & 0.0025 & 1.617 & 54 & modspe \\
-Euphausia lucens & 2 & 3 & 0.0024 & 1.417 & 55 & modspe \\
-Gammaridae & 2.33 & 3 & 0.0025 & 0 & 56 & modspe \\
-Sediment & 1 & 4 & 0.0025 & 0 & 57 & modspe \\
-Perumytilus purpuratus & 2.5 & 4 & 0.0024 & 1.833 & 58 & modspe \\
-Calanoid (copepodite) & 2 & 4 & 0.0024 & 1.833 & 59 & modspe \\
-Acanthocyclus albatrossis & 3.5 & 2 & 0.0025 & 0.6429 & 60 & modspe \\
-Cirripedia & 2 & 3 & 0.0025 & 0.3333 & 61 & modspe \\
-Eurypodius latreillei & 3.19 & 5 & 0.0025 & 0 & 61 & modspe \\
-Crustacea & 2.5 & 3 & 0.0024 & 0.7835 & 62 & modspe \\
-Cosmasterias lurida & 3.13 & 6 & 0.0024 & 0 & 63 & modspe \\
-Lontra felina & 4.49 & 5 & 0.0024 & 0 & 63 & modspe \\
-Psedechinus magellanicus & 2.93 & 3 & 0.0024 & 0 & 64 & modspe \\
-Pseudechinus magellanicus & 1 & 5 & 0.0024 & 0 & 65 & modspe \\
-Margarella violacea & 2 & 3 & 0.0024 & 0 & 65 & modspe \\
-Patagonotothen tessellata (larvae) & 3.05 & 7 & 0.0024 & 0 & 65 &
-modspe \\
-Callorhinchus callorynchus & 3 & 2 & 0.0023 & 0.9502 & 66 & modspe \\
-Thyrsites atun & 4.33 & 4 & 0.0024 & 0.5 & 66 & modspe \\
-Notochthamalus scabrosus & 2 & 2 & 0.0024 & 0 & 67 & modspe \\
-Mustelus mento & 3.5 & 3 & 0.0022 & 1 & 67 & modspe \\
-Platynereis australis & 2 & 2 & 0.0024 & 0 & 67 & modspe \\
-Myxine australis & 2 & 2 & 0.0023 & 0.5 & 68 & modspe \\
-Tachyeres pteneres & 4.5 & 2 & 0.0022 & 1.046 & 69 & modspe \\
-Copepoda (nauplius) & 2 & 4 & 0.002 & 2.5 & 70 & modspe \\
-Aptenoydes patagonicus & 4.38 & 4 & 0.0023 & 0 & 70 & modspe \\
-Pluteus (larva) & 3 & 2 & 0.0022 & 0.5 & 71 & modspe \\
-Oncorhynchus sp. & 4.5 & 2 & 0.0023 & 0 & 72 & modspe \\
-Anasterias antarctica & 3.17 & 3 & 0.0022 & 0 & 73 & modspe \\
-Larus dominicanus & 3.17 & 3 & 0.0022 & 0 & 73 & modspe \\
-Themisto gaudichaudii & 3.33 & 1 & 0.0023 & 0 & 73 & modspe \\
-Trophon geversianus & 3.33 & 3 & 0.0022 & 0 & 73 & modspe \\
-Tegula atra & 2 & 3 & 0.0022 & 0 & 74 & modspe \\
-Paraeuthria fuscata & 2 & 1 & 0.0022 & 0 & 75 & modspe \\
-Austrochlamys natans & 2 & 1 & 0.0022 & 0 & 76 & modspe \\
-Champsocephalus esox & 4.5 & 3 & 0.0022 & 0 & 76 & modspe \\
-Darina solenoides & 2 & 1 & 0.0022 & 0 & 76 & modspe \\
-Gaimardia trapesina & 2 & 1 & 0.0022 & 0 & 76 & modspe \\
-Siphonaria lessonii & 2 & 2 & 0.0022 & 0 & 76 & modspe \\
-Pseudorca crassidens & 4.73 & 4 & 0.0022 & 0 & 77 & modspe \\
-Appendicularians & 3 & 1 & 0.0022 & 0 & 78 & modspe \\
-Campylonotus vagans & 3 & 1 & 0.0022 & 0 & 78 & modspe \\
-Martialia hyadesii & 3 & 2 & 0.0019 & 1.667 & 79 & modspe \\
-Orcinus orca & 5.56 & 3 & 0.0021 & 0 & 79 & modspe \\
-Bassanago sp. & 1 & 1 & 0.0021 & 0 & 80 & modspe \\
-Chloephaga hybrida & 2 & 1 & 0.0021 & 0 & 81 & modspe \\
-Crepipatella dilatata & 2 & 1 & 0.0021 & 0 & 81 & modspe \\
-Fissurella oriens & 2 & 1 & 0.0021 & 0 & 81 & modspe \\
-Fissurella radiosa & 2 & 1 & 0.0021 & 0 & 81 & modspe \\
-Stercorarius chilensis & 2.92 & 2 & 0.0021 & 0 & 81 & modspe \\
-Paracalanus indicus & 2 & 2 & 0.0021 & 0.5 & 82 & modspe \\
-Acanthina monodon & 3.5 & 2 & 0.0021 & 0 & 82 & modspe \\
-Calidris canutus & 3 & 1 & 0.0021 & 0 & 83 & modspe \\
-Plaxiphora aurata & 2 & 2 & 0.0021 & 0 & 83 & modspe \\
-Copepoda (egg) & 1 & 3 & 0.0019 & 0 & 84 & modspe \\
-Paralabrax humeralis & 1 & 1 & 0.002 & 0 & 84 & modspe \\
-Nanoflagellates & 1 & 2 & 0.0019 & 0 & 85 & modspe \\
-Bunodactis octoradiata & 3 & 1 & 0.0019 & 0 & 85 & modspe \\
-Labidiaster radiosus & 3 & 1 & 0.0019 & 0 & 85 & modspe \\
-Maurolicus australis (larvae) & 2.75 & 4 & 0.0019 & 0 & 86 & modspe \\
-Antholoba achates & 4.16 & 1 & 0.0019 & 0 & 87 & modspe \\
-Arctocephalus australis & 4.58 & 2 & 0.0019 & 0 & 87 & modspe \\
-Ophiactis asperula & 2 & 1 & 0.0019 & 0 & 87 & modspe \\
-Ramnogaster arcuata & 1 & 2 & 0.0019 & 0 & 88 & modspe \\
+\tiny 1 & \tiny Mytilus sp. & \tiny Acanthina monodon & \tiny Ríos \&
+Gerdes (1997) & \tiny \url{https://epic.awi.de/id/eprint/5233/} \\
+\tiny 2 & \tiny Perumytilus purpuratus & \tiny Acanthina monodon &
+\tiny Andrade (pers. comm.) & \tiny \\
+\tiny 3 & \tiny Mytilus sp. & \tiny Acanthocyclus albatrossis &
+\tiny Uzkiaga et al.~(2022) & \tiny
+\url{https://www.sciencedirect.com/science/article/abs/pii/S0022098122000387} \\
+\tiny 4 & \tiny Phytodetritus & \tiny Amphipoda & \tiny Andrade (pers.
+comm.) & \tiny \\
+\tiny 5 & \tiny Bivalvia & \tiny Anasterias antarctica & \tiny Andrade
+(pers. comm.) & \tiny \\
+\tiny 6 & \tiny Gastropoda & \tiny Anasterias antarctica & \tiny Ríos \&
+Gerdes (1997) & \tiny \url{https://epic.awi.de/id/eprint/5233/} \\
+\tiny 7 & \tiny Mytilus sp. & \tiny Anasterias antarctica &
+\tiny Andrade (pers. comm.) & \tiny \\
+\tiny 8 & \tiny Harpagifer bispinis & \tiny Antholoba achates &
+\tiny Andrade (pers. comm.) & \tiny \\
+\tiny 9 & \tiny Zooplankton & \tiny Appendicularians & \tiny Cañete
+(pers. comm.) & \tiny \\
+\tiny 10 & \tiny Doryteuthis gahi & \tiny Aptenodytes patagonicus &
+\tiny Pütz et al.~(2021) & \tiny
+\url{https://www.sciencedirect.com/science/article/pii/S2351989421002195} \\
+\tiny 11 & \tiny Myctophidae & \tiny Aptenodytes patagonicus &
+\tiny Huidobro \& Oporto (2018) & \tiny
+\url{https://repositorio.uc.cl/xmlui/handle/11534/45383} \\
+\tiny 12 & \tiny Patagonotothen tessellata & \tiny Aptenodytes
+patagonicus & \tiny Pütz et al.~(2021) & \tiny
+\url{https://www.sciencedirect.com/science/article/pii/S2351989421002195} \\
+\tiny 13 & \tiny Sprattus fuegensis & \tiny Aptenodytes patagonicus &
+\tiny Huidobro \& Oporto (2018) & \tiny
+\url{https://repositorio.uc.cl/xmlui/handle/11534/45382} \\
+\tiny 14 & \tiny Brown algae & \tiny Arbacia dufresnii & \tiny Newcombe
+et al.~(2012) & \tiny
+\url{https://www.int-res.com/abstracts/ab/v15/n2/p135-144} \\
+\tiny 15 & \tiny Foraminifera & \tiny Arbacia dufresnii & \tiny Castro
+et al.~(2022) & \tiny
+\url{https://www.sciencedirect.com/science/article/abs/pii/S2352249622000039?via\%3Dihub} \\
+\tiny 16 & \tiny Green algae & \tiny Arbacia dufresnii & \tiny Castro et
+al.~(2022) & \tiny
+\url{https://www.sciencedirect.com/science/article/abs/pii/S2352249622000039?via\%3Dihub} \\
+\tiny 17 & \tiny Ostracoda & \tiny Arbacia dufresnii & \tiny Castro et
+al.~(2022) & \tiny
+\url{https://www.sciencedirect.com/science/article/abs/pii/S2352249622000039?via\%3Dihub} \\
+\tiny 18 & \tiny Red algae & \tiny Arbacia dufresnii & \tiny Castro et
+al.~(2022) & \tiny
+\url{https://www.sciencedirect.com/science/article/abs/pii/S2352249622000039?via\%3Dihub} \\
+\tiny 19 & \tiny Merluccius australis & \tiny Arctocephalus australis &
+\tiny Vargas (2012) & \tiny
+\url{http://cybertesis.uach.cl/tesis/uach/2012/fcv297h/doc/fcv297h.pdf} \\
+\tiny 20 & \tiny Myctophidae & \tiny Arctocephalus australis &
+\tiny Vargas (2012) & \tiny
+\url{http://cybertesis.uach.cl/tesis/uach/2012/fcv297h/doc/fcv297h.pdf} \\
+\tiny 21 & \tiny Phytoplankton & \tiny Aulacomya atra & \tiny Montero et
+al.~(2021) & \tiny
+\url{https://www.frontiersin.org/articles/10.3389/fmars.2021.612406/full} \\
+\tiny 22 & \tiny Zooplankton & \tiny Aulacomya atra & \tiny Montero et
+al.~(2021) & \tiny
+\url{https://www.frontiersin.org/articles/10.3389/fmars.2021.612406/full} \\
+\tiny 23 & \tiny Phytoplankton & \tiny Austrochlamys natans &
+\tiny Gallardo et al.~(2024) & \tiny
+\url{https://onlinelibrary.wiley.com/doi/full/10.1155/2024/6685325} \\
+\tiny 24 & \tiny Isopoda & \tiny Austrolycus depressiceps & \tiny Reyes
+\& Hüne (2012) & \tiny
+\url{https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile\#}:\textasciitilde:text=Abstract,que\%20viven\%20en\%20aguas\%20chilenas. \\
+\tiny 25 & \tiny Patagonotothen cornucola & \tiny Austrolycus
+depressiceps & \tiny Reyes \& Hüne (2012) & \tiny
+\url{https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile\#}:\textasciitilde:text=Abstract,que\%20viven\%20en\%20aguas\%20chilenas. \\
+\tiny 26 & \tiny Polychaeta & \tiny Austrolycus depressiceps &
+\tiny Reyes \& Hüne (2012) & \tiny
+\url{https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile\#}:\textasciitilde:text=Abstract,que\%20viven\%20en\%20aguas\%20chilenas. \\
+\tiny 27 & \tiny Bivalvia (larvae) & \tiny Bathylagichthys parini
+(larvae) & \tiny Salas-Berrios et al. (2013) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-013-1359-8} \\
+\tiny 28 & \tiny Calanoid (copepodite) & \tiny Bathylagichthys parini
+(larvae) & \tiny Salas-Berrios et al. (2013) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-013-1359-8} \\
+\tiny 29 & \tiny Copepoda (egg) & \tiny Bathylagichthys parini (larvae)
+& \tiny Salas-Berrios et al. (2013) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-013-1359-8} \\
+\tiny 30 & \tiny Copepoda (nauplius) & \tiny Bathylagichthys parini
+(larvae) & \tiny Salas-Berrios et al. (2013) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-013-1359-8} \\
+\tiny 31 & \tiny Detritus & \tiny Bathylagichthys parini (larvae) &
+\tiny Salas-Berrios et al. (2013) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-013-1359-8} \\
+\tiny 32 & \tiny Ostracoda & \tiny Bathylagichthys parini (larvae) &
+\tiny Salas-Berrios et al. (2013) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-013-1359-8} \\
+\tiny 33 & \tiny Plankton diatom & \tiny Bathylagichthys parini (larvae)
+& \tiny Salas-Berrios et al. (2013) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-013-1359-8} \\
+\tiny 34 & \tiny Salp & \tiny Bathylagichthys parini (larvae) &
+\tiny Salas-Berrios et al. (2013) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-013-1359-8} \\
+\tiny 35 & \tiny Mytilus sp. & \tiny Benthic decapoda & \tiny Andrade
+(pers. comm.) & \tiny \\
+\tiny 36 & \tiny Phytoplankton & \tiny Bivalvia & \tiny Arapov et
+al.~(2010) & \tiny
+\url{https://ribarstvo.agr.hr/articles/5795_BIVALVE_FEEDING_HOW_AND_WHAT_THEY_EAT__en.pdf} \\
+\tiny 37 & \tiny Benthic diatom & \tiny Bivalvia (larvae) & \tiny Arapov
+et al.~(2010) & \tiny
+\url{https://ribarstvo.agr.hr/articles/5795_BIVALVE_FEEDING_HOW_AND_WHAT_THEY_EAT__en.pdf} \\
+\tiny 38 & \tiny Plankton diatom & \tiny Bivalvia (larvae) &
+\tiny Farías et al.~(2003) & \tiny
+\url{https://www.sciencedirect.com/science/article/pii/S0044848603002722} \\
+\tiny 39 & \tiny Phytoplankton & \tiny Brachiopoda & \tiny Peck et
+al.~(1987) & \tiny
+\url{https://www.sciencedirect.com/science/article/abs/pii/0022098187901420?via\%3Dihub} \\
+\tiny 40 & \tiny Phytoplankton & \tiny Bryozoa & \tiny Winston (1981) &
+\tiny
+\url{https://www.cambridge.org/core/journals/series-in-geology-notes-for-short-course/article/abs/feeding-behavior-of-modern-bryozoans/D38156D6C6C0553E2EF87DA56EF05AC8} \\
+\tiny 41 & \tiny Zooplankton & \tiny Bryozoa & \tiny Winston (1981) &
+\tiny
+\url{https://www.cambridge.org/core/journals/series-in-geology-notes-for-short-course/article/abs/feeding-behavior-of-modern-bryozoans/D38156D6C6C0553E2EF87DA56EF05AC8} \\
+\tiny 42 & \tiny Exosphaeroma gigas & \tiny Bunodactis octoradiata &
+\tiny Andrade C \& Ríos C (2007) & \tiny
+\url{http://analesdelinstitutodelapatagonia.cl/index.php/analespatagonia/article/view/386} \\
+\tiny 43 & \tiny Phytoplankton & \tiny Calanoid (copepodite) &
+\tiny Cañete (pers. comm.) & \tiny \\
+\tiny 44 & \tiny Bivalvia & \tiny Calidris canutus & \tiny Espoz et
+al.~(2008) & \tiny
+\url{https://www.researchgate.net/publication/262687507_Trophic_ecology_of_the_Red_Knot_Calidris_canutus_rufa_at_Bahia_Lomas_Tierra_del_Fuego_Chile?enrichId=rgreq-8c958f7066ac761a5d05454e0c0e8de9-XXX&enrichSource=Y292ZXJQYWdlOzI2MjY4NzUwNztBUzoxNDE3ODM2MTkwODQyODhAMTQxMDgxNTI1NzkyOQ\%3D\%3D&el=1_x_2&_esc=publicationCoverPdf} \\
+\tiny 45 & \tiny Bivalvia & \tiny Callorhinchus callorynchus & \tiny Di
+Giacomo \& Perier (1996) & \tiny
+\url{https://www.publish.csiro.au/mf/mf9960801} \\
+\tiny 46 & \tiny Zooplankton & \tiny Campylonotus vagans & \tiny Thatje
+et al.~(2004) & \tiny
+\url{https://www.sciencedirect.com/science/article/pii/S0022098103005021?casa_token=teBJHmRgoUoAAAAA:XLM3A_oEKvJ3sW1mYuQ4kkTU-GgKioakdkP34Pf_SE9cXTIR7RFCMIwNbATLhbKFGijc4n5P4A} \\
+\tiny 47 & \tiny Benthic decapoda & \tiny Cephalopoda & \tiny Sepúlveda
+(pers. comm) & \tiny \\
+\tiny 48 & \tiny Bivalvia & \tiny Cephalopoda & \tiny Sepúlveda (pers.
+comm) & \tiny \\
+\tiny 49 & \tiny Benthic decapoda & \tiny Cephalorhynchus commersonii
+commersonii & \tiny Riccialdelli et al. (2013) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-013-1289-16} \\
+\tiny 50 & \tiny Doryteuthis gahi & \tiny Cephalorhynchus commersonii
+commersonii & \tiny Riccialdelli et al. (2013) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-013-1289-12} \\
+\tiny 51 & \tiny Eleginops maclovinus & \tiny Cephalorhynchus
+commersonii commersonii & \tiny Riccialdelli et al. (2013) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-013-1289-7} \\
+\tiny 52 & \tiny Enteroctopus megalocyathus & \tiny Cephalorhynchus
+commersonii commersonii & \tiny Riccialdelli et al. (2013) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-013-1289-13} \\
+\tiny 53 & \tiny Halicarcinus planatus & \tiny Cephalorhynchus
+commersonii commersonii & \tiny Riccialdelli et al. (2013) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-013-1289-15} \\
+\tiny 54 & \tiny Illex argentinus & \tiny Cephalorhynchus commersonii
+commersonii & \tiny Riccialdelli et al. (2013) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-013-1289-11} \\
+\tiny 55 & \tiny Macruronus magellanicus & \tiny Cephalorhynchus
+commersonii commersonii & \tiny Riccialdelli et al. (2013) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-013-1289-10} \\
+\tiny 56 & \tiny Odontesthes sp. & \tiny Cephalorhynchus commersonii
+commersonii & \tiny Riccialdelli et al. (2013) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-013-1289-8} \\
+\tiny 57 & \tiny Patagonotothen sp. & \tiny Cephalorhynchus commersonii
+commersonii & \tiny Riccialdelli et al. (2013) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-013-1289-5} \\
+\tiny 58 & \tiny Sprattus fuegensis & \tiny Cephalorhynchus commersonii
+commersonii & \tiny Riccialdelli et al. (2013) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-013-1289-9} \\
+\tiny 59 & \tiny Zoarcidae & \tiny Cephalorhynchus commersonii
+commersonii & \tiny Riccialdelli et al. (2013) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-013-1289-6} \\
+\tiny 60 & \tiny Patagonotothen cornucola & \tiny Champsocephalus esox &
+\tiny Landaeta et al.~(2020) & \tiny
+\url{https://www.cambridge.org/core/journals/antarctic-science/article/abs/shape-condition-and-diet-of-the-pike-icefish-champsocephalus-esox-teleostei-channichthyidae-evidence-of-phenotypic-plasticity/F45F7393F50141A0E3999A96CA55B1DC} \\
+\tiny 61 & \tiny Patagonotothen sima & \tiny Champsocephalus esox &
+\tiny Landaeta et al.~(2020) & \tiny
+\url{https://www.cambridge.org/core/journals/antarctic-science/article/abs/shape-condition-and-diet-of-the-pike-icefish-champsocephalus-esox-teleostei-channichthyidae-evidence-of-phenotypic-plasticity/F45F7393F50141A0E3999A96CA55B1DC} \\
+\tiny 62 & \tiny Patagonotothen tessellata & \tiny Champsocephalus esox
+& \tiny Landaeta et al.~(2020) & \tiny
+\url{https://www.cambridge.org/core/journals/antarctic-science/article/abs/shape-condition-and-diet-of-the-pike-icefish-champsocephalus-esox-teleostei-channichthyidae-evidence-of-phenotypic-plasticity/F45F7393F50141A0E3999A96CA55B1DC} \\
+\tiny 63 & \tiny Detritus & \tiny Chironomidae & \tiny Galizzi et al
+(2012) & \tiny
+\url{https://www.scielo.br/j/isz/a/bDrCDYjPB5jgPmsKhxq5FQp/\#} \\
+\tiny 64 & \tiny Plankton diatom & \tiny Chironomidae & \tiny Galizzi et
+al (2012) & \tiny
+\url{https://www.scielo.br/j/isz/a/bDrCDYjPB5jgPmsKhxq5FQp/\#} \\
+\tiny 65 & \tiny Brown algae & \tiny Chloephaga hybrida & \tiny Venegas
+(1985) & \tiny Venegas, C. 1985-1986. Prospección aérea de gansos
+(Chloephaga) en la estepa central de Magallanes. Anales del Instituto de
+la Patagonia 16: 67˗73. \\
+\tiny 66 & \tiny Amphipoda & \tiny Cilus gilberti & \tiny Reyes \& Hüne
+(2012) & \tiny
+\url{https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile\#}:\textasciitilde:text=Abstract,que\%20viven\%20en\%20aguas\%20chilenas. \\
+\tiny 67 & \tiny Polychaeta & \tiny Cilus gilberti & \tiny Reyes \& Hüne
+(2012) & \tiny
+\url{https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile\#}:\textasciitilde:text=Abstract,que\%20viven\%20en\%20aguas\%20chilenas. \\
+\tiny 68 & \tiny Green algae & \tiny Cilus gilberti & \tiny Reyes \&
+Hüne (2012) & \tiny
+\url{https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile\#}:\textasciitilde:text=Abstract,que\%20viven\%20en\%20aguas\%20chilenas. \\
+\tiny 69 & \tiny Phytoplankton & \tiny Cirripedia & \tiny Andrade (pers.
+comm.) & \tiny \\
+\tiny 70 & \tiny Detritus & \tiny Copepoda & \tiny Kleppel (1993) &
+\tiny \url{https://www.int-res.com/articles/meps/99/m099p183.pdf} \\
+\tiny 71 & \tiny Phytoplankton & \tiny Copepoda & \tiny Kleppel (1993) &
+\tiny \url{https://www.int-res.com/articles/meps/99/m099p183.pdf} \\
+\tiny 72 & \tiny Zooplankton & \tiny Copepoda & \tiny Kleppel (1993) &
+\tiny \url{https://www.int-res.com/articles/meps/99/m099p183.pdf} \\
+\tiny 73 & \tiny Nanoflagellates & \tiny Copepoda (nauplius) &
+\tiny Böttjer et al.~(2009) & \tiny
+\url{https://link.springer.com/article/10.1007/s00227-009-1353-4} \\
+\tiny 74 & \tiny Arbacia dufresnii & \tiny Cosmasterias lurida &
+\tiny Garrido et al.~(2021) & \tiny
+\url{https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2021.636208/full} \\
+\tiny 75 & \tiny Bivalvia & \tiny Cosmasterias lurida & \tiny Garrido et
+al.~(2021) & \tiny
+\url{https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2021.636208/full} \\
+\tiny 76 & \tiny Gastropoda & \tiny Cosmasterias lurida & \tiny Andrade
+(pers. comm.) & \tiny \\
+\tiny 77 & \tiny Loxechinus albus & \tiny Cosmasterias lurida &
+\tiny Garrido et al.~(2021) & \tiny
+\url{https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2021.636208/full} \\
+\tiny 78 & \tiny Mytilus sp. & \tiny Cosmasterias lurida & \tiny Andrade
+(pers. comm.) & \tiny \\
+\tiny 79 & \tiny Pseudechinus magellanicus & \tiny Cosmasterias lurida &
+\tiny Garrido et al.~(2021) & \tiny
+\url{https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2021.636208/full} \\
+\tiny 80 & \tiny Doryteuthis gahi & \tiny Cottoperca gobio &
+\tiny Laptikhovsky \& Arkhipkin (2003) & \tiny
+\url{https://onlinelibrary.wiley.com/doi/full/10.1046/j.1439-0426.2003.00340.x?casa_token=6dL3l09v8GkAAAAA\%3A4Fd89SBAZOIkE2TKrEQxaEERaCADR0kGhkXGR-Bz35FUg2Z12Z3dRPMgT5ckTZ1c__S6NpyqOz9_Q0E} \\
+\tiny 81 & \tiny Macruronus magellanicus & \tiny Cottoperca gobio &
+\tiny Laptikhovsky \& Arkhipkin (2003) & \tiny
+\url{https://onlinelibrary.wiley.com/doi/full/10.1046/j.1439-0426.2003.00340.x?casa_token=6dL3l09v8GkAAAAA\%3A4Fd89SBAZOIkE2TKrEQxaEERaCADR0kGhkXGR-Bz35FUg2Z12Z3dRPMgT5ckTZ1c__S6NpyqOz9_Q0E} \\
+\tiny 82 & \tiny Grimothea gregaria & \tiny Cottoperca gobio &
+\tiny Vinuesa \& Varisco (2007) & \tiny
+\url{https://www.scielo.cl/scielo.php?pid=S0717-71782007000200003&script=sci_arttext&tlng=pt} \\
+\tiny 83 & \tiny Patagonotothen tessellata & \tiny Cottoperca gobio &
+\tiny Laptikhovsky \& Arkhipkin (2003) & \tiny
+\url{https://onlinelibrary.wiley.com/doi/full/10.1046/j.1439-0426.2003.00340.x?casa_token=6dL3l09v8GkAAAAA\%3A4Fd89SBAZOIkE2TKrEQxaEERaCADR0kGhkXGR-Bz35FUg2Z12Z3dRPMgT5ckTZ1c__S6NpyqOz9_Q0E} \\
+\tiny 84 & \tiny Peltarion spinulosum & \tiny Cottoperca gobio &
+\tiny Laptikhovsky \& Arkhipkin (2003) & \tiny
+\url{https://onlinelibrary.wiley.com/doi/full/10.1046/j.1439-0426.2003.00340.x?casa_token=6dL3l09v8GkAAAAA\%3A4Fd89SBAZOIkE2TKrEQxaEERaCADR0kGhkXGR-Bz35FUg2Z12Z3dRPMgT5ckTZ1c__S6NpyqOz9_Q0E} \\
+\tiny 85 & \tiny Sprattus fuegensis & \tiny Cottoperca gobio &
+\tiny Laptikhovsky \& Arkhipkin (2003) & \tiny
+\url{https://onlinelibrary.wiley.com/doi/full/10.1046/j.1439-0426.2003.00340.x?casa_token=6dL3l09v8GkAAAAA\%3A4Fd89SBAZOIkE2TKrEQxaEERaCADR0kGhkXGR-Bz35FUg2Z12Z3dRPMgT5ckTZ1c__S6NpyqOz9_Q0E} \\
+\tiny 86 & \tiny Brown algae & \tiny Crepipatella dilatata & \tiny C.
+Andrade (pers. comm.) & \tiny \\
+\tiny 87 & \tiny Phytoplankton & \tiny Crustacea & \tiny C. Andrade
+(pers. comm.) & \tiny \\
+\tiny 88 & \tiny Zooplankton & \tiny Crustacea & \tiny C. Andrade (pers.
+comm.) & \tiny \\
+\tiny 89 & \tiny Phytoplankton & \tiny Darina solenoides & \tiny López
+et al.~(2022) & \tiny
+\url{https://bioone.org/journals/malacologia/volume-64/issue-2/040.064.0203/Reproduction-and-Recruitment-of-the-Intertidal-Clam-iDarina-solenoides-i/10.4002/040.064.0203.short} \\
+\tiny 90 & \tiny Doryteuthis gahi & \tiny Dissostichus eleginoides &
+\tiny Troccoli et al.~(2020) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-020-02730-2} \\
+\tiny 91 & \tiny Genypterus blacodes & \tiny Dissostichus eleginoides &
+\tiny Troccoli et al.~(2020) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-020-02730-2} \\
+\tiny 92 & \tiny Lithodes santolla & \tiny Dissostichus eleginoides &
+\tiny Murillo et al.~(2008) & \tiny
+\url{https://www.scielo.cl/scielo.php?pid=S0717-65382008000100011&script=sci_arttext&tlng=pt} \\
+\tiny 93 & \tiny Macruronus magellanicus & \tiny Dissostichus
+eleginoides & \tiny Troccoli et al.~(2020) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-020-02730-2} \\
+\tiny 94 & \tiny Salilota australis & \tiny Dissostichus eleginoides &
+\tiny Troccoli et al.~(2020) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-020-02730-2} \\
+\tiny 95 & \tiny Sprattus fuegensis & \tiny Dissostichus eleginoides &
+\tiny Troccoli et al.~(2020) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-020-02730-2} \\
+\tiny 96 & \tiny Benthic decapoda & \tiny Doryteuthis gahi &
+\tiny Almonacid (pers. comm) & \tiny \\
+\tiny 97 & \tiny Sprattus fuegensis & \tiny Doryteuthis gahi &
+\tiny Almonacid (pers. comm) & \tiny \\
+\tiny 98 & \tiny Acanthocyclus albatrossis & \tiny Eleginops maclovinus
+& \tiny Córdova et al.~(2009) & \tiny
+\url{https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext} \\
+\tiny 99 & \tiny Amphipoda & \tiny Eleginops maclovinus & \tiny Guzmán
+\& Campodonico (1973) & \tiny
+\url{http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379} \\
+\tiny 100 & \tiny Benthic decapoda & \tiny Eleginops maclovinus &
+\tiny Guzmán \& Campodonico (1973) & \tiny
+\url{http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379} \\
+\tiny 101 & \tiny Brachiopoda & \tiny Eleginops maclovinus &
+\tiny Guzmán \& Campodonico (1973) & \tiny
+\url{http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379} \\
+\tiny 102 & \tiny Cephalopoda & \tiny Eleginops maclovinus &
+\tiny Guzmán \& Campodonico (1973) & \tiny
+\url{http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379} \\
+\tiny 103 & \tiny Copepoda & \tiny Eleginops maclovinus & \tiny Guzmán
+\& Campodonico (1973) & \tiny
+\url{http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379} \\
+\tiny 104 & \tiny Cyanobacteria & \tiny Eleginops maclovinus &
+\tiny Guzmán \& Campodonico (1973) & \tiny
+\url{http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379} \\
+\tiny 105 & \tiny Detritus & \tiny Eleginops maclovinus & \tiny Guzmán
+\& Campodonico (1973) & \tiny
+\url{http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379} \\
+\tiny 106 & \tiny Exosphaeroma gigas & \tiny Eleginops maclovinus &
+\tiny Andrade (pers. comm.) & \tiny \\
+\tiny 107 & \tiny Foraminifera & \tiny Eleginops maclovinus &
+\tiny Guzmán \& Campodonico (1973) & \tiny
+\url{http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379} \\
+\tiny 108 & \tiny Green algae & \tiny Eleginops maclovinus &
+\tiny Guzmán \& Campodonico (1973) & \tiny
+\url{http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379} \\
+\tiny 109 & \tiny Halicarcinus planatus & \tiny Eleginops maclovinus &
+\tiny Guzmán \& Campodonico (1973) & \tiny
+\url{http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379} \\
+\tiny 110 & \tiny Isopoda & \tiny Eleginops maclovinus & \tiny Guzmán \&
+Campodonico (1973) & \tiny
+\url{http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379} \\
+\tiny 111 & \tiny Ostracoda & \tiny Eleginops maclovinus & \tiny Guzmán
+\& Campodonico (1973) & \tiny
+\url{http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379} \\
+\tiny 112 & \tiny Patagonotothen cornucola & \tiny Eleginops maclovinus
+& \tiny Martin \& Bastida (2008) & \tiny
+\url{https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0718-560X2008000100001} \\
+\tiny 113 & \tiny Polychaeta & \tiny Eleginops maclovinus & \tiny Guzmán
+\& Campodonico (1973) & \tiny
+\url{http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379} \\
+\tiny 114 & \tiny Red algae & \tiny Eleginops maclovinus & \tiny Guzmán
+\& Campodonico (1973) & \tiny
+\url{http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379} \\
+\tiny 115 & \tiny Sediment & \tiny Eleginops maclovinus & \tiny Guzmán
+\& Campodonico (1973) & \tiny
+\url{http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379} \\
+\tiny 116 & \tiny Tanaidae & \tiny Eleginops maclovinus & \tiny Haro D.
+(2019) & \tiny \url{https://repositorio.uchile.cl/handle/2250/187376} \\
+\tiny 117 & \tiny Zooplankton & \tiny Eleginops maclovinus &
+\tiny Guzmán \& Campodonico (1973) & \tiny
+\url{http://www.bibliotecadigital.umag.cl/handle/20.500.11893/379} \\
+\tiny 118 & \tiny Benthic decapoda & \tiny Enteroctopus megalocyathus &
+\tiny Sepúlveda (pers. comm) & \tiny \\
+\tiny 119 & \tiny Bivalvia & \tiny Enteroctopus megalocyathus &
+\tiny Sepúlveda (pers. comm) & \tiny \\
+\tiny 120 & \tiny Phytoplankton & \tiny Euphausia lucens & \tiny Stuart
+(1986) & \tiny
+\url{https://www.int-res.com/articles/meps/30/m030p117.pdf} \\
+\tiny 121 & \tiny Phytoplankton & \tiny Euphausia vallentini &
+\tiny Sánchez et al.~(2011) & \tiny
+\url{https://academic.oup.com/plankt/article/33/8/1212/1441310?login=false} \\
+\tiny 122 & \tiny Plankton diatom & \tiny Euphausia vallentini &
+\tiny Sánchez et al.~(2011) & \tiny
+\url{https://academic.oup.com/plankt/article/33/8/1212/1441310?login=false} \\
+\tiny 123 & \tiny Bryozoa & \tiny Eurypodius latreillei & \tiny Comoglio
+(1994) & \tiny
+\url{https://bibliotecadigital.exactas.uba.ar/download/tesis/tesis_n2640_Comoglio.pdf} \\
+\tiny 124 & \tiny Foraminifera & \tiny Eurypodius latreillei &
+\tiny Comoglio (1994) & \tiny
+\url{https://bibliotecadigital.exactas.uba.ar/download/tesis/tesis_n2640_Comoglio.pdf} \\
+\tiny 125 & \tiny Halicarcinus planatus & \tiny Eurypodius latreillei &
+\tiny Comoglio (1994) & \tiny
+\url{https://bibliotecadigital.exactas.uba.ar/download/tesis/tesis_n2640_Comoglio.pdf} \\
+\tiny 126 & \tiny Isopoda & \tiny Eurypodius latreillei & \tiny Comoglio
+(1994) & \tiny
+\url{https://bibliotecadigital.exactas.uba.ar/download/tesis/tesis_n2640_Comoglio.pdf} \\
+\tiny 127 & \tiny Pagurus sp. & \tiny Eurypodius latreillei &
+\tiny Comoglio (1994) & \tiny
+\url{https://bibliotecadigital.exactas.uba.ar/download/tesis/tesis_n2640_Comoglio.pdf} \\
+\tiny 128 & \tiny Detritus & \tiny Exosphaeroma gigas & \tiny Andrade
+(pers. comm.) & \tiny \\
+\tiny 129 & \tiny Brown algae & \tiny Fissurella oriens & \tiny Andrade
+(pers. comm.) & \tiny \\
+\tiny 130 & \tiny Brown algae & \tiny Fissurella radiosa & \tiny Andrade
+(pers. comm.) & \tiny \\
+\tiny 131 & \tiny Copepoda & \tiny Foraminifera & \tiny Hayward et
+al.~(2021) & \tiny
+\url{https://www.researchgate.net/profile/Bruce-Hayward/publication/351275033_Molecular_and_morphological_taxonomy_of_living_Ammonia_and_related_taxa_Foraminifera_and_their_biogeography/links/60da697592851ca94493fa31/Molecular-and-morphological-taxonomy-of-living-Ammonia-and-related-taxa-Foraminifera-and-their-biogeography.pdf} \\
+\tiny 132 & \tiny Phytodetritus & \tiny Foraminifera & \tiny Hayward et
+al.~(2021) & \tiny
+\url{https://www.researchgate.net/profile/Bruce-Hayward/publication/351275033_Molecular_and_morphological_taxonomy_of_living_Ammonia_and_related_taxa_Foraminifera_and_their_biogeography/links/60da697592851ca94493fa31/Molecular-and-morphological-taxonomy-of-living-Ammonia-and-related-taxa-Foraminifera-and-their-biogeography.pdf} \\
+\tiny 133 & \tiny Phytoplankton & \tiny Foraminifera & \tiny Hayward et
+al.~(2021) & \tiny
+\url{https://www.researchgate.net/profile/Bruce-Hayward/publication/351275033_Molecular_and_morphological_taxonomy_of_living_Ammonia_and_related_taxa_Foraminifera_and_their_biogeography/links/60da697592851ca94493fa31/Molecular-and-morphological-taxonomy-of-living-Ammonia-and-related-taxa-Foraminifera-and-their-biogeography.pdf} \\
+\tiny 134 & \tiny Phytoplankton & \tiny Gaimardia trapesina &
+\tiny Adami \& Gordillo (1999) & \tiny
+\url{https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/902} \\
+\tiny 135 & \tiny Detritus & \tiny Gammaridae & \tiny Felten et
+al.~(2008) & \tiny
+\url{http://srv01.lin.irk.ru/copp/rus/files/95_Felten_2008_4_Quantification\%20of\%20diet\%20variability\%20in\%20a\%20stream\%20amphipod.pdf} \\
+\tiny 136 & \tiny Phytoplankton & \tiny Gammaridae & \tiny Felten et
+al.~(2008) & \tiny
+\url{http://srv01.lin.irk.ru/copp/rus/files/95_Felten_2008_4_Quantification\%20of\%20diet\%20variability\%20in\%20a\%20stream\%20amphipod.pdf} \\
+\tiny 137 & \tiny Zooplankton & \tiny Gammaridae & \tiny Felten et
+al.~(2008) & \tiny
+\url{http://srv01.lin.irk.ru/copp/rus/files/95_Felten_2008_4_Quantification\%20of\%20diet\%20variability\%20in\%20a\%20stream\%20amphipod.pdf} \\
+\tiny 138 & \tiny Phytoplankton & \tiny Gastropoda & \tiny Andrade \&
+Brey (2014) & \tiny
+\url{https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en} \\
+\tiny 139 & \tiny Amphipoda & \tiny Genypterus blacodes & \tiny Haro D.
+(2019) & \tiny \url{https://repositorio.uchile.cl/handle/2250/187376} \\
+\tiny 140 & \tiny Benthic decapoda & \tiny Genypterus blacodes &
+\tiny Andrade (pers. comm.) & \tiny \\
+\tiny 141 & \tiny Merluccius sp. & \tiny Genypterus blacodes &
+\tiny Haro D. (2019) & \tiny
+\url{https://repositorio.uchile.cl/handle/2250/187376} \\
+\tiny 142 & \tiny Odontesthes sp. & \tiny Genypterus blacodes &
+\tiny Haro D. (2019) & \tiny
+\url{https://repositorio.uchile.cl/handle/2250/187376} \\
+\tiny 143 & \tiny Patagonotothen sp. & \tiny Genypterus blacodes &
+\tiny Haro D. (2019) & \tiny
+\url{https://repositorio.uchile.cl/handle/2250/187376} \\
+\tiny 144 & \tiny Sprattus fuegensis & \tiny Genypterus blacodes &
+\tiny Zuleta \& Rubilar (2010) & \tiny
+\url{http://docplayer.es/46981536-Impacto-del-desarrollo-de-una-pesqueria-de-sardina-austral-sprattus-fueguensis-en-aguas-interiores-de-las-regiones-x-xii.html} \\
+\tiny 231 & \tiny Detritus & \tiny Grimothea gregaria & \tiny Andrade
+(pers. comm.) & \tiny \\
+\tiny 232 & \tiny Green algae & \tiny Grimothea gregaria & \tiny Andrade
+(pers. comm.) & \tiny \\
+\tiny 233 & \tiny Isopoda & \tiny Grimothea gregaria & \tiny Andrade
+(pers. comm.) & \tiny \\
+\tiny 234 & \tiny Phytodetritus & \tiny Grimothea gregaria &
+\tiny Andrade (pers. comm.) & \tiny \\
+\tiny 235 & \tiny Porifera & \tiny Grimothea gregaria & \tiny Andrade
+(pers. comm.) & \tiny \\
+\tiny 145 & \tiny Detritus & \tiny Halicarcinus planatus & \tiny C.
+Andrade (pers. comm.) & \tiny \\
+\tiny 146 & \tiny Amphipoda & \tiny Harpagifer bispinis & \tiny Hüne \&
+Vega (2016) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-015-1726-8} \\
+\tiny 147 & \tiny Exosphaeroma gigas & \tiny Harpagifer bispinis &
+\tiny Hüne \& Vega (2016) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-015-1726-8} \\
+\tiny 148 & \tiny Isopoda & \tiny Harpagifer bispinis & \tiny Andrade
+(pers. comm.) & \tiny \\
+\tiny 149 & \tiny Polychaeta & \tiny Harpagifer bispinis & \tiny Hüne \&
+Rivera (2010) & \tiny
+\url{https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0718-686X2010000200004} \\
+\tiny 150 & \tiny Tanaidae & \tiny Harpagifer bispinis & \tiny Hüne \&
+Vega (2016) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-015-1726-8} \\
+\tiny 151 & \tiny Detritus & \tiny Hydrozoa & \tiny Aldea (pers. comm.)
+& \tiny \\
+\tiny 152 & \tiny Phytoplankton & \tiny Hydrozoa & \tiny Aldea (pers.
+comm.) & \tiny \\
+\tiny 153 & \tiny Zooplankton & \tiny Hydrozoa & \tiny Aldea (pers.
+comm.) & \tiny \\
+\tiny 154 & \tiny Amphipoda & \tiny Illex argentinus & \tiny Ivanovic
+(2010) & \tiny
+\url{https://aquadocs.org/bitstream/handle/1834/4224/Rev\%20Invest\%20Desarr\%20Pesq\%2020\%2051-63.pdf?sequence=1&isAllowed=y} \\
+\tiny 155 & \tiny Copepoda & \tiny Illex argentinus & \tiny Ivanovic
+(2010) & \tiny
+\url{https://aquadocs.org/bitstream/handle/1834/4224/Rev\%20Invest\%20Desarr\%20Pesq\%2020\%2051-63.pdf?sequence=1&isAllowed=y} \\
+\tiny 156 & \tiny Doryteuthis gahi & \tiny Illex argentinus &
+\tiny Ivanovic (2010) & \tiny
+\url{https://aquadocs.org/bitstream/handle/1834/4224/Rev\%20Invest\%20Desarr\%20Pesq\%2020\%2051-63.pdf?sequence=1&isAllowed=y} \\
+\tiny 157 & \tiny Euphausia lucens & \tiny Illex argentinus &
+\tiny Ivanovic (2010) & \tiny
+\url{https://aquadocs.org/bitstream/handle/1834/4224/Rev\%20Invest\%20Desarr\%20Pesq\%2020\%2051-63.pdf?sequence=1&isAllowed=y} \\
+\tiny 158 & \tiny Brown algae & \tiny Isopoda & \tiny Andrade (pers.
+comm.) & \tiny \\
+\tiny 159 & \tiny Detritus & \tiny Isopoda & \tiny Andrade (pers. comm.)
+& \tiny \\
+\tiny 160 & \tiny Phytodetritus & \tiny Isopoda & \tiny Andrade (pers.
+comm.) & \tiny \\
+\tiny 161 & \tiny Exosphaeroma gigas & \tiny Labidiaster radiosus &
+\tiny Andrade (pers. comm.) & \tiny \\
+\tiny 162 & \tiny Eleginops maclovinus & \tiny Lagenorhynchus australis
+& \tiny Schiavini et al.~(1997) & \tiny
+\url{https://www.vliz.be/imisdocs/publications/232079.pdf} \\
+\tiny 163 & \tiny Enteroctopus megalocyathus & \tiny Lagenorhynchus
+australis & \tiny Schiavini et al.~(1997) & \tiny
+\url{https://www.vliz.be/imisdocs/publications/232079.pdf} \\
+\tiny 164 & \tiny Genypterus blacodes & \tiny Lagenorhynchus australis &
+\tiny Schiavini et al.~(1997) & \tiny
+\url{https://www.vliz.be/imisdocs/publications/232079.pdf} \\
+\tiny 165 & \tiny Illex argentinus & \tiny Lagenorhynchus australis &
+\tiny Schiavini et al.~(1997) & \tiny
+\url{https://www.vliz.be/imisdocs/publications/232079.pdf} \\
+\tiny 166 & \tiny Macruronus magellanicus & \tiny Lagenorhynchus
+australis & \tiny Schiavini et al.~(1997) & \tiny
+\url{https://www.vliz.be/imisdocs/publications/232079.pdf} \\
+\tiny 167 & \tiny Myxine australis & \tiny Lagenorhynchus australis &
+\tiny Schiavini et al.~(1997) & \tiny
+\url{https://www.vliz.be/imisdocs/publications/232079.pdf} \\
+\tiny 168 & \tiny Patagonotothen tessellata & \tiny Lagenorhynchus
+australis & \tiny Viddi \& Lescrauwaet (2005) & \tiny
+\url{https://www.vliz.be/imisdocs/publications/ocrd/102931.pdf} \\
+\tiny 169 & \tiny Salilota australis & \tiny Lagenorhynchus australis &
+\tiny Schiavini et al.~(1997) & \tiny
+\url{https://www.vliz.be/imisdocs/publications/232079.pdf} \\
+\tiny 170 & \tiny Salp & \tiny Lagenorhynchus australis &
+\tiny Schiavini et al.~(1997) & \tiny
+\url{https://www.vliz.be/imisdocs/publications/232079.pdf} \\
+\tiny 171 & \tiny Zoarcidae & \tiny Lagenorhynchus australis &
+\tiny Schiavini et al.~(1997) & \tiny
+\url{https://www.vliz.be/imisdocs/publications/232079.pdf} \\
+\tiny 172 & \tiny Bivalvia & \tiny Larus dominicanus & \tiny Gordillo et
+al.~(2020) & \tiny
+\url{https://www.cambridge.org/core/journals/journal-of-the-marine-biological-association-of-the-united-kingdom/article/abs/naticid-drilling-predation-from-tidal-flats-in-northern-patagonia-sw-atlantic/3EB5A0897064DF2E2381CE9844F5F348} \\
+\tiny 173 & \tiny Gastropoda & \tiny Larus dominicanus & \tiny Hockey
+(1988) & \tiny \url{https://doi.org/10.1007/BF00379614} \\
+\tiny 174 & \tiny Mytilus sp. & \tiny Larus dominicanus & \tiny Andrade
+(pers. comm.) & \tiny \\
+\tiny 175 & \tiny Bassanago sp. & \tiny Lithodes santolla &
+\tiny Andrade et al.~(2022) & \tiny
+\url{https://www.mdpi.com/1424-2818/14/1/67} \\
+\tiny 176 & \tiny Bivalvia & \tiny Lithodes santolla & \tiny Andrade et
+al.~(2022) & \tiny \url{https://www.mdpi.com/1424-2818/14/1/64} \\
+\tiny 177 & \tiny Brown algae & \tiny Lithodes santolla & \tiny Andrade
+et al.~(2022) & \tiny \url{https://www.mdpi.com/1424-2818/14/1/56} \\
+\tiny 178 & \tiny Bryozoa & \tiny Lithodes santolla & \tiny Andrade et
+al.~(2022) & \tiny \url{https://www.mdpi.com/1424-2818/14/1/58} \\
+\tiny 179 & \tiny Cephalopoda & \tiny Lithodes santolla & \tiny Andrade
+et al.~(2022) & \tiny \url{https://www.mdpi.com/1424-2818/14/1/66} \\
+\tiny 180 & \tiny Detritus & \tiny Lithodes santolla & \tiny Andrade et
+al.~(2022) & \tiny \url{https://www.mdpi.com/1424-2818/14/1/69} \\
+\tiny 181 & \tiny Foraminifera & \tiny Lithodes santolla & \tiny Andrade
+et al.~(2022) & \tiny \url{https://www.mdpi.com/1424-2818/14/1/60} \\
+\tiny 182 & \tiny Gastropoda & \tiny Lithodes santolla & \tiny Andrade
+et al.~(2022) & \tiny \url{https://www.mdpi.com/1424-2818/14/1/65} \\
+\tiny 183 & \tiny Hydrozoa & \tiny Lithodes santolla & \tiny Andrade et
+al.~(2022) & \tiny \url{https://www.mdpi.com/1424-2818/14/1/57} \\
+\tiny 184 & \tiny Lithodes santolla & \tiny Lithodes santolla &
+\tiny Andrade et al.~(2022) & \tiny
+\url{https://www.mdpi.com/1424-2818/14/1/63} \\
+\tiny 185 & \tiny Polychaeta & \tiny Lithodes santolla & \tiny Andrade
+et al.~(2022) & \tiny \url{https://www.mdpi.com/1424-2818/14/1/61} \\
+\tiny 186 & \tiny Porifera & \tiny Lithodes santolla & \tiny Andrade et
+al.~(2022) & \tiny \url{https://www.mdpi.com/1424-2818/14/1/59} \\
+\tiny 187 & \tiny Pseudechinus magellanicus & \tiny Lithodes santolla &
+\tiny Andrade et al.~(2022) & \tiny
+\url{https://www.mdpi.com/1424-2818/14/1/62} \\
+\tiny 188 & \tiny Red algae & \tiny Lithodes santolla & \tiny Andrade et
+al.~(2022) & \tiny \\
+\tiny 189 & \tiny Sediment & \tiny Lithodes santolla & \tiny Andrade et
+al.~(2022) & \tiny \url{https://www.mdpi.com/1424-2818/14/1/68} \\
+\tiny 190 & \tiny Amphipoda & \tiny Lithodes santolla (juvenile) &
+\tiny Pardo et al.(2021) & \tiny
+\url{https://www.mdpi.com/1424-2818/13/11/556} \\
+\tiny 191 & \tiny Benthic decapoda & \tiny Lithodes santolla (juvenile)
+& \tiny Pardo et al.(2021) & \tiny
+\url{https://www.mdpi.com/1424-2818/13/11/556} \\
+\tiny 192 & \tiny Bivalvia & \tiny Lithodes santolla (juvenile) &
+\tiny Pardo et al.(2021) & \tiny
+\url{https://www.mdpi.com/1424-2818/13/11/557} \\
+\tiny 193 & \tiny Brown algae & \tiny Lithodes santolla (juvenile) &
+\tiny Pardo et al.(2021) & \tiny
+\url{https://www.mdpi.com/1424-2818/13/11/558} \\
+\tiny 194 & \tiny Foraminifera & \tiny Lithodes santolla (juvenile) &
+\tiny Pardo et al.(2021) & \tiny
+\url{https://www.mdpi.com/1424-2818/13/11/561} \\
+\tiny 195 & \tiny Green algae & \tiny Lithodes santolla (juvenile) &
+\tiny Pardo et al.(2021) & \tiny
+\url{https://www.mdpi.com/1424-2818/13/11/561} \\
+\tiny 196 & \tiny Hydrozoa & \tiny Lithodes santolla (juvenile) &
+\tiny Pardo et al.(2021) & \tiny
+\url{https://www.mdpi.com/1424-2818/13/11/560} \\
+\tiny 197 & \tiny Nacella deaurata & \tiny Lithodes santolla (juvenile)
+& \tiny Pardo et al.(2021) & \tiny
+\url{https://www.mdpi.com/1424-2818/13/11/561} \\
+\tiny 198 & \tiny Polychaeta & \tiny Lithodes santolla (juvenile) &
+\tiny Pardo et al.(2021) & \tiny
+\url{https://www.mdpi.com/1424-2818/13/11/561} \\
+\tiny 199 & \tiny Polyplacophora & \tiny Lithodes santolla (juvenile) &
+\tiny Pardo et al.(2021) & \tiny
+\url{https://www.mdpi.com/1424-2818/13/11/561} \\
+\tiny 200 & \tiny Porifera & \tiny Lithodes santolla (juvenile) &
+\tiny Pardo et al.(2021) & \tiny
+\url{https://www.mdpi.com/1424-2818/13/11/561} \\
+\tiny 201 & \tiny Pseudechinus magellanicus & \tiny Lithodes santolla
+(juvenile) & \tiny Pardo et al.(2021) & \tiny
+\url{https://www.mdpi.com/1424-2818/13/11/561} \\
+\tiny 202 & \tiny Sediment & \tiny Lithodes santolla (juvenile) &
+\tiny Pardo et al.(2021) & \tiny
+\url{https://www.mdpi.com/1424-2818/13/11/559} \\
+\tiny 208 & \tiny Brown algae & \tiny Loxechinus albus & \tiny Castilla
+(1985) & \tiny
+\url{https://www.academia.edu/download/31744106/Castilla_Moreno_1982.pdf} \\
+\tiny 209 & \tiny Harpagifer bispinis & \tiny Loxechinus albus &
+\tiny Andrade (pers. comm.) & \tiny \\
+\tiny 210 & \tiny Red algae & \tiny Loxechinus albus & \tiny Castilla
+(1985) & \tiny
+\url{https://www.academia.edu/download/31744106/Castilla_Moreno_1982.pdf} \\
+\tiny 203 & \tiny Benthic decapoda & \tiny Lutra felina & \tiny Córdova
+et al.~(2009) & \tiny
+\url{https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext} \\
+\tiny 204 & \tiny Cottoperca gobio & \tiny Lutra felina & \tiny Córdova
+et al.~(2009) & \tiny
+\url{https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext} \\
+\tiny 205 & \tiny Harpagifer bispinis & \tiny Lutra felina &
+\tiny Córdova et al.~(2009) & \tiny
+\url{https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext} \\
+\tiny 206 & \tiny Patagonotothen sp. & \tiny Lutra felina &
+\tiny Córdova et al.~(2009) & \tiny
+\url{https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext} \\
+\tiny 207 & \tiny Prolatilus jugularis & \tiny Lutra felina &
+\tiny Córdova et al.~(2009) & \tiny
+\url{https://www.scielo.cl/scielo.php?pid=S0718-19572009000200016&script=sci_arttext} \\
+\tiny 211 & \tiny Sprattus fuegensis & \tiny Macruronus magellanicus &
+\tiny Zuleta \& Rubilar (2010) & \tiny
+\url{http://docplayer.es/46981536-Impacto-del-desarrollo-de-una-pesqueria-de-sardina-austral-sprattus-fueguensis-en-aguas-interiores-de-las-regiones-x-xii.html} \\
+\tiny 212 & \tiny Benthic decapoda & \tiny Macruronus magellanicus &
+\tiny Acevedo (2013) & \tiny
+\url{https://aquadocs.org/handle/1834/6952} \\
+\tiny 213 & \tiny Brown algae & \tiny Margarella violacea & \tiny C.
+Andrade (pers. comm.) & \tiny \\
+\tiny 214 & \tiny Euphausia vallentini & \tiny Martialia hyadesii &
+\tiny Hughes (2010) & \tiny
+\url{https://figshare.utas.edu.au/articles/thesis/Determining_the_unknown_in_Southern_Ocean_squid_distribution_and_diet_of_Histeoteuthis_eltaninae_and_Martialia_hyadesi/23230271/1} \\
+\tiny 215 & \tiny Bivalvia (larvae) & \tiny Maurolicus australis
+(larvae) & \tiny Landaeta et al.~(2011) & \tiny
+\url{https://academic.oup.com/plankt/article/33/12/1813/1542048?login=false} \\
+\tiny 216 & \tiny Calanoid (copepodite) & \tiny Maurolicus australis
+(larvae) & \tiny Landaeta et al.~(2011) & \tiny
+\url{https://academic.oup.com/plankt/article/33/12/1813/1542048?login=false} \\
+\tiny 217 & \tiny Copepoda (egg) & \tiny Maurolicus australis (larvae) &
+\tiny Landaeta et al.~(2011) & \tiny
+\url{https://academic.oup.com/plankt/article/33/12/1813/1542048?login=false} \\
+\tiny 218 & \tiny Copepoda (nauplius) & \tiny Maurolicus australis
+(larvae) & \tiny Landaeta et al.~(2011) & \tiny
+\url{https://academic.oup.com/plankt/article/33/12/1813/1542048?login=false} \\
+\tiny 219 & \tiny Amphipoda & \tiny Megaptera novaeangliae & \tiny Haro
+D. (2019) & \tiny
+\url{https://repositorio.uchile.cl/handle/2250/187376} \\
+\tiny 220 & \tiny Benthic decapoda & \tiny Megaptera novaeangliae &
+\tiny Haro et al.~(2025) & \tiny
+\url{https://www.sciencedirect.com/science/article/abs/pii/S0304380024003326} \\
+\tiny 221 & \tiny Euphausia lucens & \tiny Megaptera novaeangliae &
+\tiny Haro D. (2019) & \tiny
+\url{https://repositorio.uchile.cl/handle/2250/187376} \\
+\tiny 222 & \tiny Euphausia vallentini & \tiny Megaptera novaeangliae &
+\tiny Haro D. (2019) & \tiny
+\url{https://repositorio.uchile.cl/handle/2250/187376} \\
+\tiny 223 & \tiny Sprattus fuegensis & \tiny Megaptera novaeangliae &
+\tiny Haro et al.~(2025) & \tiny
+\url{https://www.sciencedirect.com/science/article/abs/pii/S0304380024003326} \\
+\tiny 224 & \tiny Sprattus fuegensis & \tiny Merluccius australis &
+\tiny Zuleta \& Rubilar (2010) & \tiny
+\url{http://docplayer.es/46981536-Impacto-del-desarrollo-de-una-pesqueria-de-sardina-austral-sprattus-fueguensis-en-aguas-interiores-de-las-regiones-x-xii.html} \\
+\tiny 225 & \tiny Benthic decapoda & \tiny Merluccius sp. &
+\tiny Cubillos et al.~(2003) & \tiny
+\url{https://www.researchgate.net/profile/Aldo-Hernandez-22/publication/283868315_Prey_composition_and_estimation_of_QB_for_the_Chilean_hake_Merluccius_gayi_Gadiformes_Merluccidae_in_the_central-south_area_off_Chile_34_-_40S/links/56fa6ded08ae95e8b6d4a2dc/Prey-composition-and-estimation-of-Q-B-for-the-Chilean-hake-Merluccius-gayi-Gadiformes-Merluccidae-in-the-central-south-area-off-Chile-34-40S.pdf} \\
+\tiny 226 & \tiny Bryozoa & \tiny Merluccius sp. & \tiny Alonso et
+al.~(2019) & \tiny
+\url{https://www.sciencedirect.com/science/article/abs/pii/S2352485518304250} \\
+\tiny 227 & \tiny Doryteuthis gahi & \tiny Merluccius sp. &
+\tiny Cubillos et al.~(2003) & \tiny
+\url{https://www.researchgate.net/profile/Aldo-Hernandez-22/publication/283868315_Prey_composition_and_estimation_of_QB_for_the_Chilean_hake_Merluccius_gayi_Gadiformes_Merluccidae_in_the_central-south_area_off_Chile_34_-_40S/links/56fa6ded08ae95e8b6d4a2dc/Prey-composition-and-estimation-of-Q-B-for-the-Chilean-hake-Merluccius-gayi-Gadiformes-Merluccidae-in-the-central-south-area-off-Chile-34-40S.pdf} \\
+\tiny 228 & \tiny Macruronus magellanicus & \tiny Merluccius sp. &
+\tiny Cubillos et al.~(2003) & \tiny
+\url{https://www.researchgate.net/profile/Aldo-Hernandez-22/publication/283868315_Prey_composition_and_estimation_of_QB_for_the_Chilean_hake_Merluccius_gayi_Gadiformes_Merluccidae_in_the_central-south_area_off_Chile_34_-_40S/links/56fa6ded08ae95e8b6d4a2dc/Prey-composition-and-estimation-of-Q-B-for-the-Chilean-hake-Merluccius-gayi-Gadiformes-Merluccidae-in-the-central-south-area-off-Chile-34-40S.pdf} \\
+\tiny 229 & \tiny Myctophidae & \tiny Merluccius sp. & \tiny Cubillos et
+al.~(2003) & \tiny
+\url{https://www.researchgate.net/profile/Aldo-Hernandez-22/publication/283868315_Prey_composition_and_estimation_of_QB_for_the_Chilean_hake_Merluccius_gayi_Gadiformes_Merluccidae_in_the_central-south_area_off_Chile_34_-_40S/links/56fa6ded08ae95e8b6d4a2dc/Prey-composition-and-estimation-of-Q-B-for-the-Chilean-hake-Merluccius-gayi-Gadiformes-Merluccidae-in-the-central-south-area-off-Chile-34-40S.pdf} \\
+\tiny 230 & \tiny Pseudechinus magellanicus & \tiny Merluccius sp. &
+\tiny Alonso et al.~(2019) & \tiny
+\url{https://www.sciencedirect.com/science/article/abs/pii/S2352485518304250} \\
+\tiny 236 & \tiny Odontesthes sp. & \tiny Mustelus mento & \tiny Vargas
+et al.~(1999) & \tiny
+\url{https://www.scielo.sa.cr/scielo.php?script=sci_arttext&pid=S0034-77441999000300034} \\
+\tiny 237 & \tiny Pagurus sp. & \tiny Mustelus mento & \tiny Silva-Garay
+et al. (2018) & \tiny
+\url{https://link.springer.com/article/10.1007/s10641-018-0797-0} \\
+\tiny 238 & \tiny Copepoda & \tiny Myctophidae & \tiny Hopkins \&
+Gartner (1992) & \tiny
+\url{https://link.springer.com/article/10.1007/BF00349518} \\
+\tiny 239 & \tiny Phytoplankton & \tiny Mytilus sp. & \tiny Mutschke et
+al.~(1998) & \tiny
+\url{https://www.researchgate.net/publication/234585529_Situacion_actual_de_la_macrofauna_presente_en_el_intermareal_de_bloques_y_cantos_de_Bahia_Laredo_Estrecho_de_Magallanes} \\
+\tiny 240 & \tiny Zooplankton & \tiny Mytilus sp. & \tiny Mutschke et
+al.~(1998) & \tiny
+\url{https://www.researchgate.net/publication/234585529_Situacion_actual_de_la_macrofauna_presente_en_el_intermareal_de_bloques_y_cantos_de_Bahia_Laredo_Estrecho_de_Magallanes} \\
+\tiny 241 & \tiny Detritus & \tiny Myxine australis & \tiny GloBI &
+\tiny
+\url{https://www.globalbioticinteractions.org/browse/?interactionType=interactsWith&resultType=json&sourceTaxon=Myxine} \\
+\tiny 242 & \tiny Amphipoda & \tiny Nacella deaurata & \tiny Rosenfeld
+et al.~(2018) & \tiny
+\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/} \\
+\tiny 243 & \tiny Benthic diatom & \tiny Nacella deaurata &
+\tiny Rosenfeld et al.~(2018) & \tiny
+\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/} \\
+\tiny 244 & \tiny Bivalvia & \tiny Nacella deaurata & \tiny Andrade \&
+Brey (2014) & \tiny
+\url{https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en} \\
+\tiny 245 & \tiny Brown algae & \tiny Nacella deaurata & \tiny Rosenfeld
+et al.~(2018) & \tiny
+\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/} \\
+\tiny 246 & \tiny Chironomidae & \tiny Nacella deaurata &
+\tiny Rosenfeld et al.~(2018) & \tiny
+\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/} \\
+\tiny 247 & \tiny Cirripedia & \tiny Nacella deaurata & \tiny Rosenfeld
+et al.~(2018) & \tiny
+\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/} \\
+\tiny 248 & \tiny Cyanobacteria & \tiny Nacella deaurata &
+\tiny Rosenfeld et al.~(2018) & \tiny
+\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/} \\
+\tiny 249 & \tiny Detritus & \tiny Nacella deaurata & \tiny Rosenfeld et
+al.~(2018) & \tiny
+\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/} \\
+\tiny 250 & \tiny Foraminifera & \tiny Nacella deaurata & \tiny Andrade
+\& Brey (2014) & \tiny
+\url{https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en} \\
+\tiny 251 & \tiny Gastropoda & \tiny Nacella deaurata & \tiny Rosenfeld
+et al.~(2018) & \tiny
+\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/} \\
+\tiny 252 & \tiny Green algae & \tiny Nacella deaurata & \tiny Andrade
+\& Brey (2014) & \tiny
+\url{https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en} \\
+\tiny 253 & \tiny Margarella violacea & \tiny Nacella deaurata &
+\tiny Rosenfeld et al.~(2018) & \tiny
+\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/} \\
+\tiny 254 & \tiny Mytilus sp. & \tiny Nacella deaurata & \tiny Rosenfeld
+et al.~(2018) & \tiny
+\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/} \\
+\tiny 255 & \tiny Ostracoda & \tiny Nacella deaurata & \tiny Rosenfeld
+et al.~(2018) & \tiny
+\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/} \\
+\tiny 256 & \tiny Plankton diatom & \tiny Nacella deaurata &
+\tiny Rosenfeld et al.~(2018) & \tiny
+\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/} \\
+\tiny 257 & \tiny Red algae & \tiny Nacella deaurata & \tiny Rosenfeld
+et al.~(2018) & \tiny
+\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/} \\
+\tiny 258 & \tiny Benthic diatom & \tiny Nacella magellanica &
+\tiny Rosenfeld et al.~(2018) & \tiny
+\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/} \\
+\tiny 259 & \tiny Bivalvia & \tiny Nacella magellanica & \tiny Andrade
+\& Brey (2014) & \tiny
+\url{https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en} \\
+\tiny 260 & \tiny Brown algae & \tiny Nacella magellanica &
+\tiny Rosenfeld et al.~(2018) & \tiny
+\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/} \\
+\tiny 261 & \tiny Chironomidae & \tiny Nacella magellanica &
+\tiny Rosenfeld et al.~(2018) & \tiny
+\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/} \\
+\tiny 262 & \tiny Cirripedia & \tiny Nacella magellanica &
+\tiny Rosenfeld et al.~(2018) & \tiny
+\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/} \\
+\tiny 263 & \tiny Cyanobacteria & \tiny Nacella magellanica &
+\tiny Rosenfeld et al.~(2018) & \tiny
+\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/} \\
+\tiny 264 & \tiny Detritus & \tiny Nacella magellanica & \tiny Rosenfeld
+et al.~(2018) & \tiny
+\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/} \\
+\tiny 265 & \tiny Foraminifera & \tiny Nacella magellanica &
+\tiny Andrade \& Brey (2014) & \tiny
+\url{https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en} \\
+\tiny 266 & \tiny Gastropoda & \tiny Nacella magellanica &
+\tiny Rosenfeld et al.~(2018) & \tiny
+\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/} \\
+\tiny 267 & \tiny Green algae & \tiny Nacella magellanica &
+\tiny Andrade \& Brey (2014) & \tiny
+\url{https://www.scielo.cl/scielo.php?pid=S0718-686X2014000200006&script=sci_abstract&tlng=en} \\
+\tiny 268 & \tiny Margarella violacea & \tiny Nacella magellanica &
+\tiny Rosenfeld et al.~(2018) & \tiny
+\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/} \\
+\tiny 269 & \tiny Mytilus sp. & \tiny Nacella magellanica &
+\tiny Rosenfeld et al.~(2018) & \tiny
+\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/} \\
+\tiny 270 & \tiny Notochthamalus scabrosus & \tiny Nacella magellanica &
+\tiny Rosenfeld et al.~(2018) & \tiny
+\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/} \\
+\tiny 271 & \tiny Ostracoda & \tiny Nacella magellanica &
+\tiny Rosenfeld et al.~(2018) & \tiny
+\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/} \\
+\tiny 272 & \tiny Phytoplankton & \tiny Nacella magellanica &
+\tiny Rosenfeld et al.~(2018) & \tiny
+\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/} \\
+\tiny 273 & \tiny Plankton diatom & \tiny Nacella magellanica &
+\tiny Rosenfeld et al.~(2018) & \tiny
+\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/} \\
+\tiny 274 & \tiny Red algae & \tiny Nacella magellanica &
+\tiny Rosenfeld et al.~(2018) & \tiny
+\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904503/} \\
+\tiny 275 & \tiny Brown algae & \tiny Nacella mytilina & \tiny Andrade
+(pers. comm.) & \tiny \\
+\tiny 276 & \tiny Phytodetritus & \tiny Nacella mytilina & \tiny Andrade
+(pers. comm.) & \tiny \\
+\tiny 277 & \tiny Phytoplankton & \tiny Nacella mytilina &
+\tiny Mutschke et al.~(1998) & \tiny
+\url{https://www.researchgate.net/publication/234585529_Situacion_actual_de_la_macrofauna_presente_en_el_intermareal_de_bloques_y_cantos_de_Bahia_Laredo_Estrecho_de_Magallanes} \\
+\tiny 278 & \tiny Phytoplankton & \tiny Notochthamalus scabrosus &
+\tiny Andrade (pers. comm.) & \tiny \\
+\tiny 279 & \tiny Amphipoda & \tiny Odontesthes sp. & \tiny Antezana
+(pers. comm) & \tiny \\
+\tiny 280 & \tiny Bivalvia & \tiny Odontesthes sp. & \tiny Gordillo et
+al.~(2020) & \tiny
+\url{https://www.cambridge.org/core/journals/journal-of-the-marine-biological-association-of-the-united-kingdom/article/abs/naticid-drilling-predation-from-tidal-flats-in-northern-patagonia-sw-atlantic/3EB5A0897064DF2E2381CE9844F5F348} \\
+\tiny 281 & \tiny Benthic decapoda & \tiny Oncorhynchus sp. & \tiny Hüne
+et al.~(2018) & \tiny
+\url{https://polarresearch.net/index.php/polar/article/view/2632/6024} \\
+\tiny 282 & \tiny Phytodetritus & \tiny Ophiactis asperula &
+\tiny Rivera (pers. Comm) & \tiny \\
+\tiny 283 & \tiny Benthic decapoda & \tiny Ophiuroglypha lymani &
+\tiny Dahm (1999) & \tiny
+\url{https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/973} \\
+\tiny 284 & \tiny Bivalvia & \tiny Ophiuroglypha lymani & \tiny Dahm
+(1999) & \tiny
+\url{https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/978} \\
+\tiny 285 & \tiny Brown algae & \tiny Ophiuroglypha lymani & \tiny Dahm
+(1999) & \tiny
+\url{https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/977} \\
+\tiny 286 & \tiny Bryozoa & \tiny Ophiuroglypha lymani & \tiny Dahm
+(1999) & \tiny
+\url{https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/979} \\
+\tiny 287 & \tiny Detritus & \tiny Ophiuroglypha lymani & \tiny Dahm
+(1999) & \tiny
+\url{https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/974} \\
+\tiny 288 & \tiny Phytodetritus & \tiny Ophiuroglypha lymani &
+\tiny Dahm (1999) & \tiny
+\url{https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/972} \\
+\tiny 289 & \tiny Sediment & \tiny Ophiuroglypha lymani & \tiny Dahm
+(1999) & \tiny
+\url{https://scientiamarina.revistas.csic.es/index.php/scientiamarina/article/view/930/976} \\
+\tiny 290 & \tiny Dissostichus eleginoides & \tiny Orcinus orca &
+\tiny Capella et al.~(2014) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-014-1535-5} \\
+\tiny 291 & \tiny Otaria byronia & \tiny Orcinus orca & \tiny Capella et
+al.~(1999) & \tiny
+\url{http://bibliotecadigital.umag.cl/handle/20.500.11893/1444} \\
+\tiny 292 & \tiny Tachyeres pteneres & \tiny Orcinus orca &
+\tiny Capella et al.~(1999) & \tiny
+\url{http://bibliotecadigital.umag.cl/handle/20.500.11893/1445} \\
+\tiny 293 & \tiny Detritus & \tiny Ostracoda & \tiny Cañete (pers.
+comm.) & \tiny \\
+\tiny 294 & \tiny Phytoplankton & \tiny Ostracoda & \tiny Cañete (pers.
+comm.) & \tiny \\
+\tiny 295 & \tiny Zooplankton & \tiny Ostracoda & \tiny Cañete (pers.
+comm.) & \tiny \\
+\tiny 296 & \tiny Benthic decapoda & \tiny Otaria byronia &
+\tiny Sepúlveda et al.~(2016) & \tiny
+\url{https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12379} \\
+\tiny 297 & \tiny Callorhinchus callorynchus & \tiny Otaria byronia &
+\tiny Sepúlveda et al.~(2016) & \tiny
+\url{https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12393} \\
+\tiny 298 & \tiny Cilus gilberti & \tiny Otaria byronia &
+\tiny Sepúlveda et al.~(2016) & \tiny
+\url{https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12391} \\
+\tiny 299 & \tiny Eleginops maclovinus & \tiny Otaria byronia &
+\tiny Sepúlveda et al.~(2016) & \tiny
+\url{https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12383} \\
+\tiny 300 & \tiny Genypterus blacodes & \tiny Otaria byronia &
+\tiny Sepúlveda et al.~(2016) & \tiny
+\url{https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12392} \\
+\tiny 301 & \tiny Merluccius australis & \tiny Otaria byronia &
+\tiny Sepúlveda et al.~(2016) & \tiny
+\url{https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12390} \\
+\tiny 302 & \tiny Mustelus mento & \tiny Otaria byronia &
+\tiny Sepúlveda et al.~(2016) & \tiny
+\url{https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12384} \\
+\tiny 303 & \tiny Odontesthes sp. & \tiny Otaria byronia &
+\tiny Sepúlveda et al.~(2016) & \tiny
+\url{https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12387} \\
+\tiny 304 & \tiny Oncorhynchus sp. & \tiny Otaria byronia &
+\tiny Sepúlveda et al.~(2016) & \tiny
+\url{https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12381} \\
+\tiny 305 & \tiny Paralabrax humeralis & \tiny Otaria byronia &
+\tiny Sepúlveda et al.~(2016) & \tiny
+\url{https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12386} \\
+\tiny 306 & \tiny Pinguipes chilensis & \tiny Otaria byronia &
+\tiny Sepúlveda et al.~(2016) & \tiny
+\url{https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12394} \\
+\tiny 307 & \tiny Salmo salar & \tiny Otaria byronia & \tiny Sepúlveda
+et al.~(2016) & \tiny
+\url{https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12382} \\
+\tiny 308 & \tiny Sprattus fuegensis & \tiny Otaria byronia &
+\tiny Sepúlveda et al.~(2016) & \tiny
+\url{https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12388} \\
+\tiny 309 & \tiny Thyrsites atun & \tiny Otaria byronia &
+\tiny Sepúlveda et al.~(2016) & \tiny
+\url{https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12385} \\
+\tiny 310 & \tiny Trachurus murphyi & \tiny Otaria byronia &
+\tiny Sepúlveda et al.~(2016) & \tiny
+\url{https://onlinelibrary.wiley.com/doi/full/10.1111/mms.12389} \\
+\tiny 311 & \tiny Detritus & \tiny Pagurus sp. & \tiny C. Andrade (pers.
+comm.) & \tiny \\
+\tiny 312 & \tiny Plankton diatom & \tiny Paracalanus indicus &
+\tiny Aguilera et al.~(2011) & \tiny
+\url{https://www.tandfonline.com/doi/abs/10.1080/17451000.2010.499437} \\
+\tiny 313 & \tiny Detritus & \tiny Paraeuthria fuscata & \tiny Andrade C
+(2009) & \tiny \\
+\tiny 314 & \tiny Amphipoda & \tiny Paralomis granulosa & \tiny Andrade
+(pers. comm.) & \tiny \\
+\tiny 315 & \tiny Brown algae & \tiny Paralomis granulosa &
+\tiny Andrade (pers. comm.) & \tiny \\
+\tiny 316 & \tiny Bryozoa & \tiny Paralomis granulosa & \tiny Andrade
+(pers. comm.) & \tiny \\
+\tiny 317 & \tiny Detritus & \tiny Paralomis granulosa & \tiny Andrade
+(pers. comm.) & \tiny \\
+\tiny 318 & \tiny Enteroctopus megalocyathus & \tiny Paralomis granulosa
+& \tiny Andrade (pers. comm.) & \tiny \\
+\tiny 319 & \tiny Foraminifera & \tiny Paralomis granulosa &
+\tiny Andrade (pers. comm.) & \tiny \\
+\tiny 320 & \tiny Gastropoda & \tiny Paralomis granulosa & \tiny Cañete
+et al.~(2021) & \tiny
+\url{https://www.scielo.br/j/nau/a/DwGRczmMrxWjByhxjy8GHhD/} \\
+\tiny 321 & \tiny Hydrozoa & \tiny Paralomis granulosa & \tiny Andrade
+(pers. comm.) & \tiny \\
+\tiny 322 & \tiny Mytilus sp. & \tiny Paralomis granulosa &
+\tiny Andrade (pers. comm.) & \tiny \\
+\tiny 323 & \tiny Polychaeta & \tiny Paralomis granulosa & \tiny Andrade
+(pers. comm.) & \tiny \\
+\tiny 324 & \tiny Porifera & \tiny Paralomis granulosa & \tiny Andrade
+(pers. comm.) & \tiny \\
+\tiny 325 & \tiny Pseudechinus magellanicus & \tiny Paralomis granulosa
+& \tiny Andrade (pers. comm.) & \tiny \\
+\tiny 326 & \tiny Red algae & \tiny Paralomis granulosa & \tiny Andrade
+(pers. comm.) & \tiny \\
+\tiny 327 & \tiny Benthic decapoda & \tiny Patagonotothen cornucola &
+\tiny Hüne et al.~(2018) & \tiny
+\url{https://polarresearch.net/index.php/polar/article/view/2632/6022} \\
+\tiny 328 & \tiny Exosphaeroma gigas & \tiny Patagonotothen cornucola &
+\tiny Hüne \& Vega (2016) & \tiny \\
+\tiny 329 & \tiny Amphipoda & \tiny Patagonotothen sima & \tiny Reyes \&
+Hüne (2012) & \tiny
+\url{https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile} \\
+\tiny 330 & \tiny Benthic decapoda & \tiny Patagonotothen sima &
+\tiny Reyes \& Hüne (2012) & \tiny
+\url{https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile} \\
+\tiny 331 & \tiny Copepoda & \tiny Patagonotothen sima & \tiny Reyes \&
+Hüne (2012) & \tiny
+\url{https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile} \\
+\tiny 332 & \tiny Polychaeta & \tiny Patagonotothen sima & \tiny Reyes
+\& Hüne (2012) & \tiny
+\url{https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile} \\
+\tiny 333 & \tiny Benthic decapoda & \tiny Patagonotothen sp. &
+\tiny Andrade (pers. comm.) & \tiny \\
+\tiny 334 & \tiny Brown algae & \tiny Patagonotothen sp. & \tiny Andrade
+(pers. comm.) & \tiny \\
+\tiny 335 & \tiny Exosphaeroma gigas & \tiny Patagonotothen sp. &
+\tiny Andrade (pers. comm.) & \tiny \\
+\tiny 336 & \tiny Polychaeta & \tiny Patagonotothen sp. & \tiny Andrade
+(pers. comm.) & \tiny \\
+\tiny 337 & \tiny Amphipoda & \tiny Patagonotothen tessellata &
+\tiny Hüne et al.~(2018) & \tiny
+\url{https://polarresearch.net/index.php/polar/article/view/2632/6020} \\
+\tiny 338 & \tiny Benthic decapoda & \tiny Patagonotothen tessellata &
+\tiny Hüne et al.~(2018) & \tiny
+\url{https://polarresearch.net/index.php/polar/article/view/2632/6021} \\
+\tiny 339 & \tiny Chironomidae & \tiny Patagonotothen tessellata &
+\tiny Hüne \& Vega (2015) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-015-1726-13} \\
+\tiny 340 & \tiny Green algae & \tiny Patagonotothen tessellata &
+\tiny Hüne \& Vega (2015) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-015-1726-11} \\
+\tiny 341 & \tiny Ostracoda & \tiny Patagonotothen tessellata &
+\tiny Hüne \& Vega (2015) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-015-1726-10} \\
+\tiny 342 & \tiny Patagonotothen sp. & \tiny Patagonotothen tessellata &
+\tiny Hüne et al.~(2023) & \tiny
+\url{https://link.springer.com/10.1007/s10641-023-01428-8} \\
+\tiny 343 & \tiny Polychaeta & \tiny Patagonotothen tessellata &
+\tiny Hüne \& Vega (2015) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-015-1726-8} \\
+\tiny 344 & \tiny Red algae & \tiny Patagonotothen tessellata &
+\tiny Hüne \& Vega (2015) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-015-1726-12} \\
+\tiny 345 & \tiny Bivalvia (larvae) & \tiny Patagonotothen tessellata
+(larvae) & \tiny Salas-Berrios et al. (2013) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-013-1359-8} \\
+\tiny 346 & \tiny Calanoid (copepodite) & \tiny Patagonotothen
+tessellata (larvae) & \tiny Salas-Berrios et al. (2013) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-013-1359-8} \\
+\tiny 347 & \tiny Copepoda & \tiny Patagonotothen tessellata (larvae) &
+\tiny Salas-Berrios et al. (2013) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-013-1359-8} \\
+\tiny 348 & \tiny Copepoda (egg) & \tiny Patagonotothen tessellata
+(larvae) & \tiny Salas-Berrios et al. (2013) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-013-1359-8} \\
+\tiny 349 & \tiny Copepoda (nauplius) & \tiny Patagonotothen tessellata
+(larvae) & \tiny Salas-Berrios et al. (2013) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-013-1359-8} \\
+\tiny 350 & \tiny Paracalanus indicus & \tiny Patagonotothen tessellata
+(larvae) & \tiny Salas-Berrios et al. (2013) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-013-1359-8} \\
+\tiny 351 & \tiny Pluteus (larva) & \tiny Patagonotothen tessellata
+(larvae) & \tiny Salas-Berrios et al. (2013) & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-013-1359-8} \\
+\tiny 352 & \tiny Nacella deaurata & \tiny Peltarion spinulosum &
+\tiny Pardo et al.~(2022) & \tiny
+\url{https://link.springer.com/article/10.1007/s10530-022-02806-6} \\
+\tiny 353 & \tiny Phytoplankton & \tiny Perumytilus purpuratus &
+\tiny Catalán et al.~(2021) & \tiny
+\url{https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/1365-2656.13455} \\
+\tiny 354 & \tiny Zooplankton & \tiny Perumytilus purpuratus &
+\tiny Catalán et al.~(2021) & \tiny
+\url{https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/1365-2656.13455} \\
+\tiny 355 & \tiny Amphipoda & \tiny Pinguipes chilensis & \tiny González
+\& Oyarzún (2003) & \tiny
+\url{https://onlinelibrary.wiley.com/doi/full/10.1111/j.1439-0426.2003.00444.x?casa_token=AbNjCPTg-P4AAAAA\%3Az5Ua1HLrjp6Mfb0bulTPDtXlWtmLhPMnmq2lvzYFAPRzFWIdJhpKCdBHjuCJWJBQMdHupNJmU_fDt6A} \\
+\tiny 356 & \tiny Aulacomya atra & \tiny Pinguipes chilensis &
+\tiny González \& Oyarzún (2003) & \tiny
+\url{https://onlinelibrary.wiley.com/doi/full/10.1111/j.1439-0426.2003.00444.x?casa_token=AbNjCPTg-P4AAAAA\%3Az5Ua1HLrjp6Mfb0bulTPDtXlWtmLhPMnmq2lvzYFAPRzFWIdJhpKCdBHjuCJWJBQMdHupNJmU_fDt6A} \\
+\tiny 357 & \tiny Doryteuthis gahi & \tiny Pinguipes chilensis &
+\tiny González \& Oyarzún (2003) & \tiny
+\url{https://onlinelibrary.wiley.com/doi/full/10.1111/j.1439-0426.2003.00444.x?casa_token=AbNjCPTg-P4AAAAA\%3Az5Ua1HLrjp6Mfb0bulTPDtXlWtmLhPMnmq2lvzYFAPRzFWIdJhpKCdBHjuCJWJBQMdHupNJmU_fDt6A} \\
+\tiny 358 & \tiny Odontesthes sp. & \tiny Pinguipes chilensis &
+\tiny González \& Oyarzún (2003) & \tiny
+\url{https://onlinelibrary.wiley.com/doi/full/10.1111/j.1439-0426.2003.00444.x?casa_token=AbNjCPTg-P4AAAAA\%3Az5Ua1HLrjp6Mfb0bulTPDtXlWtmLhPMnmq2lvzYFAPRzFWIdJhpKCdBHjuCJWJBQMdHupNJmU_fDt6A} \\
+\tiny 359 & \tiny Pagurus sp. & \tiny Pinguipes chilensis &
+\tiny González \& Oyarzún (2003) & \tiny
+\url{https://onlinelibrary.wiley.com/doi/full/10.1111/j.1439-0426.2003.00444.x?casa_token=AbNjCPTg-P4AAAAA\%3Az5Ua1HLrjp6Mfb0bulTPDtXlWtmLhPMnmq2lvzYFAPRzFWIdJhpKCdBHjuCJWJBQMdHupNJmU_fDt6A} \\
+\tiny 360 & \tiny Polychaeta & \tiny Pinguipes chilensis &
+\tiny González \& Oyarzún (2003) & \tiny
+\url{https://onlinelibrary.wiley.com/doi/full/10.1111/j.1439-0426.2003.00444.x?casa_token=AbNjCPTg-P4AAAAA\%3Az5Ua1HLrjp6Mfb0bulTPDtXlWtmLhPMnmq2lvzYFAPRzFWIdJhpKCdBHjuCJWJBQMdHupNJmU_fDt6A} \\
+\tiny 361 & \tiny Brown algae & \tiny Platynereis australis &
+\tiny Montiel (pers. comm.) & \tiny \\
+\tiny 362 & \tiny Detritus & \tiny Platynereis australis & \tiny Montiel
+(pers. comm.) & \tiny \\
+\tiny 363 & \tiny Benthic diatom & \tiny Plaxiphora aurata &
+\tiny Andrade (pers. comm.) & \tiny \\
+\tiny 364 & \tiny Phytodetritus & \tiny Plaxiphora aurata & \tiny C.
+Andrade (pers. comm.) & \tiny \\
+\tiny 365 & \tiny Zooplankton & \tiny Pluteus (larva) & \tiny Cañete
+(pers. comm.) & \tiny \\
+\tiny 366 & \tiny Benthic diatom & \tiny Polychaeta & \tiny Fauchald
+(1979) & \tiny
+\url{https://repository.si.edu/bitstream/handle/10088/3422/OMBARFauchald1979.pdf} \\
+\tiny 367 & \tiny Brown algae & \tiny Polychaeta & \tiny Fauchald (1979)
+& \tiny
+\url{https://repository.si.edu/bitstream/handle/10088/3422/OMBARFauchald1979.pdf} \\
+\tiny 368 & \tiny Copepoda & \tiny Polychaeta & \tiny Fauchald (1979) &
+\tiny
+\url{https://repository.si.edu/bitstream/handle/10088/3422/OMBARFauchald1979.pdf} \\
+\tiny 369 & \tiny Detritus & \tiny Polychaeta & \tiny Fauchald (1979) &
+\tiny
+\url{https://repository.si.edu/bitstream/handle/10088/3422/OMBARFauchald1979.pdf} \\
+\tiny 370 & \tiny Green algae & \tiny Polychaeta & \tiny Fauchald (1979)
+& \tiny
+\url{https://repository.si.edu/bitstream/handle/10088/3422/OMBARFauchald1979.pdf} \\
+\tiny 371 & \tiny Ostracoda & \tiny Polychaeta & \tiny Fauchald (1979) &
+\tiny
+\url{https://repository.si.edu/bitstream/handle/10088/3422/OMBARFauchald1979.pdf} \\
+\tiny 372 & \tiny Red algae & \tiny Polychaeta & \tiny Fauchald (1979) &
+\tiny
+\url{https://repository.si.edu/bitstream/handle/10088/3422/OMBARFauchald1979.pdf} \\
+\tiny 373 & \tiny Zooplankton & \tiny Polychaeta & \tiny Fauchald (1979)
+& \tiny
+\url{https://repository.si.edu/bitstream/handle/10088/3422/OMBARFauchald1979.pdf} \\
+\tiny 374 & \tiny Bryozoa & \tiny Polyplacophora & \tiny Schwabe (2009)
+& \tiny
+\url{https://www.researchgate.net/publication/261699638_Polyplacophora_-_Chitones_Quitones} \\
+\tiny 375 & \tiny Detritus & \tiny Polyplacophora & \tiny Schwabe (2009)
+& \tiny
+\url{https://www.researchgate.net/publication/261699638_Polyplacophora_-_Chitones_Quitones} \\
+\tiny 376 & \tiny Phytoplankton & \tiny Polyplacophora & \tiny Schwabe
+(2009) & \tiny
+\url{https://www.researchgate.net/publication/261699638_Polyplacophora_-_Chitones_Quitones} \\
+\tiny 377 & \tiny Zooplankton & \tiny Polyplacophora & \tiny Schwabe
+(2009) & \tiny
+\url{https://www.researchgate.net/publication/261699638_Polyplacophora_-_Chitones_Quitones} \\
+\tiny 378 & \tiny Detritus & \tiny Porifera & \tiny Willenz et
+al.~(2009) & \tiny
+\url{https://www.researchgate.net/profile/Philippe-Willenz/publication/257557891_Class_Calcarea/links/5497c3a50cf20f487d316b11/Class-Calcarea.pdf} \\
+\tiny 379 & \tiny Phytoplankton & \tiny Porifera & \tiny Willenz et
+al.~(2009) & \tiny
+\url{https://www.researchgate.net/profile/Philippe-Willenz/publication/257557891_Class_Calcarea/links/5497c3a50cf20f487d316b11/Class-Calcarea.pdf} \\
+\tiny 380 & \tiny Amphipoda & \tiny Prolatilus jugularis & \tiny Reyes
+\& Hüne (2012) & \tiny
+\url{https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile} \\
+\tiny 381 & \tiny Pagurus sp. & \tiny Prolatilus jugularis & \tiny Reyes
+\& Hüne (2012) & \tiny
+\url{https://www.researchgate.net/publication/275890486_Peces_del_Sur_de_Chile} \\
+\tiny 382 & \tiny Polychaeta & \tiny Prolatilus jugularis & \tiny Bello
+(2008) & \tiny
+\url{http://opac.pucv.cl/pucv_txt/txt-0000/UCH0448_01.pdf} \\
+\tiny 383 & \tiny Brown algae & \tiny Pseudechinus magellanicus &
+\tiny Penchaszadeh et al. (2011) & \tiny
+\url{https://www.tandfonline.com/doi/abs/10.1080/00785326.2004.10410216} \\
+\tiny 384 & \tiny Foraminifera & \tiny Pseudechinus magellanicus &
+\tiny Penchaszadeh et al. (2011) & \tiny
+\url{https://www.tandfonline.com/doi/abs/10.1080/00785326.2004.10410216} \\
+\tiny 385 & \tiny Ostracoda & \tiny Pseudechinus magellanicus &
+\tiny Penchaszadeh et al. (2011) & \tiny
+\url{https://www.tandfonline.com/doi/abs/10.1080/00785326.2004.10410216} \\
+\tiny 386 & \tiny Genypterus blacodes & \tiny Pseudorca crassidens &
+\tiny Alonso \& Pedraza (1999) & \tiny
+\url{https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1748-7692.1999.tb00838.x} \\
+\tiny 387 & \tiny Illex argentinus & \tiny Pseudorca crassidens &
+\tiny Alonso \& Pedraza (1999) & \tiny
+\url{https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1748-7692.1999.tb00838.x} \\
+\tiny 388 & \tiny Macruronus magellanicus & \tiny Pseudorca crassidens &
+\tiny Alonso \& Pedraza (1999) & \tiny
+\url{https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1748-7692.1999.tb00838.x} \\
+\tiny 389 & \tiny Martialia hyadesii & \tiny Pseudorca crassidens &
+\tiny Alonso \& Pedraza (1999) & \tiny
+\url{https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1748-7692.1999.tb00838.x} \\
+\tiny 390 & \tiny Austrolycus depressiceps & \tiny Salilota australis &
+\tiny Haro D. (2019) & \tiny
+\url{https://repositorio.uchile.cl/handle/2250/187376} \\
+\tiny 391 & \tiny Benthic decapoda & \tiny Salilota australis &
+\tiny Haro D. (2019) & \tiny
+\url{https://repositorio.uchile.cl/handle/2250/187376} \\
+\tiny 392 & \tiny Merluccius sp. & \tiny Salilota australis &
+\tiny Jimena Torres pers. comm & \tiny \\
+\tiny 393 & \tiny Patagonotothen cornucola & \tiny Salilota australis &
+\tiny Haro D. (2019) & \tiny
+\url{https://repositorio.uchile.cl/handle/2250/187376} \\
+\tiny 394 & \tiny Patagonotothen sp. & \tiny Salilota australis &
+\tiny Jimena Torres pers. comm & \tiny \\
+\tiny 395 & \tiny Amphipoda & \tiny Salmo salar & \tiny Soto et
+al.~(2001) & \tiny
+\url{https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/1051-0761\%282001\%29011\%5B1750\%3AESITIS\%5D2.0.CO\%3B2?casa_token=TDoh8tCi2eIAAAAA\%3A7ZcavXsn4BEGEZEFHNSW3mE4QSVijx-U3ciIVTnnVuD-7e4TSDmKR_NhtXDRuQPUmuiiHLWIk80f9Bc} \\
+\tiny 396 & \tiny Merluccius sp. & \tiny Salmo salar & \tiny Soto et
+al.~(2001) & \tiny
+\url{https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/1051-0761\%282001\%29011\%5B1750\%3AESITIS\%5D2.0.CO\%3B2?casa_token=TDoh8tCi2eIAAAAA\%3A7ZcavXsn4BEGEZEFHNSW3mE4QSVijx-U3ciIVTnnVuD-7e4TSDmKR_NhtXDRuQPUmuiiHLWIk80f9Bc} \\
+\tiny 397 & \tiny Odontesthes sp. & \tiny Salmo salar & \tiny Antezana
+(pers. comm) & \tiny \\
+\tiny 398 & \tiny Copepoda & \tiny Salp & \tiny González et al.~(2000) &
+\tiny \url{https://www.int-res.com/abstracts/meps/v195/p201-220/} \\
+\tiny 399 & \tiny Nanoflagellates & \tiny Salp & \tiny Vargas \& Madis
+(2004) & \tiny
+\url{https://academic.oup.com/plankt/article/26/7/827/1514027?login=false} \\
+\tiny 400 & \tiny Phytoplankton & \tiny Salp & \tiny Cañete (pers.
+comm.) & \tiny \\
+\tiny 401 & \tiny Brown algae & \tiny Siphonaria lessonii & \tiny Ríos
+\& Gerdes (1997) & \tiny \url{https://epic.awi.de/id/eprint/5233/} \\
+\tiny 402 & \tiny Phytodetritus & \tiny Siphonaria lessonii &
+\tiny Andrade (pers. comm.) & \tiny \\
+\tiny 403 & \tiny Benthic decapoda & \tiny Spheniscus magellanicus &
+\tiny Venegas \& Sielfeld (1981) & \tiny VENEGAS, C. \& W. SIELFELD.
+1981. Utilización de aves como indicadoras de presencia y potencialidad
+de recursos marinos eventualmente manejables. Resumen. P. 83, in
+Jornadas de Ciencias del Mar. Valdivia, Chile. \\
+\tiny 404 & \tiny Cephalopoda & \tiny Spheniscus magellanicus &
+\tiny Boswall \& MacIver (1975) & \tiny Boswall, J. and D. MacIver 1975
+The Magellanic Penguin Spheniscus magellanicus. In Stonehouse, B. (ed.),
+The Biology of Penguins. University Park Press, Baltimore, USA
+271-305. \\
+\tiny 405 & \tiny Doryteuthis gahi & \tiny Spheniscus magellanicus &
+\tiny Almonacid (2018) & \tiny
+\url{http://www.aveschile.cl/wp-content/uploads/2019/01/2_Almonacid_Vol.24-1-2018-RChO_dieta-pinguinos.pdf} \\
+\tiny 406 & \tiny Patagonotothen sp. & \tiny Spheniscus magellanicus &
+\tiny Almonacid (2018) & \tiny
+\url{http://www.aveschile.cl/wp-content/uploads/2019/01/2_Almonacid_Vol.24-1-2018-RChO_dieta-pinguinos.pdf} \\
+\tiny 407 & \tiny Ramnogaster arcuata & \tiny Spheniscus magellanicus &
+\tiny Venegas \& Sielfeld (1981) & \tiny VENEGAS, C. \& W. SIELFELD.
+1981. Utilización de aves como indicadoras de presencia y potencialidad
+de recursos marinos eventualmente manejables. Resumen. P. 83, in
+Jornadas de Ciencias del Mar. Valdivia, Chile. \\
+\tiny 408 & \tiny Sprattus fuegensis & \tiny Spheniscus magellanicus &
+\tiny Almonacid (2018) & \tiny
+\url{http://www.aveschile.cl/wp-content/uploads/2019/01/2_Almonacid_Vol.24-1-2018-RChO_dieta-pinguinos.pdf} \\
+\tiny 409 & \tiny Amphipoda & \tiny Sprattus fuegensis & \tiny Haro D.
+(2019) & \tiny \url{https://repositorio.uchile.cl/handle/2250/187376} \\
+\tiny 410 & \tiny Copepoda & \tiny Sprattus fuegensis & \tiny Haro D.
+(2019) & \tiny \url{https://repositorio.uchile.cl/handle/2250/187376} \\
+\tiny 411 & \tiny Isopoda & \tiny Sprattus fuegensis & \tiny Montecinos
+(2015) & \tiny
+\url{http://repositorio.udec.cl/jspui/bitstream/11594/1828/1/Tesis_Composicion_dietaria_de_Sprattus.Marked.pdf} \\
+\tiny 412 & \tiny Plankton diatom & \tiny Sprattus fuegensis &
+\tiny Montecinos (2015) & \tiny
+\url{http://repositorio.udec.cl/jspui/bitstream/11594/1828/1/Tesis_Composicion_dietaria_de_Sprattus.Marked.pdf} \\
+\tiny 413 & \tiny Ramnogaster arcuata & \tiny Stercorarius chilensis &
+\tiny Sepúlveda (2016) & \tiny
+\url{https://repositorio.unab.cl/xmlui/handle/ria/9936} \\
+\tiny 414 & \tiny Sprattus fuegensis & \tiny Stercorarius chilensis &
+\tiny Sepúlveda (2016) & \tiny
+\url{https://repositorio.unab.cl/xmlui/handle/ria/9936} \\
+\tiny 415 & \tiny Benthic decapoda & \tiny Tachyeres pteneres &
+\tiny Andrade (pers. comm.) & \tiny \\
+\tiny 416 & \tiny Detritus & \tiny Tanaidae & \tiny Thiel \& Hinojosa
+(2009) & \tiny Thiel, M., \& Hinojosa, I. (2009). Peracarida--amphipods,
+isopods, tanaidaceans \& cumaceans. Mar.~Benthic Fauna Chil. Patagon,
+671, 718. \\
+\tiny 417 & \tiny Phytoplankton & \tiny Tanaidae & \tiny Thiel \&
+Hinojosa (2009) & \tiny Thiel, M., \& Hinojosa, I. (2009).
+Peracarida--amphipods, isopods, tanaidaceans \& cumaceans. Mar.~Benthic
+Fauna Chil. Patagon, 671, 718. \\
+\tiny 418 & \tiny Zooplankton & \tiny Tanaidae & \tiny Thiel \& Hinojosa
+(2009) & \tiny Thiel, M., \& Hinojosa, I. (2009). Peracarida--amphipods,
+isopods, tanaidaceans \& cumaceans. Mar.~Benthic Fauna Chil. Patagon,
+671, 718. \\
+\tiny 419 & \tiny Brown algae & \tiny Tegula atra & \tiny Pinochet et
+al.~(2018) & \tiny
+\url{https://www.scielo.cl/scielo.php?pid=S0718-686X2018000300051&script=sci_arttext&tlng=pt} \\
+\tiny 420 & \tiny Green algae & \tiny Tegula atra & \tiny Pinochet et
+al.~(2018) & \tiny
+\url{https://www.scielo.cl/scielo.php?pid=S0718-686X2018000300051&script=sci_arttext&tlng=pt} \\
+\tiny 421 & \tiny Red algae & \tiny Tegula atra & \tiny Pinochet et
+al.~(2018) & \tiny
+\url{https://www.scielo.cl/scielo.php?pid=S0718-686X2018000300051&script=sci_arttext&tlng=pt} \\
+\tiny 422 & \tiny Copepoda & \tiny Themisto gaudichaudii &
+\tiny Pakhomov \& Perissinotto (1996) & \tiny
+\url{https://www.int-res.com/articles/meps/134/m134p091.pdf} \\
+\tiny 423 & \tiny Doryteuthis gahi & \tiny Thyrsites atun &
+\tiny Carimán \& Reyes (2019) & \tiny
+\url{https://www.scielo.cl/scielo.php?pid=S0718-19572019000100011&script=sci_arttext&tlng=en} \\
+\tiny 424 & \tiny Odontesthes sp. & \tiny Thyrsites atun & \tiny Carimán
+\& Reyes (2019) & \tiny
+\url{https://www.scielo.cl/scielo.php?pid=S0718-19572019000100011&script=sci_arttext&tlng=en} \\
+\tiny 425 & \tiny Sprattus fuegensis & \tiny Thyrsites atun &
+\tiny Carimán \& Reyes (2019) & \tiny
+\url{https://www.scielo.cl/scielo.php?pid=S0718-19572019000100011&script=sci_arttext&tlng=en} \\
+\tiny 426 & \tiny Copepoda & \tiny Trachurus murphyi & \tiny Medina \&
+Arancibia (2002) & \tiny
+\url{https://www.scielo.cl/scielo.php?pid=S0717-71782002000100003&script=sci_arttext} \\
+\tiny 427 & \tiny Crustacea & \tiny Trachurus murphyi & \tiny Medina \&
+Arancibia (2002) & \tiny
+\url{https://www.scielo.cl/scielo.php?pid=S0717-71782002000100003&script=sci_arttext} \\
+\tiny 428 & \tiny Myctophidae & \tiny Trachurus murphyi & \tiny Medina
+\& Arancibia (2002) & \tiny
+\url{https://www.scielo.cl/scielo.php?pid=S0717-71782002000100003&script=sci_arttext} \\
+\tiny 429 & \tiny Ostracoda & \tiny Trachurus murphyi & \tiny Medina \&
+Arancibia (2002) & \tiny
+\url{https://www.scielo.cl/scielo.php?pid=S0717-71782002000100003&script=sci_arttext} \\
+\tiny 430 & \tiny Bivalvia & \tiny Trophon geversianus & \tiny Andrade C
+\& Ríos C (2007) & \tiny
+\url{http://analesdelinstitutodelapatagonia.cl/index.php/analespatagonia/article/view/388} \\
+\tiny 431 & \tiny Mytilus sp. & \tiny Trophon geversianus &
+\tiny Andrade C \& Ríos C (2007) & \tiny
+\url{http://analesdelinstitutodelapatagonia.cl/index.php/analespatagonia/article/view/387} \\
+\tiny 432 & \tiny Perumytilus purpuratus & \tiny Trophon geversianus &
+\tiny Andrade C \& Ríos C (2007) & \tiny
+\url{http://analesdelinstitutodelapatagonia.cl/index.php/analespatagonia/article/view/390} \\
+\tiny 433 & \tiny Amphipoda & \tiny Zoarcidae & \tiny Schiavini et
+al.~(1997) & \tiny
+\url{https://oceanrep.geomar.de/id/eprint/53025/1/3857.pdf} \\
+\tiny 434 & \tiny Polychaeta & \tiny Zoarcidae & \tiny Schiavini et
+al.~(1997) & \tiny
+\url{https://oceanrep.geomar.de/id/eprint/53025/1/3857.pdf} \\
+\tiny 435 & \tiny Phytoplankton & \tiny Zooplankton & \tiny Andrade
+(pers. comm.) & \tiny \\
+\end{longtable}
+
+\newpage
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 18\tabcolsep) * \real{0.2302}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 18\tabcolsep) * \real{0.1439}}
+  >{\centering\arraybackslash}p{(\columnwidth - 18\tabcolsep) * \real{0.0719}}
+  >{\centering\arraybackslash}p{(\columnwidth - 18\tabcolsep) * \real{0.0719}}
+  >{\centering\arraybackslash}p{(\columnwidth - 18\tabcolsep) * \real{0.1007}}
+  >{\centering\arraybackslash}p{(\columnwidth - 18\tabcolsep) * \real{0.0863}}
+  >{\centering\arraybackslash}p{(\columnwidth - 18\tabcolsep) * \real{0.0935}}
+  >{\centering\arraybackslash}p{(\columnwidth - 18\tabcolsep) * \real{0.0504}}
+  >{\centering\arraybackslash}p{(\columnwidth - 18\tabcolsep) * \real{0.0719}}
+  >{\centering\arraybackslash}p{(\columnwidth - 18\tabcolsep) * \real{0.0791}}@{}}
+\caption{List of species, including node-level properties, for the food
+web of the Strait of Magellan. NumPrey: Number of prey; NumPred: Number
+of predators; TL: Trophic Level; TopRole: Topological role, where
+`hubcon' = network connector, `modcon' = module connector, `modhub' =
+module hub, and `modspe' = module specialist; KSI rank: Keystone Species
+Index ranking.}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Trophic species
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Group
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+NumPrey
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+NumPred
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+TotalDegree
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Closeness
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Betweeness
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+TL
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+TopRole
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+KSI rank
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Trophic species
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Group
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+NumPrey
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+NumPred
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+TotalDegree
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Closeness
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Betweeness
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+TL
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+TopRole
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+KSI rank
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Eleginops maclovinus & Teleostei & 20 & 3 & 23 & 0.0034 & 60.83 & 3.17 &
+modcon & 1 \\
+Polychaeta & Polychaeta & 8 & 13 & 21 & 0.0033 & 120.8 & 2.46 & modcon &
+2 \\
+Benthic decapoda & Decapoda & 1 & 21 & 22 & 0.0032 & 46.22 & 3.5 &
+modhub & 3 \\
+Copepoda & Copepoda & 3 & 11 & 14 & 0.0034 & 45.37 & 2.33 & modcon &
+4 \\
+Nacella deaurata & Gastropoda & 16 & 2 & 18 & 0.0032 & 40.98 & 2.64 &
+modspe & 5 \\
+Sprattus fuegensis & Teleostei & 4 & 13 & 17 & 0.003 & 98.14 & 2.83 &
+modspe & 6 \\
+Amphipoda & Amphipoda & 1 & 17 & 18 & 0.0031 & 26.35 & 2 & modspe & 7 \\
+Lithodes santolla & Decapoda & 15 & 2 & 17 & 0.003 & 29.53 & 2.83 &
+modspe & 8 \\
+Patagonotothen tessellata & Teleostei & 8 & 4 & 12 & 0.0029 & 38.62 &
+3.19 & modcon & 9 \\
+Foraminifera & Foraminifera & 3 & 9 & 12 & 0.0031 & 21.02 & 2.44 &
+modspe & 9 \\
+Ostracoda & Ostracoda & 3 & 9 & 12 & 0.0031 & 17.9 & 2.33 & modcon &
+10 \\
+Otaria byronia & Mammalia & 15 & 1 & 16 & 0.0028 & 37.05 & 4.41 & modspe
+& 11 \\
+Mytilus sp. & Bivalvia & 2 & 10 & 12 & 0.003 & 25.7 & 2.5 & modspe &
+12 \\
+Patagonotothen sp. & Teleostei & 4 & 6 & 10 & 0.0029 & 37.73 & 3.24 &
+modspe & 12 \\
+Isopoda & Isopoda & 3 & 6 & 9 & 0.0029 & 30.08 & 2 & modspe & 13 \\
+Genypterus blacodes & Teleostei & 6 & 4 & 10 & 0.0028 & 32.32 & 4.17 &
+modspe & 14 \\
+Merluccius sp. & Teleostei & 6 & 3 & 9 & 0.0027 & 45.42 & 4.43 & modspe
+& 15 \\
+Bivalvia & Bivalvia & 1 & 14 & 15 & 0.003 & 10.71 & 2 & modspe & 16 \\
+Zooplankton & Zooplankton & 1 & 16 & 17 & 0.0031 & 5.284 & 2 & modspe &
+17 \\
+Harpagifer bispinis & Teleostei & 5 & 3 & 8 & 0.0027 & 40.46 & 3.16 &
+modspe & 18 \\
+Pseudechinus magellanicus & Echinoidea & 3 & 5 & 8 & 0.0028 & 17 & 2.93
+& modspe & 19 \\
+Doryteuthis gahi & Cephalopoda & 2 & 9 & 11 & 0.0026 & 20.08 & 4.17 &
+modspe & 20 \\
+Bryozoa & Bryozoa & 2 & 6 & 8 & 0.0028 & 9.105 & 2.5 & modcon & 20 \\
+Odontesthes sp. & Teleostei & 2 & 7 & 9 & 0.0026 & 13.37 & 3 & modspe &
+21 \\
+Tanaidae & Tanaidacea & 3 & 2 & 5 & 0.0028 & 6.428 & 2.33 & modspe &
+21 \\
+Illex argentinus & Cephalopoda & 4 & 3 & 7 & 0.0027 & 11.17 & 3.62 &
+modspe & 22 \\
+Phytoplankton & Phytoplankton & 0 & 28 & 28 & 0.0032 & 0 & 1 & hubcon &
+23 \\
+Detritus & Non-living & 0 & 24 & 24 & 0.0032 & 0 & 1 & hubcon & 23 \\
+Dissostichus eleginoides & Teleostei & 6 & 1 & 7 & 0.0026 & 19.91 & 4.82
+& modspe & 23 \\
+Pinguipes chilensis & Teleostei & 6 & 1 & 7 & 0.0027 & 5.376 & 3.69 &
+modspe & 24 \\
+Patagonotothen sima & Teleostei & 4 & 1 & 5 & 0.0028 & 5.333 & 3.57 &
+modcon & 25 \\
+Exosphaeroma gigas & Isopoda & 1 & 6 & 7 & 0.0027 & 5.539 & 2 & modspe &
+26 \\
+Cephalopoda & Cephalopoda & 2 & 3 & 5 & 0.0028 & 4.333 & 3.75 & modcon &
+26 \\
+Nacella magellanica & Gastropoda & 17 & 0 & 17 & 0.0031 & 0 & 2.6 &
+modspe & 27 \\
+Grimothea gregaria & Decapoda & 5 & 1 & 6 & 0.0026 & 6.094 & 2.4 &
+modcon & 28 \\
+Cottoperca gobio & Teleostei & 6 & 1 & 7 & 0.0025 & 17.51 & 4.4 & modspe
+& 28 \\
+Macruronus magellanicus & Teleostei & 2 & 6 & 8 & 0.0026 & 9.56 & 4.17 &
+modspe & 29 \\
+Brown algae & Macroalgae & 0 & 21 & 21 & 0.003 & 0 & 1 & modhub & 30 \\
+Salilota australis & Teleostei & 5 & 2 & 7 & 0.0025 & 11.04 & 4.73 &
+modspe & 31 \\
+Lithodes santolla (juvenile) & Decapoda & 13 & 0 & 13 & 0.0031 & 0 &
+3.15 & modspe & 32 \\
+Paralomis granulosa & Decapoda & 13 & 0 & 13 & 0.003 & 0 & 3.15 & modspe
+& 33 \\
+Enteroctopus megalocyathus & Cephalopoda & 2 & 3 & 5 & 0.0027 & 3.893 &
+3.75 & modspe & 34 \\
+Porifera & Porifera & 2 & 4 & 6 & 0.0028 & 2.255 & 2 & modspe & 34 \\
+Chironomidae & Insecta & 2 & 3 & 5 & 0.0027 & 3 & 2 & modcon & 34 \\
+Trachurus murphyi & Teleostei & 4 & 1 & 5 & 0.0026 & 5.934 & 3.62 &
+modspe & 34 \\
+Patagonotothen cornucola & Teleostei & 2 & 4 & 6 & 0.0026 & 5.867 & 3.75
+& modspe & 35 \\
+Salp & Thaliacea & 3 & 2 & 5 & 0.0026 & 4.167 & 2.44 & modcon & 36 \\
+Hydrozoa & Hydrozoa & 3 & 3 & 6 & 0.0028 & 2.088 & 2.33 & modspe & 36 \\
+Myctophidae & Teleostei & 1 & 4 & 5 & 0.0025 & 8.583 & 3.33 & modspe &
+37 \\
+Arbacia dufresnii & Echinoidea & 5 & 1 & 6 & 0.0026 & 4.333 & 2.56 &
+modspe & 38 \\
+Gastropoda & Gastropoda & 1 & 7 & 8 & 0.0027 & 1.855 & 2 & modspe &
+39 \\
+Red algae & Macroalgae & 0 & 10 & 10 & 0.0028 & 0 & 1 & modspe & 39 \\
+Ophiuroglypha lymani & Ophiuroidea & 7 & 0 & 7 & 0.0029 & 0 & 2.71 &
+modcon & 39 \\
+Green algae & Macroalgae & 0 & 10 & 10 & 0.0028 & 0 & 1 & modspe & 40 \\
+Polyplacophora & Polyplacophora & 4 & 1 & 5 & 0.0027 & 1.733 & 2.62 &
+modspe & 40 \\
+Cephalorhynchus commersonii commersonii & Mammalia & 11 & 0 & 11 &
+0.0028 & 0 & 4.34 & modspe & 41 \\
+Cilus gilberti & Teleostei & 3 & 1 & 4 & 0.0026 & 2.759 & 2.82 & modspe
+& 42 \\
+Peltarion spinulosum & Decapoda & 1 & 1 & 2 & 0.0023 & 14.95 & 3.64 &
+modspe & 43 \\
+Austrolycus depressiceps & Teleostei & 3 & 1 & 4 & 0.0025 & 5.317 & 3.74
+& modspe & 44 \\
+Plankton diatom & Bacillariophyceae & 0 & 8 & 8 & 0.0027 & 0 & 1 &
+modspe & 45 \\
+Lagenorhynchus australis & Mammalia & 10 & 0 & 10 & 0.0027 & 0 & 4.45 &
+modspe & 45 \\
+Prolatilus jugularis & Teleostei & 3 & 1 & 4 & 0.0025 & 3.789 & 3.15 &
+modspe & 46 \\
+Loxechinus albus & Echinoidea & 3 & 1 & 4 & 0.0023 & 7.833 & 2.72 &
+modspe & 47 \\
+Euphausia vallentini & Euphausiacea & 2 & 2 & 4 & 0.0025 & 3.667 & 2 &
+modspe & 47 \\
+Zoarcidae & Teleostei & 2 & 2 & 4 & 0.0025 & 2.144 & 3.23 & modspe &
+48 \\
+Phytodetritus & Non-living & 0 & 9 & 9 & 0.0027 & 0 & 1 & modcon & 49 \\
+Merluccius australis & Teleostei & 1 & 2 & 3 & 0.0023 & 6 & 3.83 &
+modspe & 50 \\
+Halicarcinus planatus & Decapoda & 1 & 3 & 4 & 0.0026 & 0.8333 & 2 &
+modspe & 51 \\
+Megaptera novaeangliae & Mammalia & 5 & 0 & 5 & 0.0026 & 0 & 3.47 &
+modspe & 52 \\
+Benthic diatom & Bacillariophyceae & 0 & 5 & 5 & 0.0026 & 0 & 1 & modcon
+& 53 \\
+Bathylagichthys parini (larvae) & Teleostei & 8 & 0 & 8 & 0.0026 & 0 &
+2.72 & modspe & 53 \\
+Salmo salar & Teleostei & 3 & 1 & 4 & 0.0024 & 2.675 & 4.14 & modspe &
+54 \\
+Bivalvia (larvae) & Bivalvia & 2 & 3 & 5 & 0.0023 & 4.5 & 2 & modspe &
+55 \\
+Pagurus sp. & Decapoda & 1 & 4 & 5 & 0.0024 & 2.444 & 2 & modspe & 55 \\
+Spheniscus magellanicus & Aves & 6 & 0 & 6 & 0.0026 & 0 & 4.08 & modspe
+& 55 \\
+Brachiopoda & Brachiopoda & 1 & 1 & 2 & 0.0026 & 0.3669 & 2 & modspe &
+56 \\
+Cyanobacteria & Cyanophyceae & 0 & 3 & 3 & 0.0026 & 0 & 1 & modspe &
+57 \\
+Aulacomya atra & Bivalvia & 2 & 1 & 3 & 0.0025 & 1.617 & 2.5 & modspe &
+57 \\
+Nacella mytilina & Gastropoda & 3 & 0 & 3 & 0.0026 & 0 & 2 & modcon &
+57 \\
+Euphausia lucens & Euphausiacea & 1 & 2 & 3 & 0.0025 & 1.417 & 2 &
+modspe & 58 \\
+Gammaridae & Bivalvia & 3 & 0 & 3 & 0.0025 & 0 & 2.33 & modspe & 59 \\
+Sediment & Non-living & 0 & 4 & 4 & 0.0025 & 0 & 1 & modspe & 60 \\
+Perumytilus purpuratus & Bivalvia & 2 & 2 & 4 & 0.0024 & 1.833 & 2.5 &
+modspe & 61 \\
+Calanoid (copepodite) & Copepoda & 1 & 3 & 4 & 0.0024 & 1.833 & 2 &
+modspe & 62 \\
+Acanthocyclus albatrossis & Decapoda & 1 & 1 & 2 & 0.0025 & 0.6429 & 3.5
+& modspe & 63 \\
+Cirripedia & Scalpellomorpha & 1 & 2 & 3 & 0.0025 & 0.3333 & 2 & modspe
+& 64 \\
+Eurypodius latreillei & Decapoda & 5 & 0 & 5 & 0.0025 & 0 & 3.19 &
+modspe & 64 \\
+Crustacea & Crustacea & 2 & 1 & 3 & 0.0024 & 0.7835 & 2.5 & modspe &
+65 \\
+Cosmasterias lurida & Asteroidea & 6 & 0 & 6 & 0.0024 & 0 & 3.45 &
+modspe & 66 \\
+Lutra felina & Mammalia & 5 & 0 & 5 & 0.0025 & 0 & 4.49 & modspe & 66 \\
+Margarella violacea & Gastropoda & 1 & 2 & 3 & 0.0025 & 0 & 2 & modspe &
+67 \\
+Patagonotothen tessellata (larvae) & Teleostei & 7 & 0 & 7 & 0.0024 & 0
+& 3.05 & modspe & 68 \\
+Callorhinchus callorynchus & Chondrostei & 1 & 1 & 2 & 0.0024 & 0.9502 &
+3 & modspe & 69 \\
+Thyrsites atun & Teleostei & 3 & 1 & 4 & 0.0024 & 0.5 & 4.33 & modspe &
+69 \\
+Notochthamalus scabrosus & Cirripedia & 1 & 1 & 2 & 0.0024 & 0 & 2 &
+modspe & 70 \\
+Mustelus mento & Chondrostei & 2 & 1 & 3 & 0.0023 & 1 & 3.5 & modspe &
+70 \\
+Platynereis australis & Polychaeta & 2 & 0 & 2 & 0.0024 & 0 & 2 & modspe
+& 70 \\
+Myxine australis & Teleostei & 1 & 1 & 2 & 0.0024 & 0.5 & 2 & modspe &
+71 \\
+Tachyeres pteneres & Aves & 1 & 1 & 2 & 0.0022 & 1.046 & 4.5 & modspe &
+72 \\
+Aptenodytes patagonicus & Aves & 4 & 0 & 4 & 0.0024 & 0 & 4.38 & modspe
+& 72 \\
+Copepoda (nauplius) & Copepoda & 1 & 3 & 4 & 0.002 & 2.5 & 2 & modspe &
+73 \\
+Pluteus (larva) & Echinoidea & 1 & 1 & 2 & 0.0023 & 0.5 & 3 & modspe &
+74 \\
+Oncorhynchus sp. & Teleostei & 1 & 1 & 2 & 0.0023 & 0 & 4.5 & modspe &
+75 \\
+Anasterias antarctica & Asteroidea & 3 & 0 & 3 & 0.0022 & 0 & 3.17 &
+modspe & 76 \\
+Larus dominicanus & Aves & 3 & 0 & 3 & 0.0022 & 0 & 3.17 & modspe &
+76 \\
+Themisto gaudichaudii & Amphipoda & 1 & 0 & 1 & 0.0023 & 0 & 3.33 &
+modspe & 76 \\
+Trophon geversianus & Gastropoda & 3 & 0 & 3 & 0.0022 & 0 & 3.33 &
+modspe & 76 \\
+Tegula atra & Gastropoda & 3 & 0 & 3 & 0.0022 & 0 & 2 & modspe & 77 \\
+Paraeuthria fuscata & Gastropoda & 1 & 0 & 1 & 0.0022 & 0 & 2 & modspe &
+78 \\
+Austrochlamys natans & Bivalvia & 1 & 0 & 1 & 0.0022 & 0 & 2 & modspe &
+79 \\
+Champsocephalus esox & Teleostei & 3 & 0 & 3 & 0.0022 & 0 & 4.5 & modspe
+& 79 \\
+Darina solenoides & Bivalvia & 1 & 0 & 1 & 0.0022 & 0 & 2 & modspe &
+79 \\
+Gaimardia trapesina & Bivalvia & 1 & 0 & 1 & 0.0022 & 0 & 2 & modspe &
+79 \\
+Siphonaria lessonii & Gastropoda & 2 & 0 & 2 & 0.0022 & 0 & 2 & modspe &
+79 \\
+Pseudorca crassidens & Mammalia & 4 & 0 & 4 & 0.0022 & 0 & 4.74 & modspe
+& 80 \\
+Martialia hyadesii & Cephalopoda & 1 & 1 & 2 & 0.002 & 1.667 & 3 &
+modspe & 81 \\
+Appendicularians & Appendicularia & 1 & 0 & 1 & 0.0022 & 0 & 3 & modspe
+& 81 \\
+Campylonotus vagans & Decapoda & 1 & 0 & 1 & 0.0022 & 0 & 3 & modspe &
+81 \\
+Orcinus orca & Mammalia & 3 & 0 & 3 & 0.0021 & 0 & 5.57 & modspe & 82 \\
+Bassanago sp. & Teleostei & 0 & 1 & 1 & 0.0022 & 0 & 1 & modspe & 83 \\
+Chloephaga hybrida & Aves & 1 & 0 & 1 & 0.0021 & 0 & 2 & modspe & 84 \\
+Crepipatella dilatata & Gastropoda & 1 & 0 & 1 & 0.0021 & 0 & 2 & modspe
+& 84 \\
+Fissurella oriens & Gastropoda & 1 & 0 & 1 & 0.0021 & 0 & 2 & modspe &
+84 \\
+Fissurella radiosa & Gastropoda & 1 & 0 & 1 & 0.0021 & 0 & 2 & modspe &
+84 \\
+Stercorarius chilensis & Aves & 2 & 0 & 2 & 0.0021 & 0 & 2.92 & modspe &
+84 \\
+Paracalanus indicus & Copepoda & 1 & 1 & 2 & 0.0021 & 0.5 & 2 & modspe &
+85 \\
+Acanthina monodon & Gastropoda & 2 & 0 & 2 & 0.0021 & 0 & 3.5 & modspe &
+85 \\
+Calidris canutus & Aves & 1 & 0 & 1 & 0.0021 & 0 & 3 & modspe & 86 \\
+Plaxiphora aurata & Polyplacophora & 2 & 0 & 2 & 0.0021 & 0 & 2 & modspe
+& 86 \\
+Copepoda (egg) & Copepoda & 0 & 3 & 3 & 0.002 & 0 & 1 & modspe & 87 \\
+Paralabrax humeralis & Teleostei & 0 & 1 & 1 & 0.002 & 0 & 1 & modspe &
+87 \\
+Nanoflagellates & Nanoflagellates & 0 & 2 & 2 & 0.002 & 0 & 1 & modspe &
+88 \\
+Bunodactis octoradiata & Hexacorallia & 1 & 0 & 1 & 0.002 & 0 & 3 &
+modspe & 89 \\
+Labidiaster radiosus & Asteroidea & 1 & 0 & 1 & 0.002 & 0 & 3 & modspe &
+89 \\
+Maurolicus australis (larvae) & Teleostei & 4 & 0 & 4 & 0.0019 & 0 &
+2.75 & modspe & 90 \\
+Antholoba achates & Hexacorallia & 1 & 0 & 1 & 0.0019 & 0 & 4.16 &
+modspe & 91 \\
+Arctocephalus australis & Mammalia & 2 & 0 & 2 & 0.0019 & 0 & 4.58 &
+modspe & 91 \\
+Ophiactis asperula & Ophiuroidea & 1 & 0 & 1 & 0.0019 & 0 & 2 & modspe &
+91 \\
+Ramnogaster arcuata & Teleostei & 0 & 2 & 2 & 0.0019 & 0 & 1 & modspe &
+92 \\
 \end{longtable}
 
 \end{landscape}
+
+\newpage
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1111}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1389}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1528}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1389}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1528}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1389}}
+  >{\centering\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.0972}}@{}}
+\caption{Results of the small-world fit after comparing empirical and
+random Path Length and Clustering Coefficient properties. 1000 random
+networks were built for comparison with the empirical case. EmpPL:
+Empirical Path Length; EmpCC: Empirical Clustering Coefficient;
+RndPLLow: Path Length confidence interval lower limit for random
+networks; RndPLUp: Path Length confidence interval upper limit for
+random networks; RndCCLow: Clustering Coefficient confidence interval
+lower limit for random networks; RndCCUp: Clustering Coefficient
+confidence interval upper limit for random networks. Note that the
+empirical path length (EmpPL) is shorter than the confidence interval
+for its random counterpart (RndPLLow-RndPLUp) and the empirical
+clustering coefficient (EmpCC) is greater than the confidence interval
+for its random counterpart (RndCCLow-RndCCUp).}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+EmpPL
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+EmpCC
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+RndPLLow
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+RndPLUp
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+RndCCLow
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+RndCCUp
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+SW
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+EmpPL
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+EmpCC
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+RndPLLow
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+RndPLUp
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+RndCCLow
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+RndCCUp
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+SW
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+1.885 & 0.09321 & 4.095 & 4.59 & 0.0267 & 0.0639 & TRUE \\
+\end{longtable}
+
+\newpage
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1389}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1250}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2083}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1528}}@{}}
+\caption{Results of the degree distribution fit. Exponential and power
+law model families were tested, and AIC (Akaike Information Criterion)
+and BIC (Bayesian Information Criterion) were used to select the best
+fit (i.e., lower AIC and BIC). The exponential model is the best
+fit.}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+AIC
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+BIC
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Model family
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Model
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+AIC
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+BIC
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Model family
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Model
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+-167.4 & -163.3 & Exponential & Exp \\
+-53.88 & -49.99 & PowerLaw & Power \\
+-0.8384 & 3.049 & Exponential & LogExp \\
+59.1 & 62.98 & PowerLaw & LogPower \\
+\end{longtable}
 
 \end{document}
