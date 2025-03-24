@@ -7,6 +7,7 @@
 require(igraph)
 require(multiweb)
 require(tidyverse)
+require(ggjoy)
 require(ggpubr)
 require(NetIndices)
 require(network)
@@ -49,6 +50,7 @@ plot_fw <- plot.igraph(m_ig,
 
 
 ## Degree distribution -----------------------------------------------------
+### Figure 3
 tot.deg <- degree(m_ig, mode = "all")
 V(m_ig)$totdegree <- degree(m_ig, mode="all")
 out.deg <- degree(m_ig, mode = "out")
@@ -64,10 +66,10 @@ dist_fit <- NetworkExtinction::DegreeDistribution(g_net)
 (plot_cumdeg <- dist_fit[["graph"]] +
   labs(y = "Cumulative degree distribution", x = "Degree (k)") +
   #ggtitle("A)") +
-  theme(axis.title.x = element_text(size = 12),
-        axis.title.y = element_text(size = 12),
-        axis.text.x = element_text(size = 12),
-        axis.text.y = element_text(size = 12),
+  theme(axis.title.x = element_text(face = "bold", size = 10),
+        axis.title.y = element_text(face = "bold", size = 7),
+        axis.text.x = element_text(size = 10),
+        axis.text.y = element_text(size = 10),
         panel.background = element_blank(),
         panel.grid.major=element_blank(),
         panel.grid.minor=element_blank(),
@@ -89,14 +91,12 @@ data_indeg <- data_indeg %>%
 (plot_indeg <- ggplot(data_indeg, aes(x = n)) +
   geom_histogram(stat = "count") +
   labs(x = "Predators", y = "Number of prey") +
-  #ggtitle("B)") +
-  theme(legend.position = "none",
-        panel.background = element_blank(),
-        axis.title.x = element_text(size = 12),
-        axis.title.y = element_text(size = 12),
-        axis.text.x = element_text(size = 12),
-        axis.text.y = element_text(size = 12),
-        axis.line = element_line(colour = "black", linetype = "solid")))
+  theme_bw() +
+  theme(legend.position = "none", 
+        axis.text.x = element_text(size = 10),
+        axis.text.y = element_text(size = 10),
+        axis.title.x = element_text(face = "bold", size = 10),
+        axis.title.y = element_text(face = "bold", size = 10)))
 
 ### Vulnerability ----------------------------------------------------------
 vul.fun <- function(m_ig){
@@ -113,24 +113,53 @@ data_outdeg <- data_outdeg %>%
 (plot_outdeg <- ggplot(data_outdeg, aes(x = n)) +
   geom_histogram(stat = "count") +
   labs(x = "Prey", y = "Number of predators") +
-  #ggtitle("C)") +
+  theme_bw() +
   theme(legend.position = "none",
-        panel.background = element_blank(),
-        axis.title.x = element_text(size = 12),
-        axis.title.y = element_text(size = 12),
-        axis.text.x = element_text(size = 12),
-        axis.text.y = element_text(size = 12),
-        axis.line = element_line(colour = "black", linewidth = .5, linetype = "solid")))
+        axis.text.x = element_text(size = 10),
+        axis.text.y = element_text(size = 10),
+        axis.title.x = element_text(face = "bold", size = 10),
+        axis.title.y = element_text(face = "bold", size = 10)))
+
+### Distribution by Group --------------------------------------------------
+plot_deg_g <- m_spp_total %>% 
+  add_count(Group) %>% 
+  filter(n > 2) %>% 
+  group_by(Group) %>% 
+  mutate(TL_g = mean(TL)) %>% 
+  mutate(color = case_when(TL_g <= 1 ~ "#006837",
+                           between(TL_g, 1.1, 1.95) ~ "#1A9850",
+                           between(TL_g, 1.98, 2.05) ~ "#66BD63",
+                           between(TL_g, 2.06, 2.25) ~ "#A6D96A",
+                           between(TL_g, 2.26, 2.5) ~ "#D9EF8B",
+                           between(TL_g, 2.51, 3.0) ~ "#FFFFBF",
+                           between(TL_g, 3.001, 3.25) ~ "#FEE08B",
+                           between(TL_g, 3.26, 3.5) ~ "#FDAE61",
+                           between(TL_g, 3.51, 4.0) ~ "#F46D43",
+                           between(TL_g, 4.01, 4.49) ~ "#D73027",
+                           TL_g >= 4.5 ~ "#A50026")) %>% 
+  ggplot(., aes(x = TotalDegree, y = reorder(Group, TL_g))) + 
+  ggjoy::geom_joy(aes(scale = 3.75, fill = color)) +
+  scale_fill_identity() +
+  labs(x = "Number of interactions", y = "Group", tag="B") +
+  theme_joy(grid = FALSE) +
+  theme(legend.position = "none",
+        axis.text.x = element_text(size = 10),
+        axis.text.y = element_text(size = 6),
+        axis.title.x = element_text(face = "bold", size = 10),
+        axis.title.y = element_text(face = "bold", size = 10),
+        plot.tag = element_text(face = "bold", size = 10),
+        plot.tag.position = c(0.05, 1))
+
 
 ### Figure 3
-fig3 <- ggarrange(plot_cumdeg,                                                 # First row with scatter plot
-          ggarrange(plot_indeg, plot_outdeg, ncol = 2, labels = c("B", "C")), # Second row with box and dot plots
-          nrow = 2, 
-          labels = "A"                                        # Labels of the scatter plot
-) 
+fig3 <- ggarrange(plot_cumdeg,   # First row
+                      ggarrange(plot_deg_g, ncol = 1),  # Second row
+                      ggarrange(plot_indeg, plot_outdeg, ncol = 2, labels = c("C", "D"), font.label=list(color="black", size=10)),   # Third row
+                      nrow = 3, labels = "A",
+                      font.label=list(color="black", size=10))
 
-# ggsave(filename = "Figures/Fig3full_020125.png", plot = fig3,
-#        width = 10, units = "in", dpi = 600, bg = "white")
+ggsave(filename = "Figures/Fig3full_020125.png", plot = fig3,
+       width = 10, units = "in", dpi = 600, bg = "white")
 
 # Species-level analysis --------------------------------------------------
 ## TL vs Degree -----------------------------------------------------------

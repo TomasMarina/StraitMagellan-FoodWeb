@@ -1,5 +1,5 @@
 # Magellan Strait food web: modularity analysis
-# Data: December 2024 - January 2025
+# Data: December 2024 - March 2025
 # Author: Tomas I. Marina
 
 # Packages ----------------------------------------------------------------
@@ -9,7 +9,7 @@ require(tidyverse)
 require(ggplot2)
 
 # Load data ---------------------------------------------------------------
-load("Results/Network&SpProps_12feb25.rda")
+load("Results/Network&SpProps_22mar25.rda")
 m_ig <- igraph::upgrade_graph(m_ig)
 
 # Modularity analysis -----------------------------------------------------
@@ -78,5 +78,5 @@ g_graph <- multiweb::plot_troph_level(g_mod, modules = T)
 
 
 # Save results ------------------------------------------------------------
-save(m_ig, modsim, modules, clas.role, roles, g_mod,
-     file = "Results/Modularity_12feb25.rda")
+save(m_ig, modsim, modules, clas.role, top.role.count, roles, g_mod,
+     file = "Results/Modularity_22mar25.rda")

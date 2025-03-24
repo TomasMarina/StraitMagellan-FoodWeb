@@ -1,5 +1,5 @@
 # Magellan Strait food web: network & node-level analysis
-# Data: September 2023 - January 2025
+# Data: September 2023 - March 2025
 # Author: Tomas I. Marina
 
 
@@ -61,6 +61,15 @@ clus_coef <- round(datos_sw$da.Clustering, 2)  # Food web clustering coefficient
 
 
 ## Node-level ----
+### Taxonomic group ----
+sp_fg <- sp_list %>% rename(id = Species)
+df_ig <- igraph::as_data_frame(m_ig, 'both')
+df_ig$vertices <- df_ig$vertices %>% 
+  left_join(sp_fg, c('name' = 'id'))
+m_ig_fg <- graph_from_data_frame(df_ig$edges, directed = TRUE, vertices = df_ig$vertices)
+m_ig <- m_ig_fg
+vertex.attributes(m_ig)
+
 ### TL & Omn ----
 adj_mat <- as_adjacency_matrix(m_ig, sparse = TRUE)
 tl <- round(TrophInd(as.matrix(adj_mat)), digits = 3)
@@ -73,6 +82,22 @@ V(m_ig)$TotalDegree <- degree(m_ig, mode = "total")
 V(m_ig)$InDegree <- degree(m_ig, mode = "in")
 V(m_ig)$OutDegree <- degree(m_ig, mode = "out")
 
+### Generality ----
+gen.fun <- function(m_ig){
+  pred <- degree(m_ig, mode = "in") > 0
+  G <- sum(degree(m_ig, mode = "in")[pred] / sum(pred))
+  return(G)
+}
+round(gen.fun(m_ig), 2) # average number of preys per predator
+
+### Vulnerability ----
+vul.fun <- function(m_ig){
+  prey <- degree(m_ig, mode = "out") > 0
+  V <- sum(degree(m_ig, mode = "out")[prey]) / sum(prey)
+  return(V)
+}
+round(vul.fun(m_ig), 2) # average number of predators per prey
+
 ### Betweenness ----
 V(m_ig)$Btw <- igraph::betweenness(m_ig, directed = TRUE, cutoff = -1)
 
@@ -82,6 +107,7 @@ V(m_ig)$Clo <- igraph::closeness(m_ig, mode = "all")
 ## Species properties
 spp_id <- as.data.frame(1:m_prop$Size)
 spp_name <- as.data.frame(V(m_ig)$name)
+spp_fg <- as.data.frame(V(m_ig)$Group)
 spp_totdegree <- as.data.frame(V(m_ig)$TotalDegree)
 spp_indegree <- as.data.frame(V(m_ig)$InDegree)
 spp_outdegree <- as.data.frame(V(m_ig)$OutDegree)
@@ -89,9 +115,9 @@ spp_btw <- as.data.frame(V(m_ig)$Btw)
 spp_cls <- as.data.frame(V(m_ig)$Clo)
 spp_tl <- as.data.frame(V(m_ig)$TL)
 spp_omn <- as.data.frame(V(m_ig)$Omn)
-m_spp_total <- bind_cols(spp_id, spp_name, spp_totdegree, spp_indegree, 
+m_spp_total <- bind_cols(spp_id, spp_name, spp_fg, spp_totdegree, spp_indegree, 
                        spp_outdegree, spp_btw, spp_cls, spp_tl, spp_omn)
-colnames(m_spp_total) <- c("ID", "TrophicSpecies", "TotalDegree", 
+colnames(m_spp_total) <- c("ID", "TrophicSpecies", "Group", "TotalDegree", 
                          "NumPrey", "NumPred", "Between", "Closeness", "TL", "Omn")
 #write.csv(m_spp_total, file = "Results/Magellan_sp_prop_12feb25.csv")
 
