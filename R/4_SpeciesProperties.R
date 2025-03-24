@@ -1,5 +1,5 @@
 # Magellan Strait food web: all species-level properties
-# Data: March 2025
+# Date: March 2025
 # Author: Tomas I. Marina
 
 # Packages ----------------------------------------------------------------

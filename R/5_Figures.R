@@ -1,5 +1,5 @@
 # Figures
-# Data: May 2024
+# Date: March 2025
 # Author: Tomas I. Marina
 
 
@@ -17,16 +17,16 @@ require(NetworkExtinction)
 # Load data ---------------------------------------------------------------
 load("Results/Data_tidy_22mar25.rda")
 load("Results/Network&SpProps_22mar25.rda")
+load("Results/Modularity_22mar25.rda")
 
 
 # Network-level analysis --------------------------------------------------
-## Plot food web ----------------------------------------------------------
-### Figure 2
+## Figure 2 ---------------------------------------------------------------
 set.seed(1)
 plt_fw <- plot_troph_level(m_ig, vertexLabel = F, vertex.size = 8,
                            ylab = "Trophic level")
 
-### by degree ----
+### by degree
 ## Calculate trophic level & omnivory
 adj_mat <- as_adjacency_matrix(m_ig, sparse = FALSE)
 tl <- round(TrophInd(adj_mat), digits = 3)
@@ -49,8 +49,8 @@ plot_fw <- plot.igraph(m_ig,
                        edge.arrow.size = 0.15, edge.curved = 0.3)
 
 
-## Degree distribution -----------------------------------------------------
-### Figure 3
+## Figure 3 ---------------------------------------------------------------
+### Degree distribution ----
 tot.deg <- degree(m_ig, mode = "all")
 V(m_ig)$totdegree <- degree(m_ig, mode="all")
 out.deg <- degree(m_ig, mode = "out")
@@ -76,7 +76,7 @@ dist_fit <- NetworkExtinction::DegreeDistribution(g_net)
         panel.border=element_blank(),
         axis.line = element_line(colour = "black")))
 
-### Generality -------------------------------------------------------------
+### Generality ----
 gen.fun <- function(m_ig){
   pred <- degree(m_ig, mode = "in") > 0
   G <- sum(degree(m_ig, mode = "in")[pred] / sum(pred))
@@ -98,7 +98,7 @@ data_indeg <- data_indeg %>%
         axis.title.x = element_text(face = "bold", size = 10),
         axis.title.y = element_text(face = "bold", size = 10)))
 
-### Vulnerability ----------------------------------------------------------
+### Vulnerability ----
 vul.fun <- function(m_ig){
   prey <- degree(m_ig, mode = "out") > 0
   V <- sum(degree(m_ig, mode = "out")[prey]) / sum(prey)
@@ -120,7 +120,7 @@ data_outdeg <- data_outdeg %>%
         axis.title.x = element_text(face = "bold", size = 10),
         axis.title.y = element_text(face = "bold", size = 10)))
 
-### Distribution by Group --------------------------------------------------
+### Distribution by Group ----
 plot_deg_g <- m_spp_total %>% 
   add_count(Group) %>% 
   filter(n > 2) %>% 
@@ -158,11 +158,12 @@ fig3 <- ggarrange(plot_cumdeg,   # First row
                       nrow = 3, labels = "A",
                       font.label=list(color="black", size=10))
 
-ggsave(filename = "Figures/Fig3full_020125.png", plot = fig3,
-       width = 10, units = "in", dpi = 600, bg = "white")
+# ggsave(filename = "Figures/Fig3_24mar25.png", plot = fig3,
+#        width = 10, units = "in", dpi = 600, bg = "white")
+
 
 # Species-level analysis --------------------------------------------------
-## TL vs Degree -----------------------------------------------------------
+## TL vs Degree ----
 plot_sp_tl <- ggplot(m_spp_total, aes(x = reorder(TrophicSpecies, TL), y = TotalDegree)) +
   geom_point() +
   geom_smooth(aes(as.numeric(reorder(TrophicSpecies, TL)), degree), method = "loess") +
@@ -198,9 +199,10 @@ pr_pred_int <- m_spp_total %>%
   layout(yaxis = list(title = 'Number of interactions'), 
          xaxis = list(title = 'Species'), barmode = 'stack')
 
-## Centrality indices ------------------------------------------------------
+
+## Figure 4 ---------------------------------------------------------------
 ### Closeness ----
-V(m_ig)$closeness <- igraph::closeness(m_ig,mode="all")
+V(m_ig)$closeness <- igraph::closeness(m_ig, mode="all")
 
 ### Betweenness ----
 V(m_ig)$betweeness <- igraph::betweenness(m_ig)
@@ -220,13 +222,36 @@ clo_plot <- multiweb::plot_troph_level(m_ig, vertex.size=2000*(V(m_ig)$closeness
                                        edge.arrow.width=0.5,
                                        main = "C)")
 
-## TL vs Keystone ind ------------------------------------------------------
+
+## Figure 5 ---------------------------------------------------------------
+(top_role_plot <- ggplot(clas.role, aes(among_module_conn, within_module_degree, color=type)) + 
+  geom_point() + 
+  geom_vline(xintercept=0.625, linetype="dashed", color = "red", linewidth=0.25) +
+  geom_hline(yintercept=2.5, linetype="dashed", color = "red", linewidth=0.25) +
+  xlab("Among module connectance") + ylab("Within module degree") +
+  labs(color="Role") +
+  geom_text(label = ifelse(clas.role$type == "hubcon", clas.role$name, NA), 
+            size=3, nudge_y = 0.07) + 
+  geom_text(label = ifelse(clas.role$type == "modcon", clas.role$name, NA), 
+            size=3, nudge_y = 0.07) +
+  ylim(-1.5,3.5) +
+  theme_bw() +
+  theme(axis.text.x = element_text(size = 10),
+        axis.text.y = element_text(size = 10),
+        axis.title.x = element_text(face = "bold", size = 10),
+        axis.title.y = element_text(face = "bold", size = 10)))
+
+# ggsave(filename = "Figures/Fig5_24mar25.png", plot = top_role_plot,
+#       width = 10, units = "in", dpi = 600, bg = "white")
+
+
+## TL vs Keystone ind -----------------------------------------------------
 ind_tl <- key_ind %>% 
-   #dplyr::filter(IEC <= 10) %>% 
-   ggplot(aes(x=TL, y=Keystone_ind)) + 
-   geom_point() +
-   geom_smooth(method = "loess") +
-   scale_x_continuous(breaks=seq(1,6,1)) +
-   scale_y_reverse(breaks=c(1,10,20,30,40,50,60)) +
-   labs(x = "Trophic level", y = "Keystone index") +
-   theme_classic()
+  #dplyr::filter(IEC <= 10) %>% 
+  ggplot(aes(x=TL, y=Keystone_ind)) + 
+  geom_point() +
+  geom_smooth(method = "loess") +
+  scale_x_continuous(breaks=seq(1,6,1)) +
+  scale_y_reverse(breaks=c(1,10,20,30,40,50,60)) +
+  labs(x = "Trophic level", y = "Keystone index") +
+  theme_classic()

@@ -1,5 +1,5 @@
 # Magellan Strait food web: modularity analysis
-# Data: December 2024 - March 2025
+# Date: December 2024 - March 2025
 # Author: Tomas I. Marina
 
 # Packages ----------------------------------------------------------------
