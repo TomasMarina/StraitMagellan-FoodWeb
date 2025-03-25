@@ -22,6 +22,15 @@ all_sp_prop <- key_ind %>%
 #write.csv(all_sp_prop, file = "Results/All_sp_prop_22mar25.csv")
 
 
+# Retrieve taxonomy -------------------------------------------------------
+data <- Lista_especies_para_Parques_Nacionales_Hoja_1
+require(taxize)
+sp_list <- unique(data$`Especie/Taxón`)
+sp_names <- taxize::gna_verifier(data$`Especie/Taxón`, best_match_only = TRUE, canonical=TRUE)
+clas_sp <- taxize::tax_name(sci = sp_names$matchedCanonicalSimple, 
+                            get = c("genus","family","order","class"), db = "ncbi")
+
+
 # Save results ------------------------------------------------------------
 save(all_sp_prop, 
      file = "Results/AllSpProps_24mar25.rda")
