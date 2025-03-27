@@ -234,14 +234,14 @@ clo_plot <- multiweb::plot_troph_level(m_ig, vertex.size=2000*(V(m_ig)$closeness
             size=3, nudge_y = 0.07) + 
   geom_text(label = ifelse(clas.role$type == "modcon", clas.role$name, NA), 
             size=3, nudge_y = 0.07) +
-  ylim(-1.5,3.5) +
+  ylim(-1.5,4) +
   theme_bw() +
   theme(axis.text.x = element_text(size = 10),
         axis.text.y = element_text(size = 10),
         axis.title.x = element_text(face = "bold", size = 10),
         axis.title.y = element_text(face = "bold", size = 10)))
 
-# ggsave(filename = "Figures/Fig5_24mar25.png", plot = top_role_plot,
+# ggsave(filename = "Figures/Fig5_27mar25.png", plot = top_role_plot,
 #       width = 10, units = "in", dpi = 600, bg = "white")
 
 
