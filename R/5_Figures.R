@@ -5,7 +5,7 @@
 
 # Load packages -----------------------------------------------------------
 require(igraph)
-require(multiweb)
+library(multiweb)
 require(tidyverse)
 require(ggjoy)
 require(ggpubr)
@@ -212,15 +212,15 @@ par(mfrow = c(1,1))
 set.seed(1)
 deg_plot <- multiweb::plot_troph_level(m_ig, vertex.size=0.5*(V(m_ig)$TotalDegree), 
                                        edge.arrow.width=0.5, 
-                                       ylab = "Trophic level", main = "A)")
+                                       ylab = "Trophic level", main = "Degree")
 set.seed(1)
 btw_plot <- multiweb::plot_troph_level(m_ig, vertex.size=sqrt(V(m_ig)$betweeness), 
                                        edge.arrow.width=0.5,
-                                       main = "B)")
+                                       main = "Betweeness")
 set.seed(1)
 clo_plot <- multiweb::plot_troph_level(m_ig, vertex.size=2000*(V(m_ig)$closeness),
                                        edge.arrow.width=0.5,
-                                       main = "C)")
+                                       main = "Closeness")
 
 
 ## Figure 5 ---------------------------------------------------------------
