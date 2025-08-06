@@ -90,7 +90,7 @@ data_indeg <- data_indeg %>%
   rename(n = "V(m_ig)$indegree")
 (plot_indeg <- ggplot(data_indeg, aes(x = n)) +
   geom_histogram(stat = "count") +
-  labs(x = "Predators", y = "Number of prey") +
+  labs(x = "Number of prey", y = "Frequency of predators") +
   theme_bw() +
   theme(legend.position = "none", 
         axis.text.x = element_text(size = 10),
@@ -112,7 +112,7 @@ data_outdeg <- data_outdeg %>%
   rename(n = "V(m_ig)$outdegree")
 (plot_outdeg <- ggplot(data_outdeg, aes(x = n)) +
   geom_histogram(stat = "count") +
-  labs(x = "Prey", y = "Number of predators") +
+  labs(x = "Number of predators", y = "Frequency of prey") +
   theme_bw() +
   theme(legend.position = "none",
         axis.text.x = element_text(size = 10),
@@ -158,7 +158,7 @@ fig3 <- ggarrange(plot_cumdeg,   # First row
                       nrow = 3, labels = "A",
                       font.label=list(color="black", size=10))
 
-# ggsave(filename = "Figures/Fig3_24mar25.png", plot = fig3,
+# ggsave(filename = "Figures/Fig3_06ago25.png", plot = fig3,
 #        width = 10, units = "in", dpi = 600, bg = "white")
 
 
