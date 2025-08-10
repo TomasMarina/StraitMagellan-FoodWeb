@@ -12,32 +12,11 @@ require(ggplot2)
 load("Results/Network&SpProps_22mar25.rda")
 m_ig <- igraph::upgrade_graph(m_ig)
 
-# Modularity analysis -----------------------------------------------------
-# Simulation FW same S and L
-gsim <- multiweb::curve_ball(m_ig, nsim = 1000, istrength = FALSE)
+# Modularity analyses -----------------------------------------------------
+## Modularity
+mod <- multiweb::calc_modularity(m_ig, cluster_function = cluster_spinglass)
 
-mod <- multiweb::calc_modularity(m_ig, weights = NULL)
-modules <- igraph::cluster_spinglass(m_ig)  # modules
-# cbind(V(g)$name, modules$membership)
-
-grupos <- cbind(modules$names, modules$membership)
-colnames(grupos) <- c("Node", "Group")
-
-# write.csv(grupos, "grupos.csv")
-modsim <- calc_modularity(gsim, ncores = 4, weights = NULL)
-
-# Modularity plot
-# If empirical value falls within histogram, then such distribution is valid to be used as a representative
-# when comparing food webs.
-modsim_plot <- ggplot(modsim, aes(x=Modularity)) +
-  geom_histogram(alpha=0.5, position ="identity", bins=17, color="darkorchid4", fill="darkviolet") + 
-  theme(legend.title =element_blank(), panel.grid.major = element_blank(), panel.grid.minor = element_blank()) + 
-  geom_vline(xintercept=(as.numeric(mod)), linetype="dashed", color = "deeppink", linewidth=0.25)
-modsim_plot
-# ggsave(filename = "Figures/FigS1_060125.png", plot = modsim_plot,
-#        width = 10, units = "in", dpi = 600, bg = "white")
-
-# Topological roles
+## Topological roles
 top.role <- multiweb::calc_topological_roles(m_ig, nsim = 1000, ncores = 4)
 clas.role <- multiweb::classify_topological_roles(top.role, m_ig, plt = TRUE)
 top.role.df <- clas.role %>% 
