@@ -17,6 +17,22 @@ load("Results/Data_tidy_22mar25.rda")
 
 
 # Network analyses --------------------------------------------------------
+## Taxonomic resolution (Genus + Species)
+resolution_summary <- sp_list %>%
+  filter(Species != "" & !is.na(Species)) %>%
+  mutate(Resolution = case_when(
+    str_detect(Species, " sp\\.| spp\\.") ~ "Genus",
+    str_detect(Species, " ") ~ "Species",
+    TRUE ~ "Other"
+  )) %>%
+  count(Resolution, name = "Count") %>%
+  mutate(Percentage = round((Count / sum(Count)) * 100, 2))
+
+combined_percentage <- resolution_summary %>%
+  filter(Resolution %in% c("Species", "Genus")) %>%
+  summarise(TotalPercentage = sum(Percentage)) %>%
+  pull(TotalPercentage)
+
 ## igraph object
 magellan_fw <- magellan_df %>% 
   dplyr::select(Prey, Predator)
