@@ -30,7 +30,7 @@ The following tables summarise the data and results related to the study of the 
 
 Table 1 is the complete list of trophic interactions and references that confirm each of them.
 
-Table 2 is the species list with details on trophic species cases (aggregated taxa) and its properties (e.g. degree, closeness, betweenness, Keystone Species Index -KSI-, trophic level, and topological role).
+Table 2 is the species list with details on trophic species cases (aggregated taxa) and its properties (e.g. degree, closeness, betweenness, Keystone Species Index -KSI-, trophic position, and topological role).
 
 Table 3 shows the results for the small-world pattern analysis, following Marina et al. (2018) (https://doi.org/10.1371/journal.pone.0198217).
 
@@ -77,8 +77,8 @@ pandoc.table(all_sp_prop %>% arrange(., (Keystone_rank)) %>%
                mutate_at(vars(Closeness, Between), round, 4) %>% 
                dplyr::select(TrophicSpecies, Group, NumPrey, NumPred, TotalDegree, Closeness, Between,
                              TL, TopRole, Keystone_rank) %>% 
-               rename("Trophic species"="TrophicSpecies", "Betweeness"="Between", "KSI rank"="Keystone_rank"), style="multiline", split.tables = Inf, justify = c("left", "left","center","center","center","center","center","center","center","center"),
-             caption = "List of species, including  node-level properties, for the food web of the Strait of Magellan. NumPrey: Number of prey; NumPred: Number of predators; TL: Trophic Level; TopRole: Topological role, where 'hubcon' = network connector, 'modcon' = module connector, 'modhub' = module hub, and 'modspe' = module specialist; KSI rank: Keystone Species Index ranking.")
+               rename("Trophic species"="TrophicSpecies", "Betweeness"="Between", "TP"="TL", "KSI rank"="Keystone_rank"), style="multiline", split.tables = Inf, justify = c("left", "left","center","center","center","center","center","center","center","center"),
+             caption = "List of species, including  node-level properties, for the food web of the Strait of Magellan. NumPrey: Number of prey; NumPred: Number of predators; TP: trophic position; TopRole: Topological role, where 'hubcon' = network connector, 'modcon' = module connector, 'modhub' = module hub, and 'modspe' = module specialist; KSI rank: Keystone Species Index ranking.")
 
 ```
 
