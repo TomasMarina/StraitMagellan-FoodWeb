@@ -1,7 +1,7 @@
 ---
 title: "Supplementary Material for 'Marine trophic network analysis and its potential resilience in the Strait of Magellan'"
-author: Claudia Andrade^1^*, Taryn Sepúlveda^1^, Cristóbal Rivera^1^, Cristian Aldea^2^ & Tomás I. Marina^3^
-date: 1. Laboratorio de Ecología Funcional, Universidad de Magallanes, Punta Arenas, Chile. \newline 2. Centro de Investigación GAIA Antártica and Departamento de Ciencias y Recursos Naturales, Universidad de Magallanes, Punta Arenas, Chile. \newline 3. Centro Austral de Investigaciones Científicas (CADIC-CONICET), Ushuaia, Argentina. \newline *Corresponding author (claudia.andrade@umag.cl)
+# author: Claudia Andrade^1^*, Taryn Sepúlveda^1^, Cristóbal Rivera^1^, Cristian Aldea^2^ & Tomás I. Marina^3^
+# date: 1. Laboratorio de Ecología Funcional, Universidad de Magallanes, Punta Arenas, Chile. \newline 2. Centro de Investigación GAIA Antártica and Departamento de Ciencias y Recursos Naturales, Universidad de Magallanes, Punta Arenas, Chile. \newline 3. Centro Austral de Investigaciones Científicas (CADIC-CONICET), Ushuaia, Argentina. \newline *Corresponding author (claudia.andrade@umag.cl)
 output:
   pdf_document:
     latex_engine: xelatex
@@ -23,16 +23,13 @@ header-includes:
 - \pagenumbering{gobble}
 ---
 
-<!-- author: "Claudia Andrade^1^, Taryn Sepúlveda^1^, Cristóbal Rivera^1^, Cristian Aldea^2^ & Tomás I. Marina^3^" -->
-<!-- date: 1. Laboratorio de Ecologia Funcional, Universidad de Magallanes, Punta Arenas, Chile. \newline 2. Centro de Investigacion GAIA Antartica and Departamento de Ciencias y Recursos Naturales, Universidad de Magallanes, Punta Arenas, Chile. -->
-
 The following tables summarise the data and results related to the study of the network of trophic (predator-prey) interactions, food web, for the Strait of Magellan ecosystem.
 
 Table 1 is the complete list of trophic interactions and references that confirm each of them.
 
-Table 2 is the species list with details on trophic species cases (aggregated taxa) and its properties (e.g. degree, closeness, betweenness, Keystone Species Index -KSI-, trophic position, and topological role).
+Table 2 shows the results for the small-world pattern analysis, following Marina et al. (2018) (https://doi.org/10.1371/journal.pone.0198217).
 
-Table 3 shows the results for the small-world pattern analysis, following Marina et al. (2018) (https://doi.org/10.1371/journal.pone.0198217).
+Table 3 is the species list with details on trophic species cases (aggregated taxa) and its properties (e.g. degree, closeness, betweenness, Keystone Species Index -KSI-, trophic position, and topological role).
 
 Table 4 shows the results of the cumulative degree distribution fit of the food web.
 
@@ -49,12 +46,12 @@ require(kableExtra)
 require(pander)
 
 # Load data
-int_list <- read.csv(file = "../Data/MagellanStrait_links_22mar25.csv", header = TRUE)
+int_list <- read.csv(file = "../Data/InteractionList_Magellan_220825.csv", header = TRUE)
 
 # Filter interaction list
 int_tbl <- int_list %>% 
   dplyr::select(-c(Taxonomic_group_prey, Taxonomic_group_pred)) %>% 
-  rename(Link = Reference_link) %>% 
+  rename(Link = Full_reference, Reference = Citation) %>% 
   distinct(Prey, Predator, .keep_all = TRUE)
 
 # Table S1
@@ -64,9 +61,28 @@ pandoc.table(int_tbl %>% arrange(., (Predator)) %>%
 
 ```
 
+\elandscape
 \newpage
 
 ```{r tableS2, echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
+
+# Load data
+load("../Results/Network&SpProps_22mar25.rda")
+
+# Table S3
+rownames(datos_sw) <- c()
+pandoc.table(datos_sw %>%
+               dplyr::select(da.PathLength, da.Clustering, da.CPlow, da.CPhigh, da.CClow, da.CChigh, da.isSW) %>% 
+               mutate_at(vars(as.numeric()), round, 4) %>% 
+               rename("EmpPL"="da.PathLength", "EmpCC"="da.Clustering", "RndPLLow"="da.CPlow", "RndPLUp"="da.CPhigh", "RndCCLow"="da.CClow", "RndCCUp"="da.CChigh", "SW"="da.isSW"), style="multiline", split.tables = Inf, justify = c("left","left","left","left","left","left","center"),
+             caption = "Results of the small-world fit after comparing empirical and random Path Length and Clustering Coefficient properties. 1000 random networks were built for comparison with the empirical case. EmpPL: Empirical Path Length; EmpCC: Empirical Clustering Coefficient; RndPLLow: Path Length confidence interval lower limit for random networks; RndPLUp: Path Length confidence interval upper limit for random networks; RndCCLow: Clustering Coefficient confidence interval lower limit for random networks; RndCCUp: Clustering Coefficient confidence interval upper limit for random networks. Note that the empirical path length (EmpPL) is shorter than the confidence interval for its random counterpart (RndPLLow-RndPLUp) and the empirical clustering coefficient (EmpCC) is greater than the confidence interval for its random counterpart (RndCCLow-RndCCUp).")
+
+```
+
+\blandscape
+\newpage
+
+```{r tableS3, echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
 
 # Load data
 load("../Results/AllSpProps_24mar25.rda")
@@ -83,24 +99,6 @@ pandoc.table(all_sp_prop %>% arrange(., (Keystone_rank)) %>%
 ```
 
 \elandscape
-
-\newpage
-
-```{r tableS3, echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
-
-# Load data
-load("../Results/Network&SpProps_22mar25.rda")
-
-# Table S3
-rownames(datos_sw) <- c()
-pandoc.table(datos_sw %>%
-               dplyr::select(da.PathLength, da.Clustering, da.CPlow, da.CPhigh, da.CClow, da.CChigh, da.isSW) %>% 
-               mutate_at(vars(as.numeric()), round, 4) %>% 
-               rename("EmpPL"="da.PathLength", "EmpCC"="da.Clustering", "RndPLLow"="da.CPlow", "RndPLUp"="da.CPhigh", "RndCCLow"="da.CClow", "RndCCUp"="da.CChigh", "SW"="da.isSW"), style="multiline", split.tables = Inf, justify = c("left","left","left","left","left","left","center"),
-             caption = "Results of the small-world fit after comparing empirical and random Path Length and Clustering Coefficient properties. 1000 random networks were built for comparison with the empirical case. EmpPL: Empirical Path Length; EmpCC: Empirical Clustering Coefficient; RndPLLow: Path Length confidence interval lower limit for random networks; RndPLUp: Path Length confidence interval upper limit for random networks; RndCCLow: Clustering Coefficient confidence interval lower limit for random networks; RndCCUp: Clustering Coefficient confidence interval upper limit for random networks. Note that the empirical path length (EmpPL) is shorter than the confidence interval for its random counterpart (RndPLLow-RndPLUp) and the empirical clustering coefficient (EmpCC) is greater than the confidence interval for its random counterpart (RndCCLow-RndCCUp).")
-
-```
-
 \newpage
 
 ```{r tableS4, echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
